@@ -1,0 +1,834 @@
+header, section, footer, aside, nav,input,button {
+				display: block;}
+			body {
+				color: #666666;
+				
+				background-image:url('images/background.jpg');
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;
+        		}
+		    body#result{
+		    background-image:none;
+		    background: #1c1c1c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFjMWMxYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEyJSIgc3RvcC1jb2xvcj0iIzU5NTk1OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU3JSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMzEzMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(left,  #1c1c1c 0%, #595959 12%, #f9f9f9 43%, #f9f9f9 57%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1c1c1c), color-stop(12%,#595959), color-stop(43%,#f9f9f9), color-stop(57%,#f9f9f9), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1c1c1c 0%,#595959 12%,#f9f9f9 43%,#f9f9f9 57%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1c1c1c 0%,#595959 12%,#f9f9f9 43%,#f9f9f9 57%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1c1c1c 0%,#595959 12%,#f9f9f9 43%,#f9f9f9 57%,#131313 100%); /* IE10+ */
+background: linear-gradient(to right,  #1c1c1c 0%,#595959 12%,#f9f9f9 43%,#f9f9f9 57%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', endColorstr='#131313',GradientType=1 ); /* IE6-8 */
+		    
+		    
+		    }
+			div.wrapper {
+			    
+				width: 1000px;
+				margin: 20px auto 20px auto;
+				background-color:#fefffe;
+				}
+			div.weaker{
+			    opacity:0.05;
+			}
+			div#release-note-1
+			{
+			   margin:80px 100px 100px 200px;
+			
+			}
+			header {
+				height: 160px;
+             	background:url("images/dna.jpg") -60px 0px no-repeat;
+				background-color:#f4f4ff;
+				
+				}
+			h1 {
+				font-family: 'Cabin', Helvetica, Arial, sans-serif;
+				width: 700px;
+				height:30px;
+				font-size:30px;
+				padding-top:60px;
+				padding-bottom:40px;
+				text-align:center;
+				text-spacing:3px;
+				margin:0px 0px 0px 240px ;
+				font-weight:700;
+				letter-spacing:0.04em;
+				//text-transform:uppercase;
+				color:#660066;
+				text-shadow:0.05em 0.05em 0.0em #cc99cc;
+				
+				}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #6565cc;
+				height: 30px;}
+			nav ul {
+			    font-size:16px;
+				margin: 0px;
+				padding: 4px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				padding-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #9999ff;
+				background-color:#efefef;}
+				
+	
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;
+				background:#fefffe;}
+			aside section.Start a {
+				display: block;
+				color:#434343;
+				font-size:20px;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section.Start a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+		   aside section.Databases a {
+		        color:#434343;
+		        font-size: 14px;
+				display: block;
+				padding: 2px 40px 2px 10px;
+				border-bottom: 1px solid #eeeeee;
+				}
+			aside section.Databases a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			
+			
+			a {
+				color: #656565;
+				text-decoration: none;}
+		    
+		    h2, h3{
+                font-weight: normal;
+                font-size: 20px;
+                color:#3333cc;
+                padding:0px;
+                }		
+			h2 {
+		       font-size: 22px;
+		    }	
+				
+			h2.result, h3.result {
+			    clear:left;
+                font-weight: normal;
+                font-size: 20px;
+                color:#3377cc;
+                padding:18px 0px 18px 0px;
+                }
+       
+			aside h3 {
+			    color: #4455cc; 
+				font-size:23px;
+				padding: 30px 0px 10px 0px;
+				padding: 0px;}
+			aside h2 {
+				padding: 10px 0px 0px 0px;
+				color: #4455cc; 
+                      }
+			h2.gene_prioritization, h2.Faq, h2.contact, h2.download, h2.release_note,
+			h2.example {
+			width:700px;
+			font-weight:700;
+			text-align:center;
+			font-size:23px;
+			padding:60px 0px 30px 0px;
+			margin:auto;
+			color:#eb33aa;
+			font-family: 'Cabin', Helvetica, Arial, sans-serif;
+			}
+			h2.Faq, h2.contact, h2.download, h2.release_note,h2.example
+			{
+			   padding: 60px 0px 10px 0px;
+			}
+			h3.gene_prioritization{
+		    width:700px;	
+		    font-size:16px;
+		    margin:auto;
+		    padding:5px 0px 5px 0px;
+			}
+			
+           	
+				footer {
+				font-size: 80%;
+				width:980px;
+				padding: 7px 0px 0px 20px;
+            }
+			section.contact-details{
+			   color:#434343;
+               font-size:14px;
+			   float:left;
+			   }
+	        section.form
+                 {
+                padding:0px 0px 60px 0px;
+                margin:0px;
+                float:none;
+                font-family: 'Cabin', Helvetica, Arial, sans-serif;
+                background-color:#fefffe;
+                border:none;
+                  }
+            section.form li{
+             font-size:15px;
+            }      
+               section.home1, section.home2{
+                padding:45px 0px 0px 0px;
+                margin-left:40px;
+                float:left;
+                width:700px;
+                height:280px;
+               font-family: Georgia, Times, serif;
+               }  
+               section.home2{
+               padding:30px 0px 0px 0px;
+               } 
+               section.results
+                 {
+                padding:0px 0px 40px 0px;
+                margin:0px;
+                font-family: 'Cabin', Helvetica, Arial, sans-serif;
+                background-color:#fefffe;
+                border:none;
+                text-align:center;
+                }
+                section.contact, section.example, section.release-note{
+                background-color:#fafafa;
+                width:800px;
+                margin:40px auto;
+                text-align:left;
+                padding:40px;
+                font-style:arial;
+                font-size:16px;
+                border:1px #888899 solid;
+                border-radius:10px;
+                 color:#3333cc;
+                }
+                section.release-note{
+                 width:800px;
+                 padding:10px 0px 30px 40px;
+                }
+                section.contact a, section.feedback a, section.example a, section.release-note a,
+                section.download-1 a{
+                 color:#ee55aa;
+                 text-decoration:underline;
+                }
+ 
+                section.example ul{
+                font-size:16px;
+                list-style-position:outside;
+                }
+                section.feedback{
+                width:700px;
+                margin:auto;
+                text-align:center;
+                padding:20px 0px 30px 0px;
+                font-style:arial;
+                font-size:14px;
+                 color:#3333cc;
+                 border:4px #3333c0 solid;
+                 border-radius:20px;
+                 margin:40px auto 0px auto;
+                }
+                section.loading{
+                position:fixed;
+                
+                background:#fefefe;
+                width:80%;
+                height:80%;
+                padding:0px;
+               
+                }
+                section.download-1
+                {
+                  color:#333333;
+                  background-color:#fafafa;
+                  width:800px;
+                  height:200px;
+                  padding:20px 0px 120px 80px;
+                  margin: 50px auto;  
+                  border-radius:20px;   
+                  border:1px solid #888899;            
+                }
+              
+               .input_form{
+                width:700px;
+                border:none;
+                padding:0px 0px 50px 0px;              
+                margin:auto;
+                margin-top:20px;
+                background-color:#f3f3fa;
+               
+              } 
+                 
+              label{
+              clear:left;
+              width:250px;
+              display:block;
+              float:left;
+             font-family: 'Cabin', Helvetica, Arial, sans-serif;
+             font-size:13px;
+             text-align:right;
+             margin-right:13px;
+             margin-top:8px;
+             color:#3333cc;
+             font-weight:700;
+             }
+     
+             h3#barplot a {
+            font-weight:600;
+            
+            margin:20px 50px;
+            margin-top:0px;
+            font-size:18px;
+             text-decoration:underline;
+             color:black;
+
+             }
+             
+             #gene_disease, #gene_prediction{
+              width:300px;
+              margin:0px 0px;
+              padding:0px;
+              float:left;
+              clear:none;
+             }
+     
+             #gene_disease label, #gene_prediction label{
+             width:100px;
+             clear:left;
+             margin:8px 10px 8px 60px;
+        
+             }
+           
+             label.options{
+              margin-top:6px;
+              margin-left:10px;
+              text-align:left;
+              width:120px;
+              clear:none;
+             } 
+              label.result{
+              margin:5px 30px 0px 10px;
+              font-size:14px;
+              padding:0px;
+              float:left;
+              max-width:100px;
+              }
+
+              legend{
+              width:750px;
+              font-family: 'Cabin', Helvetica, Arial, sans-serif;
+              color: #fafafa;
+              height:20px;
+              padding:2px 0px 2px 40px;
+              font-size:14px;
+              margin-top:40px;
+              margin-bottom:30px;
+              margin-left:0px;
+              float:left;
+              clear:left;
+              background:#551155;
+              font-weight:700;
+              }
+              legend#top{
+              margin-top:0px;
+              }
+              #gene_selection legend, #region_selection legend{
+              background:#8f228f;
+              }
+               #weight_adjust legend{
+               background:#3399dd;
+               }
+              input,select,textarea,button{
+              font-family: 'Cabin', Helvetica, Arial, sans-serif;
+              margin-top:8px;
+              color:#3333cc;
+              float:left;
+              }		
+              select#show_edges, select#adjust_layout{
+              margin:6px 0px 0px 1px;
+              width:200px;
+              }	
+              input[type="text"]{
+              padding:0px 3px 0px 5px;
+              width:300px;
+              height:1.8em;
+              border:1px solid #b7bbf2;
+              border-radius:5px;
+              font-size:12px;
+              
+              }
+              input[type="file"]{
+               width:300px;
+              float:left;
+              }
+              input[type="checkbox"]
+              {
+               margin:5px 5px 0px 100px;
+               float:left;
+               clear:left;
+               }
+              a#bed_instruction{
+              margin:8px 13px 0px 0px;
+              float:left;
+              }
+              input.button,button{
+              
+             cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+             padding:2px 15px; /*add some padding to the inside of the button*/
+             border:none;
+             /*give the button curved corners, alter the size as required*/
+             -moz-border-radius: 10px;
+             -webkit-border-radius: 10px;
+             border-radius: 30px;
+             /*style the text*/
+             color:#fefefe;
+             font-size:18px;
+             margin:0px 0px 0px 200px;
+             background: #551155;
+             /*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+             -webkit-box-shadow:  0px 2px 0px 0px #111173, 0px 5px 5px #999;
+             -moz-box-shadow:  0px 2px 0px 0px #111173, 0px 5px 5px #999;
+             box-shadow:  0px 2px 0px 0px #111173, 0px 5px 5px #999;
+              }
+              input.button:hover, input.button:focus  {
+              color:#eeeeee;
+              border:none;
+              /*reduce the size of the shadow to give a pushed effect*/
+              -webkit-box-shadow: 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+              -moz-box-shadow:  0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+              box-shadow: 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+              }
+              button{
+              background-color: #551155;
+              color:#ffffff;
+                           /*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+              -webkit-box-shadow:  0px 2px 0px 0px #111111, 0px 5px 5px #999;
+              -moz-box-shadow:  0px 2px 0px 0px #111111, 0px 5px 5px #999;
+              box-shadow:  0px 2px 0px 0px #111111, 0px 5px 5px #999;
+              
+              }
+              button:hover, button:focus, button:active{
+              color:#fff1f1;
+              border:none;
+              /*reduce the size of the shadow to give a pushed effect*/
+              -webkit-box-shadow: 0px 2px 0px 0px #111111, 0px 2px 5px #999;
+              -moz-box-shadow:  0px 2px 0px 0px #111111, 0px 2px 5px #999;
+              box-shadow: 0px 2px 0px 0px #111111, 0px 2px 5px #999;
+              
+              }
+              input[type="reset"]{
+              margin-left:40px;
+              }
+              button{
+              margin-left:40px;
+              }
+              
+              select{
+              float:left;
+              font-family: 'Cabin', Helvetica, Arial, sans-serif;
+              font-size:12px;
+              height:2em;
+              width:25em;
+              border-radius:5px;
+              border:1px solid #b7bbf2;     
+              }
+              textarea{
+              padding:3px 3px 3px 5px;
+              width:300px;
+              height:80px;
+              font-family: 'Cabin', Helvetica, Arial, sans-serif;
+              border:1px solid #b7bbf2;
+              color:#3333cc;
+              font-size:12px;
+              border-radius:5px;
+              }
+            article {
+				overflow: auto;
+				width:240px;
+				height:240px;
+				padding:100px 0px auto 20px;
+				flow:left;
+				}
+			section.home p{
+			display:block;
+			margin:0px 20px 0px 0px;
+			}	
+			hgroup {
+				margin-top: 28px;}
+			figure {
+				float: left;
+				padding: 5px;
+				margin: 20px;
+				}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			section.home img{
+				width:380px;
+				height:190px;
+				}
+			section.home h2{
+			color:#eb33aa;;
+            }
+            section.home h3{
+			color:#660066;
+            }
+             table{
+             margin:auto;
+             text-align:left;
+             
+             }
+             td{
+             border:none;
+             margin:0px;
+             padding:3px 0px 3px 5px;
+             min-width:280px;
+             max-width:300px;
+             max-height:400px;
+             overflow:auto;
+             }
+             td a{
+             	color:#ffffff;
+             	text-decoration: underline;
+             }
+             th{
+             background-color:#f0f0f0;
+             }
+             tr.gene_score {
+              color:#ffffff;
+              background-color:#9955ef;
+              font-weight:bold;
+              font-size:14px;
+             } 
+             tr.related_disease {
+             font-size:12px;
+             color:#101010;
+             background-color:#ffefef;
+             }
+             tr.related_interaction {
+             font-size:12px;
+             color:#101010;
+             background-color:#f0e0fe;
+             }
+             tr.Predicted {
+             	background-color:#bf5595;
+             }
+             
+             div.sub_info{
+             margin:0px 0px 0px 250px;
+             width:500px;
+             text-align:left;
+            }
+             p.result{
+             font-size:16px;
+             margin:0px 0px 0px 200px;
+             width:600px;
+             text-align:center;
+             } 
+             ul{
+              font-size:14px;
+             }
+             section.contact p{
+             line-height:1.5em;
+             margin:0px;
+             padding:10px 0px 10px 0px;
+             }
+             .ui-autocomplete{
+             font-size:12px;
+             width:300px;
+             max-height:20em;
+             overflow:auto;
+             }
+ 
+             #accordion{
+             width:800px;
+             clear:left;
+             float:none;
+             margin:auto;
+             }
+             
+             #accordion .ui-accordion-header {  
+             color:#1111aa;
+             margin: 2px 0px; 
+             height:15px;
+             text-align:left;
+             }  
+             #accordion .ui-accordion-header a{  
+             decoration:underline;
+             }  
+              #accordion .ui-accordion-header p{
+              display:block;
+              float:left;
+              margin:0px;
+              width:230px;
+              text-align:left;
+              padding:0px 2px 2px 2px;
+              font-size: 12px; 
+              }  
+              #accordion .ui-accordion-header h3{
+               padding:0px;
+               margin:0px;
+              }  
+             #accordion .ui-accordion-header.Predicted{
+                color:#6f0055;
+            background-color: #ffbff0; /* Old browsers */  
+    background-image: -moz-linear-gradient(top, #ffeef8 0%, #ffbff0 100%); /* FF3.6+ */  
+    background-image: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#ffeef8), color-stop(100%,#ffbff0)); /* Chrome,Safari4+ */  
+    background-image: -webkit-linear-gradient(top, #ffeef8 0%,#ffbff0 100%); /* Chrome10+,Safari5.1+ */  
+    background-image: -o-linear-gradient(top, #ffeef8 0%,#ffbff0 100%); /* Opera 11.10+ */  
+    background-image: -ms-linear-gradient(top,  #ffeef8 0%,#ffbff0 100%); /* IE10+ */  
+    background-image: linear-gradient(to bottombottom,  #ffeef8 0%,#ffbff0 100%); /* W3C */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeef8', endColorstr='#ffbff0',GradientType=0 ); /* IE6-9 */  
+             }
+              #accordion .ui-accordion-header.ui-state-active{
+               color:#cc7733;
+                background-color: #fefefe; /* Old browsers */  
+    background-image: -moz-linear-gradient(top, #f0f0ff 0%, #fefefe 100%); /* FF3.6+ */  
+    background-image: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#f0f0ff), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */  
+    background-image: -webkit-linear-gradient(top, #f0f0ff 0%,#fefefe 100%); /* Chrome10+,Safari5.1+ */  
+    background-image: -o-linear-gradient(top, #f0f0ff 0%,#fefefe 100%); /* Opera 11.10+ */  
+    background-image: -ms-linear-gradient(top,  #f0f0ff 0%,#fefefe 100%); /* IE10+ */  
+    background-image: linear-gradient(to bottombottom,  #f0f0ff 0%,#fefefe 100%); /* W3C */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0ff', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */  
+              }
+              #accordion .ui-accordion-header.Predicted.ui-state-active{
+               background-color: #fefefe; /* Old browsers */  
+    background-image: -moz-linear-gradient(top, #fff0f0 0%, #fefefe 100%); /* FF3.6+ */  
+    background-image: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#fff0f0), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */  
+    background-image: -webkit-linear-gradient(top, #fff0f0 0%,#fefefe 100%); /* Chrome10+,Safari5.1+ */  
+    background-image: -o-linear-gradient(top, #fff0f0 0%,#fefefe 100%); /* Opera 11.10+ */  
+    background-image: -ms-linear-gradient(top,  #fff0f0 0%,#fefefe 100%); /* IE10+ */  
+    background-image: linear-gradient(to bottombottom,  #fff0f0 0%,#fefefe 100%); /* W3C */  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff0f0', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */            
+              }
+             #accordion .ui-accordion-content { 
+              width:745px;  
+              font-size: 12px;    
+              }  
+               #accordion .ui-accordion-content div{
+             width:800px;
+             margin:auto;
+            
+             }
+               #accordion .ui-accordion-content p{
+             display:block;
+             clear:left;
+             width:800px;
+             margin:auto;
+             color:#3333cc;
+              }
+               #accordion .ui-accordion-content p.related_interaction{
+            color: #cc00aa;
+              }
+               #accordion .ui-accordion-content p span{
+             display:block;
+             float:left;
+             width:200px;
+             padding:5px 20px;
+             margin:auto;
+             text-align:left;
+              }
+               #accordion .ui-accordion-content a.Reported{
+              display:block;
+              text-decoration:underline;
+              font-weight:700;
+              color: #3333cc;
+              margin-top:-5px;
+              }
+              #accordion .ui-accordion-content a.Predicted{
+              color:#991199;
+              }
+              #accordion .ui-accordion-content span a{
+               text-decoration:underline;
+              }
+               #accordion .ui-accordion-content p.related_disease a{
+             color:#3333cc;
+              }
+              #accordion .ui-accordion-content p.related_interaction a{
+              color: #cc00aa;
+              }
+             #Faq-accordion
+             {
+                  width:860px;
+                  margin:50px auto 150px auto;
+                 
+                  
+             }
+             #Faq-accordion .ui-accordion-header 
+             {
+         
+                  color:#cc1166;
+                  font-size:15px;
+                  height:30px;
+                  margin: 0px auto -3px auto;
+                  background-color:#ffeeff;
+                  background-image:none;
+                  border: solid 0px #5555bf; 
+                  border-left:none;
+                  border-right:none;
+                  border-radius:0px;             
+             }
+             #Faq-accordion .Faq-even 
+             {
+                background-color:#cc44bb;
+                color:#fdfdfd;
+                             
+             }
+              #Faq-accordion .ui-accordion-header.ui-state-active{
+                  color:#ee6699;  
+                  border-color:#ff3399; 
+              background-color:#fcfcfc;
+              }
+             #Faq-accordion .ui-accordion-header .ui-icon {
+             position: absolute; left: 5%; margin-left: -30px; top: 50%; margin-top: -8px; }
+                #Faq-accordion .ui-accordion-header span{
+                display:block;
+                margin:7px auto;
+               }             
+                #Faq-accordion .ui-accordion-content 
+             {
+                 font-size:17px;
+                 border:none;  
+                 font-family:"Times New Roman", Times, serif;
+                 line-height:130%;         
+             }
+             #Faq-accordion  p{
+                 
+                  display:block;
+                  margin:13px auto;
+             }
+             .ui-tooltip{
+             padding:5px 10px;   
+              margin:0px; 
+              max-width:240px;
+              font-family: 'Cabin', Helvetica, Arial, sans-serif;
+              border:1px solid #b7bbf2;
+              color:#331188;
+              font-size:13px;
+              border-radius:10px;
+              list-style-position:inside;
+             }            
+             .ui-tooltip.label_click{    
+              border-radius:14px;
+              font-size:13px;
+              padding:6px 20px;
+              }
+             
+              .ui-tooltip-content.disease_input{
+              line-width:1.3em;
+              
+              }
+               .ui-tooltip.title-tooltip{
+              line-width:1.3em;
+              max-width:600px;
+              padding:20px 10px;
+              font-size:15px;
+              }
+              #network_control{
+              height:30px;
+              margin:0px 50px;
+  
+              }
+              #network_control.ui-buttonset{
+              margin-left:1px;
+              margin-bottom:10px;
+              margin-right:10px;
+              clear:none;
+              float:left;
+              }
+              #network_control .ui-button{
+              width:120px;
+              float:left;
+              margin:0px;
+              clear:none;
+              padding:0px;
+              height:30px;
+              }
+              .ui-button-text{
+              font-size:10px;
+              margin:3px 0px 0px 0px;
+              }
+              .ui-button#save_photo, .ui-button#tooltips{
+              color:#552255;
+              width:120px;
+              height:30px;
+              float:left;
+              margin:0px;
+              margin-left:10px;
+              clear:none;
+              padding:0px;
+              font-size:10px;
+              border-radius:15px;
+              }
+              .ui-dialog
+              {
+                 position: fixed;
+              }
+              #dialog{
+                 font-size:10px;
+                 font-family:arial;
+                 background:#FFFFFF
+              }
+              #loader{
+                margin:10px 160px;
+                width:100px;
+                height:100px;
+              }
+           .ui-dialog-titlebar-close {
+              visibility: hidden;
+              }
+              .ui-dialog-titlebar{
+                 height:20px;
+                 font-siz:18px;
+              }
+             .intro{
+             hidden:true;
+             } 
+             #cy_container{
+             display:block;
+             margin:auto;
+             height:1000px;
+             width:1000px;
+             background-color:#ee99ff;
+             padding:0px;
+          
+             }
+             #cy {
+            height: 700px;
+            width: 900px;
+            position: static;
+            margin:30px auto;
+            border:2px #9999ff solid;
+            border-radius:20px;
+           
+                  }
+           .ui-spinner{
+              height:23px;
+              width:120px;
+              padding:0px;
+              display:block;
+              float:left;
+             font-family: 'Cabin', Helvetica, Arial, sans-serif;
+             font-size:13px;
+             margin-top:8px;
+             color:#3333cc;
+             border:1px solid #b7bbf2;
+          }
+          .ui-spinner-input{
+            width:95px;
+            margin:4px 20px 5px 5px;
+           }
+   
+              

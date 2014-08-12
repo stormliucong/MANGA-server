@@ -1,0 +1,9 @@
+work/
+lib/*
+!lib/compiled_database/
+lib/compiled_database/*
+!lib/compiled_database/*.pl
+html/done/
+html/images/
+html/download/
+bin/**/

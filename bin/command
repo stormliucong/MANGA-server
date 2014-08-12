@@ -1,0 +1,4 @@
+perl disease_annotation.pl 'type 1 diabetes' -p -d ../lib/compiled_database -out type_1_diabetes_train_weight_1/out -hprd_weight 1 -biosystem_weight 1 -gene_family_weight 1 -htri_weight 1
+
+
+perl disease_annotation.pl 'type 2 diabetes;diabetes mellitus type 2' -d ../lib/compiled_database -out type_2_diabetes/out -hprd_weight 1.0 -biosystem_weight 1.0 -gene_family_weight 1.0 -htri_weight 1.0
