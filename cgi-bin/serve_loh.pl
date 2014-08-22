@@ -5,7 +5,10 @@ use Pod::Usage;
 use Getopt::Long;
 use GenomicsServer;
 use List::Util qw(max);
-
+BEGIN{
+push @INC,"/home/huiyang/perl5/lib/perl5";
+}
+use JSON;
 
 our ($verbose, $help, $man);
 our ($id);
@@ -33,7 +36,10 @@ sub processSubmission {
         my %info;
 	my ($system_command);
 	my ($failed_command);
-	my $result_page = '';
+	my $result_page ="";
+	my $submission_message = "";
+	my $summary_message ="";
+	my $network_message ="";
 	
 	open (SUBMISSION_ID, ">>$PROCESSED_ID_FILENAME") or die "Error: cannot write processed_id file in work directory $WORK_DIRECTORY: $!";
 	flock SUBMISSION_ID, 2;
@@ -58,7 +64,7 @@ sub processSubmission {
         my ($email_header, $email_body, $email_tail);
 	my $password = $info{"password"};
 	
-	$system_command = "perl $BIN_DIRECTORY/disease_annotation.pl -d $LIB_DIRECTORY/compiled_database -out out -prediction -w $BIN_DIRECTORY ";
+	$system_command = "perl $BIN_DIRECTORY/disease_annotation.pl -d $LIB_DIRECTORY/compiled_database -out out -prediction -wordcloud -w $BIN_DIRECTORY ";
 	$system_command.="-f ";
 	if($info{"user_defined_weight"})
 	{
@@ -131,7 +137,7 @@ sub processSubmission {
 	}
 		
 	open (HTML, ">index.html") or die "can't write out index.html: $!";
-	open (TEMPLATE, "$HTML_DIRECTORY/template_result.php") or die "$HTML_DIRECTORY/template.php does not exist!";
+	open (TEMPLATE, "$HTML_DIRECTORY/template_new.html") or die "$HTML_DIRECTORY/template.php does not exist!";
 	open (GENE_REVIEWS, "$LIB_DIRECTORY/GeneReview_NBKid_shortname_OMIM.txt") or print STDERR "Can't open $LIB_DIRECTORY/GeneReview_NBKid_shortname_OMIM.txt\n";
 	my %omim_to_gene_review = ();
 	my $i=0;
@@ -153,59 +159,66 @@ sub processSubmission {
 		}
     }
     my $effective_term_num=@effective_term;
-	my $replace_message;
-	my $MAX_COUNT = 50;
+	my $MAX_COUNT = 2000;
+	my $MAX_ITEM = 22000;
 	$result_page.=$_  for(<TEMPLATE>);
-	#-------------------------------The real message for the out put-----------------------------
-	$replace_message.=qq|<h2 class="result">Summary</h2>\n|;
-	$replace_message.=qq|<p class="result">Dear Phenolyzer user, your submission (identifier: <b>$id</b>) was received at $info{submission_time} and processed at $process_time.</p>\n|;
-	$replace_message.=qq|<h2 class="result">Submission information</h2><div class="sub_info">\n<ul>\n|;
-	$replace_message.= "<li>bedfile=$info{bedfile}</li>\n" if $info{bedfile};
-	$replace_message.= "<li>buildver=$info{buildver}</li>\n" if $info{bedfile};
-	$replace_message.= "<li>all_diseases=$info{all_diseases}</li>\n";
-	$replace_message.= "<li>full_expand=$info{full_expand}</li>\n";
-	$replace_message.= "<li>phenotype_interpretation=$info{phenotype_interpretation}</li>\n";
 	
+	#-------------------------------Submission Message-----------------------------
+	$submission_message = qq|<h4 class="page-header"> 
+	   Submission ID: $id</h4>
+	  <p class="result">Dear Phenolyzer user, your submission (identifier: <b>1935</b>) was received at Wed Aug 20 22:23:48 2014 and processed at Wed Aug 20 22:23:48 2014.</p>
+	|;
+	$result_page =~ s/%%%%submission%%%%/$submission_message/;
+	#-------------------------------Summary Message-----------------------------
+	$summary_message.=	qq|<li class="list-group-item">Bedfile is $info{bedfile}.</li>| if $info{bedfile};
+    $summary_message.=	qq|<li class="list-group-item">Buildver is $info{buildver}.</li>| if $info{bedfile};
+	$summary_message.=	qq|<li class="list-group-item">All diseases are considered.</li>| if($info{all_diseases} eq "yes");
+	$summary_message.=	qq|<li class="list-group-item">Phenotypes are interpretated.</li>| if($info{phenotype_interpretation} eq "yes");
+    $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>|;
 	if($info{"all_diseases"} ne "yes")
 	{
-	$replace_message.="<li>$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n";
-	if($effective_term_num)
-	{
-	$replace_message.=qq|<li>They are: |;
-	$replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b><u>$_</u></b></a>\n|  for (@effective_term);
-	$replace_message.=qq|</li>|;
-	$replace_message.=qq|<hr><li>The whole report could be found |;
-	$replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.predicted_gene_scores" ><b><u>Here</u></b></a>.\n|;
-	$replace_message.=qq|<li>The normalized gene scores could be found |;
-	$replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.final_gene_list" ><b><u>Here</u></b></a>.\n|;
-	$replace_message.=qq|<hr><li>The report without prediction could be found |;
-	$replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.merge_gene_scores" ><b><u>Here</u></b></a>.\n|;
- 	$replace_message.=qq|<li>The normalized gene scores without prediction could be found |;
-	$replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.seed_gene_list" ><b><u>Here</u></b></a>.\n|;
-	
-	}
+	$summary_message.=qq|<li class="list-group-item">$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
+	$summary_message.=qq|<li class="list-group-item">They are: |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n
+	 <a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><b>WordCloud</b></a>|  for (@effective_term);
+	$summary_message.=qq|</li>|;
 	}
 	else
 	{
-	$replace_message.="<li>All the possible diseases in the gene_disease database will be considered.</li>\n";	
+	$summary_message.=qq|<li class="list-group-item">All the possible diseases in the gene_disease database will be considered.</li>\n|;	
 	}
-	if(-s "out.annotated_gene_scores" and $effective_term_num)
+	
+	if(-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )
 	{
-	       $replace_message.=qq|<hr><li>The report with gene or region selection could be found |;
-	       $replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_scores" ><b><u>Here</u></b></a>.\n|;
-	       $replace_message.=qq|<li>The normalized gene scores with gene or region selection could be found |;
-	       $replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u></b></a>.\n|;
+	       $summary_message.=qq|<li class="list-group-item">The report with gene or region selection could be found |;
+	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_scores" ><b><u>Here</u></b></a>.\n|;
+	       $summary_message.=qq|<li class="list-group-item">The normalized gene scores with gene or region selection could be found |;
+	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u></b></a>.\n|;
     }
     if(-s "out.variant_prioritization")
     {
-    	$replace_message.=qq|<hr><li>The prioritized CNVs could be found |;
-	    $replace_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.variant_prioritization" ><b><u>Here</u></b></a>.<hr>\n|;	
+    	$summary_message.=qq|<li class="list-group-item">The prioritized CNVs could be found |;
+	    $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.variant_prioritization" ><b><u>Here</u></b></a>.<hr>\n|;	
     }
-	if($effective_term_num) { $replace_message.="<li>The top <b>$MAX_COUNT</b> genes are displayed below.\n</li>"; }
-	else   {   $replace_message.="<li>So sorry, none of your terms has matched records, why don't you try to breakdown long terms in to short ones?\n</li>";    } 
-    $replace_message.="</ul></div>";
+	
+	if($effective_term_num)
+	{
+	$summary_message.=qq|<li class="list-group-item">The whole report could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.predicted_gene_scores" ><b><u>Here</u></b></a>.</li>\n|;
+	$summary_message.=qq|<li class="list-group-item">The normalized gene scores could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.final_gene_list" ><b><u>Here</u></b></a>.</li>\n|;
+	$summary_message.=qq|<li class="list-group-item">The report without prediction could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.merge_gene_scores" ><b><u>Here</u></b></a>.</li>\n|;
+ 	$summary_message.=qq|<li class="list-group-item">The normalized gene scores without prediction could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.seed_gene_list" ><b><u>Here</u></b></a>.</li>\n|;
+	
+	}
+	
+	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )  ) ) 
+	  {   $submission_message.="<P>So sorry, none of your terms has matched records, why don't you try to breakdown long terms in to short ones?\n</p>";    } 
+   
     
-    
+    #-------------------------------Print Details-----------------------------
     if($effective_term_num or $info{"all_diseases"} eq "yes")
     {
                                            
@@ -225,17 +238,18 @@ sub processSubmission {
 	        "GENE_FAMILY" => "http://www.genenames.org/genefamilies/"
 	        
 	);
-	
+my %gene_html = ();	
+my @output;
+my $rank=1;
 	for my $line(<RES>){                  #print each result               
 		if($i==0){$i++;next;}
 		$i++;
-		if($i==2){
-			$replace_message.=qq|<h2 class="result">Prioritized gene list</h2>\n|;
-			$replace_message.=qq|<div id="accordion">\n|;
-        }
+		
 		if($line=~/^\s*$/){
-			if($gene) {$replace_message.=qq|</div>\n|;}
-			$gene="";next;
+			if($gene) {$gene_html{$gene}.=qq|</div>|; push (@output, [$gene,$gene_html{$gene}]);}
+			
+			$gene="";$rank++;last if($i>$MAX_ITEM and $count>=80);next;
+			
 		}
 		chomp($line);
 		if(not $gene){
@@ -250,8 +264,8 @@ sub processSubmission {
 			$line=~s/ID:\d* - //;
 			
 			$score = sprintf("%.4g",$score);
-			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$gene."</p><p>$status</p><p>Score:$score</p></h3>\n";
-			$replace_message.=$line.qq|<div><p><span><a class = "outside $status" href="http://www.ncbi.nlm.nih.gov/gene/$id">$gene</a></span></p>|;
+			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status</p><p>Score:$score</p></h3>";
+			$gene_html{$gene}.=$line.qq|<div><p><span><a class = "outside $status" href="http://www.ncbi.nlm.nih.gov/gene/$id">$gene</a></span></p>|;
 		}
 	    else{
 	    	my ($source, $evidence, $term, $individual_score) = split ("\t", $line);
@@ -276,66 +290,78 @@ sub processSubmission {
 	    	if ($source =~ /\b(BIOSYSTEM)|(HPRD)|(GENE_FAMILY)|(HTRI)\b/)
 	     	    { 	
 	     	    $line = join('</span><span>',($source_out, $evidence, $term." ($individual_score)") ); 
-	     	    $line = qq|<p class="$count related_interaction"><span>|.$line."</span></p>\n";
+	     	    $line = qq|<p class="$count related_interaction"><span>|.$line."</span></p>";
 	     	    } 
 	    	else{$line = join('</span><span>',($source_out, $evidence, $term." ($individual_score)") ); 
 	    		
-	    		$line=qq|<p class="$count related_disease"><span>|.$line."</span></p>\n";
+	    		$line=qq|<p class="$count related_disease"><span>|.$line."</span></p>";
 	    	    }
 	        if($source =~ /^Not available/) { 
 	        	$line = join('</span><span>',($source, $evidence, $term." ($individual_score)") ); 
-	        	$line = qq|<p class="$count related_disease"><span>|.$line."</span></p>\n"; }    
-	    	$replace_message.=$line;
-	    	}
-	                 }
-	$replace_message.="</div>\n"  if($i!=2);
+	        	$line = qq|<p class="$count related_disease"><span>|.$line."</span></p>"; }    
+	    	$gene_html{$gene}.=$line;
+	    	
+	    	 }
+        }
+	my $json_text = to_json(\@output);
+	    	open (OUTPUT, ">details.json") or die;
+	    	print OUTPUT $json_text; 
     }
-    
-    
-    $replace_message.=qq|
-                
-                 <script type="text/javascript"  src="$WEBSITE/js/cytoscape.min.js" ></script>
-                 <script type="text/javascript"  src="$WEBSITE/js/arbor.js" ></script> 
-                 <script src="$WEBSITE/js/jquery.cytoscape.js-panzoom.js"></script>
-                 <script type="text/javascript"  src="$WEBSITE/result_control.js" ></script>
-                 
-                 |;
    
 	#-----------------------------------------print out the website------------------------------------
-	my $network = qq|<div id="cy"></div>
-	  <h3 id="barplot"  ><a class="outside" href="barplot.html" >Click me to see the Bar Plot</a></h3>
-			<label class="result" >Options:  </label>
-		<div id="network_control">
-  <input type="checkbox" id="gene_off"><label for="gene_off">Gene Off</label>
-  <input type="checkbox" id="disease_off"><label for="disease_off">Disease Off</label>
-  <input type="checkbox" checked id="show_gene_names"><label for="show_gene_names">GeneNames</label>
-  <input type="checkbox" id="show_disease_names"><label for="show_disease_names">DiseaseNames</label>
+	$network_message = qq|<div id="cy"></div>
+     	<br>
+     	
+		<div id="network_control" class="panel panel-primary">
+	
+		 <label class="text-primary" for="disease_on">Disease</label>
+		 <input checked type="checkbox" id="disease_on" >
+        <label class="text-primary" for="gene_on">Gene</label>
+        <input  checked type="checkbox" id="gene_on">
+        <label class="text-primary"  for="show_gene_names">Gene Name</label>
+        <input type="checkbox" checked id="show_gene_names">
+        <label class="text-primary"  for="show_disease_names">Disease Name</label>
+        <input type="checkbox"  id="show_disease_names">
         </div>
-        <input type="button" id="save_photo" value="Save Photo">
-        <input type="button" id="tooltips"    value="Tool Tips">
-         <label class="result" for="show_edges" >Edges:  </label> 
-       <select id="show_edges" name="show_edges">
+        <div class="panel panel-primary" id="network_control_2">
+        <div class="form-group">
+        <div class="col-lg-4">
+      <button type="button" class="btn btn-default btn-success" id="save_photo">
+      <span class="glyphicon glyphicon-picture"></span>  Save Photo</button>
+         <button type="button" class="btn btn-primary" id="tooltips" >
+         <span class="glyphicon glyphicon-list"></span> Tooltips</button>
+         </div>
+       <label class="col-lg-2 result control-labe text-primary" for="show_edges" >Interactions:</label> 
+         <div class="col-lg-3">
+       <select id="show_edges"  class="selectpicker show-menu-arrow" name="show_edges">
+       
        <option selected value="all">All</option>
        <option value="HPRD">Protein Interaction</option>
        <option value="Biosystem">In the same Biosystem</option>
        <option value="GeneFamily">In the same Gene Family</option>
        <option value="TranscriptionInteraction">Transcription Interaction</option>
        </select>
-       <label class="result" for="adjust_layout" >Layout:  </label> 
-       <select id="adjust_layout" name="adjust_layout">
+       </div>
+       
+       <label class="col-lg-1 result control-label text-primary" for="adjust_layout" >Layout:  </label> 
+        <div class="col-lg-2">
+       <select id="adjust_layout" name="adjust_layout"  class="selectpicker show-menu-arrow">
        <option selected value="force">Force</option>
        <option value="circle">Circle</option>
        <option value="grid">Grid</option>
        <option value="concentric">Concentric</option>
-       </select>|;
+       </select>
+       </div>
+       </div>
+     </div>|;
 	
-	if($effective_term_num)
-	{$result_page=~s/%%%%Network%%%%/$network/; }
+	if($effective_term_num )
+	{$result_page=~s/%%%%network%%%%/$network_message/; }
 	else{
-	  	$result_page=~s/%%%%Network%%%%//;
+	  	$result_page=~s/%%%%network%%%%//;
 	}
-	$result_page=~s/%%%%Content%%%%/$replace_message/;
-	
+	$result_page=~s/%%%%submission%%%%/$submission_message/;
+	$result_page=~s/%%%%summary%%%%/$summary_message/;
 	
 	print HTML $result_page;
 	close (RES);
@@ -348,8 +374,6 @@ sub processSubmission {
 		$email_body = "We were unable to generate results for your submission due to an '$failed_command' error.\n";
 	} else {
 		$email_body = "Your submission is done: $WEBSITE/done/$id/$password/index.html\n\n";#### url
-		
-		$email_body .= "bedfile=$info{bedfile}\nbuildver=$info{buildver}\n\n" if defined $info{bedfile};
 		
 		$email_tail .= "The citation for the above result is: $WEBSITE\n\n";
 		$email_tail .= "Questions or comments may be directed to $CARETAKER.\n";
@@ -370,9 +394,10 @@ sub processSubmission {
 	#system("cp index.html $HTML_DIRECTORY/done/$id/$password") and warn "Error runnning <cp index.html $HTML_DIRECTORY/done/$id/$password>";
 	system("mv index.html $HTML_DIRECTORY/done/$id/$password/") and die;
 	system("mv network.json $HTML_DIRECTORY/done/$id/$password/") and print STDERR "Can't find network.json!!\n";
+	system("mv details.json $HTML_DIRECTORY/done/$id/$password/") and print STDERR "Can't find details.json!!\n";
 	system("mv out* $HTML_DIRECTORY/done/$id/$password/") and die;
 	system("mv $WORK_DIRECTORY/$id/* $HTML_DIRECTORY/done/$id/");
-	system("cp $HTML_DIRECTORY/barplot.html $HTML_DIRECTORY/done/$id/$password/") and die;
+	
 	rmdir ("$WORK_DIRECTORY/$id");
 	sleep(20);		#artificially increase execution time for debugging purposes
 }

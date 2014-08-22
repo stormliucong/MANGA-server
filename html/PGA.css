@@ -791,7 +791,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', end
               }
               .ui-dialog-titlebar{
                  height:20px;
-                 font-siz:18px;
+                 font-size:18px;
               }
              .intro{
              hidden:true;

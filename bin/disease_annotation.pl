@@ -5,6 +5,7 @@ use Pod::Usage;
 use Getopt::Long;
 use Cwd;
 use File::Basename;
+use warnings;
 my $out_directory = cwd();
 my $dirname = dirname(__FILE__);
 chdir $dirname;
@@ -12,7 +13,7 @@ chdir $dirname;
 our $VERSION = 			 '1.00';
 our $LAST_CHANGED_DATE = '$LastChangedDate: 2014-07-20 (20, July, 2014) $';
 our ($verbose, $help, $man,$buildver,$bedfile);
-our ($query_diseases,$if_file,$if_exact_match,$prediction,$is_phenotype);
+our ($query_diseases,$if_file,$if_exact_match,$prediction,$is_phenotype,$if_wordcloud);
 our ($out, $database_directory, $if_full_extend, $if_logistic_regression);
 our ($HPRD_WEIGHT, $BIOSYSTEM_WEIGHT, $GENE_FAMILY_WEIGHT, %GENE_WEIGHT, $HTRI_WEIGHT, $GENE_DISEASE_WEIGHT, $INTERCEPT);
 
@@ -32,7 +33,7 @@ GetOptions('verbose|v'=>\$verbose, 'help|h'=>\$help, 'man|m'=>\$man,'file|f'=>\$
               'gene_family_weight=s'=>\$GENE_FAMILY_WEIGHT, 'htri_weight=s'=>\$HTRI_WEIGHT,
               'gwas_weight=s'=>\$GENE_WEIGHT{"GWAS"}, 'gene_reviews_weight=s'=>\$GENE_WEIGHT{"GENE_REVIEWS"}, 
               'clinvar_weight=s'=>\$GENE_WEIGHT{"CLINVAR"}, 'omim_weight=s'=>\$GENE_WEIGHT{"OMIM"}, 
-              'orphanet_weight=s'=>\$GENE_WEIGHT{"ORPHANET"}) or pod2usage ();
+              'orphanet_weight=s'=>\$GENE_WEIGHT{"ORPHANET"}, 'wordcloud'=>\$if_wordcloud) or pod2usage ();
 	
 $help and pod2usage (-verbose=>1, -exitval=>1, -output=>\*STDOUT);
 $man and pod2usage (-verbose=>2, -exitval=>1, -output=>\*STDOUT);
@@ -79,7 +80,7 @@ my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
 for my $individual_term(@disease_input)
   {
    if($individual_term=~/^\W*$/){next;}
-   $individual_term=~s/^\W*(.*?)\W*$/\1/;                 #Get rid of the whitespaces in the beginnning and end
+   $individual_term=~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
    $individual_term=~s/[\s_]+/ /g; 
 
 #-----------------------------For a normal term, disease name extension is needed-----------------------------
@@ -100,7 +101,7 @@ for my $individual_term(@disease_input)
        	    my @disease_terms = split(";", $disease_line);
        	    for  (@disease_terms){
        	    	  my $each = $_;
-       	    	     $each =~s/^\W*(.*?)\W*$/\1/;                 #Get rid of the whitespaces in the beginnning and end
+       	    	     $each =~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
                      $each =~s/\s+/ /g;  
        	    	  my $change = $each =~ s/,//g;
        	    	  
@@ -152,9 +153,7 @@ for my $individual_term(@disease_input)
        	  for (keys %disease_score_hash);
        }
        
-       
-       
-       
+       generate_wordcloud($individual_term, \%disease_hash, \%disease_score_hash) if($if_wordcloud);
        if(@diseases==0){print STDERR "NOTICE: The input term -----$individual_term------ has no corresponding names in the disease database, please check your spelling!!!\n";next;}
  
        my $i=0;
@@ -371,6 +370,7 @@ sub disease_extension{                           #Input some disease terms and r
 			my $disease=$words[0];
 			my $id = $words[1];
 			my ($id_source,$id_num) = split (":", $id); 
+			next if(not $id_num);
 			my $disease_key = lc $disease;
 			   $disease_key =~ s/'s\b//g;
 			   $disease_key =~ s/\W+/ /g;   
@@ -432,7 +432,7 @@ sub disease_extension{                           #Input some disease terms and r
 	   	      {
               $disease_extend{$disease_key}.=join(';', ($disease, @synonyms) ) 
               and $disease_extend{$disease_key}.="\tCTD_DISEASE\n" 
-              if($disease_extend{$disease_key}!~/\bCTD_DISEASE\b/);
+              if(not defined $disease_extend{$disease_key} or $disease_extend{$disease_key}!~/\bCTD_DISEASE\b/);
               }
 	   	      }
                                 }
@@ -511,13 +511,13 @@ sub phenotype_extension{
     	      	$disease_hash{$individual_disease_key}[0] = 0;
     	      	$disease_hash{$individual_disease_key}[1] = $individual_disease if not $disease_hash{$individual_disease_key}[1];
     	        my $score;
-    	      	     if ($hpo_score_system{$words[3]})
+    	      	     if (defined $words[3] and $hpo_score_system{$words[3]})
     	      	     {
     	             $score = $hpo_score_system{$words[3]};
     	      	     }
     	      	     else
     	      	     {
-    	      		 if($words[3] =~ /^(\d*\.?\d+)\%$/) { $score = $1 * 0.01 ;}
+    	      		 if($words[3] and $words[3] =~ /^(\d*\.?\d+)\%$/) { $score = $1 * 0.01 ;}
     	      	  	 else   {  $score = $hpo_score_system{"occasional"};  }	
     	      	     }
     	      	 $disease_hash{$individual_disease_key}[0] = $score if($disease_hash{$individual_disease_key}[0] < $score);    
@@ -728,7 +728,8 @@ sub score_all_genes{                              #GENE	DISEASE	DISEASE_ID	SCORE
 sub annovar_annotate{
 #----------------------Code borrowed from bed2gene.pl-------------------------
 
-	$buildver = 'hg19' and print STDERR "NOTICE: the --buildver argument is set as 'hg19' by default\n" 
+	$buildver = 'hg19' ;
+	print STDERR "NOTICE: the --buildver argument is set as 'hg19' by default\n" 
 	unless defined $buildver;
 	$buildver eq 'hg18' or $buildver eq 'hg19' or pod2usage ("Error in argument: the --buildver argument must be 'hg18' or 'hg19'");
     my $sc;
@@ -831,7 +832,7 @@ if(defined $genelist){                                      #THE genelist will b
 	my @genes=split(qr/[^_\w\.\-]+/m,$genelist);
 	for my $individual_term(@genes){
     if($individual_term=~/^\W*$/){next;}
-    $individual_term=~s/^\W*(.*?)\W*$/\1/;                 #Get rid of the whitespaces in the beginnning and end
+    $individual_term=~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
     if($gene_transform{$individual_term})
     {
     $gene_hash{$gene_transform{$individual_term}}="-" unless defined $gene_hash{$gene_transform{$individual_term}};
@@ -1054,6 +1055,7 @@ sub predict_genes{
 	    	      		if ($related_gene ne $gene)
 	    	      		{
 	    	      		my $score = $biosystem{$biosystem_id}{$related_gene};
+	    	      		$interaction{$related_gene}{$gene}[0] = 0 if(not $interaction{$related_gene}{$gene}[0]);
 	    	      		$interaction{$related_gene}{$gene}[0] = $score 
 	    	      		if ( $score > $interaction{$related_gene}{$gene}[0] );
 	    	      		$interaction{$related_gene}{$gene}[1] .= $biosystem_id." ";
@@ -1085,11 +1087,35 @@ sub predict_genes{
     	delete  $output{$_}  if (not $gene_id{$_});
          	 }
 
-	    
-	    
-	    
-	    return \%output;
-	
+   return \%output;
+}
+sub generate_wordcloud{
+	@_==3 or die "Error: generate_wordcloud only accept 3 variables!!";
+	my $term = $_[0];
+	my %disease_hash = %{$_[1]};
+	my %disease_score_hash = %{$_[2]};
+	open (WORD_CLOUD,">${out}_${term}_wordcloud") or die "Error: can't write into ${term}_wordcloud.txt!!";
+	my %output =();
+	for (keys %disease_hash)
+	{
+		chomp($disease_hash{$_});
+		my @words=split("\t",$disease_hash{$_});
+		my @diseases=split(/\W+/,$words[0]);
+		@diseases = map {lc $_;} @diseases;
+		length($_)>2 and $output{$_}++ for (@diseases);
+    }
+    for (keys %disease_score_hash)
+	{
+		my @words=@{$disease_score_hash{$_}};
+		my @diseases=split(/\W+/,$words[1]);
+		@diseases = map {lc $_;} @diseases;
+		length($_)>2 and $output{$_}+= $words[0] for (@diseases);
+    }
+    for (sort { $output{$b} <=> $output{$a}  } keys %output)
+    {
+    	print WORD_CLOUD $_."\t".$output{$_}."\n";
+    }
+    system("Rscript $work_path/wordcloud.R ${out}_${term}_wordcloud > ${out}_Rwordcloud.log");
 }
 
 
@@ -1111,6 +1137,7 @@ sub predict_genes{
         -w, --work_directory            the working directory (default: current directory)
         --bedfile                       the bed file as a genomic region used for selection and annotation of the genes
         --buildver                      the build version (hg18 or hg19) to annotate the bedfile
+        --wordcloud                     generates a wordcloud of the interpretated diseases if used (not working if you input 'all diseases')
         --logistic                      uses the weight based on the logistic modeling with four different complex diseases
         --gene                          the genes used to select the results (file name if -f command is used)    
         --hprd_weight                   the weight for genes found in HPRD

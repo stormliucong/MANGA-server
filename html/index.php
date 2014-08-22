@@ -5,129 +5,314 @@
 	<head>
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
         <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
-	    <link href="http://phenolyzer.usc.edu/PGA.css" rel="stylesheet" type="text/css" >	
+	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="./bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
+	    <link href="http://phenolyzer.usc.edu/css/phenolyzer.css" rel="stylesheet" type="text/css" >
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		
+		        <script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
+                  <script type="text/javascript"  src="http://phenolyzer.usc.edu/jquery-1.11.0.min.js"></script>
+	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
+	              <script data-turbolinks-track="true" src="./bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
+				<script data-turbolinks-track="true" src="asset/js/vendor/jquery.ui.widget.js"></script>
+	<script data-turbolinks-track="true" src="asset/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script data-turbolinks-track="true" src="asset/js/jquery.iframe-transport.js"></script>
+    <script data-turbolinks-track="true" src="asset/js/jquery.fileupload.js"></script>
+	<script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
+	<script data-turbolinks-track="true" src="js/form_control_1.js"></script>
 	</head>
 	<body>
-		<div class="wrapper">
-			<header>
-				<h1>Phenolyzer: Phenotype Based Gene Analyzer</h1>
-				<nav>
-					<ul>
-						<li><a href="http://phenolyzer.usc.edu">home</a></li>	
-						<li><a href="http://phenolyzer.usc.edu/download.php">download</a></li>
-						<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
-						<li><a href="http://phenolyzer.usc.edu/contact.php">contact</a></li>
-						<li><a href="http://phenolyzer.usc.edu/release_note.php">release note</a></li>
-						<li><a href="http://phenolyzer.usc.edu/example.php">example</a></li>
-					</ul>
-				</nav>
-			</header>
-			
-			
-        	<section class="form">
-        	<h2 class="gene_prioritization" title="">Gene Prioritization</h2> 
-        	
-			<form action="/cgi-bin/loh.cgi" method="post" ENCTYPE="multipart/form-data">
-			   
-			  <fieldset class="input_form">
-			  <div id="input_form">
-			 <legend id="top">INPUT FORM</legend>
-               <label for="email"> Email </label> <input title="" type="text" name="email" id="email"  > 
-			   <label class="disease" title="">Diseases/Phenotypes</label>
-                 <textarea required id="disease" title="" placeholder="Please enter your diseases:  (maxlength:400)" name="disease" maxlength="400"></textarea>
-                 </div>
-                 
-                 <div id="options">
-                 <legend class="sub">OPTIONS</legend>   
-                                  
-                 <label class="weight_adjust_options" title="">Weight Adjust  </label>
-                 <select id="weight_adjust_options"  name="weight_adjust" >
-                 <option selected value="no" >No</option>
-                 <option value="yes"  >Yes</option>
-                 </select>               
-                 
-                 <label class="gene_selection_options" title="">Gene Selection  </label>
-                 <select id="gene_selection_options"  name="gene_selection">
-                 <option selected value="no" >No</option>
-                 <option value="yes"  >Yes</option>
-                 </select>
-                 
-                  <label class="region_selection_options" title="">Region Selection  </label>
-                 <select id="region_selection_options"  name="region_selection" >
-                 <option selected value="no" >No</option>
-                 <option value="yes"  >Yes</option>
-                 </select>
+	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header col-md-3">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer<p></a>
+		 
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li class="active" ><a href="http://phenolyzer.usc.edu">Home</a></li>	
+			   	<li><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
+			   	
+			  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
+		    <ul class="dropdown-menu" role="menu">
+                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
+                    <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
+                  </ul>
+                </li>
+          </ul>
+		  <div class="navbar-header navbar-right col-md-3" >
+		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
+		  </div>
+        </div><!--/.nav-collapse --> 
+	  </div>
+    </div>
+    
+	<div class="jumbotron" id="phenolyzer">
+	<div class="container">
+	<div class="col-lg-8 col-lg-offset-2" style="text-align:center">
+  <h1>Phenolyzer</h1>
+  <p>Phenolyzer stands for Phenotype Based Gene Analyzer. It works by following a biologist's logic: first interpret any disease/phenotype
+  related term into a whole bunch of specific disease names, then find seed genes corresponding to these diseases and give them scores based on the associations, then
+  find all related genes with seed genes and use a logistic regression algorithm to give them scores, finally it also presents an interactive gene-disease network and all
+  the details of how the score is given to each gene. </p> 
+  <p><a class="title-button btn btn-primary btn-lg" role="button" href="#getstart">Get Started</a>
+  <button class="title-button btn btn-primary btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
+  
+  <!-- Modal -->
+<div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <h4 class="modal-title text-primary" id="myModalLabel">Contact Phenolyzer</h4>
+      </div>
+      <div class="modal-body">
+	 <h5><strong>Phenolyzer</strong> relies on your feedback. Please send an Email if you wish to make a request, a comment, or report a bug.</h5>	
+         <h5>Dr. Kai Wang:<br>
+Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogenetic Institute and Norris Comprehensive Cancer Center
+        <br>Web Site: <a href="http://genomics.usc.edu/">http://genomics.usc.edu</a>
+        <br>Email: <a href="mailto:kaiwang@usc.edu">kaiwang@usc.edu</a> </li>
+         <br><br>Hui Yang:<br>
+           Graduate Student, Zilkha Neurogenetic Institute, USC Neuroscience Graduate Program        
+        <br>Web Site: <a href="http://genomics.usc.edu/">http://genomics.usc.edu</a>
+        <br>Email: <a href="mailto:yanghui@usc.edu">yanghui@usc.edu</a> </li></h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- Modal End-->
 
+  </p></div></div></div>
+  
+		<div class="container">
+		<div class="phenolyzer-content col-lg-8 col-lg-offset-1">
+   	    <form action="/cgi-bin/loh.cgi" method="post" ENCTYPE="multipart/form-data" role="form" class="form-horizontal" >
+     	
+     	<h3 id="getstart" class="page-header text-primary">Basic Information</h3>  
+		<div class="form-group">
+        <label for="email" class="col-md-3 control-label">Email</label>
+        <div class="col-md-9">
+        <input  type="email" class="form-control" id="email" name="email" placeholder="Email">
+        </div>
+	     </div>
+	     
+      <div class="form-group">
+	  <label title="" class="col-md-3 control-label disease" >Diseases/Phenotypes</label>
+	   <div class="col-md-9">
+	   <textarea  required title="" class="form-control" name="disease" id="disease" rows="4" placeholder="please enter your focused disease/phenotype terms"></textarea> 
+	   <span class="help-block">Please use semicolon or enter as separators. Like "alzheimer;brain".
+	    <br> Try to use multiple terms instead of a super long term
+	    <br>OMIM IDs are also accepted, like 114480 for 'Breast cancer'</span>
+	   </div>
+	  </div> 
+	  
+	   <div class="form-group">
+	  <label class="col-md-3 control-label" > </label>
+	   <div class="col-md-8">
+	  <button type="submit" class="btn btn-info ">
+	  <span class="glyphicon glyphicon-send"></span> Submit</button>
+      <button type="reset" class="btn btn-success ">
+	  <span class="glyphicon glyphicon-repeat"></span> Reset</button>
+	   </div></div>    
                  
-                 <label for="other_options" class="advanced_options" title = "">Advanced Options  </label>
-                 <select id="other_options" name="other_options">
-                 <option selected value="phenotype_interpretation" >Phenotype Interpretation</option>
+               <h3 class="page-header text-primary">Options</h3> 
+               
+              <div class="form-group">
+               <label title="" for="gene_selection" class="col-md-3 control-label gene_selection_options">Gene Selection  </label>
+               <div class="col-md-5">
+                <select class="selectpicker show-menu-arrow " name="gene_selection" id="gene_selection_options">
+	           <option selected value="no" >No</option>
+                 <option value="yes"  >Yes</option>
+	           </select>
+                </div>
+               <div class="col-md-3">
+	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
+       title="Gene Selection",
+       data-content="Turn on the Gene Selection to input your own genelist instead of conducting a genome-wide priotritization? You can use your gene list 
+        generated from wANNOVAR! Is that amazing?">
+       <span class="glyphicon glyphicon-th-list"></span></button>
+	   </div></div>
+	   
+	     <div class="form-group" id="gene_selection">
+                  <label title="" class="col-md-3 control-label" >Enter your genes here</label>
+	   <div class="col-md-9">
+	   <textarea  title="" class="form-control" name="genelist" id="genelist" rows="4" placeholder="please paste your gene list here."></textarea> 
+	   <span class="help-block">Please separate genes by semicolon or enter. Entrez IDs are also accepted here.</span>
+            </div> </div> 
+            
+            <div class="form-group">
+               <label title="" for="region_selection" class="col-md-3 control-label region_selection_options">Region Selection  </label>
+               <div class="col-md-5">
+                <select class="selectpicker show-menu-arrow " name="gene_selection" id="region_selection_options">
+	           <option selected value="no" >No</option>
+                 <option value="yes"  >Yes</option>
+	           </select>
+                </div>
+                 <div class="col-md-3">
+	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
+       title="Region Selection",
+       data-content="Turn on the Region Selection to upload your focusing genomic regions. You can use your bed file called from a CNV calling Pipeline! Is that amazing?">
+       <span class="glyphicon glyphicon-th-list"></span></button>
+	   </div></div>
+               
+	   <div class="form-group" id="region_selection">
+    <label class="col-md-3 control-label bedfile"> <a id="bed_instruction" href="https://genome.ucsc.edu/FAQ/FAQformat.html#format1" target="_blank">Input Bed File</a></label>
+	<div class="col-sm-9">
+	       <div class="input-group">
+                <span class="input-group-btn">
+                    <span class="btn btn-primary btn-file">
+                         <span class="glyphicon glyphicon-plus"></span> Bed File
+						 <input type="file" name="bedfile" id="bedfile">
+                    </span>
+                </span>
+                <input type="text" class="form-control" readonly>
+            </div>
+	 </div></div>
+        
+            
+	         <div class="form-group">
+	 <label for="other_options" title="" class="col-md-3 control-label advanced_options">Advanced Options  </label>
+	 <div class="col-md-5">
+      <select class="selectpicker show-menu-arrow" title = "" name="other_options" id="other_options">
+	          <option selected value="phenotype_interpretation" >Phenotype Interpretation</option>
                  <option value="none" >Disease Only</option>
                  <option value="all_diseases" >Select all diseases</option>
-                 </select>
-                 </div>
-                 
-                 <div id="gene_selection">
-                 <legend class="sub" >GENE SELECTION</legend>
-                 <label>Gene List  </label>             
-                 <textarea title="" id="genelist" placeholder="Please enter your genelist" name="genelist" ></textarea>
-                 </div>
-                   
-                 <div id="region_selection">
-                 <legend class="sub">REGION SELECTION</legend>                
-                 <label for="bedfile" title="">BED file   </label>
-                 <a id="bed_instruction" href="https://genome.ucsc.edu/FAQ/FAQformat.html#format1" target="_blank"><img src="http://phenolyzer.usc.edu/images/button_question_2.jpg" alt="" width="15" height="15" /></a>      
-                 <input id="bedfile" type="file" class="upload" name="bedfile" />
-                 <label for="buildver" title="">Genome Build   </label>
-                 <select id="buildver" name="buildver">
-                 <option value="hg18" >hg18</option>
-                 <option selected value="hg19" >hg19</option>
-                 </select>
-                 </div>
-                 
+	  </select>
+    </div>
+     <div class="col-md-3">
+	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
+       title="Advanced Options",
+       data-content="Phenotype interpretation: Interpret phenotype terms into disease names
+		          All diseases: All diseases in the gene disease database are used">
+       <span class="glyphicon glyphicon-th-list"></span></button>
+	   </div>
+       </div> 
+       
+         <div class="form-group">
+               <label title="" for="weight_adjust" class="col-md-3 control-label weight_adjust_options">Weight Adjust  </label>
+               <div class="col-md-5">
+                <select class="selectpicker show-menu-arrow " name="weight_adjust" id="weight_adjust_options">
+	           <option selected value="no" >No</option>
+                 <option value="yes"  >Yes</option>
+	           </select>
+                </div>
+               <div class="col-md-3">
+	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
+       title="Weight Adjust",
+       data-content="Turn on Weight Adjust to adjust the weights of each database your self! You can turn off GWAS records if you don't trust it at all! Is this amazing?">
+       <span class="glyphicon glyphicon-th-list"></span></button>
+	   </div>
+       </div> 
+       
                  <div id="weight_adjust">
-                 <legend class="sub">WEIGHT ADJUST</legend>   
-                 <section id="gene_disease">             
-                 <label for="GWAS"> GWAS  </label> <input title="" name="GWAS" id="GWAS" value="1" > 
-                 <label for="OMIM"> OMIM  </label> <input tittle="" name="OMIM" id="OMIM" value="1"> 
-                 <label for="CLINVAR"> ClinVar  </label> <input tittle="" name="CLINVAR" id="CLINVAR" value="1"> 
-                 <label for="ORPHANET"> Orphanet  </label> <input tittle="" name="ORPHANET" id="ORPHANET" value="1"> 
-                 <label for="GENE_REVIEWS"> Gene Reviews  </label> <input tittle="" name="GENE_REVIEWS" id="GENE_REVIEWS" value="1"> 
-                 </section>
-                 <section id="gene_prediction">             
-                 <label for="HPRD"> HPRD  </label> <input tittle="" name="HPRD" id="HPRD" value="0.10"> 
-                 <label for="BIOSYSTEM"> Biosystem  </label> <input tittle="" name="BIOSYSTEM" id="BIOSYSTEM" value="0.05"> 
-                 <label for="HGNC"> Gene Family</label> <input tittle="" name="HGNC" id="HGNC" value="0.05"> 
-                 <label for="HTRI"> HTRI  </label> <input tittle="" name="HTRI" id="HTRI" value="0.05"> 
-                 </section>
+                 <br><br>
+                 <div class="col-md-6">
+                 <div class="form-group">  
+                 <label " class="col-md-5 control-label">GWAS</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="GWAS" name="GWAS" value="1">
+                 </div>   
+                 </div>  
+                 <div class="form-group">       
+                  <label class="col-md-5 control-label">OMIM</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="OMIM" name="OMIM" value="1">
+                 </div>
+                 </div>
+                 <div class="form-group">       
+                  <label class="col-md-5 control-label">ClinVar</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="CLINVAR" name="CLINVAR" value="1">
+                 </div>
+                 </div>
+                  <div class="form-group">       
+                  <label class="col-md-5 control-label">Orphanet</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="ORPHANET" name="ORPHANET" value="1">
+                 </div>
+                 </div>
+                 <div class="form-group">       
+                  <label class="col-md-5 control-label"> Gene Reviews</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="GENE_REVIEWS" name="GENE_REVIEWS" value="1">
+                 </div>
+                 </div>
+                 </div>
+                 <div class="col-md-6">
+                  <div class="form-group">       
+                  <label class="col-md-5 control-label">HPRD</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="HPRD" name="HPRD" value="0.1">
+                 </div>
+                 </div>
+                 <div class="form-group">       
+                  <label class="col-md-5 control-label">Biosystem</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="BIOSYSTEM" name="BIOSYSTEM" value="0.05">
+                 </div>
+                 </div>
+                 <div class="form-group">       
+                  <label class="col-md-5 control-label">Gene Family</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="HGNC" name="HGNC" value="0.05">
+                 </div>
+                 </div>
+                  <div class="form-group">       
+                  <label class="col-md-5 control-label">HTRI</label>
+                 <div class="col-md-7">
+                 <input type="text" class="form-control text-form" id="HTRI" name="HTRI" value="0.05">
+                 </div>
                  </div>
                  
-                 <div id="submit">
-                 <legend class="sub">SUBMIT</legend>
-                 <input name="submit" class="button" type="submit" value="submit">
-                 <a href="http://phenolyzer.usc.edu" ><button type="button">Reset</button>
-                 <a href="/cgi-bin/job.cgi" target="_blank" ><button type="button">monitor jobs</button></a> 
                  </div>
+                 </div>
+           
+                
                  
-               
-                 </fieldset>
                  <input type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" name="ip" />
                  <input type='hidden' value='<?php echo GetHostByAddr($_SERVER['REMOTE_ADDR']); ?>' name='host'>
-                  </form> 
-                  <script type="text/javascript"  src="http://phenolyzer.usc.edu/jquery-1.11.0.min.js"></script>
-	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/js/jquery-ui-1.10.4.custom.min.js"></script>
-	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/form_control_1.js"></script>
-				  
-				 
-				 
-				 
-			</section>
-			<footer>
-				&copy; 2014 Hui Yang USC Neruoscience
-			</footer>
-		</div><!-- .wrapper -->
+                    </form> 
+          
+	 </div>
+	  <div class="wannovar-news col-md-3 " id="news">
+	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   <div class="panel panel-default">
+           <div class="panel-body">
+    		<p><strong>[08/19/2014]</strong> <p>Phenolyzer website remade!</p>
+			<p>Please report any bugs if you find any. And please give us feedbacks about your experience of Pehnolyzer!</p></div></div>
+	       <div class="panel panel-default">
+           <div class="panel-body">
+    		<p><strong>[06/11/2014]</strong> <p>Phenolyzer version 1.0.0 is for test!</p>
+			<p>Biosystem has been updated to 7172014!<br><br>
+			NOTICE: Bioperl is required for the commandline tool!
+			Please have a look at  <a href="http://www.bioperl.org/wiki/Installing_BioPerl">Bioperl</a> 
+			If you don't have Bioperl in your computer. </p></div></div> 
+			
+		</div> </div>  
+		<!-- container -->
+            <div class="container">
+     <div class="footer col-lg-offset-1">
+     <p class="text-muted">All Rights Reserved @Hui Yang USC Neuroscience</p>
+      </div></div>    
+                
+                 
+               
+               
+                 
+                 
+             
 	</body>
 </html>

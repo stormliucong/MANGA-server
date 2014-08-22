@@ -255,4 +255,4 @@ for my $each (@edges)
 }
 my @output = ( @gene_nodes, @disease_nodes, @term_nodes, @edges_output);
 my $json_text = to_json(\@output);
-print OUTPUT $json_text;
+print OUTPUT $json_text if($json_text);

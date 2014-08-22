@@ -78,7 +78,9 @@ writeInfoFile ();
 generateFeedback ($q, $submission_id, $password, $warning_message);
 
 #GenomicsServer::executeProgram ("$CGI_DIRECTORY/serve_loh.pl -id $submission_id 2> $WORK_DIRECTORY/$submission_id/error_log");
-GenomicsServer::executeProgram ("perl $CGI_DIRECTORY/serve_loh.pl 2> $WORK_DIRECTORY/serve_loh_error_log");
+
+GenomicsServer::executeProgram("perl $CGI_DIRECTORY/serve_loh.pl 2> $WORK_DIRECTORY/serve_loh_error_log") ;
+
 sub writeInfoFile {
 	
 	if($bedfile){
@@ -165,18 +167,16 @@ sub generateFeedback {
 	$weblink="http://phenolyzer.usc.edu/done/$submission_id/$password/index.html";
 open(TEMPLATE,"$HTML_DIRECTORY/template.php");
 my $replace_message=();
-$replace_message.=qq|<section class="feedback">|;
-$replace_message.=$q->h2 ("Submission received");
+$replace_message.=qq|<h3 class="page-header text-primary"> Submission $SUBMISSION_ID </h3>|;
 $replace_message.=$q->p ("Your submission ID <b>$SUBMISSION_ID</b> has been received by us at <b>$submission_time</b>.");
 $replace_message.=$q->p (qq#The results will be generated at<br><br> <a href="$weblink"><b>$weblink</b></a> <br>#);
 $replace_message.=$q->p ("You entered <b>$legal_disease_num</b> disease terms\n");
 $replace_message.=$q->p ("You entered <b>$legal_gene_num</b> gene terms\n");
 $replace_message.= $q->p ($warning_message);
-$replace_message.=qq|</section>|;
+
 for my $line (<TEMPLATE>){
      $preliminary_page.=$line;
 }
-$preliminary_page=~s/%%%%Network%%%%//;
 $preliminary_page=~s/%%%%Content%%%%/$replace_message/;
 print $q->header("text/html");
 print $preliminary_page;

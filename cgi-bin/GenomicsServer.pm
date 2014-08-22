@@ -136,7 +136,7 @@ sub executeProgram {
 		open STDIN,  '<', '/dev/null';		#these three lines are absolutely necessary!!!
 		open STDOUT, '>', '/dev/null';		# so that the parent do not wait for child to close input/output (this is a Perl CGI issue)
 		open STDERR, '>&STDOUT';
-		system($sc) and die "Can't run system commmand $sc!!";
+        system($sc) and die "Can't run system commmand $sc!!";
 		exit;
 	} else {
 		die "Fork process failed:$!\n";
