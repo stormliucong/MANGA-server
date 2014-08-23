@@ -180,7 +180,7 @@ sub processSubmission {
 	$summary_message.=qq|<li class="list-group-item">$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
 	$summary_message.=qq|<li class="list-group-item">They are: |;
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n
-	 <a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><b>WordCloud</b></a>|  for (@effective_term);
+	 <a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><span class="label label-info"><b>WordCloud</b></span></a>|  for (@effective_term);
 	$summary_message.=qq|</li>|;
 	}
 	else

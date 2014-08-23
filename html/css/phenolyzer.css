@@ -2,6 +2,15 @@
  body {
   padding-top: 50px;
 }
+.faq .panel-body{
+	padding:30px 50px;
+	padding-top:40px;
+}
+.faq .panel-body p{
+	color:#3d5577;
+	font-size:15px;
+}
+
 .title-button
 {
   border:2px solid white;
@@ -11,7 +20,29 @@ p.result{
 	padding-bottom:50px;
 	
 }
-
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
 div.footer{
 	margin-top:50px;
 }
@@ -130,9 +161,13 @@ color:#fafafa;
            
                   }
  
- 
+ .modal-body h5{
+	line-height:1.5;
+	color:#020202;
+	text-align:left;
+}
     #accordion{
-             width:1000px;
+             width:950px;
              clear:left;
              float:none;
              margin:auto;
@@ -193,11 +228,11 @@ color:#fafafa;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff0f0', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */            
               }
              #accordion .ui-accordion-content { 
-              width:1000px;  
+              width:950px;  
               font-size: 12px;    
               }  
                #accordion .ui-accordion-content div{
-             width:1000px;
+             width:950px;
              margin:auto;
             
              }
@@ -215,7 +250,7 @@ color:#fafafa;
              display:block;
              float:left;
              width:300px;
-             padding:5px 20px;
+             padding:5px 10px;
              margin:auto;
              text-align:left;
               }

@@ -240,7 +240,7 @@
                     var gene_edges = cy.elements('edge.gene');
                     var term_nodes;
                     disease_on.on('switchChange.bootstrapSwitch', function(){
-                    	if(disease_on.is(":checked") ) {
+                    	if(!disease_on.is(":checked") ) {
                     		disease_nodes = cy.elements('node.disease');
                     		term_nodes = cy.elements('node.term');
                     		cy.remove(disease_nodes);
@@ -256,7 +256,7 @@
                     	}
                     });
                     gene_on.on('switchChange.bootstrapSwitch',function(){
-                    	if(gene_on.is(":checked") ) {
+                    	if(!gene_on.is(":checked") ) {
                     		gene_nodes = cy.elements('node.gene');
                     		cy.remove(gene_nodes);
                             layout_change(500);
@@ -381,7 +381,7 @@
 	        	    result_panel.accordion( "option", "active", 0 );
 	        	 var change_page = function(page)
 	        	 {
-	        		 if(!Number.isInteger(page) ||( page<1 )|| (page > MAX_PAGE)) {return;} 
+	        		 if(( page<1 )|| (page > MAX_PAGE)) {return;} 
 	        	     var start = (page-1)*50;
 	        	     result_panel.empty();
 	        	     for(var i=start;(i<start+50) && i<json.length;i++)

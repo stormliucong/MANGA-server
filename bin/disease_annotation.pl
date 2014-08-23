@@ -330,6 +330,7 @@ sub disease_extension{                           #Input some disease terms and r
      print STDERR "NOTICE: The journey to find all related disease names of your query starts!  \n";
      @_==1 or die "The input should be only one string!";
 	 my $input_term=$_[0];    
+	    $input_term =~s/[\W_]+/ /g;
 	 -f "${path}/$disease_count_file" or die "Could not open ${path}/$disease_count_file";
 	 -f "${path}/${ctd_disease_file}" or die "Could not open ${path}/${ctd_disease_file}";
 	 open(DISEASE,"${path}/$disease_count_file") or die "can't open ${path}/$disease_count_file";
@@ -477,7 +478,7 @@ sub phenotype_extension{
 	                          "hallmark"  => 0.90,
 	                          "obligate"  => 1.00  ); 
 	my $input_term = $_[0];
-	   $input_term =~s/\W+/ /g;
+	   $input_term =~s/[\W_]+/ /g;
 	my %disease_hash;
 	#  %disease_hash( "disease_name_key" => [score, original_disease_name] )
 	if( -f "$work_path/ontology_search.pl" )

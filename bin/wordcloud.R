@@ -7,5 +7,5 @@ pal2 = brewer.pal(8,"Dark2")
 pal = pal[-6]
 pal = c(pal,pal2);
 png(filename=paste(args[1],".png",sep=""), width = 2000, height = 1800);
-wordcloud(disease_count[[1]],disease_count[[2]],c(23,3),2,1900,F,T,0.05,pal,F,T);
+wordcloud(disease_count[[1]],disease_count[[2]],c(20,3),1,1000,F,T,0.07,pal,F,T);
 dev.off();

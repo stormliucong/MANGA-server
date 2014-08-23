@@ -65,7 +65,7 @@
 
   </p></div></div></div>
   
-		<div class="container">
+		<div class="container faq">
 		<div class="panel-group col-lg-10 col-lg-offset-1" id="accordion">
   <div class="panel panel-info">
     <div class="panel-heading">
@@ -91,7 +91,7 @@
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
       <div class="panel-body">
-     <p>Phenolyzer takes as input a discrete list of phenotype terms and generate a list of 
+     <p>Phenolyzer takes as input a discrete list of phenotype terms and generates a list of 
 			candidate genes weighted by the chance of being associated with the phenotype, even in the absence of any genotype data.</p>
 		
         </div>
@@ -109,7 +109,7 @@
       <div class="panel-body">
      <p>First, Phenolyzer interprets your term into a set of professional disease names;
 			<br>Second, Phenolyzer finds all the genes having a reported association with all the diseases;
-			<br>Thirdly, Phenolyzer grows the genes found into gene-gene relation databases and get more genes;
+			<br>Thirdly, Phenolyzer grows the genes into gene-gene relation databases and get more genes;
 			<br>Finally, Phenolyzer integrates all the infomation together and give gene scores.
 			<br><br> <img src="images/Phenolyzer_workflow.png" alt="workflow" width="700" /></p>
          </div>
@@ -159,9 +159,9 @@
     </div>
     <div id="collapse-6" class="panel-collapse collapse">
       <div class="panel-body">
-    <p>1) A gene list, (Entrez Genes or IDs, lower case is accepted).
+    <p>1) A gene list, (Entrez Genes or IDs, lower case is accepted). <a href="http://phenolyzer.usc.edu/download/genelist.txt"><span class="label label-success">Example</span></a>
 			<br>
-           2) A region file, in '.bed' format.</p>
+           2) A region file, in '.bed' format. <a href="http://phenolyzer.usc.edu/download/cnv.bed"><span class="label label-success">Example</span></a></p>
          </div>
     </div>
   </div>
@@ -214,9 +214,10 @@
 		    <br><br>  2) The disease names interpreting your terms are in separate files.
 		    <br><br> For each term ,there is a corresponding file, in the form of 'disease names' 'source', where 
 		         'disease names' are speparated by semicolon, 'source' includes 'CTD_DISEASE' 'DISEASE_ONTOlOGY' 
-		         'GENE_DISEASE'.           
-			<br><br><img src="images/result_disease.jpg" alt="result_disease" width="500"/>
-			<br>  3) The detailed reports and normalized gene lists, for all the genes or reported genes only, or 
+		         'GENE_DISEASE'. Also, a<a href="http://phenolyzer.usc.edu/done/2014/VYZiDTkhFO12vLXS/out_cancer_wordcloud.png"> <span class="label label-info">WordCloud</span></a>
+		         based on the interpretation is also available.           
+			
+			<br>  3)  The detailed reports and normalized gene lists, for all the genes or reported genes only, or 
 			      with gene/region selections.
 			<br><br>  The detailed reports is in the forms 'Gene Infomation', 'block of details'.
 			<br><br>  The Gene Information contains the Entrez Gene symbol, Gene ID, Position (If it is in your input region), 
@@ -227,10 +228,12 @@
 			<br><br> For a gene-gene relation, the detail contains the Pubmed or data sourcr ID,
 			         The exact relation type, the related gene, and the contributing score.    
 			          
-		    <br><br><img src="images/result_report.jpg" alt="result_report" width="500"/>    
-	     	<br>  4) The top 50 genes will be presented with the links to the each data source. 
+		    <br>  4) A barplot of at most top 500 genes is also available.
+	     	<br>  5) Details: The top 50 genes will be presented with the links to the each data source. 
 			<br>  The link of the gene in NCBI, the data source, and the relation evidence are sparately highlighted.
-			<br><br><img src="images/top50.jpg" alt="top50" width="700"/></p>    </div>
+			<br><br><img src="images/top50.jpg" alt="top50" width="700"/></p>    
+			<br>  		
+			</div>
     </div>
   </div>
   
@@ -261,6 +264,48 @@
      </div>
     </div>
   </div>
+  
+   <div class="panel panel-warning">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-11">
+        How could I play with the network?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-11" class="panel-collapse collapse">
+      <div class="panel-body"><p>
+       The network is fully interactive, which means it is dynamic. </p>
+       <p>A simple trial is to double click an element, like clicking a gene. Then only the elements interacting with this gene will be shown.
+       <br>
+       Additionally, there are a set of swicthes and controllers below. The gene and disease elements could be turned on and off, also the names of genes and 
+       diseases could be turned on and off. By default, the disease names are not shown as they are sometimes super long :).
+       <br>
+       Also, the different types of interactions could be slelectively shown by choosing one in the 'Edges' selection. The Layout is basically how the network
+       is shaped, by default it is force-driven, but by changing option here one can make it more organized, like 'circle' layout:)
+       <br>
+       By the way, why not just save a photo of your network and demonstrated others with it? Just click the Save Photo button:)
+      </p>
+      
+      </div></div></div>
+  
+  <div class="panel panel-warning">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-12">
+        Why do I have different results for 'Mental Retardation' with 'Mental Disorder'?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-12" class="panel-collapse collapse">
+      <div class="panel-body"><p>
+       As the workflow explained, Phenolyzer is not the god who knows everything you mean. It is just an advanced word matcher, which needs to exactly match
+       your input terms with disease names in the databases. Thus it is encouraged to use multiple terms if you cannot describe something very precisely, in this case, you can
+       just enter 'mental', or you can enter both, like 'mental retardation;mental disorder'.</p>
+      
+      </div></div></div>
+      
+      
   
 </div>	</div>
 		<!-- container -->
