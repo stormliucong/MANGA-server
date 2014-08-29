@@ -47,6 +47,7 @@
 		    <ul class="dropdown-menu" role="menu">
                    <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
+                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
                   </ul>
                 </li>
           </ul>
@@ -59,13 +60,13 @@
     
 	<div class="jumbotron" id="phenolyzer">
 	<div class="container">
-	<div class="col-lg-8 col-lg-offset-2" style="text-align:center">
+	<div class="col-lg-8 col-lg-offset-1 " >
   <h1>Example</h1>
   <p>Still not understand how to use Phenolyzer? Not a big deal, try some exciting examples here!
   </p></div></div></div>
   
 		<div class="container">
-		<div class="col-lg-10 col-lg-offset-1" >
+		<div class="col-lg-10 col-lg-offset-1 " >
 		<div class="panel panel-primary">
       <div class="panel-heading">
 			<h3 class="panel-title  big-title">Some pregenerated examples could be found below</h3>
@@ -99,7 +100,7 @@
 		<!-- container -->
                  <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">All Rights Reserved @Hui Yang USC Neuroscience</p>
+     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
       </div></div> 
                 
                  

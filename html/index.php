@@ -47,7 +47,8 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
                    <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
+                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
+                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
                   </ul>
                 </li>
           </ul>
@@ -60,14 +61,12 @@
     
 	<div class="jumbotron" id="phenolyzer">
 	<div class="container">
-	<div class="col-lg-8 col-lg-offset-2" style="text-align:center">
+	<div class="col-lg-8 col-lg-offset-1" style="">
   <h1>Phenolyzer</h1>
-  <p>Phenolyzer stands for Phenotype Based Gene Analyzer. It works by following a biologist's logic: first interpret any disease/phenotype
-  related term into a whole bunch of specific disease names, then find seed genes corresponding to these diseases and give them scores based on the associations, then
-  find all related genes with seed genes and use a logistic regression algorithm to give them scores, finally it also presents an interactive gene-disease network and all
-  the details of how the score is given to each gene. </p> 
-  <p><a class="title-button btn btn-primary btn-lg" role="button" href="#getstart">Get Started</a>
-  <button class="title-button btn btn-primary btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
+  <p>Phenolyzer stands for Phenotype Based Gene Analyzer, a tool focusing on discovering genes based on user-specific
+  disease/phenotype terms. </p> 
+  <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
+  <button class="title-button btn btn-warning btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
   
   <!-- Modal -->
 <div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -156,7 +155,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
             <div class="form-group">
                <label title="" for="region_selection" class="col-md-3 control-label region_selection_options">Region Selection  </label>
                <div class="col-md-5">
-                <select class="selectpicker show-menu-arrow " name="gene_selection" id="region_selection_options">
+                <select class="selectpicker show-menu-arrow " name="region_selection" id="region_selection_options">
 	           <option selected value="no" >No</option>
                  <option value="yes"  >Yes</option>
 	           </select>
@@ -202,7 +201,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
        </div> 
        
          <div class="form-group">
-               <label title="" for="weight_adjust" class="col-md-3 control-label weight_adjust_options">Weight Adjust  </label>
+               <label title="" for="weight_adjust_options" class="col-md-3 control-label weight_adjust_options">Weight Adjust  </label>
                <div class="col-md-5">
                 <select class="selectpicker show-menu-arrow " name="weight_adjust" id="weight_adjust_options">
 	           <option selected value="no" >No</option>
@@ -212,12 +211,12 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                <div class="col-md-3">
 	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
        title="Weight Adjust",
-       data-content="Turn on Weight Adjust to adjust the weights of each database your self! You can turn off GWAS records if you don't trust it at all! Is this amazing?">
+       data-content="You can adjust the weights of each data source. or even turn it off. Is this amazing?">
        <span class="glyphicon glyphicon-th-list"></span></button>
 	   </div>
        </div> 
        
-                 <div id="weight_adjust">
+                 <div id="weight_adjust" class="col-lg-12">
                  <br><br>
                  <div class="col-md-6">
                  <div class="form-group">  
@@ -280,7 +279,20 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                  </div>
                  </div>
            
-                
+                <div class="form-group">
+               <label title="" for="wordcloud" class="col-md-3 control-label wordcloud">Word Cloud  </label>
+               <div class="col-md-5">
+                <select class="selectpicker show-menu-arrow " name="wordcloud" id="wordcloud">
+	           <option selected value="no" >No</option>
+               <option value="yes"  >Yes</option>
+	           </select>
+                </div>
+                 <div class="col-md-3">
+	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
+       title="Word Clouod",
+       data-content="Choose yes if you want to see the Word Cloud of your phenotype/disease. Is this amazing?">
+       <span class="glyphicon glyphicon-th-list"></span></button>
+	   </div></div>
                  
                  <input type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" name="ip" />
                  <input type='hidden' value='<?php echo GetHostByAddr($_SERVER['REMOTE_ADDR']); ?>' name='host'>
@@ -301,11 +313,15 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 			Please have a look at  <a href="http://www.bioperl.org/wiki/Installing_BioPerl">Bioperl</a> 
 			If you don't have Bioperl in your computer. </p></div></div> 
 			
-		</div> </div>  
+		</div> 
+		
+		 
+		
+		</div>  
 		<!-- container -->
             <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">All Rights Reserved @Hui Yang USC Neuroscience</p>
+     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
       </div></div>    
                 
                  

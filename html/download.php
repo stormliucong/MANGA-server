@@ -42,6 +42,7 @@
 			   	<li class="active" ><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
+			   	 <li><a href="http://enlight.usc.edu/">Enlight</a></li>
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
@@ -60,7 +61,7 @@
     
 	<div class="jumbotron" id="phenolyzer">
 	<div class="container">
-	<div class="col-lg-8 col-lg-offset-2" style="text-align:center">
+	<div class="col-lg-8 col-lg-offset-1" >
   <h1>Download</h1>
   <p>One sample gene list and one bed file are avialable to download here. Besides, the linux command line standalone Phenolyzer is
   also available to download, with which, you can conduct large-scale and automatic analysis your self. Is this amazing?</p> 
@@ -94,7 +95,7 @@
 		<!-- container -->
             <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">All Rights Reserved @Hui Yang USC Neuroscience</p>
+     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
       </div></div>      
                 
                  

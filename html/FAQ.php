@@ -47,6 +47,7 @@
 		    <ul class="dropdown-menu" role="menu">
                    <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
+                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
                   </ul>
                 </li>
           </ul>
@@ -59,7 +60,7 @@
     
 	<div class="jumbotron" id="phenolyzer">
 	<div class="container">
-	<div class="col-lg-10 col-lg-offset-1" style="text-align:center">
+	<div class="col-lg-10 col-lg-offset-1" >
   <h1>Frequently Asked Questions</h1>
   <p>Want to learn more about Phenolyzer? This is the right place! This section will go over with you about some common questions!</p> 
 
@@ -311,7 +312,7 @@
 		<!-- container -->
             <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">All Rights Reserved @Hui Yang USC Neuroscience</p>
+     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
       </div></div>     
                 
                  

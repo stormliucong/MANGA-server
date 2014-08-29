@@ -178,7 +178,7 @@
                 	        layout:{                  
                      	    	 name: 'arbor',
                     	    	 stiffness:0,
-                    	    	 maxSimulationTime: 1000,
+                    	    	 maxSimulationTime: 500,
                     	    	 
                     	     },
                 	        
@@ -224,6 +224,27 @@
                 	var cy = $('#cy').cytoscape('get'); 
                     cy.load(json);
                     cy.boxSelectionEnabled(false);
+                    var defaults = ({
+                	    zoomFactor: 0.05, // zoom factor per zoom tick
+                	    zoomDelay: 45, // how many ms between zoom ticks
+                	    minZoom: 0.1, // min zoom level
+                	    maxZoom: 10, // max zoom level
+                	    fitPadding: 50, // padding when fitting
+                	    panSpeed: 10, // how many ms in between pan ticks
+                	    panDistance: 10, // max pan distance per tick
+                	    panDragAreaSize: 75, // the length of the pan drag box in which the vector for panning is calculated (bigger = finer control of pan speed and direction)
+                	    panMinPercentSpeed: 0.25, // the slowest speed we can pan by (as a percent of panSpeed)
+                	    panInactiveArea: 8, // radius of inactive area in pan drag box
+                	    panIndicatorMinOpacity: 0.5, // min opacity of pan indicator (the draggable nib); scales from this to 1.0
+                	    autodisableForMobile: true, // disable the panzoom completely for mobile (since we don't really need it with gestures like pinch to zoom)
+
+                	    // icon class names
+                	    sliderHandleIcon: 'fa fa-minus',
+                	    zoomInIcon: 'fa fa-plus',
+                	    zoomOutIcon: 'fa fa-minus',
+                	    resetIcon: 'fa fa-expand'
+                	});
+                    $('#cy').cytoscapePanzoom( defaults );
                    
              
                    
@@ -347,9 +368,8 @@
                   };
                       adjust_layout.change({time:1000},function(event){  layout_change(event.data.time);  });
                      
-                     $('#cy').cytoscapePanzoom({
-     					// options go here
-     				 });
+                    
+                     
                     
 	                 }   //if(if_json_success)
    json_url = json_url.replace(/network.json/,"");
@@ -368,7 +388,7 @@
 	        	 var current_page = $("#page-number").val();
 	        	    $("#details").find("a").css("cursor","pointer");
 	        	    var MAX_PAGE = Math.ceil(json.length/50);
-	        	    for(var i=0;i<50;i++)
+	        	    for(var i=0;i<50 && i<json.length;i++)
 	        	    	{
 	        	    	 result_panel.append(json[i][1]);	        	    	 
 	        	    	}

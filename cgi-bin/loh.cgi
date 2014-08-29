@@ -28,6 +28,7 @@ my $email = $q->param('email');
 my $if_region = $q->param('region_selection');
 my $if_genelist=$q->param('gene_selection');
 my $if_weight_adjust = $q->param('weight_adjust');
+my $wordcloud = $q->param("wordcloud");
 my ($buildver, $bedfile, $bedfile_fh, $genelist);
 my ($omim, $clinvar, $orphanet, $gwas, $gene_reviews);
 my ($hprd, $biosystem, $hgnc, $htri);
@@ -53,6 +54,7 @@ if($if_weight_adjust eq 'yes')
    $hgnc = $q->param('HGNC');
    $htri = $q->param('HTRI');
 }
+my $coba = $q->param('coba');
 my $disease= $q->param("disease");
 my $options= $q->param("other_options");
 
@@ -97,6 +99,8 @@ sub writeInfoFile {
         ($options eq "all_diseases")?print INFO "all_diseases=yes\n":print INFO "all_diseases=no\n";
         ($options eq "full_expand")?print INFO "full_expand=yes\n":print INFO "full_expand=no\n"; 
         ($options eq "phenotype_interpretation")? print INFO "phenotype_interpretation=yes\n":print INFO "phenotype_interpretation=no\n";
+        print INFO "coba=yes\n" if($coba);
+        print INFO "wordcloud=yes\n" if($wordcloud);
          #If all_diseases are queried, there is no need to write the disease list
         if($options ne "all_diseases")
         {                           

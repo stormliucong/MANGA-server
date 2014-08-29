@@ -64,8 +64,9 @@ sub processSubmission {
         my ($email_header, $email_body, $email_tail);
 	my $password = $info{"password"};
 	
-	$system_command = "perl $BIN_DIRECTORY/disease_annotation.pl -d $LIB_DIRECTORY/compiled_database -out out -prediction -wordcloud -w $BIN_DIRECTORY ";
+	$system_command = "perl $BIN_DIRECTORY/disease_annotation.pl -d $LIB_DIRECTORY/compiled_database -out out -prediction -w $BIN_DIRECTORY ";
 	$system_command.="-f ";
+	$system_command.="-wordcloud " if($info{"wordcloud"});
 	if($info{"user_defined_weight"})
 	{
 		$system_command.="-hprd_weight         $info{'HPRD_WEIGHT'} ";
@@ -78,6 +79,13 @@ sub processSubmission {
         $system_command.="-omim_weight         $info{'OMIM_WEIGHT'} ";         
         $system_command.="-orphanet_weight     $info{'ORPHANET_WEIGHT'} ";
     }
+    elsif($info{"coba"}){
+		$system_command.="-addon DB_COBA_NEUROCOMPLEX " ;
+		$system_command.="-hprd_weight         0.01 ";
+        $system_command.="-biosystem_weight    0.01 ";             
+        $system_command.="-gene_family_weight  0.01 ";           
+        $system_command.="-htri_weight         0.01 ";
+	}
     else{
 	    $system_command.="-logistic ";
     }
@@ -179,8 +187,10 @@ sub processSubmission {
 	{
 	$summary_message.=qq|<li class="list-group-item">$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
 	$summary_message.=qq|<li class="list-group-item">They are: |;
-	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n
-	 <a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><span class="label label-info"><b>WordCloud</b></span></a>|  for (@effective_term);
+	for (@effective_term){
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n|;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><span class="label label-info"><b>WordCloud</b></span></a>| if($info{"wordcloud"})  ;
+	}
 	$summary_message.=qq|</li>|;
 	}
 	else
@@ -271,9 +281,10 @@ my $rank=1;
 	    	my ($source, $evidence, $term, $individual_score) = split ("\t", $line);
             $individual_score = sprintf("%.4g",$individual_score);
             my ($source_out, @id_out);
+            my ($id_name, $id_string, $database);
 	    	if ($source =~ /^(\w+):(.*?) \((\w+)\)$/)
 	    	{
-	    	my ($id_name, $id_string, $database) = ($1, $2, $3);
+	    	($id_name, $id_string, $database) = ($1, $2, $3);
 	    	my @ids = split(" ", $id_string);
 	    	
 	    	for my $each_id(@ids)
@@ -284,21 +295,18 @@ my $rank=1;
            		push @id_out ,$id_link;
           	}
 	    	$source_out = join(" ", @id_out);
-	    	$source_out = $id_name.":".$source_out." ($database)";
-	    	
+	    	$source_out = $id_name.":".$source_out." ($database)";    	
 	    	}
+	    	$source_out = $source if(not $links{$database} or $source =~ /^Not available/);
 	    	if ($source =~ /\b(BIOSYSTEM)|(HPRD)|(GENE_FAMILY)|(HTRI)\b/)
 	     	    { 	
 	     	    $line = join('</span><span>',($source_out, $evidence, $term." ($individual_score)") ); 
 	     	    $line = qq|<p class="$count related_interaction"><span>|.$line."</span></p>";
 	     	    } 
-	    	else{$line = join('</span><span>',($source_out, $evidence, $term." ($individual_score)") ); 
-	    		
-	    		$line=qq|<p class="$count related_disease"><span>|.$line."</span></p>";
+	    	else{
+	    		 $line = join('</span><span>',($source_out, $evidence, $term." ($individual_score)") ); 
+   	    		 $line=qq|<p class="$count related_disease"><span>|.$line."</span></p>";
 	    	    }
-	        if($source =~ /^Not available/) { 
-	        	$line = join('</span><span>',($source, $evidence, $term." ($individual_score)") ); 
-	        	$line = qq|<p class="$count related_disease"><span>|.$line."</span></p>"; }    
 	    	$gene_html{$gene}.=$line;
 	    	
 	    	 }
@@ -374,6 +382,8 @@ my $rank=1;
 		$email_body = "We were unable to generate results for your submission due to an '$failed_command' error.\n";
 	} else {
 		$email_body = "Your submission is done: $WEBSITE/done/$id/$password/index.html\n\n";#### url
+		$email_body .= "Your input terms are: ";
+		$email_body .= $_."\n" for (@effective_term);
 		
 		$email_tail .= "The citation for the above result is: $WEBSITE\n\n";
 		$email_tail .= "Questions or comments may be directed to $CARETAKER.\n";

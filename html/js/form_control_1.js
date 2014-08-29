@@ -1,6 +1,7 @@
 $(window).load(function() {    $('.selectpicker').selectpicker({
         width:'100%',
    });      
+     $('.selectpicker').selectpicker('refresh');
      $("[data-toggle='popover']").popover({container: 'body',
    	  trigger: 'focus'
    	  });
@@ -38,6 +39,7 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
 	              var gene_selection_label =   $("label.gene_selection_options");
 	              var region_selection_label = $("label.region_selection_options");
 	              var advanced_options_label = $("label.advanced_options");
+	              var wordcloud_label = $("label.wordcloud");
 	              var weight_label =    $("label.weight_adjust_options");
 	              var title         =   $("h2.gene_prioritization");
 	              
@@ -48,6 +50,7 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
 	              gene_selection_label.css("cursor","pointer");
 	              region_selection_label.css("cursor","pointer");
 	              weight_label.css("cursor","pointer");
+	              wordcloud_label.css("cursor","pointer");
 	              gene_selection.hide();
 	              region_selection.hide();
 	              weight_adjust.hide();
@@ -147,6 +150,23 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
                  
                   
                   //The label click events
+                    wordcloud_label.click(
+                    	function(){
+                    		if($("#wordcloud").selectpicker("val")=="yes"  )
+                    		{
+                    		  $("#wordcloud").selectpicker("val","no");
+                    		  wordcloud_label.css("color",orig_color);       	
+                    		  $("#wordcloud").selectpicker('refresh');
+                    		}
+                    		else
+                    		{
+                    		  $("#wordcloud").selectpicker("val","yes");
+                    		  wordcloud_label.css("color","#d0228f");
+                    		 
+                    		}
+                        });
+                    
+                    
                     disease_label.click(
                     function(){
                        if(disease_label.html()=="Disease Terms")
@@ -266,6 +286,9 @@ var instruction = "<li>Enter your <b>query terms</b></li>" +
                 	  position: { my: "right bottom", at: "right top-10"},
                 	  tooltipClass: "label_click"});
                   weight_label.tooltip({ content: instruction,
+                	  position: { my: "right bottom", at: "right top-10"},
+                	  tooltipClass: "label_click"});
+                  wordcloud_label.tooltip({ content: instruction,
                 	  position: { my: "right bottom", at: "right top-10"},
                 	  tooltipClass: "label_click"});
                   

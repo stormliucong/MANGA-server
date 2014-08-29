@@ -19,7 +19,7 @@ our ($HPRD_WEIGHT, $BIOSYSTEM_WEIGHT, $GENE_FAMILY_WEIGHT, %GENE_WEIGHT, $HTRI_W
 
 my  ($ctd_disease_file, $hprd_file, $biosystem_file, $disease_count_file, $gene_disease_score_file,
      $hpo_annotation_file, $gene_annotation_file, $omim_disease_id_file, $biosystem_to_info_file,
-     $gene_family_file, $htri_file, $omim_description_file,
+     $gene_family_file, $htri_file, $omim_description_file, $addon_gene_disease_score_file,
      $genelist, @genes, %gene_hash, %gene_id, 
      $path, $work_path );
 
@@ -28,12 +28,12 @@ my  ($ctd_disease_file, $hprd_file, $biosystem_file, $disease_count_file, $gene_
 GetOptions('verbose|v'=>\$verbose, 'help|h'=>\$help, 'man|m'=>\$man,'file|f'=>\$if_file,'directory|d=s'=>\$database_directory,    
               'work_directory|w=s'=>\$work_path, 'expand|e'=>\$if_full_extend,'out=s'=>\$out,'prediction|p'=>\$prediction,
               'buildver=s'=>\$buildver,'bedfile=s'=>\$bedfile,'gene=s'=>\$genelist,'phenotype|ph'=>\$is_phenotype,
-              'exact'=>\$if_exact_match, 'logistic'=>\$if_logistic_regression,
+              'exact'=>\$if_exact_match, 'logistic'=>\$if_logistic_regression, 'addon=s'=>\$addon_gene_disease_score_file,
               'hprd_weight=s'=>\$HPRD_WEIGHT, 'biosystem_weight=s'=>\$BIOSYSTEM_WEIGHT, 
               'gene_family_weight=s'=>\$GENE_FAMILY_WEIGHT, 'htri_weight=s'=>\$HTRI_WEIGHT,
               'gwas_weight=s'=>\$GENE_WEIGHT{"GWAS"}, 'gene_reviews_weight=s'=>\$GENE_WEIGHT{"GENE_REVIEWS"}, 
               'clinvar_weight=s'=>\$GENE_WEIGHT{"CLINVAR"}, 'omim_weight=s'=>\$GENE_WEIGHT{"OMIM"}, 
-              'orphanet_weight=s'=>\$GENE_WEIGHT{"ORPHANET"}, 'wordcloud'=>\$if_wordcloud) or pod2usage ();
+              'orphanet_weight=s'=>\$GENE_WEIGHT{"ORPHANET"}, 'wordcloud'=>\$if_wordcloud,) or pod2usage ();
 	
 $help and pod2usage (-verbose=>1, -exitval=>1, -output=>\*STDOUT);
 $man and pod2usage (-verbose=>2, -exitval=>1, -output=>\*STDOUT);
@@ -296,7 +296,7 @@ print STDERR "------------------------------------------------------------------
 	    for my $gene (sort{ $predicted_output{$b}[0] <=> $predicted_output{$a}[0] } keys %predicted_output)
            {
                    $rank++;
-                   $predicted_output{$gene}[1]=~/^.*?\(  ([A-Z_]+)  \).*?\t/x;
+                   $predicted_output{$gene}[1]=~/^.*?\(  (.+?)  \).*?\t/x;
                    my $source = $1;  
                    my $status;
                    if( ($source eq "HPRD") or ($source eq "BIOSYSTEM") or ($source eq "GENE_FAMILY") or ($source eq "HTRI"))
@@ -582,6 +582,14 @@ sub score_genes{                                 #Input the disease list and ret
 	open(SCORE,"${path}/$gene_disease_score_file")  or die "could not open ${path}/$gene_disease_score_file";
 	my @disease_gene_score=<SCORE>;
 	shift @disease_gene_score;
+	my @addon_disease_gene_score;
+	if($addon_gene_disease_score_file){
+ 		open(ADDON,"${path}/$addon_gene_disease_score_file") or die "could not open ${path}/$addon_gene_disease_score_file";		
+	    @addon_disease_gene_score = <ADDON>;
+	    @addon_disease_gene_score = map {s/[\n\r]+//g;$_; } @addon_disease_gene_score;
+	    push (@disease_gene_score,@addon_disease_gene_score);
+	    print STDERR "NOTICE:The ${path}/$addon_gene_disease_score_file is used as addons!!!\n";
+	}
 	@disease_gene_score = sort 
 	       {
 	       	 my @words1=split("\t",$a);
@@ -608,8 +616,9 @@ sub score_genes{                                 #Input the disease list and ret
     		$inference_score = 1.0 if (not $inference_score);
     		my @genes = split(",",$words[0]);
     		my $gene = $genes[0];
+    		$GENE_WEIGHT{$words[4]}= 1 if (not $GENE_WEIGHT{$words[4]});
     		my $score = $words[3]*$inference_score*$GENE_WEIGHT{$words[4]};
-          
+            
     		if($score!=0)
     		{
     			if($item{$gene}[0]){
@@ -1141,6 +1150,8 @@ sub generate_wordcloud{
         --wordcloud                     generates a wordcloud of the interpretated diseases if used (not working if you input 'all diseases')
         --logistic                      uses the weight based on the logistic modeling with four different complex diseases
         --gene                          the genes used to select the results (file name if -f command is used)    
+        --exact                         choose if you want only exact match but not just a word match
+        --addon                         input an user-defined add on DB_GENE_DISEASE_SCORE file (has to be in the same path with other databases)
         --hprd_weight                   the weight for genes found in HPRD
         --biosystem_weight              the weight for genes found in Ncbi Biosystem 
         --gene_family_weight            the weight for genes found in HGNC Gene Family
