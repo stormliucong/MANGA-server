@@ -4,7 +4,8 @@
         	       $('.weaker').fadeTo(1000,1);
         	       $('.selectpicker').selectpicker({
         	           width:'100%',
-        	      });      
+        	      });   
+        	       
         	       var interaction =  $("tr.related_interaction");
                    var detail =       $("tr.related_disease");
                    var detail_check     =  $("h3#show_detail");
@@ -22,7 +23,7 @@
                    gene_names_on.bootstrapSwitch();
                    interaction.hide();
                    detail.hide();
-                   $("a.outside").attr("target","_blank");
+                 
                  
                    var change_text = $("h3#barplot a");
                  //  change_text.css('color','#7777fa')
@@ -42,7 +43,7 @@
                      var id = json_url.match(/#(\d+)/);
                       if(id && $(id[0]) ) $(id[0]).click();
              
-                      json_url = json_url.replace(/index.html.*/,"");
+                      json_url = json_url.replace(/(index\.html|index\.php).*/,"");
                       json_url +=  "network.json";
                 	  var json;
                 	  $.ajaxSetup({'async': false} );
@@ -176,9 +177,7 @@
                 	         panningEnabled : true,
                 	         userPanningEnabled: true,
                 	        layout:{                  
-                     	    	 name: 'arbor',
-                    	    	 stiffness:0,
-                    	    	 maxSimulationTime: 500,
+                	        	name: 'grid'
                     	    	 
                     	     },
                 	        
@@ -342,6 +341,7 @@
                       });  
                       
                       var adjust_layout = $('#adjust_layout');
+                      adjust_layout.selectpicker('val', 'grid');
                       function layout_change(time){
                     	  if(adjust_layout.find("option:selected").val()=="force" )
                 		  {
@@ -436,7 +436,7 @@
 	            	 bar_modal.find("div.modal-body div p").first().remove();
 	            	 
 	            	 }
-	         
+	             $("a.outside").attr("target","_blank");
                });
                    
                  

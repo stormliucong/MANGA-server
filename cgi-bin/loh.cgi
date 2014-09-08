@@ -100,7 +100,7 @@ sub writeInfoFile {
         ($options eq "full_expand")?print INFO "full_expand=yes\n":print INFO "full_expand=no\n"; 
         ($options eq "phenotype_interpretation")? print INFO "phenotype_interpretation=yes\n":print INFO "phenotype_interpretation=no\n";
         print INFO "coba=yes\n" if($coba);
-        print INFO "wordcloud=yes\n" if($wordcloud);
+        print INFO "wordcloud=yes\n" if($wordcloud eq 'yes');
          #If all_diseases are queried, there is no need to write the disease list
         if($options ne "all_diseases")
         {                           
@@ -169,7 +169,9 @@ sub generateFeedback {
 	my ($q, $submission_id, $password, $warning_message) = @_;
 	my $preliminary_page=();
 	$weblink="http://phenolyzer.usc.edu/done/$submission_id/$password/index.html";
-open(TEMPLATE,"$HTML_DIRECTORY/template.php");
+	my $template_file;
+	$template_file=$coba?"template_coba.php":"template.php";
+open(TEMPLATE,"$HTML_DIRECTORY/$template_file");
 my $replace_message=();
 $replace_message.=qq|<h3 class="page-header text-primary"> Submission $SUBMISSION_ID </h3>|;
 $replace_message.=$q->p ("Your submission ID <b>$SUBMISSION_ID</b> has been received by us at <b>$submission_time</b>.");

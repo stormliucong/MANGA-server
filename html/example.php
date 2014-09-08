@@ -3,6 +3,7 @@
 <html>
 <meta charset="utf-8"> 
 	<head>
+	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
         <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
 	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer<p></a>
+          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer</p></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
@@ -75,7 +76,7 @@
 			
            <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2013/Ty7BUwEKUy7wDlvy/index.html">    Amyotrophic lateral sclerosis</a></h3> 
 		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2014/VYZiDTkhFO12vLXS/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/1983/gwUek9azuQu421oy/index.html">  Autism</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2077/9JoDZohK1k7BVgqU/index.html">  Autism</a></h3>
 		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2007/Ce7EKsKacUsybr5Z/index.html">  Huntington</a></h3>
 		    
 		    </div>

@@ -3,6 +3,7 @@
 <html>
 <meta charset="utf-8"> 
 	<head>
+	 <link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/coba.jpg" />
 		<title>Neurocomplex: analyzing your phsychiatric disease genes</title>
         <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
 	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,11 +18,12 @@
 	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
 	              <script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
 				<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/vendor/jquery.ui.widget.js"></script>
-	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu.asset/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/jquery-ui-1.10.4.custom.min.js"></script>
     <script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/jquery.iframe-transport.js"></script>
     <script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/jquery.fileupload.js"></script>
 	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/turbolinks.js"></script>
 	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/js/form_control_1.js"></script>
+	<?php include("/home/huiyang/password_protect.php"); ?>
 	</head>
 	<body>
 	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -33,16 +35,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu/neurocomplex"><p class="title">Neurocomplex<p></a>
+          <a class="navbar-brand" href="http://phenolyzer.usc.edu/neurocomplex/index.php"><p class="title">Neurocomplex</p></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li class="active" ><a href="http://phenolyzer.usc.edu/neurocomplex">Home</a></li>	
+              <li class="active" ><a href="http://phenolyzer.usc.edu/neurocomplex/index.php">Home</a></li>	
 
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://www.usc.edu/programs/neuroscience/faculty/profile.php?fid=163">
+		    <img src="http://phenolyzer.usc.edu/img/coba.jpg" alt="" style="height:100%;"> Dr.Coba's Lab	    
+		    </a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -54,6 +58,8 @@
   <h1>Neurocomplex</h1>
   <p>Neurocomplex is a tool to discover genes for psychiatric diseases.</p> 
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
+  <a class="title-button btn btn-warning btn-lg" role="button" href="http://phenolyzer.usc.edu/done/2093/qiFdNTcrAKzBL3WR/index.php">All Genes</a>
+   
   <button class="title-button btn btn-warning btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
   
   <!-- Modal -->
@@ -65,8 +71,8 @@
       <h4 class="modal-title text-primary" id="myModalLabel">Contact Phenolyzer</h4>
       </div>
       <div class="modal-body">
-    <h5>  <strong>Neurocomplex</strong> relies on your feedback. Please send an Email if you wish to make a request, a comment, or report a bug. <br>
-         Dr. Marcelo P. Coba:<br><br>
+    <h5>  <strong>Neurocomplex</strong> relies on your feedback. Please send an Email if you wish to make a request, a comment, or report a bug. <br><br>
+         Dr. Marcelo P. Coba:<br>
 Assistant Professor, Psychiatry & the Behavioral Sciences
 Zilkha Neurogenetic Institute
 Keck School of Medicine of USC
@@ -88,7 +94,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
     </div>
   </div>
 </div> <!-- Modal End-->
-
+    
   </p></div></div></div>
   
 		<div class="container">
@@ -126,6 +132,19 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
             </div>
 	 </div></div>
 	 
+	 <div class="form-group">
+    <label for="buildver" class="col-md-3 control-label">Reference Genome</label>
+    <div class="col-md-5">
+      <select class="selectpicker show-menu-arrow   k" name="buildver" id="buildver" style="display: none;">
+	           <option selected="" value="hg19">hg19</option>
+               <option value="hg18">hg18</option>
+	  </select>
+	  </div>
+	<div class="col-md-3">
+	<button type="button" class="btn btn-info btn-sm" data-toggle="popover" title="" ,="" data-content="Neurocomplex currently supports hg18 and hg19 genome build. " data-original-title="Reference Genome">
+       <span class="glyphicon glyphicon-search"></span></button>
+	</div>
+    </div>
 	     
 	     <div class="form-group" id="gene_selection_coba">
                   <label title="" class="col-md-3 control-label" >Enter your genes here</label>
@@ -154,6 +173,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
            
                 
                   <input type='hidden' value='yes' name='coba' />
+                   <input type='hidden' value='region_selection' name='yes' />
+                   <input type='hidden' value='gene_selection' name='yes' />
                  <input type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" name="ip" />
                  <input type='hidden' value='<?php echo GetHostByAddr($_SERVER['REMOTE_ADDR']); ?>' name='host' />
                 

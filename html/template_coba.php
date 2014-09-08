@@ -3,8 +3,8 @@
 <html>
 <meta charset="utf-8"> 
 	<head>
-	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
-		<title>Phenolyzer: Phenotype based gene analyzer</title>
+	<link rel="shortcut icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/coba.jpg" />
+		<title>Neurocomplex: analyzing your phsychiatric disease genes</title>
         <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
 	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="./bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
@@ -34,28 +34,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer</p></a>
+          <a class="navbar-brand" href="http://phenolyzer.usc.edu/neurocomplex/"><p class="title">Neurocomplex</p></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
-			   	<li ><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
-			   	
-			  <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
-		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
-                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
-                  </ul>
-                </li>
+              <li><a href="http://phenolyzer.usc.edu/neurocomplex">Home</a></li>	
+
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
-		  </div>
+		   <a class="title navbar-brand" href="http://www.usc.edu/programs/neuroscience/faculty/profile.php?fid=163">
+		    <img src="http://phenolyzer.usc.edu/img/coba.jpg" alt="" style="height:100%;"> Dr.Coba's Lab	    
+		    </a>
+		     </div>
         </div><!--/.nav-collapse --> 
 	  </div>
     </div>
@@ -71,7 +62,7 @@
 		<!-- container -->
             <div class="container">
      <div class="footer ">
-     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
+     <p class="text-muted">@Dr.Marcelo Coba, Zilkha Neurogenetic Institute</p>
       </div></div>      
                 
                  

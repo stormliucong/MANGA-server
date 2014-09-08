@@ -3,6 +3,7 @@
 <html>
 <meta charset="utf-8"> 
 	<head>
+	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
         <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
 	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -33,12 +34,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer<p></a>
+          <a class="navbar-brand" href="http://phenolyzer.usc.edu/index.php"><p class="title">Phenolyzer</p></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li class="active" ><a href="http://phenolyzer.usc.edu">Home</a></li>	
+              <li class="active" ><a href="http://phenolyzer.usc.edu/index.php">Home</a></li>	
 			   	<li><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
@@ -66,7 +67,7 @@
   <p>Phenolyzer stands for Phenotype Based Gene Analyzer, a tool focusing on discovering genes based on user-specific
   disease/phenotype terms. </p> 
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
-  <button class="title-button btn btn-warning btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
+  <button class="title-button btn btn-info btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
   
   <!-- Modal -->
 <div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -152,7 +153,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <span class="help-block">Please separate genes by semicolon or enter. Entrez IDs are also accepted here.</span>
             </div> </div> 
             
-            <div class="form-group">
+            <div class="form-group" >
                <label title="" for="region_selection" class="col-md-3 control-label region_selection_options">Region Selection  </label>
                <div class="col-md-5">
                 <select class="selectpicker show-menu-arrow " name="region_selection" id="region_selection_options">
@@ -166,9 +167,10 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
        data-content="Turn on the Region Selection to upload your focusing genomic regions. You can use your bed file called from a CNV calling Pipeline! Is that amazing?">
        <span class="glyphicon glyphicon-th-list"></span></button>
 	   </div></div>
-               
-	   <div class="form-group" id="region_selection">
+         <div id="region_selection">
+	   <div class="form-group" >
     <label class="col-md-3 control-label bedfile"> <a id="bed_instruction" href="https://genome.ucsc.edu/FAQ/FAQformat.html#format1" target="_blank">Input Bed File</a></label>
+
 	<div class="col-sm-9">
 	       <div class="input-group">
                 <span class="input-group-btn">
@@ -179,7 +181,23 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                 </span>
                 <input type="text" class="form-control" readonly>
             </div>
-	 </div></div>
+	 </div> </div>
+	 
+	 	 <div class="form-group">
+    <label for="buildver" class="col-md-3 control-label">Reference Genome</label>
+    <div class="col-md-5">
+      <select class="selectpicker show-menu-arrow   k" name="buildver" id="buildver" style="display: none;">
+	           <option selected="" value="hg19">hg19</option>
+               <option value="hg18">hg18</option>
+	  </select>
+	  </div>
+	<div class="col-md-3">
+	<button type="button" class="btn btn-info btn-sm" data-toggle="popover" title="" ,="" data-content="Neurocomplex currently supports hg18 and hg19 genome build. " data-original-title="Reference Genome">
+       <span class="glyphicon glyphicon-th-list"></span></button>
+	</div>
+    </div>
+	 	 </div>    
+	
         
             
 	         <div class="form-group">

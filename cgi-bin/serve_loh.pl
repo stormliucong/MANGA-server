@@ -59,7 +59,10 @@ sub processSubmission {
 	close (INFO);
 
 	#-f "email" and -s "email" and print STDERR "WARNING: skipping submission $id since it has been already executed (the $WORK_DIRECTORY/$id/email file exists)\n" and return;
-
+        my $software_name;
+        $software_name="Phenolyzer";
+        my $template_file;
+        $template_file="template_new.html";
         my $process_time = scalar (localtime);
         my ($email_header, $email_body, $email_tail);
 	my $password = $info{"password"};
@@ -80,6 +83,8 @@ sub processSubmission {
         $system_command.="-orphanet_weight     $info{'ORPHANET_WEIGHT'} ";
     }
     elsif($info{"coba"}){
+    	$template_file="template_new_coba.html";
+    	$software_name="Neurocomplex";
 		$system_command.="-addon DB_COBA_NEUROCOMPLEX " ;
 		$system_command.="-hprd_weight         0.01 ";
         $system_command.="-biosystem_weight    0.01 ";             
@@ -145,7 +150,7 @@ sub processSubmission {
 	}
 		
 	open (HTML, ">index.html") or die "can't write out index.html: $!";
-	open (TEMPLATE, "$HTML_DIRECTORY/template_new.html") or die "$HTML_DIRECTORY/template.php does not exist!";
+	open (TEMPLATE, "$HTML_DIRECTORY/$template_file") or die "$HTML_DIRECTORY/$template_file does not exist!";
 	open (GENE_REVIEWS, "$LIB_DIRECTORY/GeneReview_NBKid_shortname_OMIM.txt") or print STDERR "Can't open $LIB_DIRECTORY/GeneReview_NBKid_shortname_OMIM.txt\n";
 	my %omim_to_gene_review = ();
 	my $i=0;
@@ -174,7 +179,7 @@ sub processSubmission {
 	#-------------------------------Submission Message-----------------------------
 	$submission_message = qq|<h4 class="page-header"> 
 	   Submission ID: $id</h4>
-	  <p class="result">Dear Phenolyzer user, your submission (identifier: <b>1935</b>) was received at Wed Aug 20 22:23:48 2014 and processed at Wed Aug 20 22:23:48 2014.</p>
+	  <p class="result">Dear $software_name user, your submission (identifier: <b>1935</b>) was received at Wed Aug 20 22:23:48 2014 and processed at Wed Aug 20 22:23:48 2014.</p>
 	|;
 	$result_page =~ s/%%%%submission%%%%/$submission_message/;
 	#-------------------------------Summary Message-----------------------------
@@ -256,8 +261,17 @@ my $rank=1;
 		$i++;
 		
 		if($line=~/^\s*$/){
-			if($gene) {$gene_html{$gene}.=qq|</div>|; push (@output, [$gene,$gene_html{$gene}]);}
-			
+			if($gene) {$gene_html{$gene}.=qq|</div>|; 
+		    if($info{"coba"})		
+		          		{
+		          			my $num = ($gene_html{$gene} =~ m/Dr.Coba's data/g+0);
+		          			if($num>0)
+		          			{
+		          			$gene_html{$gene}=~s/<p>$rank $gene/<p>$rank $gene (in $num Dr.Coba's Complexes)/;
+		          			}          		
+		          		}	
+		     push (@output, [$gene,$gene_html{$gene}]);     					
+			}
 			$gene="";$rank++;last if($i>$MAX_ITEM and $count>=80);next;
 			
 		}
@@ -285,6 +299,7 @@ my $rank=1;
 	    	if ($source =~ /^(\w+):(.*?) \((\w+)\)$/)
 	    	{
 	    	($id_name, $id_string, $database) = ($1, $2, $3);
+	    	$database ||="";
 	    	my @ids = split(" ", $id_string);
 	    	
 	    	for my $each_id(@ids)
@@ -311,6 +326,7 @@ my $rank=1;
 	    	
 	    	 }
         }
+       
 	my $json_text = to_json(\@output);
 	    	open (OUTPUT, ">details.json") or die;
 	    	print OUTPUT $json_text; 
@@ -354,9 +370,9 @@ my $rank=1;
        <label class="col-lg-1 result control-label text-primary" for="adjust_layout" >Layout:  </label> 
         <div class="col-lg-2">
        <select id="adjust_layout" name="adjust_layout"  class="selectpicker show-menu-arrow">
-       <option selected value="force">Force</option>
+       <option value="force">Force</option>
        <option value="circle">Circle</option>
-       <option value="grid">Grid</option>
+       <option selected value="grid">Grid</option>
        <option value="concentric">Concentric</option>
        </select>
        </div>
@@ -375,7 +391,7 @@ my $rank=1;
 	close (RES);
 	close (HTML);
 	
-	$email_header = "Dear Phenolyzer user, your submission (identifier: $id) was received at $info{submission_time} and processed at $process_time.\n";
+	$email_header = "Dear $software_name user, your submission (identifier: $id) was received at $info{submission_time} and processed at $process_time.\n";
 	$email_header =~ s/(.{1,69})\s/$1\n/g;
 
 	if ($failed_command) {
