@@ -377,3 +377,11 @@ color:#fafafa;
                 width:100px;
                 height:100px;
               }       
+  .ui-autocomplete{
+	         color:#3333cc;
+             font-size:14px;
+             width:300px;
+             max-height:30em;
+             overflow:auto;
+ }            
+     

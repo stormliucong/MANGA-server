@@ -410,7 +410,7 @@
 	        	    	 }
 	        	     result_panel.accordion( "refresh" );
 	        	     $("#page-number").val(page);
-	        	    
+	        	     $("a.outside").attr("target","_blank");
 	        	 }
 	        	
 	        	 $("#page-start").click( function() {

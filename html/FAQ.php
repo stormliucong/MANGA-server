@@ -40,6 +40,7 @@
           <ul class="nav navbar-nav">
               <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
 			   	<li><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
 			   	<li class="active" ><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
 			   	

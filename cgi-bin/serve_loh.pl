@@ -86,10 +86,10 @@ sub processSubmission {
     	$template_file="template_new_coba.html";
     	$software_name="Neurocomplex";
 		$system_command.="-addon DB_COBA_NEUROCOMPLEX " ;
-		$system_command.="-hprd_weight         0.01 ";
-        $system_command.="-biosystem_weight    0.01 ";             
-        $system_command.="-gene_family_weight  0.01 ";           
-        $system_command.="-htri_weight         0.01 ";
+		$system_command.="-hprd_weight         0.05 ";
+        $system_command.="-biosystem_weight    0 ";             
+        $system_command.="-gene_family_weight  0 ";           
+        $system_command.="-htri_weight         0 ";
 	}
     else{
 	    $system_command.="-logistic ";
@@ -173,7 +173,7 @@ sub processSubmission {
     }
     my $effective_term_num=@effective_term;
 	my $MAX_COUNT = 2000;
-	my $MAX_ITEM = 22000;
+	my $MAX_ITEM = 30000;
 	$result_page.=$_  for(<TEMPLATE>);
 	
 	#-------------------------------Submission Message-----------------------------

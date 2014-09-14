@@ -40,6 +40,7 @@
           <ul class="nav navbar-nav">
               <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
 			   	<li><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
 			   	<li ><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li  class="active"><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
 			   	
@@ -76,7 +77,7 @@
 			
            <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2013/Ty7BUwEKUy7wDlvy/index.html">    Amyotrophic lateral sclerosis</a></h3> 
 		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2014/VYZiDTkhFO12vLXS/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2077/9JoDZohK1k7BVgqU/index.html">  Autism</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2263/GtQ7PD_yx2SoZgkf/index.html">  Autism</a></h3>
 		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2007/Ce7EKsKacUsybr5Z/index.html">  Huntington</a></h3>
 		    
 		    </div>

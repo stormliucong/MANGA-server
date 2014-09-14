@@ -14,7 +14,7 @@ our $VERSION = 			 '1.00';
 our $LAST_CHANGED_DATE = '$LastChangedDate: 2014-07-20 (20, July, 2014) $';
 our ($verbose, $help, $man,$buildver,$bedfile);
 our ($query_diseases,$if_file,$if_exact_match,$prediction,$is_phenotype,$if_wordcloud);
-our ($out, $database_directory, $if_full_extend, $if_logistic_regression);
+our ($out, $database_directory, $if_logistic_regression);
 our ($HPRD_WEIGHT, $BIOSYSTEM_WEIGHT, $GENE_FAMILY_WEIGHT, %GENE_WEIGHT, $HTRI_WEIGHT, $GENE_DISEASE_WEIGHT, $INTERCEPT);
 
 my  ($ctd_disease_file, $hprd_file, $biosystem_file, $disease_count_file, $gene_disease_score_file,
@@ -26,7 +26,7 @@ my  ($ctd_disease_file, $hprd_file, $biosystem_file, $disease_count_file, $gene_
 # %gene_hash ( $gene => "Not Annotated" or "Chr:Pos1 - Pos2")
 # %omim_disease (lc $first_disease => join(";",$each_disease)  )
 GetOptions('verbose|v'=>\$verbose, 'help|h'=>\$help, 'man|m'=>\$man,'file|f'=>\$if_file,'directory|d=s'=>\$database_directory,    
-              'work_directory|w=s'=>\$work_path, 'expand|e'=>\$if_full_extend,'out=s'=>\$out,'prediction|p'=>\$prediction,
+              'work_directory|w=s'=>\$work_path,'out=s'=>\$out,'prediction|p'=>\$prediction,
               'buildver=s'=>\$buildver,'bedfile=s'=>\$bedfile,'gene=s'=>\$genelist,'phenotype|ph'=>\$is_phenotype,
               'exact'=>\$if_exact_match, 'logistic'=>\$if_logistic_regression, 'addon=s'=>\$addon_gene_disease_score_file,
               'hprd_weight=s'=>\$HPRD_WEIGHT, 'biosystem_weight=s'=>\$BIOSYSTEM_WEIGHT, 
@@ -785,8 +785,7 @@ $out = "$out_directory/$out";
 
 $disease_count_file =       "DB_COMPILED_DISEASE_COUNT";
 $gene_disease_score_file =  "DB_COMPILED_GENE_DISEASE_SCORE";
-$if_full_extend and $ctd_disease_file=  "DB_COMPILED_CTD_DISEASES";
-$if_full_extend or $ctd_disease_file=   "DB_COMPILED_CTD_DISEASES_USED";
+$ctd_disease_file=  "DB_COMPILED_CTD_DISEASES";
 $hprd_file  =     "DB_COMPILED_BINARY_PROTEIN_INTERACTION_SCORE";
 $biosystem_file = "DB_COMPILED_BIOSYSTEM_SCORE";
 $hpo_annotation_file = "DB_HPO_ANNOTATION";
@@ -1140,7 +1139,6 @@ sub generate_wordcloud{
         -out <string>		            output file name prefix (default:out)
         -d, --directory                 compiled database directory (default is ./lib/compiled_database)
         -f, --file                      the input will be treated as file names(both diseases and genes)
-        -e, --expand                    fully expand input disease names, including names not helpful for scoring genes 
         -p, --prediction                Use the Protein interaction and Biosystem DATABASE to predict unreported gene 
                                         disease relations (like HPRD human protein interaction, Biosystem database and so on)
         -ph, --phenotype                the input term is also treated as a phenotype, the HPO annotation would be used      
