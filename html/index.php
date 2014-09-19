@@ -322,12 +322,15 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
 	   <div class="panel panel-default">
 	    <div class="panel-body">
-    		<p><strong>[09/14/2014]</strong> <p>Phenolyzer is updated into version 1.0.1!</p>
+    		<p><strong>[09/19/2014]</strong> <p>Phenolyzer is updated into version 1.0.1!</p>
 			<p>The word cloud is available by choosing Wordcloud option.
 			<p> For command line tool: </p>
 			 <p><code>-wordcloud </code>can be used to generate a wordcloud now.
 			<p><code>-addon </code>can be used to add your own gene-disease mapping database, the format should be as
 			'GENE	DISEASE	DISEASE_ID	SCORE	SOURCE'</p>
+			<p><code>-addon_gg </code>can be used to add your own gene-gene mapping database, the format should be as
+			'GENE A GENE B	EVIDENCE SCORE PMID'</p>
+			<p><code>-addon_gg_weight  -addon_weight </code> can be used to control the weights.
 			</p></a></div></div>
 			 <div class="panel panel-default">
            <div class="panel-body">

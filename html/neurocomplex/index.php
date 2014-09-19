@@ -58,7 +58,7 @@
   <h1>Neurocomplex</h1>
   <p>Neurocomplex is a tool to discover genes for psychiatric diseases.</p> 
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
-  <a class="title-button btn btn-warning btn-lg" role="button" href="http://phenolyzer.usc.edu/done/2093/qiFdNTcrAKzBL3WR/index.php">All Genes</a>
+  <a class="title-button btn btn-warning btn-lg" role="button" href="http://phenolyzer.usc.edu/done/2305/DAK8216iuw8cY12S/index.html">All Genes</a>
    
   <button class="title-button btn btn-warning btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
   

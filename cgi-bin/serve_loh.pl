@@ -86,6 +86,8 @@ sub processSubmission {
     	$template_file="template_new_coba.html";
     	$software_name="Neurocomplex";
 		$system_command.="-addon DB_COBA_NEUROCOMPLEX " ;
+		$system_command.="-addon_gg DB_MENTHA_GENE_GENE_INTERACTION ";
+		$system_command.="-addon_gg_weight 0.02 ";
 		$system_command.="-hprd_weight         0.05 ";
         $system_command.="-biosystem_weight    0 ";             
         $system_command.="-gene_family_weight  0 ";           
@@ -177,10 +179,10 @@ sub processSubmission {
 	$result_page.=$_  for(<TEMPLATE>);
 	
 	#-------------------------------Submission Message-----------------------------
+    
 	$submission_message = qq|<h4 class="page-header"> 
 	   Submission ID: $id</h4>
-	  <p class="result">Dear $software_name user, your submission (identifier: <b>1935</b>) was received at Wed Aug 20 22:23:48 2014 and processed at Wed Aug 20 22:23:48 2014.</p>
-	|;
+	  <p class="result">Dear $software_name user, your submission was received at $info{submission_time} and processed at |.scalar(localtime).qq|.</p>|;
 	$result_page =~ s/%%%%submission%%%%/$submission_message/;
 	#-------------------------------Summary Message-----------------------------
 	$summary_message.=	qq|<li class="list-group-item">Bedfile is $info{bedfile}.</li>| if $info{bedfile};
@@ -264,7 +266,9 @@ my $rank=1;
 			if($gene) {$gene_html{$gene}.=qq|</div>|; 
 		    if($info{"coba"})		
 		          		{
-		          			my $num = ($gene_html{$gene} =~ m/Dr.Coba's data/g+0);
+		          			my @array;
+		          			push (@array,$&) while($gene_html{$gene} =~/Dr.Coba's data/g);
+		          			my $num =@array+0;
 		          			if($num>0)
 		          			{
 		          			$gene_html{$gene}=~s/<p>$rank $gene/<p>$rank $gene (in $num Dr.Coba's Complexes)/;
@@ -279,16 +283,17 @@ my $rank=1;
 		if(not $gene){
 			$count++;
 			last if ($count > $MAX_COUNT);
-			$line=~/^(.*?)\tID:(\d*).*?(Reported|Predicted)\s*(.*?)$/;
+			$line=~/^(.*?)\tID:(\d*).*?(SeedGene|Predicted)\s*(.*?)$/;
 			$gene=$1;
 			my @genes = split(",", $gene);
 			$gene = $genes[0];
 			my ($id, $status, $score) = ($2, $3, $4);
 			push @all_gene,$gene;
 			$line=~s/ID:\d* - //;
-			
+			my $status_out = $status;
+			$status = "Reported" if ($status eq "SeedGene");
 			$score = sprintf("%.4g",$score);
-			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status</p><p>Score:$score</p></h3>";
+			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status_out</p><p>Score:$score</p></h3>";
 			$gene_html{$gene}.=$line.qq|<div><p><span><a class = "outside $status" href="http://www.ncbi.nlm.nih.gov/gene/$id">$gene</a></span></p>|;
 		}
 	    else{
@@ -312,8 +317,10 @@ my $rank=1;
 	    	$source_out = join(" ", @id_out);
 	    	$source_out = $id_name.":".$source_out." ($database)";    	
 	    	}
-	    	$source_out = $source if(not $links{$database} or $source =~ /^Not available/);
-	    	if ($source =~ /\b(BIOSYSTEM)|(HPRD)|(GENE_FAMILY)|(HTRI)\b/)
+	    	else {
+	    	$source_out = $source if(not $database or not $links{$database} or $source =~ /^Not available/);
+	    	}
+	    	if ($source =~ /\b(BIOSYSTEM)|(HPRD)|(GENE_FAMILY)|(HTRI)|(ADDON_GENE_GENE)\b/)
 	     	    { 	
 	     	    $line = join('</span><span>',($source_out, $evidence, $term." ($individual_score)") ); 
 	     	    $line = qq|<p class="$count related_interaction"><span>|.$line."</span></p>";
