@@ -46,10 +46,10 @@ for my $line (<DATA>)
 	    my @genes = split(",", $words[0]);
 	       $gene  = $genes[0];
 	       $gene_check{$gene} = 1;
-	       $words[1] =~/^ID:\d*.*?(Reported|Predicted)$/;
+	       $words[1] =~/^ID:\d*.*?(SeedGene|Predicted)$/;
 	       $gene_count++;  
 		   $status = $1; 
-		   	 
+		$status = "Reported" if ($status eq "SeedGene");
 	    $gene_nodes{"data"}{"id"} = $gene;
 	    $score += 0;
         $max_score_reported = $score if($score>$max_score_reported and $status eq "Reported");
@@ -72,7 +72,7 @@ for my $line (<DATA>)
        {
        	#next if($line =~/GENE_FAMILY/);
        	my %gene_edge=();
-       	if($line =~ /((BIOSYSTEM)|(HPRD)|(GENE_FAMILY)|(HTRI))/  )
+       	if($line =~ /((BIOSYSTEM)|(HPRD)|(GENE_FAMILY)|(HTRI)|(ADDON_GENE_GENE))/  )
        	{
        	my $interaction = $1;
        	my @words = split("\t",$line);

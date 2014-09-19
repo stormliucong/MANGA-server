@@ -11,7 +11,13 @@
 	font-size:15px;
 }
 
-
+.ui-tooltip-content{
+	padding:8px 8px;
+	
+}
+#weight_adjust input{
+	width:140px;
+}
 p.result{
 	padding-bottom:50px;
 	
