@@ -915,17 +915,19 @@ sub predict_genes{
 	    
 	    open (HPRD, "$path/$hprd_file") or die "Can't open $path/$hprd_file !";
 	    open (BIOSYSTEM, "$path/$biosystem_file") or die "Can't open $path/$biosystem_file !";
-	    print STDERR "NOTICE: The HRPD Database loaded !\n";
 	    open (GENE_FAMILY, "$path/$gene_family_file") or die "Can't open $path/$gene_family_file!";
 	    open (HTRI, "$path/$htri_file") or die "Can't open $path/$htri_file!";
+	    my @ggfiles;
 	    if($addon_gene_gene_score_file) {
-	    	open(ADDON_GG, "$path/$addon_gene_gene_score_file") or die "Can't open $path/$addon_gene_gene_score_file!";
-	    }
+	    	 @ggfiles = split(",", $addon_gene_gene_score_file);
+        }
 #Predict genes based on Addon Gene-Gene relations    
-	   
+        for my $each_file (@ggfiles)
+        {
+        open(ADDON_GG,"$path/$each_file") or die "Can't open $path/$each_file!";	   
 	    for my $line (<ADDON_GG>)
 	    {
-	    	if ($i==0) {$i++; next; }
+	    	if ($i==0) {$i++; next; } 
 	    	chomp ($line);
 	    	my ($gene1, $gene2, $evidence, $score, $pubmed_id) = split ("\t", $line);
 	    	my $individual_score;
@@ -955,9 +957,10 @@ sub predict_genes{
 	        }
 	        }
 	        
-	     }	    
-	    
-	    
+	     }
+	    close(ADDON_GG);	    
+        }
+	    print STDERR "NOTICE: The Addon Database loaded !\n"  if(@ggfiles);
 	    
 #Predict genes based on Human Protein Interactions	    
 	   
@@ -994,6 +997,7 @@ sub predict_genes{
 	        }
 	        
 	     }
+	     print STDERR "NOTICE: The HPRD Database loaded !\n";
  #Predict genes based on transcription interaction
  $i = 0;
         for my $line (<HTRI>)    #TF	TG	EVIDENCE	PUBMED	SCORE

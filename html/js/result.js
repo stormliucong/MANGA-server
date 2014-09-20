@@ -79,7 +79,7 @@
                 	       .selector('edge')
                 	         .css({
                   	           'target-arrow-shape': 'none',
-                  	         
+                  	         'line-color':'#444401',
                   	           'width':'0.5px',
                   	           //'curve-style':'bezier'
                 	         })

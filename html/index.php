@@ -311,7 +311,20 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
        title="Word Clouod",
        data-content="Choose yes if you want to see the Word Cloud of your phenotype/disease. Is this amazing?">
        <span class="glyphicon glyphicon-th-list"></span></button>
-	   </div></div>
+	   </div> </div>
+	   
+	   <!-- Addon -->
+	   <div class="form-group">
+	 <label for="step" class="col-md-3 control-label">Addon Gene Relations</label>
+	 <div class="col-md-7">
+      <select class="selectpicker show-tick"  multiple name="addon" id="addon" data-selected-text-format="count>1">
+	           <option value="DB_MENTHA_GENE_GENE_INTERACTION">Mentha Protein Interaction Database</option>			  	   
+	  </select>
+    </div>
+	</div>
+	<!-- End of Addon -->
+	   
+	  
                  
                  <input type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" name="ip" />
                  <input type='hidden' value='<?php echo GetHostByAddr($_SERVER['REMOTE_ADDR']); ?>' name='host'>

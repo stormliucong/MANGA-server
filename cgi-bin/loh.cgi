@@ -57,8 +57,8 @@ if($if_weight_adjust eq 'yes')
 my $coba = $q->param('coba');
 my $disease= $q->param("disease");
 my $options= $q->param("other_options");
-
-
+my @addons = $q->param('addon');
+my $addons = join(',', @addons);
 $options eq "all_diseases" or $disease!~/^\W*$/  or die "No disease input is detected!!! $options";
 
 GenomicsServer::verifyEmail($email,$q);
@@ -159,7 +159,10 @@ sub writeInfoFile {
             print INFO "HGNC_WEIGHT=$hgnc\n";
             print INFO "HTRI_WEIGHT=$htri\n";
         }
-        
+        if($addons)
+        {
+        	print INFO "addon_gg=$addons\n";
+        }
         close (INFO);
 }
 

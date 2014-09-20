@@ -94,6 +94,8 @@
 			<br><br><code>perl disease_annotation.pl disease -f -p -ph -logistic -out disease/out </code></td></tr>
 			<tr><td>Use the cnv.bed region: 
 			<br><br><code>perl disease_annotation.pl alzheimer -bedfile cnv.bed -p -ph -logistic -out alzheimer/out </code> </td></tr>
+			<tr><td>Use the Mentha gene-gene interaction database as Addon 
+			<br><br><code>perl disease_annotation.pl alzheimer -p -ph -logistic -out alzheimer/out -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05</code> </td></tr>
 			</table>
 			</div>
 			</div>

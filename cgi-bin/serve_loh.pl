@@ -82,6 +82,7 @@ sub processSubmission {
         $system_command.="-omim_weight         $info{'OMIM_WEIGHT'} ";         
         $system_command.="-orphanet_weight     $info{'ORPHANET_WEIGHT'} ";
     }
+    ##############################  Dr. Coba   ################################
     elsif($info{"coba"}){
     	$template_file="template_new_coba.html";
     	$software_name="Neurocomplex";
@@ -93,10 +94,11 @@ sub processSubmission {
         $system_command.="-gene_family_weight  0 ";           
         $system_command.="-htri_weight         0 ";
 	}
+	##############################  Dr. Coba  End################################
     else{
 	    $system_command.="-logistic ";
     }
-	
+	if($info{'addon_gg'}){$system_command.="-addon_gg $info{'addon_gg'} -addon_gg_weight 0.02 ";}
 	if($info{"disease_file"}){$system_command.="$info{disease_file} ";}
 	if($info{"phenotype_interpretation"} eq "yes"){$system_command.="-phenotype ";}
 	if($info{"full_expand"} eq "yes"){$system_command.="-e ";}
