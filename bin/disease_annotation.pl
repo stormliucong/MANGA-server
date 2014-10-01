@@ -10,8 +10,8 @@ my $out_directory = cwd();
 my $dirname = dirname(__FILE__);
 chdir $dirname;
 
-our $VERSION = 			 '1.00';
-our $LAST_CHANGED_DATE = '$LastChangedDate: 2014-07-20 (20, July, 2014) $';
+our $VERSION = 			 'v1.0.1';
+our $LAST_CHANGED_DATE = '$LastChangedDate: 2014-09-18 (18, September, 2014) $';
 our ($verbose, $help, $man,$buildver,$bedfile);
 our ($query_diseases,$if_file,$if_exact_match,$prediction,$is_phenotype,$if_wordcloud);
 our ($out, $database_directory, $if_logistic_regression);
@@ -77,7 +77,7 @@ output_gene_prioritization();
 
 #-----------------------------------------Subroutines---------------------------------------------
 sub output_gene_prioritization{                        #The main sub to output prioritized genelist
-my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
+my @disease_input=split (qr/[^ _\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
 @disease_input <=50 or die "Too many terms!!! No more than 200 terms are accepted!!!";  
 
 #------------------------------------Process each individual term first -------------------------------------
@@ -588,11 +588,17 @@ sub score_genes{                                 #Input the disease list and ret
 	shift @disease_gene_score;
 	my @addon_disease_gene_score;
 	if($addon_gene_disease_score_file){
- 		open(ADDON,"${path}/$addon_gene_disease_score_file") or die "could not open ${path}/$addon_gene_disease_score_file";		
-	    @addon_disease_gene_score = <ADDON>;
+		my @addon_files = split(',', $addon_gene_disease_score_file);
+		for my $each_file (@addon_files)
+		{
+ 		open(ADDON,"${path}/$each_file") or die "could not open ${path}/$each_file";		
+	    push(@addon_disease_gene_score, <ADDON>);
 	    @addon_disease_gene_score = map {s/[\n\r]+//g;$_; } @addon_disease_gene_score;
+		close(ADDON);
+		print STDERR "NOTICE: The ${path}/$each_file is used as addons!!!\n";
+		}
 	    push (@disease_gene_score,@addon_disease_gene_score);
-	    print STDERR "NOTICE:The ${path}/$addon_gene_disease_score_file is used as addons!!!\n";
+	    
 	}
 	@disease_gene_score = sort 
 	       {
@@ -915,6 +921,7 @@ sub predict_genes{
 	    
 	    open (HPRD, "$path/$hprd_file") or die "Can't open $path/$hprd_file !";
 	    open (BIOSYSTEM, "$path/$biosystem_file") or die "Can't open $path/$biosystem_file !";
+	    print STDERR "NOTICE: The HRPD Database loaded !\n";
 	    open (GENE_FAMILY, "$path/$gene_family_file") or die "Can't open $path/$gene_family_file!";
 	    open (HTRI, "$path/$htri_file") or die "Can't open $path/$htri_file!";
 	    my @ggfiles;
@@ -927,7 +934,7 @@ sub predict_genes{
         open(ADDON_GG,"$path/$each_file") or die "Can't open $path/$each_file!";	   
 	    for my $line (<ADDON_GG>)
 	    {
-	    	if ($i==0) {$i++; next; } 
+	    	if ($i==0) {$i++; next; }
 	    	chomp ($line);
 	    	my ($gene1, $gene2, $evidence, $score, $pubmed_id) = split ("\t", $line);
 	    	my $individual_score;
@@ -960,7 +967,7 @@ sub predict_genes{
 	     }
 	    close(ADDON_GG);	    
         }
-	    print STDERR "NOTICE: The Addon Database loaded !\n"  if(@ggfiles);
+	    print STDERR "NOTICE: The Addon Database loaded !\n";
 	    
 #Predict genes based on Human Protein Interactions	    
 	   

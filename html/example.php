@@ -47,7 +47,7 @@
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
+                   <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
                      <li><a href="http://enlight.usc.edu/">Enlight</a></li>
                   </ul>
@@ -76,7 +76,7 @@
 			  <div class="panel-body">
 			
            <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2013/Ty7BUwEKUy7wDlvy/index.html">    Amyotrophic lateral sclerosis</a></h3> 
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2014/VYZiDTkhFO12vLXS/index.html">  Cancer</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2369/7dgoBGMxPexhh7x3/index.html">  Cancer</a></h3>
 		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2263/GtQ7PD_yx2SoZgkf/index.html">  Autism</a></h3>
 		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2007/Ce7EKsKacUsybr5Z/index.html">  Huntington</a></h3>
 		    

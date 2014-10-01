@@ -1,5 +1,4 @@
-       
-                $(window).load(function()    {
+                    $(window).load(function()    {
         	       $( "#dialog" ).dialog("close");
         	       $('.weaker').fadeTo(1000,1);
         	       $('.selectpicker').selectpicker({
@@ -52,7 +51,7 @@
                 		 if_json_success = true;
                         }).fail(function( jqxhr, textStatus, error ) {
                            $(".tab-content").remove();
-                           alert("Sorry, the fancy network plot is not available now.");
+                           alert("Sorry, the fancy network plot is not available now. Please try to refresh");
                            if_json_success = false;
                         });
                 	  if(json.length==0) {  $("a[href=#summary]").click();
@@ -85,7 +84,7 @@
                 	         })
                 	         .selector('edge.BIOSYSTEM')
                 	         .css({
-                	           'line-color':"mapData(weight,0.2,0.8, #eeee55, #dddd11)"
+                	           'line-color':"mapData(weight,0.2,0.8, #eecc55, #efaa55)"
                 	           
                 	         })
                 	         .selector('edge.HPRD')
@@ -177,7 +176,9 @@
                 	         panningEnabled : true,
                 	         userPanningEnabled: true,
                 	        layout:{                  
-                	        	name: 'grid'
+                	        	name: 'arbor',
+                    	    	 stiffness:0,
+                    	    	// maxSimulationTime:500 
                     	    	 
                     	     },
                 	        
@@ -341,7 +342,6 @@
                       });  
                       
                       var adjust_layout = $('#adjust_layout');
-                      adjust_layout.selectpicker('val', 'grid');
                       function layout_change(time){
                     	  if(adjust_layout.find("option:selected").val()=="force" )
                 		  {
@@ -367,8 +367,10 @@
                 	
                   };
                       adjust_layout.change({time:1000},function(event){  layout_change(event.data.time);  });
-                     
-                    
+                     setTimeout(function(){
+                      adjust_layout.selectpicker('val', 'force');
+                      adjust_layout.selectpicker('refresh');
+                      adjust_layout.change();},1000);
                      
                     
 	                 }   //if(if_json_success)
@@ -377,14 +379,16 @@
        $.ajaxSetup({'async': false} );
 	  $.getJSON(json_url, function(data){
 		 json = data;
+		 var MAX = json.length;
+		 BARPLOT(MAX);
 		 if_json_success = true;
      }).fail(function( jqxhr, textStatus, error ) {
         $(".tab-content").remove();
-        alert("Sorry, the result is not available!!");
+        alert("Sorry, the result is not available!! Please try to refresh");
         if_json_success = false;
      });
 	         if(if_json_success)
-	        	 {
+	        	 { 	 
 	        	 var current_page = $("#page-number").val();
 	        	    $("#details").find("a").css("cursor","pointer");
 	        	    var MAX_PAGE = Math.ceil(json.length/50);
@@ -436,10 +440,11 @@
 	            	 bar_modal.find("div.modal-body div p").first().remove();
 	            	 
 	            	 }
+	            
 	             $("a.outside").attr("target","_blank");
+	            
                });
                    
-                 
-               
+          
                    
 	               

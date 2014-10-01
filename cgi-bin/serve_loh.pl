@@ -88,8 +88,8 @@ sub processSubmission {
     	$software_name="Neurocomplex";
 		$system_command.="-addon DB_COBA_NEUROCOMPLEX " ;
 		$system_command.="-addon_gg DB_MENTHA_GENE_GENE_INTERACTION ";
-		$system_command.="-addon_gg_weight 0.02 ";
-		$system_command.="-hprd_weight         0.05 ";
+		$system_command.="-addon_gg_weight 0.05 ";
+		$system_command.="-hprd_weight         0 ";
         $system_command.="-biosystem_weight    0 ";             
         $system_command.="-gene_family_weight  0 ";           
         $system_command.="-htri_weight         0 ";
@@ -98,7 +98,7 @@ sub processSubmission {
     else{
 	    $system_command.="-logistic ";
     }
-	if($info{'addon_gg'}){$system_command.="-addon_gg $info{'addon_gg'} -addon_gg_weight 0.02 ";}
+	if($info{'addon_gg'}){$system_command.="-addon_gg $info{'addon_gg'} -addon_gg_weight 0.05 ";}
 	if($info{"disease_file"}){$system_command.="$info{disease_file} ";}
 	if($info{"phenotype_interpretation"} eq "yes"){$system_command.="-phenotype ";}
 	if($info{"full_expand"} eq "yes"){$system_command.="-e ";}
@@ -191,11 +191,11 @@ sub processSubmission {
     $summary_message.=	qq|<li class="list-group-item">Buildver is $info{buildver}.</li>| if $info{bedfile};
 	$summary_message.=	qq|<li class="list-group-item">All diseases are considered.</li>| if($info{all_diseases} eq "yes");
 	$summary_message.=	qq|<li class="list-group-item">Phenotypes are interpretated.</li>| if($info{phenotype_interpretation} eq "yes");
-    $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>|;
+    $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>| if($effective_term_num);
 	if($info{"all_diseases"} ne "yes")
 	{
 	$summary_message.=qq|<li class="list-group-item">$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
-	$summary_message.=qq|<li class="list-group-item">They are: |;
+	$summary_message.=qq|<li class="list-group-item">They are: | if($effective_term_num);
 	for (@effective_term){
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n|;
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><span class="label label-info"><b>WordCloud</b></span></a>| if($info{"wordcloud"})  ;
@@ -254,7 +254,8 @@ sub processSubmission {
 	        "HTRI"   => "http://www.ncbi.nlm.nih.gov/pubmed/",
 	        "GWAS"   => "http://www.ncbi.nlm.nih.gov/pubmed/",
 	        "BIOSYSTEM"=> "https://www.ncbi.nlm.nih.gov/biosystems/" ,
-	        "GENE_FAMILY" => "http://www.genenames.org/genefamilies/"
+	        "GENE_FAMILY" => "http://www.genenames.org/genefamilies/",
+	        "ADDON_GENE_GENE" => "http://www.ncbi.nlm.nih.gov/pubmed/"
 	        
 	);
 my %gene_html = ();	
@@ -446,7 +447,7 @@ sub deleteOldFiles {
 	    #print STDERR $file."\t".$file_days."\n";	
 	 	if( ($file_days>$days) and (-d "$HTML_DIRECTORY/done/$file"))
 	 	{	 	
-	    next if($file eq "1807" or $file eq "1879" or $file eq "1885");			
+	    next if($file eq "2007" or $file eq "2263" or $file eq "2013" or $file eq "2369");			
 	 	system("rm -rf $HTML_DIRECTORY/done/$file") and warn "WARNING:Can't remove old files in $HTML_DIRECTORY/done/$file \n"  ;
 	 	print STDERR "Delete $file succesfully! \n";
 	 	}

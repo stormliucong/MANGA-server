@@ -106,7 +106,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 		<div class="form-group">
         <label for="email" class="col-md-3 control-label">Email</label>
         <div class="col-md-9">
-        <input  type="email" class="form-control" id="email" name="email" placeholder="Email">
+        <input  type="email" required  class="form-control" id="email" name="email" placeholder="Email">
         </div>
 	     </div>
 	     

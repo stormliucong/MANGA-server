@@ -1,6 +1,6 @@
 use strict;
 use Email::Sender::Transport::SMTP::TLS;
-use Email::Sender::Simple qw(sendmail);
+use Email::Sender::Simple qw(try_to_sendmail);
 use Email::Simple;
 
 my $transport = Email::Sender::Transport::SMTP::TLS ->new({
@@ -22,4 +22,4 @@ my $email = Email::Simple->create(
         body => 'This is a test email',
 );
 
-sendmail($email, { transport => $transport });
+try_to_sendmail($email, { transport => $transport });
