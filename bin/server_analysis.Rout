@@ -1,0 +1,34 @@
+
+R version 3.1.1 (2014-07-10) -- "Sock it to Me"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> setwd("/var/www/html/loh/bin")
+> library("ggplot2");
+> info = read.table("phenolyzer_info.txt",quote = "",na.strings = "NA",sep="\t",header=TRUE);
+> days_freq = table(info$TIME);
+> days_frame = data.frame(day =names(days_freq), job_number =c(unname(days_freq)), type=1 );
+> myPlot = ggplot(days_frame, aes(x=day, y=job_number,group=type))+geom_point(color="#3333cc")+geom_line(color="#33aabb") + theme_bw() +
++ theme(axis.text.x = element_text(size=rel(0.8),angle = 80, vjust = 0.5, color="#3333cc"))+ylab("Submission Count");
+> ggsave(filename="server_daily_submission.png", plot=myPlot);
+Saving 7 x 7 in image
+> 
+> proc.time()
+   user  system elapsed 
+  1.475   0.047   1.604 

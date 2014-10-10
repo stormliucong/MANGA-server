@@ -50,16 +50,15 @@
                 		 json = data;
                 		 if_json_success = true;
                         }).fail(function( jqxhr, textStatus, error ) {
-                           $(".tab-content").remove();
+                           $("#network").remove();
+                           $("a[href=#network]").remove();
+                           $("a[href=#barplot]").remove();
+                           $("a[href=#details]").remove();
                            alert("Sorry, the fancy network plot is not available now. Please try to refresh");
                            if_json_success = false;
                         });
-                	  if(json.length==0) {  $("a[href=#summary]").click();
-                	    $("a[href=#network]").remove();
-                	    $("a[href=#barplot]").remove();
-                	    $("a[href=#details]").remove();
-                	    
-                	  }
+                	  if(!json) {  $("a[href=#summary]").click();
+                                       }
                 	  
       if(if_json_success)
 	   {
@@ -137,10 +136,10 @@
                 	        .selector('node.disease')
                 	        .css({
                 	        	'text-outline-width':'2px',
-                	        	'text-outline-color':'mapData(weight,0,1,#FF33CC ,#FF0066)',
+                	        	'text-outline-color':'mapData(weight,0,1,#FF33cc,#FF0066)',
                 	        	'content':'',
                 	        	'shape':'roundrectangle',
-                	        	'background-color':'mapData(weight,0,1,#FF33CC,#FF0066)',
+                	        	'background-color':'mapData(weight,0,1,#FF33cc,#FF0066)',
                 	        	'width':'mapData(weight, 0, 1, 18, 90)',
                 	        	'height':'20',
                 	        	'font-size':'10px'

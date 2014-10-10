@@ -333,6 +333,11 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p>Now the email is required. Please type in your email. Thanks very much.</p>
+    		</div></div>
+	   
 	   <div class="panel panel-default">
 	    <div class="panel-body">
     		<p><strong>[09/19/2014]</strong> <p>Phenolyzer is updated into version 1.0.1!</p>

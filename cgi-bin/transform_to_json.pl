@@ -4,7 +4,16 @@ push @INC,"/home/huiyang/perl5/lib/perl5";
 }
 use JSON;
 if (-f "out.annotated_gene_scores")
-{  open (DATA, "out.annotated_gene_scores");  }
+{ 
+	 my $line = `wc -l  out.annotated_gene_scores`;
+	 my ($num, $file) = split(/\s+/, $line);
+	 if($num >1 )
+	 {open (DATA, "out.annotated_gene_scores");}
+	 else
+	 {
+       exit(0);	 	
+	 }  
+}
 else{
 open (DATA, "out.predicted_gene_scores");
 }

@@ -20,7 +20,7 @@ $man and pod2usage (-verbose=>2, -exitval=>1, -output=>\*STDOUT);
 @ARGV and pod2usage (-verbose=>0, -exitval=>1, -output=>\*STDOUT);
 
 GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
-deleteOldFiles();
+#deleteOldFiles();
 if (defined $id) {
 	processSubmission ($id);	#process a specific submission and then quit
 } else {
@@ -279,7 +279,7 @@ my $rank=1;
 		          		}	
 		     push (@output, [$gene,$gene_html{$gene}]);     					
 			}
-			$gene="";$rank++;last if($i>$MAX_ITEM and $count>=80);next;
+			$gene="";$rank++;last if($i>$MAX_ITEM );next;
 			
 		}
 		chomp($line);
@@ -424,7 +424,7 @@ my $rank=1;
 	close (EMAIL);
 
 	if ($info{email}) {
-		system ("/usr/sbin/sendmail $info{email} < $WORK_DIRECTORY/$id/email") and warn '>' . scalar(localtime) . " (id: $id)\ncannot send mail\n" and return 0;
+		system ("/usr/sbin/sendmail $info{email} < $WORK_DIRECTORY/$id/email") and warn '>' . scalar(localtime) . " (id: $id)\ncannot send mail\n" ;
 	}
 	
 	#system("cp index.html $HTML_DIRECTORY/done/$id/$password") and warn "Error runnning <cp index.html $HTML_DIRECTORY/done/$id/$password>";

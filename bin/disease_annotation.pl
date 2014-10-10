@@ -77,7 +77,7 @@ output_gene_prioritization();
 
 #-----------------------------------------Subroutines---------------------------------------------
 sub output_gene_prioritization{                        #The main sub to output prioritized genelist
-my @disease_input=split (qr/[^ _\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
+my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
 @disease_input <=50 or die "Too many terms!!! No more than 200 terms are accepted!!!";  
 
 #------------------------------------Process each individual term first -------------------------------------

@@ -1,0 +1,653 @@
+ID	TIME	EMAIL	PASSWORD	PHENOTYPE	IP
+2550	2014-10-09	yanghui@usc.edu	5SUjIaCeBbfVPv3X	familial spastic paraplegia	75.140.76.123
+2549	2014-10-09	NA	N9jAYMphINYOTCNz	hearing impairment	NA
+2548	2014-10-09	NA	cnUIimgp52-TiVYb	hearing impairment	NA
+2547	2014-10-09	NA	97k-pU-mk7GsX1Ao	familial spastic paraplegia	NA
+2546	2014-10-09	NA	nukBlpJ73AUIUzC6	crohn disease;crohn's disease	NA
+2545	2014-10-09	NA	LoiB64QEF9ylqulh	spinocerebellar ataxia	NA
+2544	2014-10-09	NA	fp4GnEEF-n3KBCac	schizophrenia	128.125.248.135
+2543	2014-10-09	yanghui@usc.edu	VeSQxWT9-MmDm2HF	hypercholesterolemia, autosomal dominant, type b	207.151.120.4
+2542	2014-10-09	yanghui@usc.edu	gnkZ5D1B2vW7QDcg	rett's syndrome	207.151.120.4
+2541	2014-10-09	NA	OIxDnZkGenLYoAqj	schizophrenia	128.125.248.135
+2540	2014-10-09	yanghui@usc.edu	AbY9knLJCTa6rQXg	autism	128.125.249.242
+2539	2014-10-09	NA	Ubw5-jdqk84Q-hvm	hearing impairment	NA
+2538	2014-10-08	NA	E3nnUkWefLjaDO4Z	hearing impairment	NA
+2537	2014-10-08	NA	5sUX0foi5PbMoHKu	dwarfism	NA
+2536	2014-10-08	NA	fSTeoB6D24fvof8x	schizophrenia	128.125.248.135
+2535	2014-10-08	NA	tK3UcjCUJ0bSx3mN	schizophrenia	128.125.248.135
+2534	2014-10-08	NA	fSrT25ZmkYyOTAtJ	schizophrenia	128.125.248.135
+2533	2014-10-08	NA	cQ0JCblpXMiOi-I7	familial spastic paraplegia	NA
+2532	2014-10-08	NA	swlpu5w8hq9N88Fd	familial spastic paraplegia	NA
+2531	2014-10-07	NA	yJiYZwjKajM3Rljd	growth hormone insensitivity with immunodeficiency	NA
+2530	2014-10-07	NA	423G18g9br9okIIl	deafness autosomal dominant	NA
+2529	2014-10-07	NA	ltTA2GXDRvUtxjcS	growth hormone insensitivity with immunodeficiency	NA
+2528	2014-10-07	flowuenne@googlemail.com	gO4Wn-Fzue7HSapJ	atrioventricular block	206.167.252.3
+2527	2014-10-07	flowuenne@googlemail.com	vLzIXrV8nLyjVcmE	sick sinus syndrome 1 autosomal recessive	206.167.252.3
+2526	2014-10-07	NA	5cu4lOuqLtH6HQmY	autism spectrum disorders	NA
+2525	2014-10-07	NA	pxwWywm118DfxpB5	growth hormone insensitivity with immunodeficiency	NA
+2524	2014-10-07	flowuenne@gmail.com	1_lOnQsTQfEtdtP4	tetralogy of fallot	207.253.219.130
+2523	2014-10-07	flowuenne@googlemail.com	UJkHnNNRggYwcv2L	tetralogy of fallot	207.253.219.130
+2522	2014-10-07	flowuenne@googlemail.com	ud6y10PLBthPdt1x	anomalous origin of left coronary artery from the pulmonary artery	207.253.219.130
+2521	2014-10-07	NA	dkbzBtuenawLivE2	deafness	NA
+2520	2014-10-07	ay.fudan@gmail.com	XM-hhA_J9dgEFu8V	epilepsy	114.86.213.129
+2519	2014-10-07	ay.fudan@gmail.com	1pddI3Q-slsw8ebh	autism spectrum disorder	114.86.213.129
+2518	2014-10-07	ay.fudan@gmail.com	bPiscH00oYOpovl9	autism spectrum disorder	114.86.213.129
+2517	2014-10-07	ay.fudan@gmail.com	QY0BFe10X8z7cdIv	all_diseases	114.86.213.129
+2516	2014-10-07	ay.fudan@gmail.com	nV4lM37PFgfI4Zue	autism spectrum disorder epilepsy arthrogryposis syndrome	114.86.213.129
+2515	2014-10-07	ay.fudan@gmail.com	EAXUYSTJoHUy8btZ	autism spectrum disorder epilepsy arthrogryposis syndrome	114.86.213.129
+2514	2014-10-06	NA	rBQeDZ3oBs34LKJ5	schizophrenia	75.140.76.123
+2513	2014-10-06	NA	7qBxRy1Yi48pILbV	autism spectrum disorders	NA
+2512	2014-10-06	NA	TMTP08keS_LbHokI	schizophrenia	96.41.121.196
+2511	2014-10-06	NA	jFfRJNilM21jmLn7	autism spectrum disorders	NA
+2510	2014-10-05	NA	iYLYdRHRdYengwzA	tuberous sclerosis	NA
+2509	2014-10-05	NA	pscJpVBnOtqUsH5I	smallpox	NA
+2508	2014-10-04	NA	7HTtheVKhMQ_RNUq	hearing impairment	NA
+2507	2014-10-04	NA	EviVxgTNZnx57Xe8	dwarfism	NA
+2506	2014-10-03	NA	g_hVSN0wYU3YjVEX	anemia	NA
+2505	2014-10-03	NA	y14et_Jd4OQ_a2Rx	anemia	NA
+2504	2014-10-03	NA	z9acfM0J2S5x6407	anemia	NA
+2503	2014-10-03	NA	SVxXbWh4hBeaBhM-	schizophrenia	NA
+2502	2014-10-03	NA	ZnnwJVCi0c7UXnJX	schizophrenia	128.125.248.135
+2501	2014-10-03	NA	zcP85CrSbQWD5yZw	alzheimer	NA
+2500	2014-10-03	brendon.beebe@gmail.com	9PAyKv4oX6TckSVE	alzheimer;brain	66.219.219.8
+2499	2014-10-03	NA	g1y8Bd9wP6yfDnxR	schizophrenia	128.125.248.135
+2498	2014-10-03	NA	A-piTRz-LVO-TJIn	schizophrenia	128.125.248.135
+2497	2014-10-03	NA	lAhSMJMx2YyfwBKD	schizophrenia	128.125.248.135
+2496	2014-10-03	NA	HTFoHu9bOOw6REmX	hereditary spastic paraplegia;familial spastic paraplegias;strumpell-lorrain disease	NA
+2495	2014-10-02	NA	nVdU9Y6js8TRnEdY	dwarfism	NA
+2494	2014-10-02	NA	5ysqz9788GMCHto9	hearing impairment	NA
+2493	2014-10-02	NA	D6Va_iFClTbepoDb	crohn disease;crohn's disease	NA
+2492	2014-10-02	yanghui@usc.edu	t_CbKsjobbDgF5B7	all_diseases	128.125.249.242
+2491	2014-10-02	yanghui@usc.edu	nbpkEn-eNtOPZ4wG	all_diseases	128.125.249.242
+2490	2014-10-02	NA	3BL_HgWKkCNYTgSz	all_diseases	207.151.120.4
+2489	2014-10-02	yanghui@usc.edu	nHI7NeBXfc9j0EWf	all_diseases	128.125.249.242
+2488	2014-10-02	yanghui@usc.edu	VkOgWBUBbe_0INZ1	all_diseases	128.125.249.242
+2487	2014-10-02	yanghui@usc.edu	lApIxK0blQGy14RJ	all_diseases	128.125.249.242
+2486	2014-10-02	NA	XPq2td2LWvnBOd1m	respiratory distress	NA
+2485	2014-10-02	NA	KiZ2j7JRKOcjUJS3	tuberous sclerosis	NA
+2484	2014-10-02	NA	Q_tGBR7cmtwKFcvs	familial spastic paraplegi	NA
+2483	2014-10-02	NA	Z5RfEQcz4WAYC8b_	familial spastic paraplegi	NA
+2482	2014-10-02	yanghui@usc.edu	U6cCFq549Iu1rqZg	alpha dystroglycanopathy	75.140.76.123
+2481	2014-10-01	yanghui@usc.edu	rmGVy3gPb7bjiVvs	dwarfism	75.140.76.123
+2480	2014-10-01	NA	9Wd2n21w_cx3zE7x	dwarfism	NA
+2479	2014-10-01	NA	gCUSLvmn-VWtxV5Y	brain;speech;dyslexia;dyslexia 1;dyslexia 2	NA
+2478	2014-10-01	NA	s4wQt0Y72qXeRC_8	schizophrenia	128.125.248.135
+2477	2014-10-01	NA	gtLLIvD-DYy7O3cv	basal ganglia calcification idiopathic	NA
+2476	2014-10-01	NA	5O2RtekJ9GTgiYul	dementia	NA
+2475	2014-10-01	NA	OB1MbxPMYJXbtEhb	dementia	NA
+2474	2014-10-01	NA	OiIM5Is8CCBgC3Xi	anomalous origin of coronary artery from the pulmonary artery	NA
+2473	2014-10-01	NA	Oed7Fzfvl-ILuAkY	alpha dystroglycanopathy	NA
+2472	2014-10-01	NA	lNWkgGTfGUwt1XBn	arrhythmogenic right ventricular dysplasia	NA
+2471	2014-10-01	NA	ZAzZOcCt51kdtzrc	alpha dystroglycanopathy	NA
+2470	2014-10-01	NA	QDyHMkfmsFMp7Hq4	alpha dystroglycanopathy	NA
+2469	2014-10-01	NA	iMKmGz3OK6kQss1W	height	NA
+2468	2014-10-01	NA	Xfe0l6igg3xrF9yN	nasal, chloride, ion, lung, sweat	NA
+2467	2014-10-01	NA	Im9oY7PBYcvXeH35	breast cancer	NA
+2466	2014-10-01	NA	Les6Ev1axuj-fYZm	schizophrenia	NA
+2465	2014-10-01	NA	grPmMDBlq_Dok4Xq	spinocerebellar ataxia	NA
+2464	2014-10-01	NA	zRq4BU8B2wQ6p8Cc	ogden syndrome	NA
+2463	2014-10-01	NA	lo__iSGmIFwWgqxf	spinocerebellar ataxia	NA
+2462	2014-10-01	NA	xbxG01iCxNjFMvIA	alpha dystroglycanopathy	NA
+2461	2014-10-01	NA	lNJ9lljJRZTBzjkR	arrhythmogenic right ventricular dysplasia	NA
+2460	2014-10-01	NA	GHiLLTtRDEDibAdJ	alpha dystroglycanopathy	NA
+2459	2014-10-01	NA	6nxZZor3wlH5PO16	alpha dystroglycanopathy	NA
+2458	2014-10-01	NA	jTh3WcmayBhoXZha	height	NA
+2457	2014-10-01	NA	aj7Ni_BhksL0cDY7	breast cancer	NA
+2456	2014-10-01	NA	9-yXmeD1rVwdE23V	spinocerebellar ataxia	NA
+2455	2014-10-01	NA	B5nPxNC0YaDEcCEk	spinocerebellar ataxia	NA
+2454	2014-10-01	NA	zfRvU-DNLSiGmLFi	ogden syndrome	NA
+2453	2014-09-30	NA	_4717tUGWIIyptJn	breast cancer	NA
+2452	2014-09-30	NA	Jtvtquci_YqN5bbj	tuberous sclerosis	NA
+2451	2014-09-30	yanghui@usc.edu	Gvbe-Llmo9lw0hzI	saddle	75.140.76.123
+2450	2014-09-30	NA	21ra43HlBSuZcLF5	crohn disease;crohn's disease	NA
+2449	2014-09-30	NA	SCJHI_otQnAVh73Y	schizophrenia	128.125.248.135
+2448	2014-09-30	NA	LWrFFI2ALTHsuzdS	intellectual disability;mental retardation	NA
+2447	2014-09-30	NA	YZZ6cfT4dBwdaOKb	intellectual disability;mental retardation	NA
+2446	2014-09-30	NA	ihwEuzHymyCPJfxU	intellectual disability;mental retardation	NA
+2445	2014-09-30	NA	MBuBIsnGX1dezy01	schizophrenia	128.125.248.135
+2444	2014-09-29	NA	Rf1ErCwf8Y-U3uu-	lung cancer somatic	NA
+2443	2014-09-29	NA	dNTaxd8OYcHvxiCw	schizophrenia	96.41.121.196
+2442	2014-09-29	NA	5Hwu0dHEjcQJRl4c	schizophrenia	96.41.121.196
+2441	2014-09-29	NA	vNHXKGfuAU2eaKXD	tuberous sclerosis	NA
+2440	2014-09-29	NA	kw2YmWaiuwic6gvC	tuberous sclerosis	NA
+2439	2014-09-28	yanghui@usc.edu	16OmO55kJneAkPcS	cancer	75.140.76.123
+2438	2014-09-28	yanghui@usc.edu	T71Q5F5OqArABKU5	fanconi	75.140.76.123
+2437	2014-09-27	yanghui@usc.edu	2nvSIufPnG87lXMq	fatigue;weakness;loss of speech	75.140.76.123
+2436	2014-09-26	NA	Bqp9NlOWDcU9vD0s	progressive supranuclear palsy	NA
+2435	2014-09-26	NA	FwMG1MlEmj3nYp6x	dementia;hyperkinetic	NA
+2434	2014-09-26	NA	HcRYLjXqUkQwpegV	autoimmune disease;dementia	NA
+2433	2014-09-26	NA	skPey6o29qexTUf1	dementia;ataxia	NA
+2432	2014-09-26	NA	2r9jKwqC_abuEf3Y	frontotemporal dementia	NA
+2431	2014-09-26	NA	hpptja9oHAlTBZV8	dementia;ataxia	NA
+2430	2014-09-26	NA	QH0n3Fi-6wtnUDR9	frontotemporal dementia	NA
+2429	2014-09-26	NA	J8CZbL42zqmttKQp	schizophrenia	96.41.121.196
+2428	2014-09-26	NA	jNpCCY97ZVWfTQrM	semantic dementia	NA
+2427	2014-09-26	NA	3rhDFdSuy8A-JXDg	dementia	NA
+2426	2014-09-26	NA	iQWAC9TsCiSargqT	dementia;parkinsonism;ataxia	NA
+2425	2014-09-26	NA	pbdggWZYIKPShK1O	schizophrenia	96.41.121.196
+2424	2014-09-26	NA	It-UX-JO0ybDvSb6	schizophrenia	96.41.121.196
+2423	2014-09-26	NA	kxtqsdE1GSxa6vex	hereditary pyropoikilocytosis;hereditary elliptocytosis;hereditary spherocytosis;hereditary stomatocytosis;southeast asian ovalocytosis	NA
+2422	2014-09-26	NA	za91a-_OMjayDHuf	epilepsy nocturnal frontal lobe	NA
+2421	2014-09-26	NA	TT2-wSWyQTKFHLP2	mitochondrial	NA
+2420	2014-09-26	NA	bKLHK81LRRrmB_kH	mitochondrial	NA
+2419	2014-09-26	arun26feb@gmail.com	3lzHFyBDuuTxCyej	gallbladder cancer	203.200.58.142
+2418	2014-09-26	arun26feb@gmail.com	Wqev5ghEn8ExWgdq	gallbladder cander	203.200.58.142
+2417	2014-09-26	yanghui@usc.edu	O-ZzyTKddvnbErEV	tanning	75.140.76.123
+2416	2014-09-26	yanghui@usc.edu	ZEe8pNawEcfZN8LV	pheochromocytoma	75.140.76.123
+2415	2014-09-25	yanghui@usc.edu	psnVGoaMQEjkXvKr	bardet;biedl syndrome;autosomal recessive;ciliopathy	75.140.76.123
+2414	2014-09-25	yanghui@usc.edu	NrQWh8LOyDFUO0wX	liver;cirrhosis	75.140.76.123
+2413	2014-09-25	yanghui@usc.edu	G0iCoZjD8aNKC6BJ	cancer	75.140.76.123
+2412	2014-09-25	yanghui@usc.edu	1x9AUiR-1QW82ogO	frontonasal;dysostosis	75.140.76.123
+2411	2014-09-25	yanghui@usc.edu	A_eFGld8_CjjkwSG	cerebellar;dysplasia;cysts	75.140.76.123
+2410	2014-09-25	yanghui@usc.edu	MhIDj0J90NRJ5wQD	spinocerebellar ataxia 38	75.140.76.123
+2409	2014-09-25	yanghui@usc.edu	iGtT_p133mChm3bR	centronuclear myopathy;dilated cardiomyopathy	75.140.76.123
+2408	2014-09-25	yanghui@usc.edu	PqATvp6Ia8TmgEiE	spinocerebellar ataxia	75.140.76.123
+2407	2014-09-25	yanghui@usc.edu	sYjQulA45dUsSnmM	autosomal-recessive;cone-rod;dystrophy	75.140.76.123
+2406	2014-09-25	yanghui@usc.edu	36-5OXA0DFCdRS5x	aicardi-gouti;res;progressive;encephalopathy	75.140.76.123
+2405	2014-09-25	yanghui@usc.edu	6_JSZofheys55i-B	autosomal-recessive;epileptic;encephalopathy;seizure	75.140.76.123
+2404	2014-09-25	yanghui@usc.edu	ydDBEAI5SKYJEdVO	congenital disorder;glycosylation;immunodeficiency;skeletal dysplasia	75.140.76.123
+2403	2014-09-25	yanghui@usc.edu	q810Z1O-hiqNeNoH	restless legs	75.140.76.123
+2402	2014-09-25	yanghui@usc.edu	cWnA-YfZwWvth-Y4	restless legs	75.140.76.123
+2401	2014-09-25	yanghui@usc.edu	MWxmlxcOchtj5wk8	coronary;artery;calcification	75.140.76.123
+2400	2014-09-25	yanghui@usc.edu	Y29yFMfhIyVJ87sE	eye;malformation	75.140.76.123
+2399	2014-09-25	yanghui@usc.edu	EU3Y9zeUZk5JO9Zh	infantile;nephronophthisis;intellectual disability	75.140.76.123
+2398	2014-09-25	yanghui@usc.edu	pbjO-rxwvWq1t9iY	neu-laxova;serine	75.140.76.123
+2397	2014-09-25	yanghui@usc.edu	8pXpejCcGYDx6fQn	epileptic;encephalopathy;cortical blindness	75.140.76.123
+2396	2014-09-25	yanghui@usc.edu	ELBXpGeGVg60yezt	childhood;nephrotic	75.140.76.123
+2395	2014-09-25	yanghui@usc.edu	7BCmV4-Tm2E6eNbv	childhood-onset;nephrotic syndrome	75.140.76.123
+2394	2014-09-25	yanghui@usc.edu	hI6iFk-ymRIqD-DU	qt interval	75.140.76.123
+2393	2014-09-25	NA	8BETyPMxUpu_GhmE	dementia	NA
+2392	2014-09-25	NA	wb2MCewV6ceeL3SB	hereditary spherocytosis;hereditary pyropoikilocytosis;hereditary elliptocytosis;southeast asian ovalocytosis;hereditary stomatocytosis	NA
+2391	2014-09-25	NA	VbAd63LxhWVS0ye5	schizophrenia	128.125.248.135
+2390	2014-09-25	NA	KY425WCSR3DhYZLl	schizophrenia	128.125.248.135
+2389	2014-09-25	NA	AQfOLiRugQyCjFwa	ataxia	NA
+2388	2014-09-24	yanghui@usc.edu	PFpjSroMYE9Asqik	prostate cancer	75.140.76.123
+2387	2014-09-24	yanghui@usc.edu	a5tQDB6H-t_oAUjh	neurodevelopmental abnormality	75.140.76.123
+2386	2014-09-24	yanghui@usc.edu	l1b2meBI5ijOKqRJ	neurodevelopmental abnormality	75.140.76.123
+2385	2014-09-24	tautvydas11@yahoo.com	a3DYI_wRPpdr7kB-	mental retardation	193.219.87.12
+2384	2014-09-24	tautvydas11@yahoo.com	fnrxtdQIDEXDUb0a	neurodevelopmental abnormality	193.219.87.12
+2383	2014-09-24	tautvydas11@yahoo.com	O0b8PS7UPljBnvGd	intellectual disability	193.219.87.12
+2382	2014-09-24	NA	VnmZFVGHb48hsJMR	dementia	NA
+2381	2014-09-24	NA	k05_-2GMJZXHDraZ	schizophrenia	128.125.248.135
+2380	2014-09-24	NA	dSN9tt0DtYQkKALJ	schizophrenia	128.125.248.135
+2379	2014-09-24	NA	7FmE-6xSZaH12TY0	schizophrenia	128.125.248.135
+2378	2014-09-24	yanghui@usc.edu	24x8UMAMYu7gqbcU	cardiomyopathy familial hypertrophic	128.125.249.242
+2377	2014-09-24	NA	mptAnWQg5Fm1VCKy	cardiomyopathy familial hypertrophic	NA
+2376	2014-09-24	NA	fdeKyTn-QpzF5PJG	cardiomyopathy familial hypertrophic	NA
+2375	2014-09-24	NA	OQQuZPdxe9TxduL6	cardiomyopathy familial hypertrophic	NA
+2374	2014-09-24	NA	W3wfehEDBSjwGeUX	cardiomyopathy familial hypertrophic	NA
+2373	2014-09-24	NA	2EawVj5VPMvvJxwR	cardiomyopathy familial hypertrophic	NA
+2372	2014-09-24	NA	UMA4yGS2NX5z5jvV	cardiomyopathy familial hypertrophic	NA
+2371	2014-09-24	NA	yZqd-qph86Uum59M	cardiomyopathy familial hypertrophic	NA
+2370	2014-09-24	NA	WSkNzd7rPQx-YIb_	huntington	75.140.76.123
+2369	2014-09-23	NA	7dgoBGMxPexhh7x3	cancer	75.140.76.123
+2368	2014-09-23	NA	yiI1t-plgHQ8gC50	cancer	75.140.76.123
+2367	2014-09-23	NA	KPEObuParP3HBWnJ	schizophrenia	128.125.248.135
+2366	2014-09-23	NA	RiAW4jsYTUFcSgpu	schizophrenia	128.125.248.135
+2365	2014-09-23	NA	RwfOi8PUDF8FgHjt	schizophrenia	128.125.248.135
+2364	2014-09-23	NA	JZCvNAr2U3xJJRq9	schizophrenia	128.125.248.135
+2363	2014-09-22	NA	peq81rUu0DKMOwet	lung cancer	203.95.5.74
+2362	2014-09-22	NA	zd93kNur4fV0VNqT	heart failure	68.181.206.17
+2361	2014-09-22	NA	I8-bVawA66Qysosy	schizophrenia	96.41.121.196
+2360	2014-09-22	NA	HUxPZoa0wAfiYIwk	schizophrenia	96.41.121.196
+2359	2014-09-22	zsh@amss.ac.cn	18bqFSPUhskVvCYw	medulloblastoma	155.52.45.119
+2358	2014-09-22	zsh@amss.ac.cn	NR0u3eHrnUrQb3bd	medulloblastoma	155.52.45.119
+2357	2014-09-22	NA	M5G4wY-MI9r2Y7xu	medulloblastoma	155.52.45.119
+2356	2014-09-22	zsh@amss.ac.cn	lR4BFP590Vvhc2aG	medulloblastoma	155.52.45.119
+2355	2014-09-22	NA	NwRcRlfQfomedbR5	schizophrenia	96.41.121.196
+2354	2014-09-22	NA	0buUpOFn2eKhUHuO	schizophrenia	96.41.121.196
+2353	2014-09-22	NA	xs4T-QiI-yldh80L	schizophrenia	96.41.121.196
+2352	2014-09-22	NA	a4E-8mGmUjkSMZkm	congenital cataracts	NA
+2351	2014-09-22	NA	UsrynVWPPf8wDvIW	cryptophthalmos , eye	NA
+2350	2014-09-22	NA	t5YjNKWmsKpibBqG	glaucoma	NA
+2349	2014-09-20	NA	IY0QlbrEnapAqAUn	marfan syndrome	75.140.76.123
+2348	2014-09-20	NA	FSwH6CkPx3TgpV_F	immunodeficiency common variable	NA
+2347	2014-09-20	NA	pgCQ0EYYfEgOedVL	dfgdfgadfg	75.140.76.123
+2346	2014-09-20	NA	Lnk0BUcF8bh-flQf	hypoparathyroidism retardation dysmorphism;seizure;hypocalcaemia;hypoparathyroidism;microcephaly	NA
+2345	2014-09-20	NA	4n02UQke2DJW3BSY	kindler syndrome;rothmund thomson syndrome;photosensitive skin;poikiloderma;hyperkeratosis with erythema	NA
+2344	2014-09-20	NA	zUw4P22eDOlLy0XB	kindler syndrome;rothmund thomson syndrome;photosensitive skin;poikiloderma;hyperkeratosis with erythema	NA
+2343	2014-09-20	NA	rwvF-lk_EHNuxnN2	hypoparathyroidism retardation dysmorphism;seizure;hypocalcaemia;hypoparathyroidism;microcephaly	NA
+2342	2014-09-20	NA	UEG9ii4QnTognIPi	autism	75.140.76.123
+2341	2014-09-20	NA	IQgrBDCHrsLl3_Uq	autism	75.140.76.123
+2340	2014-09-19	NA	kjvGeFCUZH48VlWT	6hintw;a href;http;ussbkeowlnum.com;ussbkeowlnum;a;url;http;igfxgilhhkdq.com;igfxgilhhkdq;url], [link;http;mzzldknzdxpm.com;mzzldknzdxpm;link], http;okxnwxfxysis.com	213.238.175.29
+2339	2014-09-19	NA	uteFOm_iBfL3RnPy	schizophrenia	75.140.76.123
+2338	2014-09-19	NA	ZzAJvnrUDpgZhlsw	autism	75.140.76.123
+2337	2014-09-19	NA	B7Gtr48lsHtZCTOl	schizophrenia	75.140.76.123
+2334	2014-09-19	NA	ywIfPJQHov2abRYi	huntington	75.140.76.123
+2333	2014-09-19	NA	cLJa8RcVBPhvP7dF	schizophrenia	75.140.76.123
+2332	2014-09-19	NA	ECGlwwTmqnXaS_Ig	small cell lung cancer	120.236.138.148
+2331	2014-09-19	NA	Y8KJ2-qKbL6SBq40	senescence	120.236.138.148
+2330	2014-09-19	NA	LKe5WTbo2zUAy0F2	autism	120.236.138.148
+2329	2014-09-19	xiaowo.wang@gmail.com	MIFPvn1EJnAAlfse	cellular senescence	120.236.138.148
+2328	2014-09-19	NA	eFv0g04ZeR64BjQ-	cellular senescence	120.236.138.148
+2327	2014-09-19	xsliu@jimmy.harvard.edu	YGOwr9xltdD5ke8U	breast cancer	120.236.138.148
+2326	2014-09-19	NA	ht41mcAE0gC1eQSO	schizophrenia	68.181.88.66
+2325	2014-09-19	NA	ZvsahKGDSUtUaq0e	schizophrenia	68.181.88.66
+2324	2014-09-19	NA	hhyqihE1mx5wPRhj	schizophrenia	68.181.88.66
+2323	2014-09-19	NA	5Fbu9tn8XSAOEpIw	crohn	68.181.88.66
+2322	2014-09-19	NA	io06iJHtYFbIPEhy	crohn's disease	68.181.88.66
+2321	2014-09-19	NA	_uCYzpwjABOOez2O	crohn's disease	68.181.88.66
+2320	2014-09-19	NA	b7XqL2RJyPECoHSN	schizophrenia	68.181.88.66
+2319	2014-09-19	NA	J2bh3RrbXPr3vH3E	immune deficiency	NA
+2318	2014-09-19	NA	Qc7Bt8WpzAPhwwRd	immunodeficiency	NA
+2317	2014-09-18	zhf78123@hotmail.com	P_IjSNcVTjcGcVsU	atrial septal defect	221.232.155.2
+2316	2014-09-18	zhf78123@hotmail.com	Gvdnzui-3ACJ-1Ae	atrial septal defect	221.232.155.2
+2315	2014-09-18	NA	eFbtqTRNjCdMHh6f	schizophrenia	128.125.249.110
+2314	2014-09-18	NA	I4ca8SmQ18_vP0qz	schizophrenia	128.125.249.110
+2313	2014-09-18	NA	OYUi7aUGwv-4zqf_	schizophrenia	128.125.249.110
+2312	2014-09-18	NA	44nEtvQl5W55rhy4	schizophrenia	128.125.249.110
+2311	2014-09-18	NA	hhl5ymZ5uu1t3Qzp	schizophrenia	128.125.249.110
+2310	2014-09-18	NA	hBtGKkTlzKaFWPol	schizophrenia	128.125.248.135
+2309	2014-09-18	NA	vORMYU8PgaoDZNyf	schizophrenia	128.125.248.135
+2308	2014-09-18	NA	Fz9trLx8cThp-LMB	schizophrenia	128.125.248.135
+2307	2014-09-18	NA	ri1zwILJZcU9wKkS	schizophrenia	128.125.248.135
+2306	2014-09-18	NA	3ooIFWJ8wYASB_TK	schizophrenia	128.125.248.135
+2305	2014-09-18	NA	DAK8216iuw8cY12S	schizophrenia	128.125.249.242
+2304	2014-09-18	NA	dOqZyiCGQsiE2Twj	schizophrenia	128.125.249.242
+2303	2014-09-18	NA	CryzBRu9qA6VD2sG	schizophrenia	128.125.249.242
+2302	2014-09-18	NA	hUnj1tOxnnN2l_ib	schizophrenia	128.125.249.242
+2301	2014-09-18	NA	OGa3UOhhNYGToY2l	schizophrenia	128.125.249.242
+2300	2014-09-18	NA	X4FD5SwcHgcmKFIH	schizophrenia	128.125.249.242
+2299	2014-09-18	NA	-cYsv2RvOnDz-Ydg	schizophrenia	128.125.249.242
+2298	2014-09-18	NA	bF_jdfBc4UcuilWn	schizophrenia	128.125.249.242
+2297	2014-09-18	NA	10geOlJDHtzcrFCH	schizophrenia	128.125.248.135
+2296	2014-09-18	NA	fpS530jKFPPh8T0m	schizophrenia	128.125.248.135
+2295	2014-09-18	NA	G6TO8EveyXKAVVHs	schizophrenia	128.125.248.135
+2294	2014-09-18	NA	oX0pKzZbtuMB--Bk	schizophrenia	128.125.248.135
+2293	2014-09-18	NA	8ZtgXUcZADhBf7h9	usher syndrome all the types and rp	NA
+2292	2014-09-17	ld028888@gmail.com	LgoAWYrXLULM5WGp	alzheimer;brain	68.181.97.25
+2291	2014-09-17	NA	ETQcPDEJYR_kzBwx	schizophrenia	128.125.248.135
+2290	2014-09-17	NA	mkhggvMdnWzPCtkQ	smoking behavior	207.151.35.5
+2289	2014-09-17	NA	L89Tb988TYsO_jW8	oligodontia	207.151.35.5
+2288	2014-09-17	NA	mdMBaeKbRJMCtSds	kidney	207.151.35.4
+2287	2014-09-17	NA	M6ISZO5ZWoQL6_Yt	disseminated;fungal;infection	NA
+2286	2014-09-17	NA	L4mUwgrpJUF4rJtT	developmental delay;hyperactive behavior;autism	NA
+2285	2014-09-17	NA	5Gw1_aXtCHSXhFm0	global developmental delay;hyperactive behavior;autism	NA
+2284	2014-09-17	NA	zikGTFzP6yjrdDp2	autism;developmental delay;hyperactive behavior	14.139.32.2
+2283	2014-09-16	NA	WS5MOSpsXFS1ti7R	schizophrenia	128.125.248.135
+2282	2014-09-16	NA	-j2vyxJLG1kr16Ge	schizophrenia	128.125.248.135
+2281	2014-09-16	NA	LRvlTUsYexKx4Eh3	schizophrenia	128.125.248.135
+2280	2014-09-16	NA	irrC3dNerEffZeTr	ataxia;epilepsy	NA
+2279	2014-09-16	NA	HXsnJyz0BJLmdKuU	ataxia;spastic paraplegia	NA
+2278	2014-09-16	NA	fSaw2yZiNXthKFGm	ataxia	NA
+2277	2014-09-16	NA	GklW8578zEgWtwc6	ataxia	NA
+2276	2014-09-15	NA	UrioOsl9e-4XpfmP	schizophrenia	128.125.248.135
+2275	2014-09-15	NA	lZoitWiOexdi2Uq6	schizophrenia	128.125.248.135
+2274	2014-09-15	NA	ESwcf12JlD4Wl6q-	schizophrenia	128.125.248.135
+2273	2014-09-15	NA	L8GD7yT2slIUVJJJ	schizophrenia	128.125.248.135
+2272	2014-09-15	NA	OdDOw_WNC4Ieeq0F	schizophrenia	128.125.248.135
+2271	2014-09-15	NA	EpSj_ly_Kh2v9CWu	schizophrenia	128.125.248.135
+2270	2014-09-15	NA	FuR_uvt4GmysmHxp	neuropathy;neurodegenerative disease	NA
+2269	2014-09-15	NA	SpxjaPc-yBRJJcb6	optic atrophy	NA
+2268	2014-09-14	NA	RRE4MYeyiKtWNzOg	schizophrenia	75.140.76.123
+2267	2014-09-14	NA	BMm9h2aPDWzliM6P	gallbladder cancer	203.200.58.142
+2266	2014-09-14	NA	XScOQd6L0YXEvziK	breast cancer	75.140.76.123
+2265	2014-09-14	NA	PsjCIkG_iSgHPqd9	alzheimer	75.140.76.123
+2264	2014-09-14	arun@ibioinformatics.org	maz_atIq4hdZ4E1o	cancer;gallbladder	203.200.58.142
+2263	2014-09-14	NA	GtQ7PD_yx2SoZgkf	autism	75.140.76.123
+2262	2014-09-14	NA	HaDtG-TYU3QeHZ9c	autism	75.140.76.123
+2261	2014-09-13	zhf78123@hotmail.com	Ky1hCkZxsieqn-f0	atrial septal defect;heart	221.232.155.2
+2260	2014-09-13	NA	63KQ0YqRjmywXvk6	atrial;septal defect;heart	NA
+2259	2014-09-12	NA	AMeNpNCSRUZhIkTn	schizophrenia	128.125.248.135
+2258	2014-09-12	NA	vlrJ7RNkR0DG59kt	schizophrenia	128.125.248.135
+2257	2014-09-12	NA	m3RjFZaW6JFgAE6k	bone marrow disease	NA
+2256	2014-09-12	NA	pUzeJpWRGht_ClrQ	bone marrow disease	NA
+2255	2014-09-12	NA	ZZaG92F7gKrKFnsb	bone marrow disease	NA
+2254	2014-09-12	NA	XrBOgLpmTf9_aE8S	bone marrow disease	NA
+2253	2014-09-12	NA	fCOXToP3bSldGdaw	bone marrow disease	NA
+2252	2014-09-12	NA	qkbWOmVUuiKF3v6d	bone marrow disease	NA
+2251	2014-09-12	NA	NBY4n9vCmr3qcl6I	bone marrow failure	NA
+2250	2014-09-12	NA	U5bs4F9--T66leBy	bone marrow failure	NA
+2249	2014-09-12	NA	XohdhVfPM0yUpb43	bone marrow failure	NA
+2248	2014-09-12	NA	yhbQgncvr4INuKE8	bone marrow failure	NA
+2247	2014-09-12	NA	103GCjqP0YMlsFEp	bone marrow failure	NA
+2246	2014-09-12	NA	IGE2Wo1eMJB-GpHh	schizophrenia	128.125.248.135
+2245	2014-09-12	NA	pnkhWQH4kfH4oOrd	schizophrenia	128.125.248.135
+2244	2014-09-12	NA	tRqk11YoG6gmreq3	schizophrenia	128.125.248.135
+2243	2014-09-12	NA	diHIQysxUAun3k4b	schizophrenia	128.125.248.135
+2242	2014-09-12	NA	NN1K31GMLzG0x1NB	schizophrenia	128.125.248.135
+2241	2014-09-12	NA	sPYW_hvKDBNlTK00	charcot marie tooth	NA
+2240	2014-09-12	sonexaibmb@gamil.com	9qRP5hF8wwfZAPrN	cholangiocarcinoma	147.46.198.199
+2239	2014-09-12	sonexaibmb@gamil.com	ZEnFJd6hpiLACdpB	werner syndrome	147.46.198.199
+2238	2014-09-12	sonexaibmb@gamil.com	klj2PncBlvjrfS1A	breast cancer	147.46.198.199
+2237	2014-09-12	sonexaibmb@gamil.com	ICFbjYQ2P4oPbahK	breast cancer	147.46.198.199
+2236	2014-09-12	sonexaibmb@gamil.com	8838fZ7COgQAXVD_	liver cancer	147.46.198.199
+2235	2014-09-11	sonexaibmb@gamil.com	q6ns5DlAmD6Bur-6	alzheimer	147.46.198.199
+2234	2014-09-11	sonexaibmb@gamil.com	MxKh1iKN_pIs5d2J	alzheimer;brain	147.46.198.199
+2233	2014-09-11	sonexaibmb@gamil.com	_zpj107YUQtVlUFH	alzheimer;brain	147.46.198.199
+2232	2014-09-11	NA	2AA7Ug21EKsqkCGy	schizophrenia	75.140.76.123
+2231	2014-09-11	NA	IUiYX9SXeHBo_FBX	schizophrenia	75.140.76.123
+2230	2014-09-11	NA	Y3e5jjMmLciWb12R	schizophrenia	75.140.76.123
+2229	2014-09-11	NA	Gp3Pdu0VfVNcqk78	sinusitis	75.140.76.123
+2228	2014-09-11	NA	epXWcwWrozF1j8SD	sinusitis	75.140.76.123
+2227	2014-09-11	NA	Bdt1p6dP2O8v33SM	breast cancer	128.195.66.16
+2226	2014-09-11	alakatos@uci.edu	aIVpBXjxmtF7B0TN	alzheimer's disease	128.195.66.16
+2225	2014-09-11	alakatos@uci.edu	NKX4xbKE44xLs80m	alzheimer's disease	128.195.66.16
+2224	2014-09-11	alakatos@uci.edu	VH2HBw25V17gB5GG	alzheimer's disease	128.195.66.16
+2223	2014-09-11	NA	W3qYd6oaDNsnZjkK	alzheimer's disease	NA
+2222	2014-09-11	NA	8XTJ2bOVBzxBu1o4	alzheimer	68.181.88.167
+2221	2014-09-11	NA	SSD6qc2R3EalCj08	schizophrenia	128.125.248.135
+2220	2014-09-11	NA	-BTLsSuQ6EclDn__	schizophrenia	128.125.248.135
+2219	2014-09-11	NA	J8YJrzC8_xUTDGP_	schizophrenia	128.125.248.135
+2218	2014-09-11	NA	JAxes3mtqdcCxTPR	schizophrenia	128.125.248.135
+2217	2014-09-11	NA	J9bICXpyFMriSGTQ	schizophrenia	128.125.248.135
+2216	2014-09-11	NA	x1e5Z0Tv5J4kywrN	schizophrenia	128.125.248.135
+2215	2014-09-11	NA	7215eL12cgGxlN7u	schizophrenia	128.125.248.135
+2214	2014-09-11	NA	nAKnQ8Gy-2wpvB32	schizophrenia	128.125.248.135
+2213	2014-09-11	NA	YhFoPTUpLOceDmQQ	schizophrenia	128.125.248.135
+2212	2014-09-11	NA	WGZ1-BQFS-KOHjeL	schizophrenia	128.125.248.135
+2211	2014-09-11	NA	1SJWHbZl-RDEFiKT	schizophrenia	128.125.248.135
+2210	2014-09-11	NA	WMXLaeOz9uw7QxRq	schizophrenia	128.125.248.135
+2209	2014-09-11	NA	nvlU15zgnG_eNBxN	schizophrenia	128.125.248.135
+2208	2014-09-11	NA	ktZGwfJNYGsHqCXS	schizophrenia	128.125.248.135
+2207	2014-09-11	NA	aI6jGv9kz8S6UKnz	schizophrenia	128.125.248.135
+2206	2014-09-11	NA	MBwWeK4NB4y7prKX	schizophrenia	128.125.248.135
+2205	2014-09-11	NA	QBRmcEWmX53msXlt	schizophrenia	128.125.248.135
+2204	2014-09-11	NA	fWzuy8TU_oRSBETh	schizophrenia	128.125.248.135
+2203	2014-09-11	NA	B1wqw_seGixm-2mk	breast cancer	NA
+2202	2014-09-11	NA	ykeR7UC05wLYsyzm	warts	NA
+2201	2014-09-11	kvykvy@gmail.com	xcYGmfL69ASXWMlD	warts	132.64.30.241
+2200	2014-09-10	NA	iyN77tCvXd4ufQ2U	bone marrow failure	NA
+2199	2014-09-10	NA	zHVSFcz5ZhgprL9N	schizophrenia	69.181.155.68
+2198	2014-09-10	NA	NJLD1eTK-sO4pCRf	schizophrenia	69.181.155.68
+2197	2014-09-10	NA	QOZ3bo9rcy64tKWG	bone marrow failure	NA
+2196	2014-09-10	NA	iVpPF93nAjucGm3U	miller syndrome	NA
+2195	2014-09-10	NA	ykiqzQgLpmWqxyEi	schizophrenia	128.125.248.135
+2194	2014-09-10	NA	F_ZidN5yjS1TzRKg	schizophrenia	128.125.248.135
+2193	2014-09-09	NA	u-CRfjTpIlqsOjRy	114480	NA
+2192	2014-09-09	NA	5ve5c8FOwANI1MEb	114480	NA
+2191	2014-09-09	NA	vcHoCF0Ie8oxSIqI	114480	NA
+2190	2014-09-09	NA	v7Rs5vEKknE-Uz2j	114480	NA
+2189	2014-09-09	NA	CWF3dH3DM02uWYoi	114480	NA
+2188	2014-09-09	NA	QCZ6iym7LwEAdCiv	schizophrenia	128.125.248.135
+2187	2014-09-09	NA	pTs-MFOMbjC5LdSE	schizophrenia	128.125.248.135
+2186	2014-09-09	NA	p1lbKwqTSpSJF4Xq	schizophrenia	128.125.248.135
+2185	2014-09-09	NA	Sru5VT4OmRPoyNTg	schizophrenia	128.125.248.135
+2184	2014-09-09	NA	RDsR2jnCo99FwU_7	schizophrenia	128.125.248.135
+2183	2014-09-09	NA	43tedtRIR1_3eFPq	schizophrenia	128.125.248.135
+2182	2014-09-09	NA	8YYFbkysFsivkd-Z	schizophrenia	128.125.248.135
+2181	2014-09-09	NA	LAn4dSre5qIOFqYa	schizophrenia	128.125.248.135
+2180	2014-09-09	NA	muhEv5Jw4EiqAn5E	schizophrenia	128.125.248.135
+2179	2014-09-09	NA	veR720TZoqkgSaix	schizophrenia	128.125.248.135
+2178	2014-09-09	NA	vemlk0kDucKU_XOv	schizophrenia	128.125.248.135
+2177	2014-09-09	NA	jAd-QC92HUaBK2oz	schizophrenia	128.125.248.135
+2176	2014-09-09	NA	7xk-dHHTQIHP7Fr9	schizophrenia	128.125.248.135
+2175	2014-09-09	NA	-gCYYoPw45gGYJu6	schizophrenia	128.125.248.135
+2174	2014-09-09	NA	yIzQOiS1ScqJ-mWD	schizophrenia	128.125.248.135
+2173	2014-09-09	NA	k-c3N2iny_GsbTUh	schizophrenia	128.125.248.135
+2172	2014-09-09	NA	qe4-zNiPNepyLSFw	schizophrenia	128.125.248.135
+2171	2014-09-09	NA	6TTj2D0_246NdBx7	schizophrenia	128.125.248.135
+2170	2014-09-09	NA	iRJfuDsEB8eTwBrd	schizophrenia	128.125.248.135
+2169	2014-09-09	fengxiao-bu@uiowa.edu	ni7iveTDEIOdERod	atypical hemolytic uremic	128.255.217.145
+2168	2014-09-09	fengxiao-bu@uiowa.edu	vTC3o9WwIIWJ4sxd	atypcial hemolytic syndrome	128.255.217.145
+2167	2014-09-09	fengxiao-bu@uiowa.edu	esU-f5wl_0WkUS7L	atypical hemolytic uremic syndrome	128.255.217.145
+2166	2014-09-09	NA	mT50slEKWNeRPPiI	schizophrenia	128.125.248.135
+2165	2014-09-09	NA	GikRqFkGjlSxLpPl	schizophrenia	128.125.248.135
+2164	2014-09-09	NA	yF9VWrsfD-QiZ4aa	schizophrenia	128.125.248.135
+2163	2014-09-09	NA	Us4d4_a2bX6Qr9On	bone marrow failure	NA
+2162	2014-09-09	NA	MHf88Lyal16wj6VL	charcot marie tooth;hereditary neuropathy;neuropathy hereditary;distal motor neuropathy;hereditary motor neuropathy;hereditary sensory and autonomic neuropathy;distal spinal muscular atrophy	145.117.149.39
+2161	2014-09-09	NA	mlCqG_fcyhMcmcPu	charcot marie tooth;hereditary neuropathy	145.117.149.39
+2160	2014-09-09	NA	5i9j8zCtYwuWB88q	hspb1	145.117.149.39
+2159	2014-09-09	f.vanruissen@amc.uva.nl	2e-GtllbEucrhSXD	charcot marie tooth disease type 2;charcot marie tooth disease type 2k;charcot marie tooth disease type 2n;charcot marie tooth disease type 2p;charcot marie tooth disease type 2l;charcot marie tooth disease type 2c;charcot marie tooth disease type 2h;charcot marie tooth disease type 2f	145.117.149.39
+2158	2014-09-09	f.vanruissen@amc.uva.nl	gKu6cGjSORgRpDOH	charcot marie tooth disease type 2k;charcot marie tooth disease type 2n;charcot marie tooth disease type 2p;charcot marie tooth disease type 2l;charcot marie tooth disease type 2c;charcot marie tooth disease type 2h;charcot marie tooth disease type 2f	145.117.149.39
+2157	2014-09-09	NA	DiXDBJ3P3WFNwZ0J	cmt, hmsn, neuropathy, dsma, dhmn, hmn	NA
+2156	2014-09-09	NA	YzkKf9tEzQ8If8WF	cmt, hmsn, neuropathy, dsma, dhmn, hmn	NA
+2155	2014-09-08	NA	gihFVR-oBigeDJCA	schizophrenia	128.125.248.135
+2154	2014-09-08	NA	gYmgNM8e9zgxgY_c	schizophrenia	128.125.248.135
+2153	2014-09-08	NA	g_sVSAJ2DSPZqe1X	schizophrenia	128.125.248.135
+2152	2014-09-08	NA	NuMyKW-nArGuSsIR	schizophrenia	128.125.248.135
+2151	2014-09-08	NA	6Nc1Hcsr23i6rjys	schizophrenia	128.125.248.135
+2150	2014-09-08	NA	XHDmFfNe57oUygVc	schizophrenia	128.125.248.135
+2149	2014-09-08	NA	rKIQICbhHTZa_Adb	schizophrenia	128.125.248.135
+2148	2014-09-08	NA	O7qX0xO0Ak6qRQkw	schizophrenia	128.125.248.135
+2147	2014-09-08	NA	OXjlBO7dId-LKLzY	schizophrenia	128.125.248.135
+2146	2014-09-08	NA	cEzsfgbpl37O2N0t	schizophrenia	128.125.248.135
+2145	2014-09-08	NA	wCITdUNuOCbbjipt	schizophrenia	128.125.248.135
+2144	2014-09-08	NA	Dfp7m-Pg80j39TIB	schizophrenia	128.125.248.135
+2143	2014-09-08	NA	J8RRee7os0sBYSun	schizophrenia	128.125.248.135
+2142	2014-09-08	NA	DemBxC44zTLSgNEZ	schizophrenia	128.125.248.135
+2141	2014-09-08	NA	B8YH4nTCQMN-RnOU	schizophrenia	128.125.248.135
+2140	2014-09-08	NA	7R_-jQlrfkgGUKbX	schizophrenia	128.125.248.135
+2139	2014-09-08	NA	nX6mtfPiqnaEkWJW	schizophrenia	128.125.248.135
+2138	2014-09-08	NA	oCqmGlStiQN-pkYm	schizophrenia	128.125.248.135
+2137	2014-09-08	NA	ydT2ZpzfyjxYn3wP	114480	NA
+2136	2014-09-08	NA	DMaoa2e_Q8zWCiwK	114480	NA
+2135	2014-09-08	NA	5Zn8UgYV2sXkGDpA	114480	NA
+2134	2014-09-08	NA	jetCKIhwfrldesAE	chorioretinal coloboma;hypoplasia of the corpus callosum;intellectual disability	75.140.76.123
+2133	2014-09-08	NA	ofu3EkP2pckjvncJ	enamel;renal;gingival;hypodontia	75.140.76.123
+2131	2014-09-08	NA	OB1MbxPMYJXbtEhb	114480	NA
+2129	2014-09-07	NA	OW9L9E92lmH5bh9Z	114480	NA
+2128	2014-09-07	NA	p8Iesp5J4GNnYgJo	114480	NA
+2127	2014-09-07	NA	FnaMltEOo9KPNfxK	114480	NA
+2126	2014-09-07	NA	_Zd6B8UkJ7pTy-VR	ogden syndrome	NA
+2125	2014-09-05	NA	jlJeoyxUVvAJa3t8	schizophrenia	96.41.121.196
+2124	2014-09-05	NA	O7aZYDdRT8Qc8GRG	schizophrenia	96.41.121.196
+2123	2014-09-05	NA	rqNOUJ7qW9mxGG0r	schizophrenia	96.41.121.196
+2122	2014-09-05	NA	hP1Gh0g1FmZ_ZGgV	schizophrenia	96.41.121.196
+2121	2014-09-05	NA	LcYq_VoBKbUJUxJt	schizophrenia	96.41.121.196
+2120	2014-09-05	NA	YCPcMRJsxiGLedtc	schizophrenia	96.41.121.196
+2119	2014-09-05	NA	p6aNzepEdia1Tlta	colorectal cancer	NA
+2118	2014-09-05	NA	G3P_G9R-FqBRuOjv	colorectal cancer	NA
+2117	2014-09-05	matteobarcella84@gmail.com	5jKX7dbfA959R2Q1	colorectal cancer	88.50.17.228
+2116	2014-09-05	NA	TQ147HSwnZ6uU4VN	cardiomyopathy	NA
+2115	2014-09-05	NA	epxZ2kX5mJBGHo-Q	cardiomyopathy	NA
+2114	2014-09-04	NA	R_kPoeX0PS2Tv9Dr	schizophrenia	96.41.121.196
+2113	2014-09-04	NA	v8UbA7aLWPIM0B1h	schizophrenia	96.41.121.196
+2112	2014-09-04	NA	Tx9j2NFToeH19qMO	schizophrenia	96.41.121.196
+2111	2014-09-04	NA	FoNADqxwSzjOL8z2	schizophrenia	96.41.121.196
+2110	2014-09-04	NA	7eqynJWEZB2y3wR_	schizophrenia	96.41.121.196
+2109	2014-09-04	NA	yhliw0Z4aJpB5L96	schizophrenia	96.41.121.196
+2108	2014-09-04	NA	EyzHpucq4xq-4go7	schizophrenia	96.41.121.196
+2107	2014-09-04	NA	eolK267u_oMXzOf6	schizophrenia	96.41.121.196
+2106	2014-09-04	NA	x1IMTi_lfB1bV7BW	schizophrenia	96.41.121.196
+2105	2014-09-04	NA	5AR8m1ggLWzvS70c	schizophrenia	96.41.121.196
+2104	2014-09-04	NA	i_jh0cfRsMCiFeax	schizophrenia	96.41.121.196
+2103	2014-09-04	NA	agBy9efB8Pui9rYM	schizophrenia	96.41.121.196
+2102	2014-09-04	NA	jCMC6esON29wYiSs	schizophrenia	96.41.121.196
+2101	2014-09-04	NA	7Bn7ZIT2ZO9-gtSk	schizophrenia	96.41.121.196
+2100	2014-09-04	NA	is3TjzFQd4RriejX	schizophrenia	96.41.121.196
+2099	2014-09-04	NA	7YCNhu_BVl86ILzs	schizophrenia	96.41.121.196
+2098	2014-09-04	NA	ZP1H_HEvVwHNsNUY	schizophrenia	96.41.121.196
+2097	2014-09-04	NA	R8psCKLzvvCYgijs	schizophrenia	96.41.121.196
+2096	2014-09-04	NA	9bZX2PNvpJi9Nfdu	schizophrenia	96.41.121.196
+2095	2014-09-04	NA	bK6BK_5ON2WTL5JM	schizophrenia	96.41.121.196
+2094	2014-09-04	NA	UDkLFy8OTqt1Scbl	schizophrenia	96.41.121.196
+2093	2014-09-04	NA	qiFdNTcrAKzBL3WR	schizophrenia	128.125.249.242
+2092	2014-09-04	NA	2nJqV8fRf_BqMXLr	schizophrenia	128.125.249.242
+2091	2014-09-04	NA	FTKhNDCzSUrP0mpI	schizophrenia	128.125.249.242
+2090	2014-09-03	NA	xeSTzKpyoxsbrz49	colorectal cancer somatic	NA
+2089	2014-09-02	NA	hRYNQ1coiW9pWt83	schizophrenia	66.215.99.80
+2088	2014-09-02	NA	OWxiDi5VBhy5YUCa	breastcancer	NA
+2087	2014-09-02	NA	F5GJJUZ4Vu28U650	schizophrenia	68.181.22.111
+2086	2014-09-02	NA	kHk41NJCq1LMNEen	schizophrenia	68.181.22.111
+2085	2014-09-02	NA	WqZCB4V3BJ7Y3Hw4	schizophrenia	68.181.22.111
+2083	2014-09-02	NA	ixWow0yKYyfdU_bA	schizophrenia	68.181.22.111
+2082	2014-09-02	NA	pfWtbQAqSrO-MaUM	schizophrenia	68.181.22.111
+2081	2014-09-02	NA	WF7l1a6otPpe1KuM	schizophrenia	68.181.22.111
+2080	2014-09-02	NA	y1WVouE-WOuBH9Uq	schizophrenia	68.181.22.111
+2079	2014-09-02	NA	oKQQiMQjNVBk7ntS	schizophrenia	68.181.22.111
+2078	2014-09-02	yanghui@usc.edu	dlVYh9MYMwW9NKik	schizophrenia	68.181.22.111
+2077	2014-09-02	NA	9JoDZohK1k7BVgqU	autism	68.181.22.111
+2076	2014-09-02	NA	FXrEJ-N01wfA2ZPv	colorectal cancer somatic	NA
+2075	2014-09-02	NA	cXiScK8Gkggll6Ew	187950;limb abnormality	NA
+2074	2014-09-01	NA	BefMTeWRANQF2iwL	mitochondrial	NA
+2073	2014-08-30	NA	7nIX1i5DfWxgDZ0T	mental retardation;intellectual disability;facial dysmorphism	NA
+2072	2014-08-30	NA	z5ac2_q4lb6BzMW6	mental retardation;intellectual disability;facial dysmorphism	NA
+2071	2014-08-30	NA	J43Z-eg-9Hn7dVgp	schizophrenia	75.140.76.123
+2070	2014-08-30	NA	gxxeNW3Lk-XinUvZ	schizophrenia	75.140.76.123
+2069	2014-08-29	NA	hkkzHGgRKaEtDomt	stickler	NA
+2068	2014-08-29	NA	m4nEPccnd0Kg3kFR	stickler	NA
+2067	2014-08-29	NA	0FFeNc9upLt62T-J	mental retardation;intellectual disability;facial dysmorphism	NA
+2066	2014-08-29	NA	G8Iz6MBKFXypjZdR	mental retardation;intellectual disability;facial dysmorphism	NA
+2065	2014-08-29	NA	M6BOD6E_MuvMXS58	mental retardation;intellectual disability;facial dysmorphism	NA
+2064	2014-08-29	NA	v2BO_WjMVHRrp__K	mental retardation;intellectual disability;facial dysmorphism	NA
+2063	2014-08-28	NA	klx42Bb1pYb3AF6H	schizophrenia	128.125.249.242
+2062	2014-08-28	NA	bNkTqlFQmpBbyexl	schizophrenia	128.125.249.242
+2061	2014-08-28	NA	KcE8iSUwqwET3hbA	schizophrenia	128.125.249.242
+2060	2014-08-28	NA	EeWAzk8DuXfHNLJU	seizure;mental retardation	NA
+2059	2014-08-28	NA	_TnKBy8HLESNkZzB	seizure;mental retardation	NA
+2058	2014-08-28	NA	HvC8IRMP9SIiMMQm	seizure;mental retardation	NA
+2057	2014-08-28	NA	y8TEkoFs_7VNiF-Q	seizure;mental retardation	NA
+2056	2014-08-28	NA	Bg7ITNWHllY8-cGo	schizophrenia	128.125.249.242
+2055	2014-08-28	NA	e6lLsJMrCDcdAhyg	schizophrenia	128.125.248.175
+2054	2014-08-28	NA	YxyMQjRXi_wP8erb	seizure	NA
+2053	2014-08-28	NA	qoYhyvj2axtv7RS5	stroke	NA
+2052	2014-08-28	NA	fEKCVcogIoQjwY-j	mental retardation;intellectual disability;facial dysmorphism	NA
+2051	2014-08-28	NA	EGyK4NoGA7LQKgAX	mental retardation;intellectual disability;facial dysmorphism	NA
+2050	2014-08-28	NA	_CZMhfHum-BU53cC	mental retardation;intellectual disability;facial dysmorphism;autism;attention deficit hyperactivity disorder	NA
+2049	2014-08-27	NA	HYEO1G0Q_d_sTAT0	mental retardation;intellectual disability;facial dysmorphism;autism;attention deficit hyperactivity disorder	NA
+2048	2014-08-27	NA	SnypC_w3vc5Quw6E	schizophrenia	66.215.99.80
+2047	2014-08-27	NA	57HkgL6LD73Weoos	schizophrenia	23.243.195.236
+2046	2014-08-27	NA	Bqlr8n9hqbfmVW3-	seizure	NA
+2045	2014-08-27	NA	EvkpM5AC8wivmsrH	seizure	NA
+2044	2014-08-26	NA	JFF9oeYoKdNQ6tf9	seizure	NA
+2043	2014-08-26	NA	xKFcI7v59RGfugrK	seizure	NA
+2042	2014-08-26	NA	CESFFIqBn-8l-2LF	seizure	NA
+2041	2014-08-26	NA	YB7O_DnSFm42cllX	seizure	NA
+2040	2014-08-26	NA	DtqR1BDMJFzWs1GP	seizure	NA
+2039	2014-08-26	NA	JbF_TvhZOYdbZONz	seizure;mental retardation	NA
+2038	2014-08-26	NA	i3TCXt34Si66V_4z	seizure;mental retardation	NA
+2037	2014-08-26	NA	tzkEMkXeKHDFOBPE	mental retardation;seizure	NA
+2036	2014-08-26	NA	RWuVTDd7auhwzRAU	mental retardation;seizure	NA
+2035	2014-08-26	NA	Gpeyiv4HrR1pRTQL	seizure;mental retardation	NA
+2034	2014-08-26	NA	olLeVtLAwb-snWlu	seizure;mental retardation	NA
+2033	2014-08-26	NA	x9b9b6R13WBqgkO6	seizure;mental retardation	NA
+2032	2014-08-26	NA	afongc-LXlfPfJzO	seizure;mental retardation	NA
+2031	2014-08-26	NA	qFHopPvKLE7F0U59	crohn's disease	128.125.249.242
+2030	2014-08-26	NA	reqSFz7czPXhOKvG	crohn's disease	128.125.249.242
+2029	2014-08-25	NA	Q2ZQvIt-IUq6S_2t	schizophrenia	75.140.76.123
+2028	2014-08-25	NA	K3usU9x9DpYn-gS5	schizophrenia	75.140.76.123
+2027	2014-08-25	NA	oavJ4mTujUnevshQ	schizophrenia	75.140.76.123
+2026	2014-08-25	NA	vmM5of0Kox9zAlWd	schizophrenia	75.140.76.123
+2025	2014-08-25	NA	ER2MBTxfwgovRtWC	schizophrenia	75.140.76.123
+2024	2014-08-25	NA	MZiWf4-wMFhrrKwf	schizophrenia	75.140.76.123
+2023	2014-08-25	NA	zZmMI9gnxVqMhHrL	schizophrenia	75.140.76.123
+2022	2014-08-25	NA	rTe_btKjOcTb8DCu	schizophrenia	75.140.76.123
+2021	2014-08-25	NA	AEgG566fLwo4rRfB	schizophrenia	75.140.76.123
+2020	2014-08-25	NA	0MrPWgbWeOoSS1sK	schizophrenia	75.140.76.123
+2019	2014-08-25	NA	-7ge4WeDRIrPvj-W	schizophrenia	75.140.76.123
+2018	2014-08-25	NA	oqMnkYhzla0V0lxL	autism	75.140.76.123
+2017	2014-08-25	NA	yJvuVG3JyZeHnkUx	alcohol consumption	75.140.76.123
+2016	2014-08-25	NA	bsOZCdXDAgcDb3XF	schizophrenia	68.181.70.78
+2015	2014-08-24	NA	nF62WpWQm5QE7cYQ	serum protein levels	75.140.76.123
+2014	2014-08-23	NA	VYZiDTkhFO12vLXS	cancer	75.140.76.123
+2013	2014-08-23	NA	Ty7BUwEKUy7wDlvy	amyotrophic lateral sclerosis	75.140.76.123
+2012	2014-08-23	NA	Pj1i_gLdXY5o9ZQo	amyotrophic_lateral_sclerosis	75.140.76.123
+2011	2014-08-23	NA	VKRFj9y1pzhNw0rL	amyotrophic_lateral_sclerosis	75.140.76.123
+2010	2014-08-23	NA	X27zmQD_BwFMJBhd	breast cancer	75.140.76.123
+2009	2014-08-23	NA	jUH-Dzo_b3LYn5PF	114480	75.140.76.123
+2008	2014-08-23	NA	Bbgr3moSPko1KULR	huntington	75.140.76.123
+2007	2014-08-23	NA	Ce7EKsKacUsybr5Z	huntington	75.140.76.123
+2006	2014-08-23	NA	sHeMG3EPkj2-6Htz	cancer	75.140.76.123
+2005	2014-08-23	NA	pC85da6I_oKsZgQJ	dystonia	75.140.76.123
+2004	2014-08-23	NA	SIV1xwl6S9ArX8Qn	dystonia	75.140.76.123
+2003	2014-08-23	NA	zLHYCSQsteFzBeEj	usher syndrome	75.140.76.123
+2002	2014-08-23	NA	l34keIpWvsQIRwIA	dystonia	75.140.76.123
+2001	2014-08-23	NA	fRVl_kWDY3WNOJp8	ovarian dysgenesis	75.140.76.123
+2000	2014-08-23	NA	CbArMeYqkfOIbV85	social communication problems	75.140.76.123
+1999	2014-08-23	NA	JkEC_FIDnB_qkmTW	schizencephaly	75.140.76.123
+1998	2014-08-22	NA	YaMzTJixeKAmjj6g	retinitis pigmentosa	75.140.76.123
+1997	2014-08-22	NA	FcIFjR1NZcPylr0s	blind	75.140.76.123
+1996	2014-08-22	NA	Lj_wLu_LBg2Tkadq	heart disease	75.140.76.123
+1995	2014-08-22	NA	Fjil6CS5NYsXRhde	schizophrenia	75.140.76.123
+1994	2014-08-22	NA	di3-x-qL9n97Y2eR	bipolar disorder	75.140.76.123
+1993	2014-08-22	NA	hL61NaXLuZ9KptBl	cancer	75.140.76.123
+1992	2014-08-22	NA	wbbfmEv229Lw4IpK	thyroid hypoplasia	75.140.76.123
+1991	2014-08-22	NA	2_4vVaq6KGSmrmry	muscular dystrophy limb girdle	75.140.76.123
+1990	2014-08-22	NA	KD4ox31gafveyNHu	mental	75.140.76.123
+1989	2014-08-22	NA	IdUvKu2YA57wFitZ	alzheimer	75.140.76.123
+1988	2014-08-22	NA	voJOpg-S3A6KMyQ6	brain	75.140.76.123
+1987	2014-08-22	NA	6ueln-xP44F3PpoN	alzheimer	75.140.76.123
+1986	2014-08-22	NA	nUnvDbTKk7UCBldB	type 1 diabetes	75.140.76.123
+1985	2014-08-22	NA	KmDOZQwolN-JP16t	developmental delay	75.140.76.123
+1984	2014-08-22	NA	0-12zq4aQPMTAWrq	huntington	75.140.76.123
+1983	2014-08-22	NA	gwUek9azuQu421oy	autism	75.140.76.123
+1982	2014-08-22	NA	o5Za8i03JaJGvmWx	amyotrophic lateral sclerosis	75.140.76.123
+1981	2014-08-22	NA	ghZ7kxozQ6N8sNC2	cancer	75.140.76.123
+1980	2014-08-22	NA	dcZU443RY1-qD08e	huntington	75.140.76.123
+1979	2014-08-22	NA	VYToRrOGpZ-KqIxF	cancer	75.140.76.123
+1978	2014-08-22	NA	CaVY_9Yn84B22gqT	cancer	75.140.76.123
+1977	2014-08-22	NA	Z3a4CU4s0aL9NBiN	cancer	75.140.76.123
+1976	2014-08-22	NA	n1_FKHbcSib09zNM	cancer	75.140.76.123
+1975	2014-08-22	NA	76yYLq6krvmmQ4VW	cancer	75.140.76.123
+1974	2014-08-22	NA	PhT4tP2Qx7EZAttf	dgfsadgsadgadsfg	128.125.249.242
+1973	2014-08-22	NA	DG5oILcD-262_wTk	cancer	128.125.249.242
+1972	2014-08-22	NA	Xt1Qj_uGd7-qPfQl	achromatopsia	128.125.249.242
+1971	2014-08-22	NA	EvqIfsbrpX_NOhrK	huntington	75.140.76.123
+1970	2014-08-22	NA	QKlouxuAi-rc4oZY	amyotrophic lateral sclerosis	75.140.76.123
+1969	2014-08-22	NA	crI8TkWbwK_ltG30	autism	75.140.76.123
+1968	2014-08-22	NA	8GpB5IadLK5nAwJ4	cancer	75.140.76.123
+1967	2014-08-22	NA	XwI97iGtKV2d2SYR	cancer	75.140.76.123
+1966	2014-08-22	NA	ipKt0k1AwT2kxZSJ	autism	75.140.76.123
+1965	2014-08-22	NA	NW_JtbMlbcCx2Cl3	cancer	75.140.76.123
+1964	2014-08-22	NA	r6DphFimSbXm2S7i	amyotrophic lateral sclerosis	75.140.76.123
+1963	2014-08-22	NA	MS8Nt4aQixUQObn3	huntington	75.140.76.123
+1962	2014-08-22	NA	QqmgRPMNC6-1clvM	autism	75.140.76.123
+1961	2014-08-22	NA	zVxQYhl8Xspp7hla	cancer	75.140.76.123
+1960	2014-08-22	NA	8hiqoX9IyUKyUrc1	cancer	75.140.76.123
+1959	2014-08-22	NA	mYNWK8H_xwGLqKY5	cancer	75.140.76.123
+1958	2014-08-22	NA	yXeuEoj5KghUmxdU	amyotrophic lateral sclerosis	75.140.76.123
+1957	2014-08-22	NA	sS05WK7MJH_vl2mF	cancer	75.140.76.123
+1956	2014-08-22	NA	NlavbXCXulI0Kdld	autism	75.140.76.123
+1955	2014-08-22	NA	DdETmQQXe1ms9PGH	huntington	75.140.76.123
+1954	2014-08-22	NA	LvyEPZtoQ84Nu57g	cancer	75.140.76.123
+1953	2014-08-22	NA	BRr_9R7a4dKh4jxf	cancer	75.140.76.123
+1951	2014-08-22	NA	3cj2pFKKoUdA1gaL	cancer	75.140.76.123
+1950	2014-08-22	NA	oWVecjLUVCuNFFaB	cancer	75.140.76.123
+1948	2014-08-22	NA	stxP9GuTx7OzmZ3t	cancer	75.140.76.123
+1947	2014-08-22	NA	J-2OcTdeC-SD8AUt	cancer	75.140.76.123
+1946	2014-08-22	NA	z12wwNG1y-RBZKHo	cancer	75.140.76.123
+1945	2014-08-21	NA	McBHY-eAJKPrLdOm	huntington	75.140.76.123
+1942	2014-08-21	NA	5mXDtUcfiqvbL24H	huntington	75.140.76.123
+1941	2014-08-21	NA	NbaWavnQMpZ7qiE6	huntington	75.140.76.123
+1940	2014-08-21	NA	o0bI_KZuLuixfK47	huntington	75.140.76.123
+1939	2014-08-21	NA	szHJ0NnHHRJ-cQzD	huntington	75.140.76.123
+1937	2014-08-21	NA	boxrnvd4VGuXEHHE	seckel	75.140.76.123
+1936	2014-08-21	peter.robinson@charite.de	5w3p4DuaE0oRAYCv	arachnodactly;ectopia lentis;scoliosis	84.190.23.101
+1935	2014-08-20	NA	QTUO93SCzHXU5YRY	huntington	75.140.76.123
+1934	2014-08-20	NA	yk3WJpag623bN4PF	seckel	75.140.76.123
+1933	2014-08-20	NA	aRaeURNrihL4UAF6	seckel	75.140.76.123
+1932	2014-08-20	NA	hFDvVZekDjx4S3o1	seckel	75.140.76.123
+1931	2014-08-20	NA	pGbNuqrdKstJOpDL	seckel	75.140.76.123
+1930	2014-08-20	NA	C_myWPyWLxz4zr5F	seckel	75.140.76.123
+1929	2014-08-20	NA	TbJBt-YbYDHjvoS5	all_diseases	128.125.249.242
+1928	2014-08-19	NA	4z4Voloiy1zRekOR	autism	75.140.76.123
+1927	2014-08-19	yanghui@usc.edu	dy3shOVa_PCnQDoT	septopreoptic holoprosencephaly	75.140.76.123
+1926	2014-08-18	NA	SgHGxR19yEhsypWe	miller syndrome	NA
+1925	2014-08-18	NA	qOB0JYSGlJ0q9K-X	ogden	NA
+1924	2014-08-18	NA	JMPIRfVD8fg0PAck	odgen	NA
+1923	2014-08-18	NA	elcYdBp7fwsHmzJb	odgen	NA
+1922	2014-08-18	NA	XnWzzFansuSKgggf	ogden	68.181.23.109
+1921	2014-08-16	NA	wubVewF_TxI3VIdV	114480	NA
+1920	2014-08-16	NA	cZ5ni1OANLvR0O2m	amyotrophic lateral sclerosis	NA
+1919	2014-08-16	NA	XNqQPpdDNO9WuKKa	amyotrophic lateral sclerosis	NA
+1918	2014-08-16	NA	7atmtpyz-Pf1c_bq	stroke	NA
+1917	2014-08-16	NA	As8hiysjjuOjfCDg	kallmann	NA
+1916	2014-08-16	NA	yonOIsuxHLhvFHyH	schizophrenia	NA
+1915	2014-08-16	NA	rCprflSgnn3Lg0kx	schizophrenia	NA
+1914	2014-08-16	NA	xWPpr1dZvKDsonHG	leprosy	NA
+1913	2014-08-16	NA	NMqv9CVFNKG43K16	cancer	NA
+1912	2014-08-16	NA	K11Tcv2lHhClj8cv	leprosy	NA
+1911	2014-08-16	NA	xHqefFf2Q4o4bdFG	cancer	NA
+1910	2014-08-16	NA	aFnBkv_pILU5Ij7S	cancer	NA
+1909	2014-08-15	NA	oiYAhzMueFbX2Sn-	cancer	NA
+1908	2014-08-15	NA	yPssbU6bNKE0PvoD	cancer	NA
+1907	2014-08-15	NA	AMw01WUPUzn-lgRW	cancer	NA
+1906	2014-08-15	NA	Y1aOnu3Drx45cJ3x	developmental delay;facial dysmorphism;hearing loss;intellectual disability;autism;attention deficit hyperactivity disorder	NA
+1905	2014-08-15	NA	HSAmo-p2KFrxKzsU	developmental delay;facial dysmorphism;hearing loss;intellectual disability;autism;attention deficit hyperactivity disorder	NA
+1904	2014-08-15	NA	jfipAg9BWU7f75Jn	sudden cardiac arrest	75.140.76.123
+1903	2014-08-15	NA	UQ0Bfaan3VP69MfS	sudden cardiac arrest	75.140.76.123
+1902	2014-08-15	NA	vNTU0Niww6Z_9ycW	sudden cardiac arrest	75.140.76.123
+1901	2014-08-15	NA	XYyh99BpC445_CCT	seckel	75.140.76.123
+1900	2014-08-15	NA	6pR-xY80W6IRSnHe	ciliary dyskinesia primary	75.140.76.123
+1899	2014-08-15	NA	UAloK_YQ7dny7I89	smoking behavior	75.140.76.123
+1898	2014-08-15	NA	XeOugGgrDGVIEauA	smoking behavior	75.140.76.123
+1897	2014-08-15	NA	SqxSoToR9Cdkclsi	smoking behavior	75.140.76.123
+1896	2014-08-15	NA	XYP5iLwWQ-_J_a_9	seckel	75.140.76.123
+1895	2014-08-15	NA	q3J7TFB2HcjCGxwP	systemic lupus erythematosus and systemic sclerosis	75.140.76.123
+1894	2014-08-15	NA	fqxcW0Utz2G_qW3n	self reported allergy	75.140.76.123
+1893	2014-08-15	NA	1PBoah3dketY_U9a	kawasaki	75.140.76.123
+1892	2014-08-15	NA	Z2SQwJFHyF4bzll6	alzheimer	75.140.76.123
+1891	2014-08-15	NA	uclQdqB7rg404htd	cancer	NA
+1890	2014-08-15	NA	64Eb5Er8OrMn0mJI	facial dysmorphism;developmental delay	NA
+1889	2014-08-15	NA	bVwe9PMr_krt5-el	facial dysmorphism;developmental delay	NA
