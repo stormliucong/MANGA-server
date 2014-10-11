@@ -335,7 +335,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
 	    <div class="panel panel-default">
 	    <div class="panel-body">
-    		 <p>Now the email is required. Please type in your email. Thanks very much.</p>
+    		 <p><strong>[10/10/2014]</strong>
+    		 <br>Now the email is required. Please type in your email. Thanks very much.</p>
     		</div></div>
 	   
 	   <div class="panel panel-default">
@@ -372,7 +373,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 		<!-- container -->
             <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
+     <p class="text-muted">Rights Reserved @Wang Lab, Powered By Hui Yang USC Neuroscience</p>
       </div></div>    
                 
                  

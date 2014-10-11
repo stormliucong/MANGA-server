@@ -209,10 +209,14 @@ sub processSubmission {
 	
 	if(-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )
 	{
-	       $summary_message.=qq|<li class="list-group-item">The report with gene or region selection could be found |;
-	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_scores" ><b><u>Here</u></b></a>.\n|;
-	       $summary_message.=qq|<li class="list-group-item">The normalized gene scores with gene or region selection could be found |;
-	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u></b></a>.\n|;
+		   my $out_num = `wc -l out.annotated_gene_list`;
+		   $out_num =~ /(\d+)/;
+		   $out_num = $1;
+		   $out_num--;
+	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC REPORT</b> could be found |;
+	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_scores" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
+	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC GENE LIST</b> could be found |;
+	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
     }
     if(-s "out.variant_prioritization")
     {
@@ -222,14 +226,22 @@ sub processSubmission {
 	
 	if($effective_term_num)
 	{
-	$summary_message.=qq|<li class="list-group-item">The whole report could be found |;
-	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.predicted_gene_scores" ><b><u>Here</u></b></a>.</li>\n|;
-	$summary_message.=qq|<li class="list-group-item">The normalized gene scores could be found |;
-	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.final_gene_list" ><b><u>Here</u></b></a>.</li>\n|;
-	$summary_message.=qq|<li class="list-group-item">The report without prediction could be found |;
-	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.merge_gene_scores" ><b><u>Here</u></b></a>.</li>\n|;
- 	$summary_message.=qq|<li class="list-group-item">The normalized gene scores without prediction could be found |;
-	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.seed_gene_list" ><b><u>Here</u></b></a>.</li>\n|;
+	my $out_num = `wc -l out.final_gene_list`;	
+	$out_num =~ /(\d+)/;
+	$out_num = $1;
+	$out_num--;
+	$summary_message.=qq|<li class="list-group-item">The <b class="text-info">WHOLE REPORT</b> could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.predicted_gene_scores" ><b><u>Here</u>($out_num genes)</b></a>.</li>\n|;
+	$summary_message.=qq|<li class="list-group-item">The <b class="text-info">FINAL GENE LIST</b> could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.final_gene_list" ><b><u>Here</u>($out_num genes)</b></a>.</li>\n|;
+	$out_num = `wc -l out.seed_gene_list`;
+	$out_num =~ /(\d+)/;
+    $out_num = $1;
+	$out_num--;
+	$summary_message.=qq|<li class="list-group-item">The <b class="text-info">SEED GENE REPORT</b> could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.merge_gene_scores" ><b><u>Here</u>($out_num genes)</b></a>.</li>\n|;
+ 	$summary_message.=qq|<li class="list-group-item">The <b class="text-info">SEED GENE LIST</b> could be found |;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.seed_gene_list" ><b><u>Here</u>($out_num genes)</b></a>.</li>\n|;
 	
 	}
 	

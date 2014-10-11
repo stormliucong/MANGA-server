@@ -104,7 +104,7 @@
 		<!-- container -->
                  <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
+         <p class="text-muted">Rights Reserved @Wang Lab, Powered By Hui Yang USC Neuroscience</p>
       </div></div> 
                 
                  

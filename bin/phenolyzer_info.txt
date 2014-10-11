@@ -1,4 +1,10 @@
 ID	TIME	EMAIL	PASSWORD	PHENOTYPE	IP
+2556	2014-10-10	tlingshi@jnu.edu.cn	lGHpx8jgtyF0doqV	multiple	113.108.140.53
+2555	2014-10-10	NA	u36Yh6JHj5M87XKJ	schizophrenia	96.41.121.196
+2554	2014-10-10	dsdsds@dsd.ds	rFmWyDErO7KnR2EH	lissencephaly	159.213.45.242
+2553	2014-10-10	NA	OduU3qcxLEw6Skv3	smallpox	NA
+2552	2014-10-10	NA	J_Gwf3RDR5FBhGQD	smallpox	NA
+2551	2014-10-10	NA	707nQQEIEdRONkwH	schizophrenia	75.140.76.123
 2550	2014-10-09	yanghui@usc.edu	5SUjIaCeBbfVPv3X	familial spastic paraplegia	75.140.76.123
 2549	2014-10-09	NA	N9jAYMphINYOTCNz	hearing impairment	NA
 2548	2014-10-09	NA	cnUIimgp52-TiVYb	hearing impairment	NA
