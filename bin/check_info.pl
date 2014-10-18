@@ -20,7 +20,7 @@ my @folders = (@folders1, @folders2);
 closedir(DIR1);
 closedir(DIR2);
 open(OUTPUT, ">phenolyzer_info.txt");
-print OUTPUT join("\t", qw/ID TIME EMAIL PASSWORD PHENOTYPE IP/)."\n";
+print OUTPUT join("\t", qw/ID TIME EMAIL PHENOTYPE IP URL/)."\n";
 
 for my $folder ( @folders ){
 	 next unless($folder =~ /\/(\d+)$/);
@@ -40,7 +40,8 @@ for my $folder ( @folders ){
 	 my $time = $dt->strftime('%F');
 	 $info{'email'} = "NA" if (not $info{'email'});
 	 $info{'ip'} = "NA" if (not $info{'ip'});
-	 print OUTPUT join("\t", ($id, $time, $info{'email'}, $info{'password'}, $disease, $info{'ip'}))."\n";
+	 my $url = "http://phenolyzer.usc.edu/done/$id/$info{'password'}";
+	 print OUTPUT join("\t", ($id, $time, $info{'email'}, $disease, $info{'ip'}, $url))."\n";
      close(INFO);
 }
 system("R CMD BATCH server_analysis.R") and die;

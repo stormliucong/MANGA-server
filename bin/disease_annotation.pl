@@ -1190,10 +1190,9 @@ sub generate_wordcloud{
         -out <string>		            output file name prefix (default:out)
         -d, --directory                 compiled database directory (default is ./lib/compiled_database)
         -f, --file                      the input will be treated as file names(both diseases and genes)
-        -p, --prediction                Use the Protein interaction and Biosystem DATABASE to predict unreported gene 
+        -p, --prediction                Use the Protein interaction and Biosystem database to predict unreported gene 
                                         disease relations (like HPRD human protein interaction, Biosystem database and so on)
-        -ph, --phenotype                the input term is also treated as a phenotype, the HPO annotation would be used      
-        -w, --work_directory            the working directory (default: current directory)
+        -ph, --phenotype                the input term is also treated as a phenotype, the HPO annotation and OMIM description would be used      
         --bedfile                       the bed file as a genomic region used for selection and annotation of the genes
         --buildver                      the build version (hg18 or hg19) to annotate the bedfile
         --wordcloud                     generates a wordcloud of the interpretated diseases if used (not working if you input 'all diseases')
@@ -1217,12 +1216,11 @@ sub generate_wordcloud{
   
 Function:       
           automatically expand the input disease term to a list of professional disease names, 
-          get a prioritized genelist based on some disease names or phenotypes, score the genes 
-          with information in several gene_disease databases, give each gene a probability.
+          get a prioritized genelist based on these disease names or phenotypes, score the genes.
 
 Notice: 
           If you input 'all diseases' for disease name, then every item in the gene_disease database
-          will used and no disease expansion will be conducted. 
+          will be used and no disease expansion will be conducted. 
           Addon Gene Gene file should be in the format "GENE A	GENE B	EVIDENCE	SCORE	PMID"
           Addon Gene Disease file should be in the format "GENE	DISEASE	DISEASE_ID SCORE	SOURCE"    
           
@@ -1230,7 +1228,7 @@ Example:
           perl disease_annotation.pl sleep -p
           perl disease_annotation.pl disease -f -p -ph
           
-Version:  1.00      $Last Changed Date: 07-20-2014 by Hui Yang        
+Version:  1.01      $Last Changed Date: 10-17-2014 by Hui Yang        
 
 =head1 OPTIONS      
 

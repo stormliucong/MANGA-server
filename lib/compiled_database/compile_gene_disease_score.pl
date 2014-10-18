@@ -35,6 +35,7 @@ my $ORPHANET_SOURCE_MAX = 7.0;
 my $GENE_REVIEW_SCORE = 1.0;
 my $GWAS_SCORE_WEIGHT = 0.25;
 my %repeat_check=();
+my %repeat_no_score_check=();
 print OUT join("\t",qw/GENE	DISEASE	DISEASE_ID SCORE SOURCE/)."\n";
 
 my $i=0;
@@ -152,7 +153,9 @@ for my $line(<GENEREVIEWS>){     #GENE	DISEASE	OMIM_NUMBER
 	 $repeat_check{$repeat_line} = 1;
 	
 }
+
 $i=0;
+
 for my $line (<GWAS>){          #GENE DISEASE PUBMED_NUMBER RAW_SCORE          
 	if ($i==0) {$i++; next;}
 	chomp ($line);
@@ -169,14 +172,25 @@ for my $line (<GWAS>){          #GENE DISEASE PUBMED_NUMBER RAW_SCORE
 	my $disease_id = "PUBMED:".$words[2];
 	my $gene_score = $GWAS_SCORE_WEIGHT * $words[3];
 	#my $gene_score = $GWAS_SCORE_WEIGHT * calculateGwasScore($words[3]);
+	my $repeat_line = join ("\t", ($gene_hash{$words[0]},$disease, $disease_id, "GWAS"));
+    if($gene_hash{$words[0]} and $disease and $disease_id)
+    {
+    if(not $repeat_no_score_check{$repeat_line})
+    {
+    $repeat_no_score_check{$repeat_line} = $gene_score;
+    }
+    else
+    {
+    $repeat_no_score_check{$repeat_line} = $gene_score if($gene_score > $repeat_no_score_check{$repeat_line});
+    }
+    }
+ }
+for my $line (keys %repeat_no_score_check)
+{
+	my @words = split("\t",$line);
+	print TEMP join("\t", (@words[0..2], $repeat_no_score_check{$line}, "GWAS"))."\n";
 	
-	my $repeat_line = join ("\t", ($gene_hash{$words[0]}, $disease_id, $gene_score, "GWAS"));
-	my $output = join ("\t", ($gene_hash{$words[0]}, $disease, $disease_id, $gene_score, "GWAS"));
-	
-	print TEMP $output."\n" if ($gene_hash{$words[0]} and $gene_score and not $repeat_check{$repeat_line});
-	$repeat_check{$repeat_line} = 1;
 }
-
 
 
 #Finally sort items and choose unique ones

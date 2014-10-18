@@ -59,6 +59,8 @@ my $disease= $q->param("disease");
 my $options= $q->param("other_options");
 my @addons = $q->param('addon');
 my $addons = join(',', @addons);
+my @addons_seed = $q->param("addon_seed");
+my $addons_seed = join(',', @addons_seed);
 $options eq "all_diseases" or $disease!~/^\W*$/  or die "No disease input is detected!!! $options";
 
 GenomicsServer::verifyEmail($email,$q);
@@ -162,6 +164,10 @@ sub writeInfoFile {
         if($addons)
         {
         	print INFO "addon_gg=$addons\n";
+        }
+        if($addons_seed)
+        {
+        	print INFO "addon_seed=$addons_seed\n";
         }
         close (INFO);
 }

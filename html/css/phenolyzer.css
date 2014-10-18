@@ -158,7 +158,7 @@ color:#fafafa;
             width: 950px;
             position: static;
             margin:5px auto;
-            border:2px #9999ff solid;
+            border:2px #428bca solid;
             border-radius:20px;
            
                   }
@@ -199,14 +199,15 @@ color:#fafafa;
               }  
              #accordion .ui-accordion-header.Predicted{
                 color:#6f0055;
-            background-color: #ffbff0; /* Old browsers */  
-    background-image: -moz-linear-gradient(top, #ffeef8 0%, #ffbff0 100%); /* FF3.6+ */  
-    background-image: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#ffeef8), color-stop(100%,#ffbff0)); /* Chrome,Safari4+ */  
-    background-image: -webkit-linear-gradient(top, #ffeef8 0%,#ffbff0 100%); /* Chrome10+,Safari5.1+ */  
-    background-image: -o-linear-gradient(top, #ffeef8 0%,#ffbff0 100%); /* Opera 11.10+ */  
-    background-image: -ms-linear-gradient(top,  #ffeef8 0%,#ffbff0 100%); /* IE10+ */  
-    background-image: linear-gradient(to bottombottom,  #ffeef8 0%,#ffbff0 100%); /* W3C */  
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeef8', endColorstr='#ffbff0',GradientType=0 ); /* IE6-9 */  
+background: #ffedf7; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffedf7 0%, #ffddf3 50%, #ffd1ed 52%, #ffddf3 79%, #fff2f9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffedf7), color-stop(50%,#ffddf3), color-stop(52%,#ffd1ed), color-stop(79%,#ffddf3), color-stop(100%,#fff2f9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffedf7 0%,#ffddf3 50%,#ffd1ed 52%,#ffddf3 79%,#fff2f9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffedf7 0%,#ffddf3 50%,#ffd1ed 52%,#ffddf3 79%,#fff2f9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffedf7 0%,#ffddf3 50%,#ffd1ed 52%,#ffddf3 79%,#fff2f9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffedf7 0%,#ffddf3 50%,#ffd1ed 52%,#ffddf3 79%,#fff2f9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffedf7', endColorstr='#fff2f9',GradientType=0 ); /* IE6-9 */
+
              }
               #accordion .ui-accordion-header.ui-state-active{
                color:#cc7733;
@@ -390,4 +391,12 @@ color:#fafafa;
              max-height:30em;
              overflow:auto;
  }            
-     
+ li.list-group-item{
+   line-height:190%;
+ }
+ li.list-group-item span{
+  margin-right:10px;
+ }
+ 
+ 
+ 

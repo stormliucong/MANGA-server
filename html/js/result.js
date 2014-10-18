@@ -382,7 +382,10 @@
 		 BARPLOT(MAX);
 		 if_json_success = true;
      }).fail(function( jqxhr, textStatus, error ) {
-        $(".tab-content").remove();
+    	 $("#network").remove();
+         $("a[href=#network]").remove();
+         $("a[href=#barplot]").remove();
+         $("a[href=#details]").remove();
         alert("Sorry, the result is not available!! Please try to refresh");
         if_json_success = false;
      });

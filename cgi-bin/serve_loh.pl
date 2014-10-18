@@ -99,6 +99,7 @@ sub processSubmission {
 	    $system_command.="-logistic ";
     }
 	if($info{'addon_gg'}){$system_command.="-addon_gg $info{'addon_gg'} -addon_gg_weight 0.05 ";}
+	if($info{'addon_seed'}) {$system_command.="-addon $info{'addon_seed'} ";}
 	if($info{"disease_file"}){$system_command.="$info{disease_file} ";}
 	if($info{"phenotype_interpretation"} eq "yes"){$system_command.="-phenotype ";}
 	if($info{"full_expand"} eq "yes"){$system_command.="-e ";}
@@ -218,6 +219,11 @@ sub processSubmission {
 	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC GENE LIST</b> could be found |;
 	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
     }
+    else{
+    	$summary_message.=qq|<li class="list-group-item">Sorry, there is no gene found within your list/region. |  
+    	if($info{"gene_file"} or $info{"bedfile"}) ; 
+    	
+    }
     if(-s "out.variant_prioritization")
     {
     	$summary_message.=qq|<li class="list-group-item">The prioritized CNVs could be found |;
@@ -311,7 +317,8 @@ my $rank=1;
 			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status_out</p><p>Score:$score</p></h3>";
 			$gene_html{$gene}.=$line.qq|<div><p><span><a class = "outside $status" href="http://www.ncbi.nlm.nih.gov/gene/$id">$gene</a></span></p>|;
 		}
-	    else{
+	    else
+	    {
 	    	my ($source, $evidence, $term, $individual_score) = split ("\t", $line);
             $individual_score = sprintf("%.4g",$individual_score);
             my ($source_out, @id_out);
@@ -326,7 +333,15 @@ my $rank=1;
 	    	{
 	    		my $new_id=$each_id;
 	    		   $new_id = $omim_to_gene_review{$each_id} if ($database eq "GENE_REVIEWS");
-           		my $id_link = qq|<a class="outside" href="$links{$database}$new_id" >$each_id</a>|;
+           		my $id_link;
+           		if($links{$database})
+           		{
+           		$id_link = qq|<a class="outside" href="$links{$database}$new_id" >$each_id</a>|;
+           		}
+           		else 
+           		{
+           			$id_link=$each_id;
+           		}
            		push @id_out ,$id_link;
           	}
 	    	$source_out = join(" ", @id_out);

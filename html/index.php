@@ -313,7 +313,19 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
        <span class="glyphicon glyphicon-th-list"></span></button>
 	   </div> </div>
 	   
+	   
+	  <h3 class="page-header text-primary">Addon Databases</h3>   
 	   <!-- Addon -->
+	   	<div class="form-group">
+	 <label for="step" class="col-md-3 control-label">Addon Seed Gene</label>
+	 <div class="col-md-7">
+      <select class="selectpicker show-tick"  multiple name="addon_seed" id="addon_seed" data-selected-text-format="count>1">
+	           <option value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>			  	   
+	  </select>
+    </div>
+	</div>
+	   
+	   
 	   <div class="form-group">
 	 <label for="step" class="col-md-3 control-label">Addon Gene Relations</label>
 	 <div class="col-md-7">
@@ -322,6 +334,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	  </select>
     </div>
 	</div>
+	
+	
 	<!-- End of Addon -->
 	   
 	  
@@ -335,8 +349,10 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
 	    <div class="panel panel-default">
 	    <div class="panel-body">
-    		 <p><strong>[10/10/2014]</strong>
-    		 <br>Now the email is required. Please type in your email. Thanks very much.</p>
+    		 <p><strong>[10/17/2014]</strong></p>
+    		 <p>Two important databases are integrated as the form of plugins: Mentha protein-protein interaction database for gene-gene mapping,
+    		 and DisGenet gene-disease database for disease-gene mapping!<br><br> Now the database for disease-gene relations have more than <b>70000</b> records!
+    		 </p>
     		</div></div>
 	   
 	   <div class="panel panel-default">
