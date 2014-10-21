@@ -369,7 +369,7 @@
                      setTimeout(function(){
                       adjust_layout.selectpicker('val', 'force');
                       adjust_layout.selectpicker('refresh');
-                      adjust_layout.change();},1000);
+                      adjust_layout.change();},1500);
                      
                     
 	                 }   //if(if_json_success)

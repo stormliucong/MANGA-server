@@ -28,6 +28,7 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
                   var region_options=   $("#region_selection_options");
                   var weight_options =  $("#weight_adjust_options");
                   var weight_adjust =   $("#weight_adjust");
+                  var wordcloud_options=$("#wordcloud");
                   
                   var input_form=       $("fieldset.input_form");
                   var submit=           $("input[name='submit']");
@@ -146,27 +147,35 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
 		          gene_options.change(GeneChange);
 	              region_options.change(RegionChange);	
 	              weight_options.change(WeightChange);
-                  other_options.change (AdvancedChange);
+                  other_options.change(AdvancedChange);
                  
+                  var Wordcloud_change =  function(){
+              		if($("#wordcloud").selectpicker("val")=="yes"  )
+            		{	  
+            		  wordcloud_label.css("color","#d0228f");       	 		
+            		}
+            		else
+            		{      		  
+            		  wordcloud_label.css("color",orig_color);
+            		 
+            		}
+                }
                   
                   //The label click events
-                    wordcloud_label.click(
-                    	function(){
-                    		if($("#wordcloud").selectpicker("val")=="yes"  )
-                    		{
-                    		  $("#wordcloud").selectpicker("val","no");
-                    		  wordcloud_label.css("color",orig_color);       	
-                    		  $("#wordcloud").selectpicker('refresh');
-                    		}
-                    		else
-                    		{
-                    		  $("#wordcloud").selectpicker("val","yes");
-                    		  wordcloud_label.css("color","#d0228f");
-                    		 
-                    		}
-                        });
-                    
-                    
+                  
+                  wordcloud_label.css("color","#d0228f");
+                  wordcloud_label.click(function(){
+                	  if($("#wordcloud").selectpicker("val")=="yes"  )
+              		{
+              		  $("#wordcloud").selectpicker("val","no");	  
+              		}
+              		else
+              		{
+              		  $("#wordcloud").selectpicker("val","yes");  		 
+              		}
+                	  Wordcloud_change();
+                    });  
+                  wordcloud_options.change(Wordcloud_change);  
                     disease_label.click(
                     function(){
                        if(disease_label.html()=="Disease Terms")

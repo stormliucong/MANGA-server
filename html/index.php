@@ -302,8 +302,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                <label title="" for="wordcloud" class="col-md-3 control-label wordcloud">Word Cloud  </label>
                <div class="col-md-5">
                 <select class="selectpicker show-menu-arrow " name="wordcloud" id="wordcloud">
-	           <option selected value="no" >No</option>
-               <option value="yes"  >Yes</option>
+	           <option value="no" >No</option>
+               <option selected value="yes"  >Yes</option>
 	           </select>
                 </div>
                  <div class="col-md-3">

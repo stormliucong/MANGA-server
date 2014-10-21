@@ -84,8 +84,7 @@ my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
 for my $individual_term(@disease_input)
   {
    if($individual_term=~/^\W*$/){next;}
-   $individual_term=~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
-   $individual_term=~s/[\W_]+/ /g; 
+   $individual_term=TextStandardize($individual_term);
 
 #-----------------------------For a normal term, disease name extension is needed-----------------------------
      if ($individual_term!~/^all([\s_\-]diseases?)?$/i) 
@@ -105,10 +104,8 @@ for my $individual_term(@disease_input)
        	    my @disease_terms = split(";", $disease_line);
        	    for  (@disease_terms){
        	    	  my $each = $_;
-       	    	     $each =~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
-                     $each =~s/\W+/ /g;  
-       	 
-       	    	  my $change2= $each =~ s/\btype //ig;          
+       	    	     $each=TextStandardize($each);
+             	  my $change2= $each =~ s/\btype //ig;          
        	    	  if($change2){
        	    	  push @diseases,$each;
        	    	  $disease_hash{$disease_key} = $each.';'.$disease_hash{$disease_key};
@@ -119,10 +116,6 @@ for my $individual_term(@disease_input)
        	    }
        }
        my %seen;
-       @diseases = grep {my $disease = $_;
-       	                 $seen{$disease} = 0 if not $seen{$disease};
-       	                 not $seen{$disease}++;
-                         } @diseases;
        my %disease_score_hash;
        if ($is_phenotype)
        {
@@ -131,21 +124,31 @@ for my $individual_term(@disease_input)
           {
           my $disease_key = lc $_;
        	  delete $disease_score_hash{$disease_key}    if($disease_score_hash{$disease_key});
-       	  $disease_key =~s/,//g;
+       	  $disease_key = TextStandardize($disease_key);
        	  delete $disease_score_hash{$disease_key}    if($disease_score_hash{$disease_key});
           }
           for (keys %disease_score_hash)
           {
           my $disease_score = join ("\t", ($disease_score_hash{$_}[1], $disease_score_hash{$_}[0]) );
           push (@diseases, lc $disease_score);
-          $disease_score =~s/,//g;
-          push (@diseases, $disease_score) if($disease_score ne $diseases[$#diseases]);
           }
        } 
        
        $individual_term=~s/\W+/_/g;          #The non-word characters are changed into '_'
        open (OUT_DISEASE,">$out"."_$individual_term"."_diseases") or die;
-       print OUT_DISEASE $disease_hash{$_} for (keys %disease_hash);
+       for (keys %disease_hash) {
+       my @lines=split("\n", $disease_hash{$_});
+       for my $line (@lines)
+       {
+       next if(not $line);
+       my @words=split("\t", $line);
+       my @diseases=split(";", $words[0]);
+       @diseases=Unique(@diseases);
+       my $disease_line = join(";",@diseases);
+       my $out_line = join("\t",($disease_line,$words[1]));	
+       print OUT_DISEASE $out_line;
+       }
+       }
        if ($is_phenotype)
        {
        	  print OUT_DISEASE join ("\t", ($disease_score_hash{$_}[1], $disease_score_hash{$_}[0]) )."\n"
@@ -159,7 +162,8 @@ for my $individual_term(@disease_input)
        #Output the gene_score files
        # $item = {  $gene => [$score, $information_string] } 
        # $information_string = "ID (SOURCE)	DISEASE_NAME RAW_SCORE
-       @diseases = map {my @words = split("\t");$words[0]=~ s/'s\b//g; $words[0] =~ s/\W+/ /g; $words[0] = lc $words[0]; join("\t", @words); } @diseases;
+       @diseases = map {my @words = split("\t");$words[0]=TextStandardize($words[0]); $words[0] = lc $words[0]; join("\t", @words); } @diseases;
+       @diseases = Unique(@diseases);
        my ($item,$count)=score_genes(\@diseases);
        my %output=();
        @{$output{$_}} = @{$item->{$_}} for keys %$item;
@@ -339,11 +343,11 @@ sub disease_extension{                           #Input some disease terms and r
 	 my %disease_extend=();
 	 my @disease_occur=<DISEASE>;
 	 my @disease_ctd=<CTD_DISEASE>;
-	print STDERR "NOTICE: The exact match (case non-sensitive) was used for disease/phenotype name match!! \n"
-	if($if_exact_match);
-    print STDERR "NOTICE: The item -----$input_term----- was queried in the databases!! \n";
+	 print STDERR "NOTICE: The exact match (case non-sensitive) was used for disease/phenotype name match!! \n"
+	 if($if_exact_match);
+     print STDERR "NOTICE: The item -----$input_term----- was queried in the databases!! \n";
      for  (<OMIM_DISEASE_ID>){
-     	chomp();
+       chomp();
  	   my ($id, $disease_line) = split("\t");
  	   next if ($id eq "OMIM_ID");
  	   #When compare, get rid of '-' if it is not after a number
@@ -399,6 +403,7 @@ sub disease_extension{                           #Input some disease terms and r
 		$disease_extend{$_} .= "\tGENE_DISEASE\n" for keys %disease_extend;
 			my @tree_number=();
 	   print STDERR "NOTICE: The word matching search in the compiled disease databases for gene_disease relations has been done! \n";
+		
 		for my $term(@disease_ctd){
 			chomp($term);
 			my @words=split('\t',$term);
@@ -418,12 +423,9 @@ sub disease_extension{                           #Input some disease terms and r
 				next if($if_exact_match and $disease_key.$words[1] !~ /(^|\|)$input_term($|\|)/i);             
 				my @synonyms=split('\|',$words[1]);            #Retrieve all the synonyms
 				push @tree_number,split('\|',$words[2]);       #Record the tree_number of each term and trace all their children later
-					
-				
-		$disease_extend{$disease_key} .= join(';', ($disease,@synonyms) ) and $disease_extend{$disease_key}.="\tCTD_DISEASE\n";
-		
-            }
-	}
+             	$disease_extend{$disease_key} .= join(';', ($disease,@synonyms) ) and $disease_extend{$disease_key}.="\tCTD_DISEASE\n";
+              }
+	  }
       print STDERR "NOTICE: The word matching search in the CTD (Medic) databases has been done! \n";
 	   for my $term(@disease_ctd){                 #Second find all children of the terms found in the first round
 	          chomp($term);
@@ -511,10 +513,10 @@ sub phenotype_extension{
     	      for my $individual_disease(@diseases)
     	      {
     	      	next if(not $individual_disease);
-    	      	$individual_disease =~s/^\s*(.*?)\s*$/$1/;
+    	      	$individual_disease = TextStandardize($individual_disease);
     	      	my $individual_disease_key = lc $individual_disease;
     	      	$disease_hash{$individual_disease_key}[0] = 0;
-    	      	$disease_hash{$individual_disease_key}[1] = $individual_disease if not $disease_hash{$individual_disease_key}[1];
+    	      	$disease_hash{$individual_disease_key}[1] =lc $individual_disease if not $disease_hash{$individual_disease_key}[1];
     	        my $score;
     	      	     if (defined $words[3] and $hpo_score_system{$words[3]})
     	      	     {
@@ -543,6 +545,7 @@ sub phenotype_extension{
 		next if($line =~ /^OMIM_ID/);
 		chomp($line);
 		my ($id, $disease, $description) = split("\t", $line);
+		$disease = TextStandardize($disease);
 	    if($description =~ /\b$input_term\b/i)
 	    {
 	    	$omim_description{$disease} = 1 if(not $omim_description{$disease});
@@ -607,6 +610,7 @@ sub score_genes{                                 #Input the disease list and ret
 		     $words1[1] cmp  $words2[1];} 
 		    map {my @words=split("\t");
 		    	$words[1]=lc $words[1];
+		        $words[1]=TextStandardize($words[1]);
 		        join("\t",@words);
 		    } @disease_gene_score;
     @diseases = sort{
@@ -888,6 +892,7 @@ close (GENE_ID);
 }
 
 sub predict_genes{
+
 	    print STDERR "----------------------------------------------------------------------\n";
 	    print STDERR "NOTICE: The prediction process starts!!!\n";
 	    @_ == 1 or die "You can only have one input argument!!!";
@@ -976,6 +981,8 @@ sub predict_genes{
 	    	if ($i==0) {$i++; next; }
 	    	chomp ($line);
 	    	my ($gene1, $gene2, $evidence, $score, $pubmed_id) = split ("\t", $line);
+	    	$gene1 = uc $gene1;
+	    	$gene2 = uc $gene2;
 	    	my $individual_score;
 	    	next if($gene1 eq '-' or $gene2 eq '-');
 	    	$pubmed_id =~s/,/ /g;
@@ -1012,6 +1019,8 @@ sub predict_genes{
 	    	if ($i==0) {$i++; next; }
 	    	chomp ($line);
 	    	my ($gene1, $gene2, $evidence, $pubmed_id, $score) = split ("\t", $line);
+	    	$gene1 = uc $gene1;
+	    	$gene2 = uc $gene2;
 	    	my $individual_score;
 	    	next if($gene1 eq '-' or $gene2 eq '-');
 	    	$pubmed_id =~s/;/ /g;
@@ -1051,6 +1060,7 @@ sub predict_genes{
 	    	if ($i==0) {$i++; next; }
 	    	chomp ($line);
 	    	my ($gene, $tag, $description) = split ("\t", $line);
+	    	$gene = uc $gene;
 	    	$gene_family{$tag}{$gene} = $description;
 	    }
 	    
@@ -1100,6 +1110,7 @@ sub predict_genes{
 	    	if ($i==0) {$i++; next; }
 	    	chomp ($line);
 	    	my ($biosystem_id, $gene, $score, $biosystem_name) = split ("\t", $line);
+	    	$gene = uc $gene;
 	    	$biosystem{$biosystem_id}{$gene} = $score;
 	    	$biosystem_id_name{$biosystem_id} = $biosystem_name if(not defined $biosystem_id_name{$biosystem_id}) ;
 	    }
@@ -1149,6 +1160,7 @@ sub predict_genes{
 
    return \%output;
 }
+
 sub generate_wordcloud{
 	@_==3 or die "Error: generate_wordcloud only accept 3 variables!!";
 	my $term = $_[0];
@@ -1178,6 +1190,30 @@ sub generate_wordcloud{
     system("Rscript $work_path/wordcloud.R ${out}_${term}_wordcloud > ${out}_Rwordcloud.log");
 }
 
+sub Unique {
+	my @words = @_;
+	my %repeat_check = ();
+	for my $each (@words)
+	{
+		if($repeat_check{$each})
+		{
+		$repeat_check{$each}++;
+		}
+		else
+		{
+		$repeat_check{$each}=1;
+		}
+	}
+	return keys %repeat_check;
+}
+
+sub TextStandardize {
+	my $word=$_[0];
+	$word=~s/^\W*(.*?)\W*$/$1/;
+	$word=~s/\W+/ /g;
+	$word=~s/'s\b//g;
+	return $word;
+}
 
 =head1 SYNOPSIS
 

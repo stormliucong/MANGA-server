@@ -178,7 +178,7 @@ sub processSubmission {
     }
     my $effective_term_num=@effective_term;
 	my $MAX_COUNT = 2000;
-	my $MAX_ITEM = 30000;
+	my $MAX_ITEM = 20000;
 	$result_page.=$_  for(<TEMPLATE>);
 	
 	#-------------------------------Submission Message-----------------------------
@@ -192,6 +192,16 @@ sub processSubmission {
     $summary_message.=	qq|<li class="list-group-item">Buildver is $info{buildver}.</li>| if $info{bedfile};
 	$summary_message.=	qq|<li class="list-group-item">All diseases are considered.</li>| if($info{all_diseases} eq "yes");
 	$summary_message.=	qq|<li class="list-group-item">Phenotypes are interpretated.</li>| if($info{phenotype_interpretation} eq "yes");
+	if(-s "gene_list.txt"){
+		my $gene_num=`wc -l gene_list.txt`;
+		$gene_num=~s/^(\d+).*$/$1/;
+		$summary_message.=	qq|<li class="list-group-item"><b>$gene_num</b> genes are entered within the genelist.</li>|;
+		my $out_gene_num = `wc -l out.annotated_gene_list`;
+		$out_gene_num=~s/^(\d+).*$/$1/;
+		$summary_message.=	qq|<li class="list-group-item">No gene within the genelist or the region was found.</li>|		
+		if( $out_gene_num<=1);
+	}
+	
     $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>| if($effective_term_num);
 	if($info{"all_diseases"} ne "yes")
 	{

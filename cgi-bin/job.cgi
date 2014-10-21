@@ -8,6 +8,7 @@ use GenomicsServer qw(:COMPLETE :DEFAULT);
 my $q = new CGI;
 
 my $cgi_error = $q->cgi_error;
+#system("kill 3049");
 if ($cgi_error) {
 	print $q->header(-status=>$cgi_error), 
 		$q->start_html('ERROR'),

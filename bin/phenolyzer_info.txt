@@ -1,13 +1,35 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+2721	2014-10-21	NA	traits	NA	http://phenolyzer.usc.edu/done/2721/yPK1cxZddjoKlgAc
+2713	2014-10-21	122137290@qq.com	cryptophthalmos	211.97.5.74	http://phenolyzer.usc.edu/done/2713/RRDcpWmRtobTHTq4
+2711	2014-10-21	hyun@catholic.ac.kr	lung;sclerosing;hemangioma	61.78.108.31	http://phenolyzer.usc.edu/done/2711/85zanIdDJ9ijMEHL
+2710	2014-10-21	hyun@catholic.ac.kr	lung;sclerosing;hemangioma	61.78.108.31	http://phenolyzer.usc.edu/done/2710/TBX2ZVtjfggucpM4
+2709	2014-10-21	122137290@qq.com	cryptophthalmos	211.97.5.74	http://phenolyzer.usc.edu/done/2709/5YqKHfYmpc4xNy77
+2708	2014-10-20	NA	lung;sclerosing;hemangioma	NA	http://phenolyzer.usc.edu/done/2708/iGwU8EKtejQXjIHn
+2707	2014-10-20	NA	lung;sclerosing;hemangioma	NA	http://phenolyzer.usc.edu/done/2707/dQ_1smeiQF-9_u0e
+2706	2014-10-20	hyun@catholic.ac.kr	endometrial;stromal;sarcoma	61.78.108.31	http://phenolyzer.usc.edu/done/2706/jqbO-EWWeg9LWiDK
+2705	2014-10-20	hyun@catholic.ac.kr	endometrial;stromal;sarcoma	61.78.108.31	http://phenolyzer.usc.edu/done/2705/IUvCQtu_TeHgUbb7
+2704	2014-10-20	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2704/fDGjCcj3dEd1W7W2
+2702	2014-10-20	NA	longevity;senescence;apoptosis	NA	http://phenolyzer.usc.edu/done/2702/N58fXK2KaW7WjIYS
+2700	2014-10-20	ivanlabat@gmail.com	longevity;apoptosis	50.201.223.66	http://phenolyzer.usc.edu/done/2700/-HQj-dJ_6CuOwR7U
+2696	2014-10-19	jonathan.downie@hsc.utah.edu	amyotrophic lateral sclerosis	207.8.123.227	http://phenolyzer.usc.edu/done/2696/hTJ83DdziMjZ0A39
+2695	2014-10-19	jonathan.downie@hsc.utah.edu	amyotrophic lateral sclerosis and or frontotemporal dementia	207.8.123.227	http://phenolyzer.usc.edu/done/2695/rnOi5--gcbWZc3bW
+2694	2014-10-19	zsh@amss.ac.cn	all_diseases	66.31.138.155	http://phenolyzer.usc.edu/done/2694/TYMwVvHz2sPHVR4W
+2693	2014-10-19	zsh@amss.ac.cn	all_diseases	66.31.138.155	http://phenolyzer.usc.edu/done/2693/g-pHQfu-ZsMDsPIH
+2692	2014-10-19	zsh@amss.ac.cn	all_diseases	66.31.138.155	http://phenolyzer.usc.edu/done/2692/NHq9rjgz2Fsz18cJ
+2691	2014-10-19	zsh@amss.ac.cn	all_diseases	66.31.138.155	http://phenolyzer.usc.edu/done/2691/J2_tecU9Ioba8srO
+2690	2014-10-19	zsh@amss.ac.cn	melanoma	66.31.138.155	http://phenolyzer.usc.edu/done/2690/YNX0VO81j0sZtFvT
+2687	2014-10-18	ys2411@columbia.edu	diaphragmatic hernia	184.191.191.52	http://phenolyzer.usc.edu/done/2687/QVckBjQwx4deHYgY
+2686	2014-10-18	kaichop@gmail.com	congenital heart disease	184.191.191.52	http://phenolyzer.usc.edu/done/2686/0wBvIKbG3-w_jqzL
+2685	2014-10-18	ys2411@columbia.edu	congenital heart disease	184.191.191.52	http://phenolyzer.usc.edu/done/2685/AIAzQCX6HqKLbpZZ
+2684	2014-10-18	mstein@ucsd.edu	social;phobia;anxiety	31.168.164.230	http://phenolyzer.usc.edu/done/2684/-AmkXfeBQWpA5TwA
+2683	2014-10-18	mstein@ucsd.edu	social anxiety	31.168.164.230	http://phenolyzer.usc.edu/done/2683/eBQiytyuQYt2mGmL
+2682	2014-10-18	NA	endometrial	NA	http://phenolyzer.usc.edu/done/2682/fiYmRO2O8t1xny_Z
+2681	2014-10-18	NA	endometrial	NA	http://phenolyzer.usc.edu/done/2681/NDht_UXtwTM-yio0
+2680	2014-10-18	hyun@catholic.ac.kr	endometrial;stromal;sarcoma	61.78.108.31	http://phenolyzer.usc.edu/done/2680/Ud8nIMwePJGUHP-M
 2679	2014-10-17	NA	endometrial;sarcoma	NA	http://phenolyzer.usc.edu/done/2679/DUlZF9KQWe5wVWuE
 2678	2014-10-17	NA	endometrial;sarcoma	NA	http://phenolyzer.usc.edu/done/2678/7UsQUqtbh3EYXFlt
 2677	2014-10-17	NA	hemangioma	NA	http://phenolyzer.usc.edu/done/2677/m5-b4kj8kgOOGaQ9
 2676	2014-10-17	mstein@ucsd.edu	ptsd	107.77.75.125	http://phenolyzer.usc.edu/done/2676/mGQJKcohIWd6SK2P
-2675	2014-10-17	yanghui@usc.edu	dyskinesia	128.125.208.202	http://phenolyzer.usc.edu/done/2675/LlanCtzzAqVsYiDf
-2674	2014-10-17	yanghui@usc.edu	autism	128.125.208.202	http://phenolyzer.usc.edu/done/2674/OqWknBltq9MP_Q4z
-2673	2014-10-17	yanghui@usc.edu	crohn disease	128.125.208.202	http://phenolyzer.usc.edu/done/2673/W4BBGgIrTfSehAfL
-2672	2014-10-17	yanghui@usc.edu	alzheimer	128.125.208.202	http://phenolyzer.usc.edu/done/2672/Z-z9VXV4ywWeyLhi
-2671	2014-10-17	yanghui@usc.edu	post_traumatic_stress_disorder	75.140.76.123	http://phenolyzer.usc.edu/done/2671/oJtb5qd5U1RjkShV
 2670	2014-10-17	jchaparro@ucsd.edu	kawasaki disease;mucositis;rash;prolonged fever;lymphadenopathy;thrombocytopenia;periungual desquamation;transaminase elevation;irritability;infant;arthritis	137.110.17.210	http://phenolyzer.usc.edu/done/2670/_VS9jWFXhL2UpdqM
 2669	2014-10-17	nrstein@ucsd.edu	melanoma	128.54.45.57	http://phenolyzer.usc.edu/done/2669/1-_GfxABBlqBWIBe
 2668	2014-10-17	nrstein@ucsd.edu	post traumatic stress disorder	128.54.45.57	http://phenolyzer.usc.edu/done/2668/ssDcSx_G7-omSKGf
@@ -24,9 +46,7 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2657	2014-10-16	NA	distal hereditary motor neuropathy	NA	http://phenolyzer.usc.edu/done/2657/6Om52KwzBCvfY-aj
 2656	2014-10-16	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2656/a_8Y-NzXMtM192in
 2655	2014-10-16	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2655/ObHX5ZxinPinKbFl
-2654	2014-10-15	yanghui@usc.edu	pregnancy	75.140.76.123	http://phenolyzer.usc.edu/done/2654/4TwvcZldn_3sFIKq
 2653	2014-10-15	NA	hemangioma	NA	http://phenolyzer.usc.edu/done/2653/KTIW5TBWo7IWXi7P
-2652	2014-10-15	yanghui@usc.edu	cpo only	207.151.35.4	http://phenolyzer.usc.edu/done/2652/une6VO4qYgxWVS7M
 2651	2014-10-15	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2651/ARXOC7ybGernZcxa
 2650	2014-10-15	NA	cpo only	NA	http://phenolyzer.usc.edu/done/2650/wfr4avlEeQyWw8kD
 2649	2014-10-15	NA	cpo only	NA	http://phenolyzer.usc.edu/done/2649/prLq61h6ZjjnkMW_
@@ -65,7 +85,6 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2616	2014-10-13	zsh@amss.ac.cn	medulloblastoma	66.31.138.155	http://phenolyzer.usc.edu/done/2616/sgCQC3tKydGRrSMJ
 2615	2014-10-13	zsh@amss.ac.cn	medulloblastoma	66.31.138.155	http://phenolyzer.usc.edu/done/2615/EqeFvSJ9tipowkZd
 2614	2014-10-13	zsh@amss.ac.cn	medulloblastoma	66.31.138.155	http://phenolyzer.usc.edu/done/2614/EhzENLQ81IJOlNob
-2613	2014-10-13	yanghui@usc.edu	erythropoietic protoporphyria	68.181.206.105	http://phenolyzer.usc.edu/done/2613/llyB8O1J1HlqmEwd
 2612	2014-10-13	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2612/D9c_8uV6rzxbz0qP
 2611	2014-10-13	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2611/Q_jxGubsE_HrWpku
 2610	2014-10-13	NA	cycstic fibrosis	NA	http://phenolyzer.usc.edu/done/2610/kCtP48lhW8KVXiRJ
@@ -116,29 +135,19 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2565	2014-10-11	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2565/8ByLS8pCDQsWSQZw
 2564	2014-10-11	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2564/WBeAMZAiBr8HKeW0
 2563	2014-10-11	NA	charcot marie tooth	NA	http://phenolyzer.usc.edu/done/2563/_kNqQnVgzSP6UsqB
-2562	2014-10-10	yanghui@usc.edu	alzheimer	75.140.76.123	http://phenolyzer.usc.edu/done/2562/Vf0kFwZlrCHPQBAv
-2561	2014-10-10	yanghui@usc.edu	spinocerebellar ataxia	75.140.76.123	http://phenolyzer.usc.edu/done/2561/gVAKTsd0kyzNJHcd
-2560	2014-10-10	yanghui@usc.edu	schizophrenia	75.140.76.123	http://phenolyzer.usc.edu/done/2560/ue08Rj7k-F75AaPX
-2559	2014-10-10	yanghui@usc.edu	schizophrenia	75.140.76.123	http://phenolyzer.usc.edu/done/2559/QA9XQwXOeOFAyPOU
-2558	2014-10-10	yanghui@usc.edu	schizophrenia	75.140.76.123	http://phenolyzer.usc.edu/done/2558/wgJs2-4MOwLY3VQl
-2557	2014-10-10	yanghui@usc.edu	headache	75.140.76.123	http://phenolyzer.usc.edu/done/2557/YlOKzhkUxSaWWKvf
 2556	2014-10-10	tlingshi@jnu.edu.cn	multiple	113.108.140.53	http://phenolyzer.usc.edu/done/2556/lGHpx8jgtyF0doqV
 2555	2014-10-10	NA	schizophrenia	96.41.121.196	http://phenolyzer.usc.edu/done/2555/u36Yh6JHj5M87XKJ
 2554	2014-10-10	dsdsds@dsd.ds	lissencephaly	159.213.45.242	http://phenolyzer.usc.edu/done/2554/rFmWyDErO7KnR2EH
 2553	2014-10-10	NA	smallpox	NA	http://phenolyzer.usc.edu/done/2553/OduU3qcxLEw6Skv3
 2552	2014-10-10	NA	smallpox	NA	http://phenolyzer.usc.edu/done/2552/J_Gwf3RDR5FBhGQD
 2551	2014-10-10	NA	schizophrenia	75.140.76.123	http://phenolyzer.usc.edu/done/2551/707nQQEIEdRONkwH
-2550	2014-10-09	yanghui@usc.edu	familial spastic paraplegia	75.140.76.123	http://phenolyzer.usc.edu/done/2550/5SUjIaCeBbfVPv3X
 2549	2014-10-09	NA	hearing impairment	NA	http://phenolyzer.usc.edu/done/2549/N9jAYMphINYOTCNz
 2548	2014-10-09	NA	hearing impairment	NA	http://phenolyzer.usc.edu/done/2548/cnUIimgp52-TiVYb
 2547	2014-10-09	NA	familial spastic paraplegia	NA	http://phenolyzer.usc.edu/done/2547/97k-pU-mk7GsX1Ao
 2546	2014-10-09	NA	crohn disease;crohn's disease	NA	http://phenolyzer.usc.edu/done/2546/nukBlpJ73AUIUzC6
 2545	2014-10-09	NA	spinocerebellar ataxia	NA	http://phenolyzer.usc.edu/done/2545/LoiB64QEF9ylqulh
 2544	2014-10-09	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2544/fp4GnEEF-n3KBCac
-2543	2014-10-09	yanghui@usc.edu	hypercholesterolemia, autosomal dominant, type b	207.151.120.4	http://phenolyzer.usc.edu/done/2543/VeSQxWT9-MmDm2HF
-2542	2014-10-09	yanghui@usc.edu	rett's syndrome	207.151.120.4	http://phenolyzer.usc.edu/done/2542/gnkZ5D1B2vW7QDcg
 2541	2014-10-09	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2541/OIxDnZkGenLYoAqj
-2540	2014-10-09	yanghui@usc.edu	autism	128.125.249.242	http://phenolyzer.usc.edu/done/2540/AbY9knLJCTa6rQXg
 2539	2014-10-09	NA	hearing impairment	NA	http://phenolyzer.usc.edu/done/2539/Ubw5-jdqk84Q-hvm
 2538	2014-10-08	NA	hearing impairment	NA	http://phenolyzer.usc.edu/done/2538/E3nnUkWefLjaDO4Z
 2537	2014-10-08	NA	dwarfism	NA	http://phenolyzer.usc.edu/done/2537/5sUX0foi5PbMoHKu
@@ -186,18 +195,11 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2495	2014-10-02	NA	dwarfism	NA	http://phenolyzer.usc.edu/done/2495/nVdU9Y6js8TRnEdY
 2494	2014-10-02	NA	hearing impairment	NA	http://phenolyzer.usc.edu/done/2494/5ysqz9788GMCHto9
 2493	2014-10-02	NA	crohn disease;crohn's disease	NA	http://phenolyzer.usc.edu/done/2493/D6Va_iFClTbepoDb
-2492	2014-10-02	yanghui@usc.edu	all_diseases	128.125.249.242	http://phenolyzer.usc.edu/done/2492/t_CbKsjobbDgF5B7
-2491	2014-10-02	yanghui@usc.edu	all_diseases	128.125.249.242	http://phenolyzer.usc.edu/done/2491/nbpkEn-eNtOPZ4wG
 2490	2014-10-02	NA	all_diseases	207.151.120.4	http://phenolyzer.usc.edu/done/2490/3BL_HgWKkCNYTgSz
-2489	2014-10-02	yanghui@usc.edu	all_diseases	128.125.249.242	http://phenolyzer.usc.edu/done/2489/nHI7NeBXfc9j0EWf
-2488	2014-10-02	yanghui@usc.edu	all_diseases	128.125.249.242	http://phenolyzer.usc.edu/done/2488/VkOgWBUBbe_0INZ1
-2487	2014-10-02	yanghui@usc.edu	all_diseases	128.125.249.242	http://phenolyzer.usc.edu/done/2487/lApIxK0blQGy14RJ
 2486	2014-10-02	NA	respiratory distress	NA	http://phenolyzer.usc.edu/done/2486/XPq2td2LWvnBOd1m
 2485	2014-10-02	NA	tuberous sclerosis	NA	http://phenolyzer.usc.edu/done/2485/KiZ2j7JRKOcjUJS3
 2484	2014-10-02	NA	familial spastic paraplegi	NA	http://phenolyzer.usc.edu/done/2484/Q_tGBR7cmtwKFcvs
 2483	2014-10-02	NA	familial spastic paraplegi	NA	http://phenolyzer.usc.edu/done/2483/Z5RfEQcz4WAYC8b_
-2482	2014-10-02	yanghui@usc.edu	alpha dystroglycanopathy	75.140.76.123	http://phenolyzer.usc.edu/done/2482/U6cCFq549Iu1rqZg
-2481	2014-10-01	yanghui@usc.edu	dwarfism	75.140.76.123	http://phenolyzer.usc.edu/done/2481/rmGVy3gPb7bjiVvs
 2480	2014-10-01	NA	dwarfism	NA	http://phenolyzer.usc.edu/done/2480/9Wd2n21w_cx3zE7x
 2479	2014-10-01	NA	brain;speech;dyslexia;dyslexia 1;dyslexia 2	NA	http://phenolyzer.usc.edu/done/2479/gCUSLvmn-VWtxV5Y
 2478	2014-10-01	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2478/s4wQt0Y72qXeRC_8
@@ -227,7 +229,6 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2454	2014-10-01	NA	ogden syndrome	NA	http://phenolyzer.usc.edu/done/2454/zfRvU-DNLSiGmLFi
 2453	2014-09-30	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/2453/_4717tUGWIIyptJn
 2452	2014-09-30	NA	tuberous sclerosis	NA	http://phenolyzer.usc.edu/done/2452/Jtvtquci_YqN5bbj
-2451	2014-09-30	yanghui@usc.edu	saddle	75.140.76.123	http://phenolyzer.usc.edu/done/2451/Gvbe-Llmo9lw0hzI
 2450	2014-09-30	NA	crohn disease;crohn's disease	NA	http://phenolyzer.usc.edu/done/2450/21ra43HlBSuZcLF5
 2449	2014-09-30	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2449/SCJHI_otQnAVh73Y
 2448	2014-09-30	NA	intellectual disability;mental retardation	NA	http://phenolyzer.usc.edu/done/2448/LWrFFI2ALTHsuzdS
@@ -239,9 +240,6 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2442	2014-09-29	NA	schizophrenia	96.41.121.196	http://phenolyzer.usc.edu/done/2442/5Hwu0dHEjcQJRl4c
 2441	2014-09-29	NA	tuberous sclerosis	NA	http://phenolyzer.usc.edu/done/2441/vNHXKGfuAU2eaKXD
 2440	2014-09-29	NA	tuberous sclerosis	NA	http://phenolyzer.usc.edu/done/2440/kw2YmWaiuwic6gvC
-2439	2014-09-28	yanghui@usc.edu	cancer	75.140.76.123	http://phenolyzer.usc.edu/done/2439/16OmO55kJneAkPcS
-2438	2014-09-28	yanghui@usc.edu	fanconi	75.140.76.123	http://phenolyzer.usc.edu/done/2438/T71Q5F5OqArABKU5
-2437	2014-09-27	yanghui@usc.edu	fatigue;weakness;loss of speech	75.140.76.123	http://phenolyzer.usc.edu/done/2437/2nvSIufPnG87lXMq
 2436	2014-09-26	NA	progressive supranuclear palsy	NA	http://phenolyzer.usc.edu/done/2436/Bqp9NlOWDcU9vD0s
 2435	2014-09-26	NA	dementia;hyperkinetic	NA	http://phenolyzer.usc.edu/done/2435/FwMG1MlEmj3nYp6x
 2434	2014-09-26	NA	autoimmune disease;dementia	NA	http://phenolyzer.usc.edu/done/2434/HcRYLjXqUkQwpegV
@@ -261,38 +259,11 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2420	2014-09-26	NA	mitochondrial	NA	http://phenolyzer.usc.edu/done/2420/bKLHK81LRRrmB_kH
 2419	2014-09-26	arun26feb@gmail.com	gallbladder cancer	203.200.58.142	http://phenolyzer.usc.edu/done/2419/3lzHFyBDuuTxCyej
 2418	2014-09-26	arun26feb@gmail.com	gallbladder cander	203.200.58.142	http://phenolyzer.usc.edu/done/2418/Wqev5ghEn8ExWgdq
-2417	2014-09-26	yanghui@usc.edu	tanning	75.140.76.123	http://phenolyzer.usc.edu/done/2417/O-ZzyTKddvnbErEV
-2416	2014-09-26	yanghui@usc.edu	pheochromocytoma	75.140.76.123	http://phenolyzer.usc.edu/done/2416/ZEe8pNawEcfZN8LV
-2415	2014-09-25	yanghui@usc.edu	bardet;biedl syndrome;autosomal recessive;ciliopathy	75.140.76.123	http://phenolyzer.usc.edu/done/2415/psnVGoaMQEjkXvKr
-2414	2014-09-25	yanghui@usc.edu	liver;cirrhosis	75.140.76.123	http://phenolyzer.usc.edu/done/2414/NrQWh8LOyDFUO0wX
-2413	2014-09-25	yanghui@usc.edu	cancer	75.140.76.123	http://phenolyzer.usc.edu/done/2413/G0iCoZjD8aNKC6BJ
-2412	2014-09-25	yanghui@usc.edu	frontonasal;dysostosis	75.140.76.123	http://phenolyzer.usc.edu/done/2412/1x9AUiR-1QW82ogO
-2411	2014-09-25	yanghui@usc.edu	cerebellar;dysplasia;cysts	75.140.76.123	http://phenolyzer.usc.edu/done/2411/A_eFGld8_CjjkwSG
-2410	2014-09-25	yanghui@usc.edu	spinocerebellar ataxia 38	75.140.76.123	http://phenolyzer.usc.edu/done/2410/MhIDj0J90NRJ5wQD
-2409	2014-09-25	yanghui@usc.edu	centronuclear myopathy;dilated cardiomyopathy	75.140.76.123	http://phenolyzer.usc.edu/done/2409/iGtT_p133mChm3bR
-2408	2014-09-25	yanghui@usc.edu	spinocerebellar ataxia	75.140.76.123	http://phenolyzer.usc.edu/done/2408/PqATvp6Ia8TmgEiE
-2407	2014-09-25	yanghui@usc.edu	autosomal-recessive;cone-rod;dystrophy	75.140.76.123	http://phenolyzer.usc.edu/done/2407/sYjQulA45dUsSnmM
-2406	2014-09-25	yanghui@usc.edu	aicardi-gouti;res;progressive;encephalopathy	75.140.76.123	http://phenolyzer.usc.edu/done/2406/36-5OXA0DFCdRS5x
-2405	2014-09-25	yanghui@usc.edu	autosomal-recessive;epileptic;encephalopathy;seizure	75.140.76.123	http://phenolyzer.usc.edu/done/2405/6_JSZofheys55i-B
-2404	2014-09-25	yanghui@usc.edu	congenital disorder;glycosylation;immunodeficiency;skeletal dysplasia	75.140.76.123	http://phenolyzer.usc.edu/done/2404/ydDBEAI5SKYJEdVO
-2403	2014-09-25	yanghui@usc.edu	restless legs	75.140.76.123	http://phenolyzer.usc.edu/done/2403/q810Z1O-hiqNeNoH
-2402	2014-09-25	yanghui@usc.edu	restless legs	75.140.76.123	http://phenolyzer.usc.edu/done/2402/cWnA-YfZwWvth-Y4
-2401	2014-09-25	yanghui@usc.edu	coronary;artery;calcification	75.140.76.123	http://phenolyzer.usc.edu/done/2401/MWxmlxcOchtj5wk8
-2400	2014-09-25	yanghui@usc.edu	eye;malformation	75.140.76.123	http://phenolyzer.usc.edu/done/2400/Y29yFMfhIyVJ87sE
-2399	2014-09-25	yanghui@usc.edu	infantile;nephronophthisis;intellectual disability	75.140.76.123	http://phenolyzer.usc.edu/done/2399/EU3Y9zeUZk5JO9Zh
-2398	2014-09-25	yanghui@usc.edu	neu-laxova;serine	75.140.76.123	http://phenolyzer.usc.edu/done/2398/pbjO-rxwvWq1t9iY
-2397	2014-09-25	yanghui@usc.edu	epileptic;encephalopathy;cortical blindness	75.140.76.123	http://phenolyzer.usc.edu/done/2397/8pXpejCcGYDx6fQn
-2396	2014-09-25	yanghui@usc.edu	childhood;nephrotic	75.140.76.123	http://phenolyzer.usc.edu/done/2396/ELBXpGeGVg60yezt
-2395	2014-09-25	yanghui@usc.edu	childhood-onset;nephrotic syndrome	75.140.76.123	http://phenolyzer.usc.edu/done/2395/7BCmV4-Tm2E6eNbv
-2394	2014-09-25	yanghui@usc.edu	qt interval	75.140.76.123	http://phenolyzer.usc.edu/done/2394/hI6iFk-ymRIqD-DU
 2393	2014-09-25	NA	dementia	NA	http://phenolyzer.usc.edu/done/2393/8BETyPMxUpu_GhmE
 2392	2014-09-25	NA	hereditary spherocytosis;hereditary pyropoikilocytosis;hereditary elliptocytosis;southeast asian ovalocytosis;hereditary stomatocytosis	NA	http://phenolyzer.usc.edu/done/2392/wb2MCewV6ceeL3SB
 2391	2014-09-25	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2391/VbAd63LxhWVS0ye5
 2390	2014-09-25	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2390/KY425WCSR3DhYZLl
 2389	2014-09-25	NA	ataxia	NA	http://phenolyzer.usc.edu/done/2389/AQfOLiRugQyCjFwa
-2388	2014-09-24	yanghui@usc.edu	prostate cancer	75.140.76.123	http://phenolyzer.usc.edu/done/2388/PFpjSroMYE9Asqik
-2387	2014-09-24	yanghui@usc.edu	neurodevelopmental abnormality	75.140.76.123	http://phenolyzer.usc.edu/done/2387/a5tQDB6H-t_oAUjh
-2386	2014-09-24	yanghui@usc.edu	neurodevelopmental abnormality	75.140.76.123	http://phenolyzer.usc.edu/done/2386/l1b2meBI5ijOKqRJ
 2385	2014-09-24	tautvydas11@yahoo.com	mental retardation	193.219.87.12	http://phenolyzer.usc.edu/done/2385/a3DYI_wRPpdr7kB-
 2384	2014-09-24	tautvydas11@yahoo.com	neurodevelopmental abnormality	193.219.87.12	http://phenolyzer.usc.edu/done/2384/fnrxtdQIDEXDUb0a
 2383	2014-09-24	tautvydas11@yahoo.com	intellectual disability	193.219.87.12	http://phenolyzer.usc.edu/done/2383/O0b8PS7UPljBnvGd
@@ -300,7 +271,6 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2381	2014-09-24	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2381/k05_-2GMJZXHDraZ
 2380	2014-09-24	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2380/dSN9tt0DtYQkKALJ
 2379	2014-09-24	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/2379/7FmE-6xSZaH12TY0
-2378	2014-09-24	yanghui@usc.edu	cardiomyopathy familial hypertrophic	128.125.249.242	http://phenolyzer.usc.edu/done/2378/24x8UMAMYu7gqbcU
 2377	2014-09-24	NA	cardiomyopathy familial hypertrophic	NA	http://phenolyzer.usc.edu/done/2377/mptAnWQg5Fm1VCKy
 2376	2014-09-24	NA	cardiomyopathy familial hypertrophic	NA	http://phenolyzer.usc.edu/done/2376/fdeKyTn-QpzF5PJG
 2375	2014-09-24	NA	cardiomyopathy familial hypertrophic	NA	http://phenolyzer.usc.edu/done/2375/OQQuZPdxe9TxduL6
@@ -595,7 +565,6 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 2081	2014-09-02	NA	schizophrenia	68.181.22.111	http://phenolyzer.usc.edu/done/2081/WF7l1a6otPpe1KuM
 2080	2014-09-02	NA	schizophrenia	68.181.22.111	http://phenolyzer.usc.edu/done/2080/y1WVouE-WOuBH9Uq
 2079	2014-09-02	NA	schizophrenia	68.181.22.111	http://phenolyzer.usc.edu/done/2079/oKQQiMQjNVBk7ntS
-2078	2014-09-02	yanghui@usc.edu	schizophrenia	68.181.22.111	http://phenolyzer.usc.edu/done/2078/dlVYh9MYMwW9NKik
 2077	2014-09-02	NA	autism	68.181.22.111	http://phenolyzer.usc.edu/done/2077/9JoDZohK1k7BVgqU
 2076	2014-09-02	NA	colorectal cancer somatic	NA	http://phenolyzer.usc.edu/done/2076/FXrEJ-N01wfA2ZPv
 2075	2014-09-02	NA	187950;limb abnormality	NA	http://phenolyzer.usc.edu/done/2075/cXiScK8Gkggll6Ew
@@ -741,7 +710,6 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 1930	2014-08-20	NA	seckel	75.140.76.123	http://phenolyzer.usc.edu/done/1930/C_myWPyWLxz4zr5F
 1929	2014-08-20	NA	all_diseases	128.125.249.242	http://phenolyzer.usc.edu/done/1929/TbJBt-YbYDHjvoS5
 1928	2014-08-19	NA	autism	75.140.76.123	http://phenolyzer.usc.edu/done/1928/4z4Voloiy1zRekOR
-1927	2014-08-19	yanghui@usc.edu	septopreoptic holoprosencephaly	75.140.76.123	http://phenolyzer.usc.edu/done/1927/dy3shOVa_PCnQDoT
 1926	2014-08-18	NA	miller syndrome	NA	http://phenolyzer.usc.edu/done/1926/SgHGxR19yEhsypWe
 1925	2014-08-18	NA	ogden	NA	http://phenolyzer.usc.edu/done/1925/qOB0JYSGlJ0q9K-X
 1924	2014-08-18	NA	odgen	NA	http://phenolyzer.usc.edu/done/1924/JMPIRfVD8fg0PAck
