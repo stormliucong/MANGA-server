@@ -146,7 +146,7 @@ for my $individual_term(@disease_input)
        @diseases=Unique(@diseases);
        my $disease_line = join(";",@diseases);
        my $out_line = join("\t",($disease_line,$words[1]));	
-       print OUT_DISEASE $out_line;
+       print OUT_DISEASE $out_line."\n";
        }
        }
        if ($is_phenotype)

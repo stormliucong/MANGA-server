@@ -230,7 +230,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                <div class="col-md-3">
 	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
        title="Weight Adjust",
-       data-content="You can adjust the weights of each data source. or even turn it off. Is this amazing?">
+       data-content="You can adjust the weights of each data source. Attention, if you turn this on, the weights below are different
+       from the default weights!!!You can even turn a database out by setting the weight as 0. Is this amazing?">
        <span class="glyphicon glyphicon-th-list"></span></button>
 	   </div>
        </div> 
