@@ -1,13 +1,13 @@
 use strict;
 use Email::Sender::Transport::SMTP::TLS;
-use Email::Sender::Simple qw(try_to_sendmail);
+use Email::Sender::Simple qw(sendmail);
 use Email::Simple;
 
-my $transport = Email::Sender::Transport::SMTP::TLS ->new({
-        host => 'smtp.gmail.com',
+ my $transport = Email::Sender::Transport::SMTP::TLS ->new({
+        host => 'smtp.mandrillapp.com',
         port => 587,
-        username => 'younghumanFly@gmail.com',
-        password => 'younghuman',
+        username => 'yanghui@usc.edu',
+        password => 'uh2BLq9VFE6IRUpMf0uMBQ',
         });
 
 
@@ -22,4 +22,4 @@ my $email = Email::Simple->create(
         body => 'This is a test email',
 );
 
-try_to_sendmail($email, { transport => $transport });
+sendmail($email, { transport => $transport });

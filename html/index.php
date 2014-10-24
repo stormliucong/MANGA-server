@@ -23,6 +23,16 @@
     <script data-turbolinks-track="true" src="asset/js/jquery.fileupload.js"></script>
 	<script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
 	<script data-turbolinks-track="true" src="js/form_control_1.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56057397-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	</head>
 	<body>
 	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -51,6 +61,7 @@
                    <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu/">iCAGES</a></li>
                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
@@ -321,7 +332,9 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 <label for="step" class="col-md-3 control-label">Addon Seed Gene</label>
 	 <div class="col-md-7">
       <select class="selectpicker show-tick"  multiple name="addon_seed" id="addon_seed" data-selected-text-format="count>1">
-	           <option value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>			  	   
+	           <option selected value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>		
+	           <option selected value="DB_GAD_GENE_DISEASE_SCORE">Genetic Association Database</option>	
+	           <option selected value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  	   
 	  </select>
     </div>
 	</div>
@@ -350,9 +363,11 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
 	    <div class="panel panel-default">
 	    <div class="panel-body">
-    		 <p><strong>[10/17/2014]</strong></p>
-    		 <p>Two important databases are integrated as the form of plugins: Mentha protein-protein interaction database for gene-gene mapping,
-    		 and DisGenet gene-disease database for disease-gene mapping!<br><br> Now the database for disease-gene relations have more than <b>70000</b> records!
+    		 <p><strong>[10/21/2014]</strong></p>
+    		 <p>Several important databases are integrated as the form of plugins: <b class="text-info">Mentha protein-protein interaction database</b> for gene-gene mapping,
+    		 , <b class="text-info">DisGenet gene-disease database</b>, <b class="text-info">Genetic Association Database</b>, <b class="text-info">GeneCards</b> for disease-gene mapping!<br><br> 
+    		 Now the database for disease-gene relations have more than <b>100000</b> records!
+    		 <br><br>The Addon Databases could be found and selected below!
     		 </p>
     		</div></div>
 	   

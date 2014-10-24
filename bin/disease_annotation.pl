@@ -839,8 +839,9 @@ for my $line (<GENE_ID>)
 	if($i==0) { $i++;next;  }
 	chomp($line);
 	my ($id, $gene, $synonyms) = split("\t", $line);
-		$gene_transform{$gene} = $gene;
-		$gene_transform{$id} = $gene;
+		$gene_transform{$gene} = uc $gene;
+		$gene_transform{uc $gene} = uc $gene;
+		$gene_transform{$id} = uc $gene;
 }
 seek GENE_ID, 0,0;
 $i=0;
@@ -856,7 +857,7 @@ for my $line (<GENE_ID>)
 		my @synonyms = split('\|', $synonyms);
 		for my $each (@synonyms)
 		{
-				$gene_transform{$each} = $gene if(not defined $gene_transform{$each});
+				$gene_transform{uc $each} = uc $gene if(not defined $gene_transform{$each});
 		};
 	}
 }
@@ -882,6 +883,7 @@ for my $line (<GENE_ID>)
 	chomp($line);
 	my ($id, $gene, $synonyms) = split("\t", $line);
     $gene_id{$gene} = $id;
+    $gene_id{uc $gene} = $id;
 }
       
 close (GENE_ID);	 
@@ -943,7 +945,9 @@ sub predict_genes{
 	    	chomp ($line);
 	    	my ($gene1, $gene2, $evidence, $score, $pubmed_id) = split ("\t", $line);
 	    	my $individual_score;
-	    	next if($gene1 eq '-' or $gene2 eq '-');
+	    	$gene1 = uc $gene1;
+	    	$gene2 = uc $gene2;
+	    	next if($gene1 =~ /^\W*$/ or $gene2 =~ /^\W*$/);
 	    	$pubmed_id =~s/,/ /g;
 	    	if($item{$gene1}[0] and ($gene1 ne $gene2) )
 	    	{   
@@ -970,9 +974,10 @@ sub predict_genes{
 	        }
 	        
 	     }
-	    close(ADDON_GG);	    
+	    close(ADDON_GG);
+	    print STDERR "NOTICE: The Addon Database loaded !\n";	    
         }
-	    print STDERR "NOTICE: The Addon Database loaded !\n";
+	    
 	    
 #Predict genes based on Human Protein Interactions	    
 	   

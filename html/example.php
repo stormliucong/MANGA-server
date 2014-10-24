@@ -50,6 +50,7 @@
                    <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
                      <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                      <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
@@ -75,10 +76,10 @@
 			</div>
 			  <div class="panel-body">
 			
-           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2013/Ty7BUwEKUy7wDlvy/index.html">    Amyotrophic lateral sclerosis</a></h3> 
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2369/7dgoBGMxPexhh7x3/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2263/GtQ7PD_yx2SoZgkf/index.html">  Autism</a></h3>
-		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2007/Ce7EKsKacUsybr5Z/index.html">  Huntington</a></h3>
+           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2762/Qo7s1hth_bnhteu5/index.html">    Amyotrophic lateral sclerosis</a></h3> 
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2761/2oV2ezx87DTLMkCj/index.html">  Cancer</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2739/v6XMNtYjAECJdk-Y">  Autism</a></h3>
+		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2760/tSeXrGBZGsgxdPwk/index.html">  Huntington</a></h3>
 		    
 		    </div>
         </div>

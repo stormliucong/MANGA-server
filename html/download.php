@@ -52,6 +52,7 @@
                    <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
                      <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                      <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>

@@ -48,6 +48,10 @@
                 	  $.ajaxSetup({'async': false} );
                 	  $.getJSON(json_url, function(data){
                 		 json = data;
+                		 json=json.map(function(each){
+                			each.data.weight=Math.sqrt(each.data.weight);
+                			return each;
+                		 });
                 		 if_json_success = true;
                         }).fail(function( jqxhr, textStatus, error ) {
                            $("#network").remove();
@@ -120,8 +124,8 @@
                 	        	'background-color':'mapData(color_weight,0,1,#0055ff,#003366)',
                 	        	'text-outline-color':'mapData(color_weight,0,1,#0077ff,#007766)',
                 	        	'border-width':'0px',
-                	        	'width': 'mapData(weight, 0,1, 15, 85)',
-                 	           'height':'mapData(weight, 0,1, 15, 85)',
+                	        	'width': 'mapData(weight, 0,1, 16, 85)',
+                 	           'height':'mapData(weight, 0,1, 16, 85)',
                 	        	
                 	         })
                 	        .selector('node.Predicted')
@@ -129,8 +133,8 @@
                 	        	'background-color':'mapData(color_weight,0,1, #CCCC00, #666600)',
                 	        	'text-outline-color': 'mapData(color_weight, 0, 1, #CCCC00, #666600)',
                 	        	'border-width':'0px',
-                	        	'width': 'mapData(weight, 0,1, 15, 85)',
-                 	           'height':'mapData(weight, 0,1, 15, 85)',
+                	        	'width': 'mapData(weight, 0,1, 16, 85)',
+                 	           'height':'mapData(weight, 0,1, 16, 85)',
                 	        	
                 	        })
                 	        .selector('node.disease')
@@ -148,11 +152,11 @@
                 	        .css({
                 	        	'text-outline-width':'3px',
                 	        	'text-outline-color':'#FF33CC',
-                	        	'background-color':'#f0f000',
+                	        	'background-color':'#fe2200',
                 	        	'font-size':'35px',
-                	        	'shape':'star',
-                	        	'width':'18px',
-                	        	'height':'18px'
+                	        	'shape':'circle',
+                	        	'width':'25px',
+                	        	'height':'25px'
                 	        	
                 	        	
       
