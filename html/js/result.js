@@ -130,8 +130,8 @@
                 	         })
                 	        .selector('node.Predicted')
                 	        .css({
-                	        	'background-color':'mapData(color_weight,0,1, #CCCC00, #666600)',
-                	        	'text-outline-color': 'mapData(color_weight, 0, 1, #CCCC00, #666600)',
+                	        	'background-color':'mapData(color_weight,0,1, #bbbb11, #777722)',
+                	        	'text-outline-color': 'mapData(color_weight, 0, 1, #bbbb11, #777722)',
                 	        	'border-width':'0px',
                 	        	'width': 'mapData(weight, 0,1, 16, 85)',
                  	           'height':'mapData(weight, 0,1, 16, 85)',

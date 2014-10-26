@@ -5,14 +5,7 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
      $("[data-toggle='popover']").popover({container: 'body',
    	  trigger: 'focus'
    	  });
-     $("#control-file-upload").hide();
-     $("#custom-filtering").hide();
-     $("#control").prop("checked", false);
-     $("#step").selectpicker("deselectAll");
-     $("#input_model").selectpicker("deselectAll");
-     $("#input_model").selectpicker('val','no');
-     $('#input_model').selectpicker('render');
-     
+     $('#addon_seed').selectpicker('selectAll');
      
 //}); 
 

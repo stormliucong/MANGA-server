@@ -332,9 +332,9 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 <label for="step" class="col-md-3 control-label">Addon Seed Gene</label>
 	 <div class="col-md-7">
       <select class="selectpicker show-tick"  multiple name="addon_seed" id="addon_seed" data-selected-text-format="count>1">
-	           <option selected value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>		
-	           <option selected value="DB_GAD_GENE_DISEASE_SCORE">Genetic Association Database</option>	
-	           <option selected value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  	   
+	           <option  value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>		
+	           <option value="DB_GAD_GENE_DISEASE_SCORE">Genetic Association Database</option>	
+	           <option  value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  	   
 	  </select>
     </div>
 	</div>
