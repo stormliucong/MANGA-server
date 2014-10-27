@@ -91,11 +91,11 @@
 			<h3 class="panel-title  big-title">Phenolyzer Command Line Tool</h3></div>
 			<div class="panel-body">
 			<h3 class="text-info"><span class="glyphicon glyphicon-ok"></span>
-			<a class="text-info" href="http://phenolyzer.usc.edu/download/Phenolyzer_1.0.0.tgz">
-			Phenolyzer 1.0.0</a></h3>
+			<a class="text-info" href="">
+			Phenolyzer 1.0.0 (Not Available)</a></h3>
 			<h3 class="text-info"><span class="glyphicon glyphicon-ok"></span>
-			<a class="text-info" href="http://phenolyzer.usc.edu/download/Phenolyzer_1.0.1.tgz">
-			Phenolyzer 1.0.1</a></h3> 
+			<a class="text-info" href="">
+			Phenolyzer 1.0.1 (Not Available)</a></h3> 
 			
  
 

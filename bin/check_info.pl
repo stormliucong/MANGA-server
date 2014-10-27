@@ -33,7 +33,7 @@ for my $folder ( @folders ){
 	 	my($key, $content) = split("=");
 	 	$info{$key} = $content;
 	 }
-	 next if($info{"email"} eq 'yanghui@usc.edu');
+	 #next if($info{"email"} eq 'yanghui@usc.edu');
 	 open(DISEASE, $folder."/disease_list.txt");
 	 my $disease = join(";", map {chomp();$_; } <DISEASE>);
 	 close(DISEASE);

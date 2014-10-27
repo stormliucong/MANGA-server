@@ -225,6 +225,7 @@ sub getRidOfSusceptibility{
 	@_==1 or die "input illegal!!";
 	$_[0] =~ s/^(.*?)\W*susc?eptibi?lity( to)?,?.*/$1/i;
 	$_[0] =~ s/autism \d+/autism/gi;
+	$_[0] =~ s/\berthematosus\b/erythematosus/gi;
 	return $_[0];
 }
 sub eliminateNonWords{

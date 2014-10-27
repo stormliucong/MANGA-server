@@ -269,7 +269,7 @@
                     		term_nodes = cy.elements('node.term');
                     		cy.remove(disease_nodes);
                     		cy.remove(term_nodes);
-                    		layout_change(500);
+                    		layout_change(1000);
                                               }
                     	else{
                     		cy.add(disease_nodes);
@@ -283,7 +283,7 @@
                     	if(!gene_on.is(":checked") ) {
                     		gene_nodes = cy.elements('node.gene');
                     		cy.remove(gene_nodes);
-                            layout_change(500);
+                            layout_change(1000);
                             }
                     	else{
                     		cy.add(gene_nodes);

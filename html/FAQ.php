@@ -71,20 +71,7 @@
   
 		<div class="container faq">
 		<div class="panel-group col-lg-10 col-lg-offset-1" id="accordion">
-  <div class="panel panel-info">
-    <div class="panel-heading">
-      <h4 class="panel-title big-title">
-        <a  data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-         What is Phenolyzer?
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in">
-      <div class="panel-body">
-       <p>Phenolyzer is Phenotype based Gene Analyzer.</p>
-       </div>
-    </div>
-  </div>
+
   <div class="panel panel-info">
     <div class="panel-heading">
       <h4 class="panel-title big-title">
@@ -101,6 +88,31 @@
         </div>
     </div>
   </div>
+  
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
+       How does Phenolyzer perform?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-1" class="panel-collapse collapse">
+      <div class="panel-body"><p>
+      Below is the comparison between Phenolyzer and other gene/phevor prioritization tools, including Phevor, PosMed, SNP3d, Genecards.
+      Phenolyzer works the best to have the best ROC to find COSMIC cancer genes. 
+      <br><br>
+      <img src="./img/roc_cancer.png" width=450 height=250 />
+    
+      <img src="./img/auc_cancer.png" width=350 height=250 />
+      <br><br>
+      Also, for 14 classic monogenic disease genes, Phenolyzer ranked all of them as TOP1, the best among all these tools.
+      <br>
+       <img src="./img/single_gene_frequency.png" width=570 height=500 />
+      </p>
+      
+      </div></div></div>
+      
   <div class="panel panel-warning">
     <div class="panel-heading">
       <h4 class="panel-title big-title">
@@ -308,6 +320,10 @@
        just enter 'mental', or you can enter both, like 'mental retardation;mental disorder'.</p>
       
       </div></div></div>
+      
+      
+  
+      
       
       
   

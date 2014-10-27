@@ -928,7 +928,6 @@ sub predict_genes{
 	    
 	    open (HPRD, "$path/$hprd_file") or die "Can't open $path/$hprd_file !";
 	    open (BIOSYSTEM, "$path/$biosystem_file") or die "Can't open $path/$biosystem_file !";
-	    print STDERR "NOTICE: The HRPD Database loaded !\n";
 	    open (GENE_FAMILY, "$path/$gene_family_file") or die "Can't open $path/$gene_family_file!";
 	    open (HTRI, "$path/$htri_file") or die "Can't open $path/$htri_file!";
 	    my @ggfiles;
@@ -1018,7 +1017,8 @@ sub predict_genes{
 	     }
 	     print STDERR "NOTICE: The HPRD Database loaded !\n";
  #Predict genes based on transcription interaction
- $i = 0;
+        $i = 0;
+        my $TF_PENALTY=4;  
         for my $line (<HTRI>)    #TF	TG	EVIDENCE	PUBMED	SCORE
 	    {
 	    	if ($i==0) {$i++; next; }
@@ -1047,7 +1047,7 @@ sub predict_genes{
 	        $individual_score = $score * $HTRI_WEIGHT * $item{$gene2}[2];	
 	        if($individual_score !=0 )
 	        {
-	        $output{$gene1}[0] += $individual_score; 
+	        $output{$gene1}[0] += $individual_score/$TF_PENALTY; 
 	    	$output{$gene1}[1] .= "PUBMED:$pubmed_id (HTRI)\t".$evidence."\t"
 	    	."Regulates $gene2"."\t".$individual_score."\n";
 	        }
@@ -1215,11 +1215,14 @@ sub Unique {
 sub TextStandardize {
 	my $word=$_[0];
 	$word=~s/^\W*(.*?)\W*$/$1/;
-	$word=~s/\W+/ /g;
 	$word=~s/'s\b//g;
+	$word=~s/\W+/ /g;
+	$word=~s/\berthematosus\b/erythematosus/gi;
+	$word=~s/\bshow all\b//ig;
 	return $word;
-}
-
+} 
+ 	 
+ 	 
 =head1 SYNOPSIS
 
  disease_annotation.pl [arguments] <disease_names or disease_filename>

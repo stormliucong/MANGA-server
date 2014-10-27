@@ -363,6 +363,13 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
 	    <div class="panel panel-default">
 	    <div class="panel-body">
+    		 <p><strong>[10/25/2014]</strong></p>
+    		 <p>The 'Regulates' relations are now penalized to a quarter, which does not affect the performance and prevents the general transcription factors to show up on top.
+    		 </p>
+    		</div></div>
+	   
+	    <div class="panel panel-default">
+	    <div class="panel-body">
     		 <p><strong>[10/21/2014]</strong></p>
     		 <p>Several important databases are integrated as the form of plugins: <b class="text-info">Mentha protein-protein interaction database</b> for gene-gene mapping,
     		 , <b class="text-info">DisGenet gene-disease database</b>, <b class="text-info">Genetic Association Database</b>, <b class="text-info">GeneCards</b> for disease-gene mapping!<br><br> 
