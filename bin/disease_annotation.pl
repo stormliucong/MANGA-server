@@ -718,11 +718,17 @@ sub score_all_genes{                              #GENE	DISEASE	DISEASE_ID	SCORE
 	my @addon_disease_gene_score;
 	my @disease_gene_score=<SCORE>;
 	if($addon_gene_disease_score_file){
- 		open(ADDON,"${path}/$addon_gene_disease_score_file") or die "could not open ${path}/$addon_gene_disease_score_file";		
-	    @addon_disease_gene_score = <ADDON>;
+		my @addon_files = split(',', $addon_gene_disease_score_file);
+		for my $each_file (@addon_files)
+		{
+ 		open(ADDON,"${path}/$each_file") or die "could not open ${path}/$each_file";		
+	    push(@addon_disease_gene_score, <ADDON>);
 	    @addon_disease_gene_score = map {s/[\n\r]+//g;$_; } @addon_disease_gene_score;
+		close(ADDON);
+		print STDERR "NOTICE: The ${path}/$each_file is used as addons!!!\n";
+		}
 	    push (@disease_gene_score,@addon_disease_gene_score);
-	    print STDERR "NOTICE:The ${path}/$addon_gene_disease_score_file is used as addons!!!\n";
+	    
 	}
 	my $i=0;
 	  for (@disease_gene_score){
@@ -730,6 +736,7 @@ sub score_all_genes{                              #GENE	DISEASE	DISEASE_ID	SCORE
         my ($genes, $disease, $disease_id, $score, $source)=split("\t");
         my @genes = split(",", $genes);
         my $gene = $genes[0];
+        next if (not $gene);
     	if($i==0){$i++;next;}
     		$count++;
     		$GENE_WEIGHT{$source}= $addon_gene_disease_weight if (not $GENE_WEIGHT{$source});

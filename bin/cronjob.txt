@@ -1,0 +1,2 @@
+MAILTO=yanghui@usc.edu
+* * * * * /usr/bin/perl /var/www/html/loh/bin/email_send.pl
