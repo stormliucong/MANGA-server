@@ -1,4 +1,86 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+3147	2014-12-02	gz-bixin@kingmed.com.cn	myodystrophy	58.61.218.58	http://phenolyzer.usc.edu/done/3147/2gf3kMD6k56r3HYU
+3146	2014-12-02	NA	myopathies	NA	http://phenolyzer.usc.edu/done/3146/32fpTXhAPWtVC9u1
+3145	2014-12-02	anu.reigo@ut.ee	diabetes type 2;diabetes mellitus type 2;diabetes complications;diabetes mellitus noninsulin dependent;diabetes;diabetes gestational;diabetes	193.40.12.10	http://phenolyzer.usc.edu/done/3145/qKFUB8B9gT8yEtq6
+3144	2014-12-02	anu.reigo@ut.ee	type 2 diabetes related glucose homeostasis traits	193.40.12.10	http://phenolyzer.usc.edu/done/3144/rH9OM6ykkGyWq6DH
+3143	2014-12-02	anu.reigo@ut.ee	diabetes type 2;diabetes mellitus type 2;diabetes complications	193.40.12.10	http://phenolyzer.usc.edu/done/3143/rMtu6VCgMvzEdpTs
+3142	2014-12-02	anu.reigo@ut.ee	type 2 diabetes related glucose homeostasis traits	193.40.12.10	http://phenolyzer.usc.edu/done/3142/7gO3v7Jnm_OTvTyG
+3141	2014-12-02	anu.reigo@ut.ee	type 2 diabtes	193.40.12.10	http://phenolyzer.usc.edu/done/3141/q8OT6VV6IjwiGbf8
+3140	2014-12-02	schahl.kimberly@mayo.edu	joint hypermobility;restrictive cardiomyopathy;atrial septal defect;arteriovenous fistula;multiple arteriovenous malformations	129.176.151.24	http://phenolyzer.usc.edu/done/3140/Equ7_VAp69n-GrOp
+3139	2014-12-02	anu.reigo@ut.ee	coronary artery	193.40.12.10	http://phenolyzer.usc.edu/done/3139/8H7yX7egDJb1kXa-
+3138	2014-12-02	anu.reigo@ut.ee	type 2 diabtes	193.40.12.10	http://phenolyzer.usc.edu/done/3138/pAXkF4XHGMd2NsC7
+3137	2014-12-02	anu.reigo@ut.ee	citalopram adverse effects	193.40.12.10	http://phenolyzer.usc.edu/done/3137/ctJIknO6CU44vJw9
+3136	2014-12-02	anu.reigo@ut.ee	citalopram adverse effects	193.40.12.10	http://phenolyzer.usc.edu/done/3136/MNaaXqvjWFC3OxEG
+3135	2014-12-02	anu.reigo@ut.ee	pancreas adenocarcinoma	193.40.12.10	http://phenolyzer.usc.edu/done/3135/v-CqOrN2BvzGZk5I
+3134	2014-12-02	516821540@qq.com	breast cancer	58.61.218.58	http://phenolyzer.usc.edu/done/3134/tRRcecubqJ9sc6aS
+3133	2014-12-01	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3133/239bkFUVe7xwI0Zk
+3132	2014-12-01	NA	schizophrenia	68.119.128.110	http://phenolyzer.usc.edu/done/3132/mtSHtC29IAzrvmGa
+3131	2014-12-01	kchennen@unistra.fr	ciliopathies	130.79.98.118	http://phenolyzer.usc.edu/done/3131/o-x3vlnia94u2x09
+3130	2014-12-01	kchennen@unistra.fr	myopathies	130.79.98.118	http://phenolyzer.usc.edu/done/3130/sLAXmact4YGzMXBt
+3129	2014-12-01	NA	developmental delay;neurodevelopmental delay;mental retardation anterior maxillary protrusion and strabismus;mental retardation;speech disorder mental retardation with language impairment and autistic features;speech and language difficulties;dysmorphic facies	NA	http://phenolyzer.usc.edu/done/3129/nfzYjjU6s1wu-86U
+3128	2014-12-01	NA	developmental delay;neurodevelopmental delay;speech disorder mental retardation with language impairment and autistic features;speech and language difficulties;dysmorphism	NA	http://phenolyzer.usc.edu/done/3128/8KwqIrrkY_nOGcfk
+3127	2014-12-01	arvkevi@gmail.com	esophageal squamous cell carcinoma esophageal cancer;esophageal squamous cell carcinoma	68.100.205.200	http://phenolyzer.usc.edu/done/3127/L39T6aMehwi2ZLcv
+3126	2014-12-01	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3126/MuTcp8K9n6kJ8FVE
+3125	2014-11-30	NA	microcephaly	NA	http://phenolyzer.usc.edu/done/3125/fF7Wru_ePCTiROA2
+3124	2014-11-30	122137290@qq.com	all_diseases	120.197.8.187	http://phenolyzer.usc.edu/done/3124/-7Gwd6dLEfH7Cjzm
+3123	2014-11-30	122137290@qq.com	all_diseases	120.197.8.187	http://phenolyzer.usc.edu/done/3123/crWBNtAlXGS4dpK7
+3122	2014-11-29	NA	114500;175100;desmoid tumor	NA	http://phenolyzer.usc.edu/done/3122/bZ3fuWkgdupEio5W
+3121	2014-11-28	NA	distal hereditary motor neuropathy	NA	http://phenolyzer.usc.edu/done/3121/BbDLFikar1_dXW_y
+3120	2014-11-28	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3120/xawE_EASB-WD0CCr
+3119	2014-11-27	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3119/qvhliBv-ElcYtP-_
+3118	2014-11-27	NA	schizophrenia	68.119.128.110	http://phenolyzer.usc.edu/done/3118/SzpT1enKKgrxUnR9
+3117	2014-11-27	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3117/xEv27GG0BhRo5D2Z
+3116	2014-11-26	NA	schizophrenia	68.119.128.110	http://phenolyzer.usc.edu/done/3116/26xVL77ZaFhkJTe7
+3115	2014-11-26	hyun@catholic.ac.kr	gastric cancer;helicobacter pylori infection gastritis helicobacter pylori induced	61.78.108.31	http://phenolyzer.usc.edu/done/3115/q0YhZjKHxPgE0cX9
+3114	2014-11-26	NA	176807;cancer;prostate cancer	NA	http://phenolyzer.usc.edu/done/3114/orkADxuU5eblGGp9
+3113	2014-11-26	NA	cancer	NA	http://phenolyzer.usc.edu/done/3113/GQqMCRaqFxj2uRPp
+3112	2014-11-26	NA	176807	NA	http://phenolyzer.usc.edu/done/3112/AYfxLSxRIimp1HrF
+3111	2014-11-26	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3111/Ye0rQsWffIZmOgAR
+3110	2014-11-25	NA	mycobacterium avium complex;pulmonary infections;warts	NA	http://phenolyzer.usc.edu/done/3110/bFJqKmU_1n_cEnGc
+3109	2014-11-25	NA	bone marrow failure	NA	http://phenolyzer.usc.edu/done/3109/8H6_kBGMOEzzsY6_
+3108	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3108/6xG06EiZGeqY25ro
+3107	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3107/rWTntVrymCTVsS1z
+3106	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3106/87I_q8Z8lMTAoxl8
+3105	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3105/2tWKMKYX-nzPU3Fa
+3104	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3104/11gUwzvwgthMgFGY
+3100	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3100/J98X3guSgr7cNfA9
+3099	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3099/awjeZu77G-HQNG-Z
+3098	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3098/oBicX25B6WNuzWSI
+3097	2014-11-25	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3097/eqJ-h0y47ssdGPas
+3096	2014-11-25	nathan.fortier@gmail.com	recurrent infections;abnormality of humoral immunity	208.75.140.98	http://phenolyzer.usc.edu/done/3096/lvdCmYTDBy58X3pI
+3095	2014-11-25	nathan.fortier@gmail.com	euryblepharon	208.75.140.98	http://phenolyzer.usc.edu/done/3095/21_VIzGhYJj5FiwX
+3094	2014-11-25	nathan.fortier@gmail.com	cleft palate;conical tooth;syndactyly;ectropion;conductive hearing impairment	208.75.140.98	http://phenolyzer.usc.edu/done/3094/-guUf4tA16CQnF5A
+3093	2014-11-25	nathan.fortier@gmail.com	intrahepatic cholestasis	208.75.140.98	http://phenolyzer.usc.edu/done/3093/b8JZmzHzIZKPfzgo
+3092	2014-11-25	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3092/AyohsyQwdylxfflz
+3091	2014-11-25	gigi.mori@libero.it	paraganglioma	85.38.191.59	http://phenolyzer.usc.edu/done/3091/ihJ032xC2PLC-77d
+3090	2014-11-25	gigi.mori@libero.it	paraganglioma	85.38.191.59	http://phenolyzer.usc.edu/done/3090/2mwqhchpAGnTz4aj
+3089	2014-11-25	gigi.mori@libero.it	paraganglioma	85.38.191.59	http://phenolyzer.usc.edu/done/3089/GIFK5LVodS0Hc0z9
+3088	2014-11-25	gigi.mori@libero.it	paraganglioma	85.38.191.59	http://phenolyzer.usc.edu/done/3088/Y503eXyaVowb33DK
+3087	2014-11-25	gigi.mori@libero.it	acid citric cycle	85.38.191.59	http://phenolyzer.usc.edu/done/3087/cZY1HWDg9GzANax7
+3086	2014-11-25	gigi.mori@libero.it	acid citric cycle	85.38.191.59	http://phenolyzer.usc.edu/done/3086/bkNieKOLtynxFLZ0
+3085	2014-11-25	gigi.mori@libero.it	oxidative stress	85.38.191.59	http://phenolyzer.usc.edu/done/3085/z61iZNYWjwVp2Aiz
+3084	2014-11-25	gigi.mori@libero.it	pheochromocytomas;paragangliomas	85.38.191.59	http://phenolyzer.usc.edu/done/3084/GG1LnatboZDl_eOu
+3083	2014-11-25	gigi.mori@libero.it	pheochromocytomas;paragangliomas	85.38.191.59	http://phenolyzer.usc.edu/done/3083/xvXN-5UhZojdlSH6
+3082	2014-11-25	gigi.mori@libero.it	pheochromocytomas;paragangliomas	85.38.191.59	http://phenolyzer.usc.edu/done/3082/CAj_t8wCrsGG5O0A
+3081	2014-11-25	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3081/Ghss2zzfWE6U_KFJ
+3080	2014-11-25	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3080/mlIKVmJPI28rmGBX
+3079	2014-11-24	NA	migrational brain disorder	NA	http://phenolyzer.usc.edu/done/3079/OAgn4HmUZfTabQA5
+3078	2014-11-24	cxz5013@gmail.com	migrational brain disorder	162.129.251.85	http://phenolyzer.usc.edu/done/3078/DkDrLP88T-IMHqIm
+3077	2014-11-24	nathan.fortier@gmail.com	hypothyroidism;paronychia;autoimmunity;abnormality of the intestine	208.75.140.98	http://phenolyzer.usc.edu/done/3077/BEpMorS4STFhiD4j
+3076	2014-11-24	nathan.fortier@gmail.com	hypothyroidism;paronychia;autoimmunity;abnormality of the intestine	208.75.140.98	http://phenolyzer.usc.edu/done/3076/wbTrNEH7DqK2Lve2
+3075	2014-11-24	nathan.fortier@gmail.com	apneas;ocular weakness;fatigable weakness;muscle weakness;weakness of muscles of respiration	208.75.140.98	http://phenolyzer.usc.edu/done/3075/ZEWHmYIx53vksUFv
+3074	2014-11-24	nathan.fortier@gmail.com	myotonia	208.75.140.98	http://phenolyzer.usc.edu/done/3074/1Gh6k23_FeCv2ace
+3073	2014-11-24	nathan.fortier@gmail.com	metopic suture patent to nasal root	208.75.140.98	http://phenolyzer.usc.edu/done/3073/7k42UlyfYIg-vje6
+3072	2014-11-24	nathan.fortier@gmail.com	hypophosphatemic rickets	208.75.140.98	http://phenolyzer.usc.edu/done/3072/FQbMm0uOGRr5zy8n
+3071	2014-11-24	NA	cancer	NA	http://phenolyzer.usc.edu/done/3071/KFpY4zB4eW23KQ65
+3070	2014-11-24	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/3070/jXg5sXsMaRtsKhWI
+3069	2014-11-24	NA	acute myeloid leukemia adult	NA	http://phenolyzer.usc.edu/done/3069/UyWQTj_Cfw0nObGZ
+3068	2014-11-23	liweidong98@tijmu.edu.cn	chromosome	59.67.133.41	http://phenolyzer.usc.edu/done/3068/WCNnlSbWfNrfQYiN
+3067	2014-11-23	liweidong98@tijmu.edu.cn	neural tube defects	59.67.133.41	http://phenolyzer.usc.edu/done/3067/_rlHsx2vk_xHRA5R
+3065	2014-11-22	NA	deafness	NA	http://phenolyzer.usc.edu/done/3065/ynqooXTvLrXnYR3T
+3064	2014-11-21	schuberj@iupui.edu	congenital heart disease;heterotaxy	149.166.237.187	http://phenolyzer.usc.edu/done/3064/6zCmMVVaYqU4ZEXn
+3063	2014-11-21	schuberj@iupui.edu	marfan syndrome;thoracic aortic aneurysms and aortic dissections;thoracic aortic aneurysm;thoracic aortic aneurysms and dissections;heart;marfan syndrome	149.166.237.187	http://phenolyzer.usc.edu/done/3063/ywFd2aPfai7fQLi8
+3062	2014-11-21	schuberj@iupui.edu	marfan syndrome;thoracic aortic aneurysms and aortic dissections;thoracic aortic aneurysm;thoracic aortic aneurysms and dissections;heart;marfan syndrome	149.166.237.187	http://phenolyzer.usc.edu/done/3062/0BhAR_lFeSQaV9ml
 3061	2014-11-21	NA	ptosis, tracheolaringomalacia	NA	http://phenolyzer.usc.edu/done/3061/M4GC2r-b59N7Uo35
 3060	2014-11-21	NA	coccidioidomycosis;brain;disseminated	NA	http://phenolyzer.usc.edu/done/3060/myXwg_1rrCg5Y_Uk
 3059	2014-11-20	NA	heterotopias;abnormal migration;brain	NA	http://phenolyzer.usc.edu/done/3059/JOLyndu1s7aHgADm

@@ -76,10 +76,11 @@
 			</div>
 			  <div class="panel-body">
 			
-           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2809/eBhPU9Hwn1wmYyxA/index.html">    Amyotrophic lateral sclerosis</a></h3> 
+           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/3103/vISWi7x7udCIkwZq/index.html">    Amyotrophic lateral sclerosis</a></h3> 
 		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2808/AZVYt9RDP4GbSFYL/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2806/UUFJJqXCB579kiyK/index.html">  Autism</a></h3>
-		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2807/WgMy9uixIMhkW7zh/index.html">  Huntington</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/3101/ANJG3-rBNjUfiORJ/index.html">  Autism</a></h3>
+		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/3102/w1NziXCSlx_4Kubt/index.html">  Huntington</a></h3>
+		    
 		    
 		    </div>
         </div>

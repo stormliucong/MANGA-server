@@ -26,7 +26,7 @@ if (defined $id) {
 } else {
 	my $subroutine = \&processSubmission;
 	
-	GenomicsServer::parallelProcessSubmission ($subroutine, 5, 5, 100);	#max simultaneous jobs=5, check status every 5 seconds, exit after 100 seconds
+	GenomicsServer::parallelProcessSubmission ($subroutine, 30, 5, 100);	#max simultaneous jobs=5, check status every 5 seconds, exit after 100 seconds
 	
 
 }
@@ -217,8 +217,9 @@ sub processSubmission {
 	{
 	$summary_message.=qq|<li class="list-group-item">All the possible diseases in the gene_disease database will be considered.</li>\n|;	
 	}
-	
-	if(-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )
+	my @temp = split(/\s+/,`wc -l out.annotated_gene_scores`);
+	my $num = $temp[0];
+	if(-s 'out.annotated_gene_scores' and $num>1 )
 	{
 		   my $out_num = `wc -l out.annotated_gene_list`;
 		   $out_num =~ /(\d+)/;
@@ -261,7 +262,7 @@ sub processSubmission {
 	
 	}
 	
-	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )  ) ) 
+	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and $num>1 )  ) ) 
 	  {   $submission_message.="<P>So sorry, none of your terms has matched records, why don't you try to breakdown long terms in to short ones?\n</p>";    } 
    
     

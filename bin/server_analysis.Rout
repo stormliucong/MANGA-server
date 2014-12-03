@@ -31,4 +31,4 @@ Saving 7 x 7 in image
 > 
 > proc.time()
    user  system elapsed 
-  1.627   0.161   3.521 
+  1.517   0.116   2.868 

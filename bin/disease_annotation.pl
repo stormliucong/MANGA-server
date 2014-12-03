@@ -377,7 +377,7 @@ sub disease_extension{                           #Input some disease terms and r
 			my $disease=$words[0];
 			my $id = $words[1];
 			my ($id_source,$id_num) = split (":", $id); 
-			next if(not $id_num);
+			next if(not $id_source);
 			my $disease_key = lc $disease;
 			   $disease_key =~ s/\bs\b//g;
 			   $disease_key =~ s/\W+/ /g;   

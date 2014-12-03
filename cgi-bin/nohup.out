@@ -1,0 +1,14 @@
+Usage:
+     serve_loh.pl [arguments]
+
+     Optional arguments:
+            -h, --help                      print help message
+            -m, --man                       print complete documentation
+            -v, --verbose                   use verbose output
+                --id <int>                  process this specific submission
+            
+
+     Function: function as a LOH server
+                   
+     Version: $LastChangedDate: 2013-05-21 08:53:41 -0700 (Tue, 21 May 2013) $
+

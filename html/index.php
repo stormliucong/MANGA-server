@@ -363,9 +363,18 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
 	    <div class="panel panel-default">
 	    <div class="panel-body">
-    		 <p><strong>[10/25/2014]</strong></p>
+    		 <p><strong>[11/25/2014]</strong></p>
+    		 <p> The GeneReview score has been recalculated, for each GeneReview book, the score will not be repeatedly calculated for different specific OMIM diseases.
+    		 <p> Phenolyzer 1.0.3 is releases! </p>
+    		</div></div>
+	   
+	   
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[10/27/2014]</strong></p>
     		 <p>The 'Regulates' relations are now penalized to a quarter, which does not affect the performance and prevents the general transcription factors to show up on top.
     		 </p>
+    		 <p>Phenolyzer.1.0.2 is released!</p>
     		</div></div>
 	   
 	    <div class="panel panel-default">
