@@ -1,4 +1,392 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+3562	2015-01-28	NA	mullerian;mullerian aplasia	NA	http://phenolyzer.usc.edu/done/3562/GGjW4ymSm9K2fFtP
+3561	2015-01-28	hollieandcarson@yahoo.com	dce;dce	73.177.2.209	http://phenolyzer.usc.edu/done/3561/u2MeC5VWj1lVFewv
+3560	2015-01-28	d.mei@meyer.it	landau kleffner syndrome;rolandic epilepsy mental retardation and speech dyspraxia autosomal dominant;rolandic;epilepsy mental retardation and speech dyspraxia x linked;rolandic epilepsy speech dyspraxia;rolandic epilepsy mental retardation and speech dyspraxia	159.213.45.242	http://phenolyzer.usc.edu/done/3560/m5-gvEYhv4g3ZT-R
+3559	2015-01-28	d.mei@meyer.it	all_diseases	159.213.45.242	http://phenolyzer.usc.edu/done/3559/o23YIPEU1Gseu4Zg
+3558	2015-01-28	anu.reigo@ut.ee	lung cancer non small cell	193.40.23.20	http://phenolyzer.usc.edu/done/3558/0dUKMF63LWFF7tVt
+3557	2015-01-28	d.mei@meyer.it	epilepsy	159.213.45.242	http://phenolyzer.usc.edu/done/3557/vSmfo4sUi-zDaT1a
+3556	2015-01-28	NA	epilepsy	NA	http://phenolyzer.usc.edu/done/3556/MTogLXHaDvttJTRZ
+3555	2015-01-28	guomengbiao@gmail.com	agammaglobulinemia	147.8.195.227	http://phenolyzer.usc.edu/done/3555/iI1dIAGZWX9MjTkL
+3554	2015-01-28	NA	mullerian;mullerian aplasia;277000	NA	http://phenolyzer.usc.edu/done/3554/aQGYiwhXEDfH2Xov
+3553	2015-01-27	NA	heart;heart defects congenital;heart anomalies congenital;heart septal defects atrial;heart septal defect atrial heart septal defect;heart failure;heart diseases;tetralogy of fallot	NA	http://phenolyzer.usc.edu/done/3553/pqrDsDyqVqsIBXPp
+3552	2015-01-27	anu.reigo@ut.ee	lung cancer;copd	193.40.23.20	http://phenolyzer.usc.edu/done/3552/Jrgmy1o6YG9ex6e7
+3551	2015-01-27	avinash.vins@gmail.com	myopathies;glycogen storage disease;hypotonia	14.139.155.135	http://phenolyzer.usc.edu/done/3551/5ofSx9kj4caIJP9i
+3550	2015-01-27	NA	tetralogy of fallot;heart;heart defects congenital;heart diseases	NA	http://phenolyzer.usc.edu/done/3550/pOEo5rXwqmcTJhCM
+3548	2015-01-27	NA	heart defects congenital	NA	http://phenolyzer.usc.edu/done/3548/eOWtQbHdpCgG3VAB
+3547	2015-01-27	NA	copd;lung diseases;respiration disorders	NA	http://phenolyzer.usc.edu/done/3547/GCK4HokKU2C9Dk9I
+3546	2015-01-27	NA	cancer	NA	http://phenolyzer.usc.edu/done/3546/qie4UI4rP7fuwQ61
+3545	2015-01-26	NA	cancer	NA	http://phenolyzer.usc.edu/done/3545/OADbJvT4dvOcUMWP
+3544	2015-01-26	NA	schizophrenia	68.181.15.4	http://phenolyzer.usc.edu/done/3544/3n_4x3DfeHCFJz2P
+3543	2015-01-23	ellingson.marissa@mayo.edu	amblyopia;recurrent upper respiratory infections;developmental delay;muscle hypertonia;esotropia;constipation;intrauterine growth restriction;axial hypotonia;coxa valga;hyperextensible joints;flat feet;kyphosis	129.176.151.24	http://phenolyzer.usc.edu/done/3543/CRSQWd8k1qKOYKke
+3542	2015-01-23	anu.reigo@ut.ee	cardiomyopathies	193.40.23.20	http://phenolyzer.usc.edu/done/3542/5rOCylPPoiAPL-58
+3541	2015-01-23	ellingson.marissa@mayo.edu	epilepsy;developmental delay;cortical dysplasia;single umbilical artery;abnormal gait;aggressive behavior;hypertelorism;abnormal eeg	129.176.151.24	http://phenolyzer.usc.edu/done/3541/APF1HgYHEDkYa8Xc
+3540	2015-01-23	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3540/KWA0_JxHstSQhY0S
+3539	2015-01-23	chao-ling1024@hotmail.com	hereditary nonpolyposis colorectal cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3539/Gc-lW3mmZNDoeIzG
+3538	2015-01-23	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3538/bdTwj2zvb-lW2Yri
+3537	2015-01-22	chao-ling1024@hotmail.com	hereditary nonpolyposis colorectal cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3537/evfG-Te5zpSJj_Yv
+3536	2015-01-22	NA	ataxia	NA	http://phenolyzer.usc.edu/done/3536/k3MAEKLopG7X7jUm
+3535	2015-01-22	chao-ling1024@hotmail.com	hereditary nonpolyposis colorectal cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3535/anH45tzzit9qXVsS
+3534	2015-01-22	chao-ling1024@hotmail.com	hereditary non-polyposis colorectal cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3534/xL83U97wfkSzJCNS
+3533	2015-01-22	NA	ataxia	NA	http://phenolyzer.usc.edu/done/3533/47Cm4kNZ7SRGbZBl
+3532	2015-01-22	wain.karen@mayo.edu	developmental delay;hypotonia;cyanosis;apneic episodes;self injurious behaviour;esotropia;absent speech;intellectual disability;deep set eye	129.176.151.24	http://phenolyzer.usc.edu/done/3532/5d2lSVhmdjf2qrMG
+3531	2015-01-21	chao-ling1024@hotmail.com	colorectal carcinoma	114.251.223.252	http://phenolyzer.usc.edu/done/3531/stBNereAO5PtPhCd
+3530	2015-01-21	joel.gelernter@yale.edu	opioid dependence	130.132.173.83	http://phenolyzer.usc.edu/done/3530/sChkZVAVq93VNPXx
+3518	2015-01-20	NA	disseminated atypical mycobacterial infection	NA	http://phenolyzer.usc.edu/done/3518/iQgeCQoZpk0GvZaE
+3517	2015-01-20	NA	common variable immunodeficiency;encephalitis;enterovirus infections	NA	http://phenolyzer.usc.edu/done/3517/g15t0nwBh3a-s5df
+3515	2015-01-20	NA	disseminated;mycobacterium infections nontuberculous	NA	http://phenolyzer.usc.edu/done/3515/E0Ny-fqiikiwc4nm
+3509	2015-01-20	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3509/2EnH9znUv7ymVwxe
+3508	2015-01-20	chao-ling1024@hotmail.com	pancreatic cancer somatic	114.251.223.252	http://phenolyzer.usc.edu/done/3508/HX5k-Xqeudv9qH1L
+3507	2015-01-19	NA	prostate cancer	NA	http://phenolyzer.usc.edu/done/3507/rzKOkAcc9tB0Onra
+3506	2015-01-19	ibrahimakalin@yahoo.com	polycythemia vera and lentigine	95.183.220.2	http://phenolyzer.usc.edu/done/3506/GVz3qMXga8p3_h-6
+3505	2015-01-19	chao-ling1024@hotmail.com	pancreatic cystadenoma	114.251.223.252	http://phenolyzer.usc.edu/done/3505/O9xuu0YVjCGo5ljy
+3504	2015-01-18	chao-ling1024@hotmail.com	multiple primary malignant neoplasms	114.251.223.252	http://phenolyzer.usc.edu/done/3504/lB74zGlGVoKKGfSZ
+3503	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3503/0RowCGjVa46rVRK0
+3502	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3502/VdrtrtJCZzS4mWcs
+3501	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3501/YS1nj3E7wkwNY_UO
+3500	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3500/aEeoBq8L1jFzSjSn
+3499	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3499/QnPHOxGLlOBEypUW
+3498	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3498/ah-kV17xsDiXRw3g
+3497	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3497/0Dkx_rW8wwQ9HKIw
+3496	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3496/B73j13ggQjDcdeeU
+3495	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3495/P60T_vqMSjYStHPl
+3494	2015-01-18	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3494/G7uFl6kJ_2_lLd8c
+3493	2015-01-18	chao-ling1024@hotmail.com	pancreatic islet cell tumors	114.251.223.252	http://phenolyzer.usc.edu/done/3493/SmgWvVw93Nv5ybLL
+3492	2015-01-17	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3492/ahttG3xwU5jr4bur
+3491	2015-01-17	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3491/wa40xBFERLZkjpDh
+3490	2015-01-17	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3490/9IHsBsQEcDnJe15O
+3489	2015-01-17	NA	neuropathy	NA	http://phenolyzer.usc.edu/done/3489/E065fEoNEXo3IS2x
+3488	2015-01-16	NA	axonal neuropathy	NA	http://phenolyzer.usc.edu/done/3488/up3DUckcoXt5xQfQ
+3487	2015-01-16	NA	parkinson disease	NA	http://phenolyzer.usc.edu/done/3487/RknacAj-EbfrPd88
+3486	2015-01-16	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3486/sMUViXmVgvi-aJkw
+3485	2015-01-16	NA	ataxia	NA	http://phenolyzer.usc.edu/done/3485/cyH7-HF1qVRyNIk7
+3484	2015-01-16	NA	pain	NA	http://phenolyzer.usc.edu/done/3484/3VKJL2XePLy_PNB7
+3483	2015-01-16	NA	charcot marie tooth disease	NA	http://phenolyzer.usc.edu/done/3483/zZuk1jJ570gtM73V
+3482	2015-01-16	sdshiyan20@163.com	cough;fever	128.125.249.242	http://phenolyzer.usc.edu/done/3482/CMSUn7s-nu4rg-aC
+3481	2015-01-16	NA	ataxia	NA	http://phenolyzer.usc.edu/done/3481/CmuXuP_JZYMjNSWt
+3480	2015-01-16	NA	ataxia	NA	http://phenolyzer.usc.edu/done/3480/D8T1Hwmjq71OiUNY
+3479	2015-01-15	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3479/uMWsNB0EJMeL-KpR
+3478	2015-01-15	schahl.kimberly@mayo.edu	ataxia;clinodactyly of the 5th finger;developmental delay;dysmorphism;epilepsy;movement disorder;optic nerve coloboma;sleep apnea;speech delay;synophrys;tapered finger;white matter abnormalities	129.176.151.24	http://phenolyzer.usc.edu/done/3478/2z4_1M9TkXLmCZ_N
+3477	2015-01-15	wain.karen@mayo.edu	epilepsy;optic nerve coloboma;developmental delay;movement disorder;dysmorphism;speech delay;ataxia;sleep apnea;white matter abnormalities;clinodactyly of the 5th finger;synophrys;tapered finger	129.176.151.24	http://phenolyzer.usc.edu/done/3477/aNGbMEer5OobH9wI
+3476	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3476/AfJkzsSDrPegbvyf
+3475	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3475/gh807vlVXkZnoEI1
+3474	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3474/zkwu7UWT0CtwtXSQ
+3473	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3473/MwVmHSkNsvvY-EdU
+3472	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3472/V80y1B6jsVla7gge
+3471	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3471/YeDAbr45UtFk5rx9
+3470	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3470/Djfbt4p7SIwS2r_T
+3469	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3469/7jaoJ1zqnzHPghEw
+3468	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3468/3aEDqP4hfZV9VGl4
+3467	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3467/Hh8Ww5WkXDvtTYhA
+3466	2015-01-15	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3466/i4cgv4AHfuZTg0zv
+3465	2015-01-15	ellingson.marissa@mayo.edu	seizures	129.176.151.24	http://phenolyzer.usc.edu/done/3465/A41yViZlIlpe_ayr
+3464	2015-01-15	ellingson.marissa@mayo.edu	epilepsy	129.176.151.24	http://phenolyzer.usc.edu/done/3464/yFUZ9TP_sFFi5bKI
+3463	2015-01-15	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3463/Z9y58LuAsBBzIQPk
+3462	2015-01-15	NA	lung cancer	NA	http://phenolyzer.usc.edu/done/3462/OvD2uo5ed6Sqi9Ry
+3461	2015-01-14	dinindu.senanayake@vuw.ac.nz	lipids	130.195.205.50	http://phenolyzer.usc.edu/done/3461/URBD4_R-q0jFBLfS
+3460	2015-01-14	dinindu.senanayake@vuw.ac.nz	niemann pick disease	130.195.205.50	http://phenolyzer.usc.edu/done/3460/w_buDIpIZSbW3BHX
+3459	2015-01-14	dinindu.senanayake@vuw.ac.nz	lysosomal storage;cholesterol;sphingolipids	130.195.205.50	http://phenolyzer.usc.edu/done/3459/ygz6Vedpn1oQmwO-
+3458	2015-01-14	ellingson.marissa@mayo.edu	developmental delay;apraxia	129.176.151.24	http://phenolyzer.usc.edu/done/3458/zdmOfp6ZkkpoOI-f
+3457	2015-01-14	wain.karen@mayo.edu	coloboma of optic nerve	129.176.151.24	http://phenolyzer.usc.edu/done/3457/msCG0hlhICsKmt37
+3456	2015-01-14	wain.karen@mayo.edu	structural brain abnormality	129.176.151.24	http://phenolyzer.usc.edu/done/3456/T8EaFP8ISJ26bnUh
+3455	2015-01-14	wain.karen@mayo.edu	abnormality of the brain	129.176.151.24	http://phenolyzer.usc.edu/done/3455/zAT-fNoHRbBU_Kke
+3454	2015-01-14	wain.karen@mayo.edu	seizures	129.176.151.24	http://phenolyzer.usc.edu/done/3454/fYPQr_QnTpPLAF7p
+3453	2015-01-14	wain.karen@mayo.edu	developmental delay;optic nerve coloboma	129.176.151.24	http://phenolyzer.usc.edu/done/3453/CSDMKGfYgaxgkdnL
+3452	2015-01-14	wain.karen@mayo.edu	epilepsy;optic nerve coloboma	129.176.151.24	http://phenolyzer.usc.edu/done/3452/_1n-9ROFsbwsCnro
+3451	2015-01-14	wain.karen@mayo.edu	epilepsy;developmental delay	129.176.151.24	http://phenolyzer.usc.edu/done/3451/EDVIF-oou7B-JHnp
+3450	2015-01-14	wain.karen@mayo.edu	bilateral optic nerve coloboma	129.176.151.24	http://phenolyzer.usc.edu/done/3450/ZR9IERM4RZwh5I90
+3449	2015-01-14	ellingson.marissa@mayo.edu	breast cancer	129.176.151.24	http://phenolyzer.usc.edu/done/3449/95M7RiIOJ6bf9MRE
+3448	2015-01-14	schahl.kimberly@mayo.edu	seizures	129.176.151.24	http://phenolyzer.usc.edu/done/3448/yl1gZQiuHykKNTAq
+3447	2015-01-14	wain.karen@mayo.edu	optic nerve coloboma	129.176.151.24	http://phenolyzer.usc.edu/done/3447/cOKZEFiP0W4dRnTl
+3446	2015-01-14	wain.karen@mayo.edu	abnormal mri	129.176.151.24	http://phenolyzer.usc.edu/done/3446/kC57qdGRK_WNT1SG
+3445	2015-01-14	wain.karen@mayo.edu	abnormal mri	129.176.151.24	http://phenolyzer.usc.edu/done/3445/USBnPdnrODNA4kU4
+3444	2015-01-14	wain.karen@mayo.edu	developmental delay	129.176.151.24	http://phenolyzer.usc.edu/done/3444/flj5oWfuwysh1u6L
+3443	2015-01-14	wain.karen@mayo.edu	epilepsy	129.176.151.24	http://phenolyzer.usc.edu/done/3443/All-qQZoZG64uz54
+3442	2015-01-14	wain.karen@mayo.edu	epilepsy	129.176.151.24	http://phenolyzer.usc.edu/done/3442/DniALxf0kax5iDU0
+3441	2015-01-14	NA	infection;fungal;coccidioidomycosis;disseminated	NA	http://phenolyzer.usc.edu/done/3441/DeMb1HjSscpgllel
+3440	2015-01-14	wain.karen@mayo.edu	seizures;developmental delay;coloboma	129.176.151.24	http://phenolyzer.usc.edu/done/3440/sQDEJzvQIJSTba2E
+3439	2015-01-14	wain.karen@mayo.edu	seizures, developmental delay and coloboma	129.176.151.24	http://phenolyzer.usc.edu/done/3439/L5pOJ9XTnGilYyg7
+3438	2015-01-14	NA	114480	NA	http://phenolyzer.usc.edu/done/3438/4q3pZUOSpkad3cRh
+3437	2015-01-14	NA	114480	NA	http://phenolyzer.usc.edu/done/3437/qXLP424GBvA2N0x2
+3436	2015-01-13	NA	stargardt disease	NA	http://phenolyzer.usc.edu/done/3436/1aLGmmpvb600nJZE
+3435	2015-01-13	dinindu.senanayake@vuw.ac.nz	lysosomal storage;cholesterol;sphingolipids	130.195.205.50	http://phenolyzer.usc.edu/done/3435/c5Jh1aWD1US0vi-a
+3434	2015-01-13	dinindu.senanayake@vuw.ac.nz	lysosomal storage;sphingolipids;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3434/iPpEiXtuU4Ncy4aM
+3433	2015-01-13	midnight78911@gmail.com	lysosomal storage;liver;lung;brain;cholesterol	202.78.140.92	http://phenolyzer.usc.edu/done/3433/inGzkbEzPzvU13-y
+3432	2015-01-13	dinindu.senanayake@vuw.ac.nz	lysosomal storage;sphingolipids;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3432/RwOgQfGNEQJPm_mq
+3431	2015-01-13	dinindu.senanayake@vuw.ac.nz	lysosomal storage;sphingolipids;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3431/AdIxrDqKXcKZUtJF
+3430	2015-01-13	dinindu.senanayake@vuw.ac.nz	lysosomal storage;sphingolipids;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3430/1Hlm3EB30exnN_bi
+3429	2015-01-13	oliver.gavin@mayo.edu	macrocephaly	129.176.151.24	http://phenolyzer.usc.edu/done/3429/z16iDTiAafJXR0ei
+3428	2015-01-13	oliver.gavin@mayo.edu	macrocephaly	129.176.151.24	http://phenolyzer.usc.edu/done/3428/7ns7DFxYJJHyrb0z
+3427	2015-01-13	NA	cancer	NA	http://phenolyzer.usc.edu/done/3427/jLPRiGemW06n-BqN
+3426	2015-01-13	anu.reigo@ut.ee	psoriasis	193.40.12.10	http://phenolyzer.usc.edu/done/3426/73NtEMvpxjPLcjEE
+3425	2015-01-13	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3425/2sQHR1WyiIkjbMaP
+3424	2015-01-13	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3424/rA18f_PsrMnqVSvU
+3423	2015-01-13	anu.reigo@ut.ee	psoriasis;psoriatic	193.40.12.10	http://phenolyzer.usc.edu/done/3423/2qGcKxSM4eymtXPm
+3422	2015-01-13	NA	cmt;hmsn;neurologic diseases;charcot marie tooth;hereditary motor and sensory neuropathy	NA	http://phenolyzer.usc.edu/done/3422/c6ILRoSpo1qI_3uN
+3421	2015-01-12	dinindu.senanayake@vuw.ac.nz	lysosomal storage disease;cholesterol;sphingolipid	130.195.249.47	http://phenolyzer.usc.edu/done/3421/DNPr8rpzUd8YdNZ_
+3420	2015-01-12	NA	bone marrow failure	NA	http://phenolyzer.usc.edu/done/3420/nnrU-moF_7Tz7gUm
+3419	2015-01-12	NA	bone marrow failure	NA	http://phenolyzer.usc.edu/done/3419/JfPuCavLxMuXbGWv
+3418	2015-01-12	NA	bone marrow failure	NA	http://phenolyzer.usc.edu/done/3418/dJwFp4B7_qwkEJzW
+3417	2015-01-12	NA	bone marrow failure	NA	http://phenolyzer.usc.edu/done/3417/JLtQP_nOJ0qgFbSE
+3416	2015-01-12	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3416/9t8U6E1iJ34Vl3PN
+3415	2015-01-12	midnight78911@gmail.com	lipoprotein;epoxide;inflammation	130.195.253.20	http://phenolyzer.usc.edu/done/3415/_3CMzcSN6uxySP9B
+3414	2015-01-12	avinash.vins@gmail.com	alzheimer;hypercholesterolemia cholesterol ldl;diabetes;tendinosis;tendinitis;muscular;fistula;articular;cancer predisposition	14.139.155.135	http://phenolyzer.usc.edu/done/3414/NBZzxvih_GC5G2yl
+3413	2015-01-11	NA	d	NA	http://phenolyzer.usc.edu/done/3413/uCKbPO6oW0pLacnr
+3412	2015-01-11	NA	d	NA	http://phenolyzer.usc.edu/done/3412/NiX1L1VVKIXeb7Wy
+3411	2015-01-11	NA	g	NA	http://phenolyzer.usc.edu/done/3411/z9B51Ql45IKuu-uj
+3410	2015-01-11	avinash.vins@gmail.com	all_diseases	122.179.36.215	http://phenolyzer.usc.edu/done/3410/T75RNvgLn6LfRsgc
+3409	2015-01-10	zhouzaiwei@163.com	asplenia	202.120.2.30	http://phenolyzer.usc.edu/done/3409/uTPvonUeOgtnk_gv
+3408	2015-01-10	zhouzaiwei@163.com	asplenia	202.120.2.30	http://phenolyzer.usc.edu/done/3408/V4Ql_38ErZw3pKzt
+3407	2015-01-10	zhouzaiwei@163.com	developmental dysplasia of hip	202.120.2.30	http://phenolyzer.usc.edu/done/3407/5NNy8EOjTvnjgyVh
+3406	2015-01-10	zhouzaiwei@163.com	142700;615612	202.120.2.30	http://phenolyzer.usc.edu/done/3406/_Ktm42vCOq4RDp7c
+3405	2015-01-10	zhouzaiwei@163.com	developmental dysplasia of hip;142700;615612	202.120.2.30	http://phenolyzer.usc.edu/done/3405/HyTwx8PtiAzGxTsc
+3404	2015-01-09	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3404/U5axdlBLijWMCjGQ
+3403	2015-01-09	zhengzha2000@gmail.com	schizophrenia	12.171.12.131	http://phenolyzer.usc.edu/done/3403/UbhV_uaDyMZsgJK6
+3402	2015-01-09	zhengzha2000@gmail.com	schizophrenia;tnfrsf1b	12.171.12.131	http://phenolyzer.usc.edu/done/3402/ZOTXKv9p8fg23ILL
+3401	2015-01-09	zhengzha2000@gmail.com	schizophrenia bipolar disorder	12.171.12.131	http://phenolyzer.usc.edu/done/3401/zFqPEi39hc-Ol9V4
+3400	2015-01-09	leonid.raskin@vanderbilt.edu	colorectal cancer	129.59.115.14	http://phenolyzer.usc.edu/done/3400/mgw-TkvK-GanOVga
+3399	2015-01-09	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3399/YhKkWxZAM9xlo76v
+3398	2015-01-08	mstein@ucsd.edu	suicide;suicide risk;suicide attempted	76.88.84.101	http://phenolyzer.usc.edu/done/3398/pdGlmRczmfL7eg-r
+3397	2015-01-08	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3397/vA28hmgtCHYaDI0m
+3396	2015-01-08	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3396/doGkHaL5X_LTxeCy
+3395	2015-01-07	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3395/1VqxnH-aGe77q-l-
+3394	2015-01-07	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3394/098GBM-e37u26_WJ
+3393	2015-01-07	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3393/UfJJM9lOSvSKGacV
+3392	2015-01-07	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3392/uxd8bawTcdJ7Ti05
+3391	2015-01-07	NA	aplastic anaemia;myelodysplastic syndromes;infections;mycobacterial and viral infections	NA	http://phenolyzer.usc.edu/done/3391/HA-fe_j4MPFWc8Vj
+3390	2015-01-06	cameron.mcdonald@qimr.edu.au	haemochromatosis	152.98.8.1	http://phenolyzer.usc.edu/done/3390/ueNfDlxzUFoEpRDT
+3389	2015-01-06	cameron.mcdonald@qimr.edu.au	haemochromatosis	152.98.8.1	http://phenolyzer.usc.edu/done/3389/uW3j4rAimIgW5SvE
+3388	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3388/VxoIZh1tVoKBqP-b
+3387	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3387/i3gHrZup_OGLHy7l
+3386	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3386/76YgcjXHq7syX4Ew
+3385	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3385/0iUjH8jD4EUgjtui
+3384	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3384/kY7q0Yw71U-oHVhq
+3383	2015-01-06	NA	hemochromatosis	NA	http://phenolyzer.usc.edu/done/3383/jJ1b74ds-yTiNhpX
+3382	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3382/1QK4l6uei7GYos6I
+3381	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3381/d38UtfI2OgDG7Swa
+3380	2015-01-06	NA	613640;615548;614653;608654;162400;201300;256800;605712;223900;613115;608088;147430;614213;613708;243000;614116;191315;603415;610834	NA	http://phenolyzer.usc.edu/done/3380/o33iEvloBggmFjJ3
+3379	2015-01-06	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3379/TwcA_7aVku-28us-
+3378	2015-01-06	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3378/b-w3hq2oDg9SBTOc
+3377	2015-01-06	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3377/SV7_NhYFUTWsXMO3
+3376	2015-01-06	mderenko@mail.ru	bladder adenocarcinoma	94.247.56.64	http://phenolyzer.usc.edu/done/3376/R4TviphwNUTO2tFJ
+3375	2015-01-05	NA	epilepsy	NA	http://phenolyzer.usc.edu/done/3375/D1I9st65uv7Gzwbb
+3374	2015-01-05	zeliha.gormez@tubitak.gov.tr	dystonia	193.140.73.50	http://phenolyzer.usc.edu/done/3374/1cfhJrlYoTZbXbAp
+3373	2015-01-05	bekir.erguner@tubitak.gov.tr	aglossia, adactyly	193.140.73.50	http://phenolyzer.usc.edu/done/3373/qkHA7LtWxezZpyHn
+3372	2015-01-05	NA	neurological abnormality;parkinsons disease;alzheimers disease;epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3372/gBtJmKO-Q2tFHdpW
+3371	2015-01-05	bekir.erguner@tubitak.gov.tr	adactyly	193.140.73.50	http://phenolyzer.usc.edu/done/3371/iDWukx-13Dmgzc-C
+3370	2015-01-05	NA	neurological abnormality;parkinsons disease;alzheimers disease;epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3370/cFNLAr0vENg5TjJL
+3369	2015-01-04	mderenko@mail.ru	alzheimer;brain;heart disease	212.176.171.2	http://phenolyzer.usc.edu/done/3369/f-T1xQCysHDLmC6m
+3368	2015-01-04	mderenko@mail.ru	alzheimer;brain;cancer;breast cancer	212.176.171.2	http://phenolyzer.usc.edu/done/3368/u-e4YJAp_o7NTsNX
+3367	2015-01-04	mderenko@mail.ru	alzheimer;brain;breast cancer;cancer	212.176.171.2	http://phenolyzer.usc.edu/done/3367/TZwIUORlUdoLyShq
+3366	2015-01-04	NA	alzheimer;brain;breast cancer;cancer	NA	http://phenolyzer.usc.edu/done/3366/jMIpxr1mMDPmzHa9
+3365	2015-01-03	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3365/ZA4hzry-oNIrSFtB
+3364	2015-01-03	NA	repolarization	NA	http://phenolyzer.usc.edu/done/3364/pnftpHp8TK9Mq5eb
+3363	2015-01-03	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3363/Wb1N2j0cFLyKDPeN
+3362	2015-01-03	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/3362/TieQEMHut9J8fOBL
+3361	2015-01-03	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3361/BDaY390csuyldctw
+3360	2015-01-03	NA	bone marrow failure	NA	http://phenolyzer.usc.edu/done/3360/5cl5wbpDYXuvosAK
+3359	2015-01-02	NA	thyroid cancer;follicular thyroid carcinoma;follicular adenoma	NA	http://phenolyzer.usc.edu/done/3359/lFAFPW-ouVMUmF-h
+3358	2015-01-02	NA	neurological abnormality;parkinsons disease;alzheimers disease;epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3358/DxXkabffVr7pHJaw
+3357	2015-01-02	NA	neurological abnormality;parkinsons disease;alzheimers disease;epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3357/m-Xpe-iNZtf9BBCQ
+3356	2015-01-02	NA	neurological abnormality;parkinsons disease;alzheimers disease;epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3356/QFx6m9VLIq2jWtaW
+3355	2015-01-02	NA	neurological abnormality;parkinsons disease;alzheimers disease;epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3355/vWKxhS5fTSMLwEki
+3353	2014-12-30	chao-ling1024@hotmail.com	pancreatic cancer colorectal carcinoma	114.251.223.252	http://phenolyzer.usc.edu/done/3353/c5TIYseeWN2SVume
+3352	2014-12-30	chao-ling1024@hotmail.com	colorectal carcinoma	114.251.223.252	http://phenolyzer.usc.edu/done/3352/Y9YfSgoJAPqL2w7c
+3351	2014-12-30	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3351/aNSwufjqxUn0b6Jc
+3350	2014-12-30	sarenuryilmaz@gmail.com	lentiginoses;polycythemia vera	212.156.44.134	http://phenolyzer.usc.edu/done/3350/9wmTwOGoCUhSn14p
+3349	2014-12-30	ibrahimakalin@yahoo.com	aglossia	95.183.220.2	http://phenolyzer.usc.edu/done/3349/pySoRu1vk6YMk3jW
+3348	2014-12-30	ibrahimakalin@yahoo.com	poland	95.183.220.2	http://phenolyzer.usc.edu/done/3348/q1z0IhqbC5a_5hyp
+3347	2014-12-30	ibrahimakalin@yahoo.com	pectus carinatum or pectus excavatum;striae;pectoral muscle hypoplasia;aplasia	95.183.220.2	http://phenolyzer.usc.edu/done/3347/c5TBircUyGqgPhi_
+3346	2014-12-30	zeliha.gormez@tubitak.gov.tr	pitt hopkins like;pitt hopkins	95.183.220.2	http://phenolyzer.usc.edu/done/3346/4As-3JJ5fLecLwbj
+3345	2014-12-30	ibrahimakalin@yahoo.com	aglossia	95.183.220.2	http://phenolyzer.usc.edu/done/3345/pyi5Db0N0Ra-KRcp
+3344	2014-12-30	sarenuryilmaz@gmail.com	adactyly	95.183.220.2	http://phenolyzer.usc.edu/done/3344/Glx73W-GbJDnfbKx
+3342	2014-12-29	benjamin-darbro@uiowa.edu	fetal akinesia deformation sequence	129.255.1.139	http://phenolyzer.usc.edu/done/3342/NMP-B9CRxrs3fCTz
+3341	2014-12-29	benjamin-darbro@uiowa.edu	hp;0001883;hp;0005280;hp;0001305;hp;0000476;hp;0000175;hp;0010489;hp;0000368;hp;0100022;hp;0001059;hp;0100490;hp;0002650;hp;0000347;hp;0000316;hp;0002804;hp;0001511;hp;0003202;hp;0001561;hp;0006703;hp;0001557;hp;0001376;hp;0000028;hp;0002093	129.255.1.139	http://phenolyzer.usc.edu/done/3341/Fbg3RZLAZwFOgwNS
+3340	2014-12-29	benjamin-darbro@uiowa.edu	hp;0001883;hp;0005280;hp;0001305;hp;0000476;hp;0000175;hp;0010489;hp;0000368;hp;0100022;hp;0001059;hp;0100490;hp;0002650;hp;0000347;hp;0000316;hp;0002804;hp;0001511;hp;0003202;hp;0001561;hp;0006703;hp;0001557;hp;0001376;hp;0000028;hp;0002093	129.255.1.139	http://phenolyzer.usc.edu/done/3340/GE2cpsVwfVy71eqb
+3339	2014-12-29	junfei@tutegenomics.com	blepharospasm;bloch-sulzberger syndrome;brachial plexus birth injuries;brachial plexus injuries;bradbury-eggleston syndrome;brain and spinal tumors;brain aneurysm;brain injury;brown-sequard syndrome;bulbospinal muscular atrophy;cadasil;canavan disease;carpal tunnel syndrome;causalgia;cavernomas;cavernous angioma;cavernous malformation;central cervical cord syndrome;central cord syndrome;central pain syndrome;central pontine myelinolysis;cephalic disorders;ceramidase deficiency;cerebellar degeneration;cerebellar hypoplasia;cerebral aneurysms;cerebral arteriosclerosis;cerebral atrophy;cerebral beriberi;cerebral cavernous malformation;cerebral gigantism;cerebral hypoxia;cerebral palsy;cerebro-oculo-facio-skeletal syndrome (cofs;charcot-marie-tooth disease;chiari malformation;cholesterol ester storage disease;chorea;choreoacanthocytosis;chronic inflammatory demyelinating polyneuropathy (cidp;chronic orthostatic intolerance;chronic pain;cockayne syndrome type ii;coffin lowry syndrome;colpocephaly;coma;complex regional pain syndrome;congenital facial diplegia;congenital myasthenia;congenital myopathy	66.219.219.8	http://phenolyzer.usc.edu/done/3339/12anfkzSoEJoePCo
+3338	2014-12-29	junfei@tutegenomics.com	absence of the septum pellucidum;acid lipase disease;acid maltase deficiency;acquired epileptiform aphasia;acute disseminated encephalomyelitis;adhd;adie's pupil;adie's syndrome;adrenoleukodystrophy;agenesis of the corpus callosum;agnosia;aicardi syndrome;aicardi-goutieres syndrome disorder;aids - neurological complications;alexander disease;alpers' disease;alternating hemiplegia;alzheimer's disease;amyotrophic lateral sclerosis (als;anencephaly;aneurysm;angelman syndrome;angiomatosis;anoxia;antiphospholipid syndrome;aphasia;apraxia;arachnoid cysts;arachnoiditis;arnold-chiari malformation;arteriovenous malformation;asperger syndrome;ataxia;ataxia telangiectasia;ataxias and cerebellar or spinocerebellar degeneration;atrial fibrillation and stroke;attention deficit-hyperactivity disorder;autism;autonomic dysfunction;ack pain;barth syndrome;batten disease;becker's myotonia;behcet's disease;bell's palsy;benign essential blepharospasm;benign focal amyotrophy;benign intracranial hypertension;bernhardt-roth syndrome;binswanger's disease	66.219.219.8	http://phenolyzer.usc.edu/done/3338/daP2p6QuwiTdVast
+3337	2014-12-29	junfei@tutegenomics.com	sturge-weber syndrome;subacute sclerosing panencephalitis;subcortical arteriosclerotic encephalopathy;sunct headache;swallowing disorders;sydenham chorea;syncope;syphilitic spinal sclerosis;syringohydromyelia;syringomyelia;systemic lupus erythematosus;tabes dorsalis;tardive dyskinesia;tarlov cysts;tay-sachs disease;temporal arteritis;tethered spinal cord syndrome;thomsen's myotonia;thoracic outlet syndrome;thyrotoxic myopathy;tic douloureux;todd's paralysis;tourette syndrome;transient ischemic attack;transmissible spongiform encephalopathies;transverse myelitis;traumatic brain injury;tremor;trigeminal neuralgia;tropical spastic paraparesis;troyer syndrome;tuberous sclerosis;vascular erectile tumor;vasculitis syndromes of the central and peripheral nervous systems;von economo;s disease;von hippel-lindau disease (vhl;von recklinghausen's disease;wallenberg's syndrome;werdnig-hoffman disease;wernicke-korsakoff syndrome;west syndrome;whiplash;whipple's disease;williams syndrome;wilson disease;wolman;s disease;x-linked spinal and bulbar muscular atrophy;zellweger syndrome	66.219.219.8	http://phenolyzer.usc.edu/done/3337/E_jScWKNoNqRnjt9
+3336	2014-12-29	junfei@tutegenomics.com	neurosyphilis;neurotoxicity;nevus cavernosus;niemann-pick disease;normal pressure hydrocephalus;occipital neuralgia;ohtahara syndrome;olivopontocerebellar atrophy;opsoclonus myoclonus;orthostatic hypotension;o'sullivan-mcleod syndrome;overuse syndrome;pain - chronic;pantothenate kinase-associated neurodegeneration;paraneoplastic syndromes;paresthesia;parkinson's disease;paroxysmal choreoathetosis;paroxysmal hemicrania;parry-romberg;pelizaeus-merzbacher disease;pena shokeir ii syndrome;perineural cysts;periodic paralyses;peripheral neuropathy;periventricular leukomalacia;persistent vegetative state;pervasive developmental disorders;phytanic acid storage disease;pick's disease;pinched nerve;piriformis syndrome;pituitary tumors;polymyositis;pompe disease;porencephaly;postherpetic neuralgia;postinfectious encephalomyelitis;post-polio syndrome;postural hypotension;postural orthostatic tachycardia syndrome;postural tachycardia syndrome;primary dentatum atrophy;primary lateral sclerosis;primary progressive aphasia;prion diseases;progressive hemifacial atrophy;progressive locomotor ataxia;progressive multifocal leukoencephalopathy;progressive sclerosing poliodystrophy;progressive supranuclear palsy;prosopagnosia;pseudo-torch syndrome;pseudotoxoplasmosis syndrome;pseudotumor cerebri;psychogenic movement;ramsay hunt syndrome i;ramsay hunt syndrome ii;rasmussen's encephalitis;reflex sympathetic dystrophy syndrome;refsum disease;refsum disease - infantile;repetitive motion disorders;repetitive stress injuries;restless legs syndrome;retrovirus-associated myelopathy;rett syndrome;reye's syndrome;rheumatic encephalitis;riley-day syndrome;sacral nerve root cysts;saint vitus dance;salivary gland disease;sandhoff disease;schilder's disease;schizencephaly;seitelberger disease;seizure disorder;semantic dementia;septo-optic dysplasia;severe myoclonic epilepsy of infancy (smei;shaken baby syndrome;shingles;shy-drager syndrome;sj;gren's syndrome;sleep apnea;sleeping sickness;sotos syndrome;spasticity;spina bifida;spinal cord infarction;spinal cord injury;spinal cord tumors;spinal muscular atrophy;spinocerebellar atrophy;spinocerebellar degeneration;steele-richardson-olszewski syndrome;stiff-person syndrome;striatonigral degeneration;stroke	66.219.219.8	http://phenolyzer.usc.edu/done/3336/rQkVE8Ha3IPe5iAz
+3335	2014-12-29	junfei@tutegenomics.com	hypersomnia;hypertonia;hypotonia;hypoxia;immune-mediated encephalomyelitis;inclusion body myositis;incontinentia pigmenti;infantile hypotonia;infantile neuroaxonal dystrophy;infantile phytanic acid storage disease;infantile refsum disease;infantile spasms;inflammatory myopathies;iniencephaly;intestinal lipodystrophy;intracranial cysts;intracranial hypertension;isaacs' syndrome;joubert syndrome;kearns-sayre syndrome;kennedy's disease;kinsbourne syndrome;kleine-levin syndrome;klippel-feil syndrome;klippel-trenaunay syndrome (kts;kl;ver-bucy syndrome;korsakoff's amnesic syndrome;krabbe disease;kugelberg-welander disease;kuru;lambert-eaton myasthenic syndrome;landau-kleffner syndrome;lateral femoral cutaneous nerve entrapment;lateral medullary syndrome;learning disabilities;leigh's disease;lennox-gastaut syndrome;lesch-nyhan syndrome;leukodystrophy;levine-critchley syndrome;lewy body dementia;lipid storage diseases;lipoid proteinosis;lissencephaly;locked-in syndrome;lou gehrig's disease;lupus - neurological sequelae;lyme disease - neurological complication;machado-joseph disease;macrencephaly;megalencephaly;melkersson-rosenthal syndrome;meningitis;meningitis and encephalitis;menkes disease;meralgia paresthetica;metachromatic leukodystrophy;microcephaly;migraine;miller fisher syndrome;mini stroke;mitochondrial myopathies;moebius syndrome;monomelic amyotrophy;motor neuron diseases;moyamoya disease;mucolipidoses;mucopolysaccharidoses;multifocal motor neuropathy;multi-infarct dementia;multiple sclerosis;multiple system atrophy;multiple system atrophy with orthostatic hypotension;muscular dystrophy;myasthenia - congenital;myasthenia gravis;myelinoclastic diffuse sclerosis;myoclonic encephalopathy of infants;myoclonus;myopathy;myopathy - congenital;myopathy - thyrotoxic;myotonia;myotonia congenita;narcolepsy;neuroacanthocytosis;neurodegeneration with brain iron accumulation;neurofibromatosis;neuroleptic malignant syndrome;neurological complications of aids;neurological complications of lyme disease;neurological consequences of cytomegalovirus infection;neurological manifestations of pompe disease;neurological sequelae of lupus;neuromyelitis optica;neuromyotonia;neuronal ceroid lipofuscinosis;neuronal migration disorders;neuropathy - hereditary;neurosarcoidosis	66.219.219.8	http://phenolyzer.usc.edu/done/3335/LkN7Fq-rd_BvxiGB
+3334	2014-12-29	junfei@tutegenomics.com	congenital vascular cavernous malformations;corticobasal degeneration;cranial arteritis;craniosynostosis;cree encephalitis;creutzfeldt-jakob disease;cumulative trauma disorders;cushing's syndrome;cytomegalic inclusion body disease;cytomegalovirus infection;dancing eyes-dancing feet syndrome;dandy-walker syndrome;dawson disease;de morsier's syndrome;deep brain stimulation for parkinson's disease;dejerine-klumpke palsy;dementia;dementia - multi-infarct;dementia - semantic;dementia - subcortical;dementia with lewy bodies;dentate cerebellar ataxia;dentatorubral atrophy;dermatomyositis;developmental dyspraxia;devic's syndrome;diabetic neuropathy;diffuse sclerosis;dravet syndrome;dysautonomia;dysgraphia;dyslexia;dysphagia;dyspraxia;dyssynergia cerebellaris myoclonica;dyssynergia cerebellaris progressiva;dystonias;early infantile epileptic encephalopathy;empty sella syndrome;encephalitis;encephalitis lethargica;encephaloceles;encephalopathy;encephalopathy (familial infantile;encephalotrigeminal angiomatosis;epilepsy;epileptic hemiplegia;erb-duchenne and dejerine-klumpke palsies;erb's palsy;essential tremor;extrapontine myelinolysis;fabry disease;fahr's syndrome;fainting;familial dysautonomia;familial hemangioma;familial idiopathic basal ganglia calcification;familial periodic paralyses;familial spastic paralysis;farber's disease;febrile seizures;fibromuscular dysplasia;fisher syndrome;floppy infant syndrome;foot drop;friedreich's ataxia;frontotemporal dementia;gaucher disease;generalized gangliosidoses;gerstmann's syndrome;gerstmann-straussler-scheinker disease;giant axonal neuropat;giant cell arteritis;giant cell inclusion disease;globoid cell leukodystrophy;glossopharyngeal neuralgia;glycogen storage disease;guillain-barr;syndrome;hallervorden-spatz disease;head injury;headache;hemicrania continua;hemifacial spasm;hemiplegia alterans;hereditary neuropathies;hereditary spastic paraplegia;heredopathia atactica polyneuritiformis;herpes zoster;herpes zoster oticus;hirayama syndrome;holmes-adie syndrome;holoprosencephaly;htlv-1 associated myelopathy;hughes syndrome;huntington's disease;hydranencephaly;hydrocephalus;hydrocephalus - normal pressure;hydromyelia;hypercortisolism	66.219.219.8	http://phenolyzer.usc.edu/done/3334/DF_-yEzqWvnKTZmQ
+3333	2014-12-29	junfei@tutegenomics.com	absence of the septum pellucidum;acid lipase disease;acid maltase deficiency;acquired epileptiform aphasia;acute disseminated encephalomyelitis;adhd;adie's pupil;adie's syndrome;adrenoleukodystrophy;agenesis of the corpus callosum;agnosia;aicardi syndrome;aicardi-goutieres syndrome disorder;aids - neurological complications;alexander disease;alpers' disease;alternating hemiplegia;alzheimer's disease;amyotrophic lateral sclerosis (als;anencephaly;aneurysm;angelman syndrome;angiomatosis;anoxia;antiphospholipid syndrome;aphasia;apraxia;arachnoid cysts;arachnoiditis;arnold-chiari malformation;arteriovenous malformation;asperger syndrome;ataxia;ataxia telangiectasia;ataxias and cerebellar or spinocerebellar degeneration;atrial fibrillation and stroke;attention deficit-hyperactivity disorder;autism;autonomic dysfunction;ack pain;barth syndrome;batten disease;becker's myotonia;behcet's disease;bell's palsy;benign essential blepharospasm;benign focal amyotrophy;benign intracranial hypertension;bernhardt-roth syndrome;binswanger's disease;blepharospasm;bloch-sulzberger syndrome;brachial plexus birth injuries;brachial plexus injuries;bradbury-eggleston syndrome;brain and spinal tumors;brain aneurysm;brain injury;brown-sequard syndrome;bulbospinal muscular atrophy;cadasil;canavan disease;carpal tunnel syndrome;causalgia;cavernomas;cavernous angioma;cavernous malformation;central cervical cord syndrome;central cord syndrome;central pain syndrome;central pontine myelinolysis;cephalic disorders;ceramidase deficiency;cerebellar degeneration;cerebellar hypoplasia;cerebral aneurysms;cerebral arteriosclerosis;cerebral atrophy;cerebral beriberi;cerebral cavernous malformation;cerebral gigantism;cerebral hypoxia;cerebral palsy;cerebro-oculo-facio-skeletal syndrome (cofs;charcot-marie-tooth disease;chiari malformation;cholesterol ester storage disease;chorea;choreoacanthocytosis;chronic inflammatory demyelinating polyneuropathy (cidp;chronic orthostatic intolerance;chronic pain;cockayne syndrome type ii;coffin lowry syndrome;colpocephaly;coma;complex regional pain syndrome;congenital facial diplegia;congenital myasthenia;congenital myopathy	66.219.219.8	http://phenolyzer.usc.edu/done/3333/0qOZBHW0ADM2mgVK
+3332	2014-12-29	junfei@tutegenomics.com	absence of the septum pellucidum;acid lipase disease;acid maltase deficiency;acquired epileptiform aphasia;acute disseminated encephalomyelitis;adhd;adie's pupil;adie's syndrome;adrenoleukodystrophy;agenesis of the corpus callosum;agnosia;aicardi syndrome;aicardi-goutieres syndrome disorder;aids - neurological complications;alexander disease;alpers' disease;alternating hemiplegia;alzheimer's disease;amyotrophic lateral sclerosis (als;anencephaly;aneurysm;angelman syndrome;angiomatosis;anoxia;antiphospholipid syndrome;aphasia;apraxia;arachnoid cysts;arachnoiditis;arnold-chiari malformation;arteriovenous malformation;asperger syndrome;ataxia;ataxia telangiectasia;ataxias and cerebellar or spinocerebellar degeneration;atrial fibrillation and stroke;attention deficit-hyperactivity disorder;autism;autonomic dysfunction;ack pain;barth syndrome;batten disease;becker's myotonia;behcet's disease;bell's palsy;benign essential blepharospasm;benign focal amyotrophy;benign intracranial hypertension;bernhardt-roth syndrome;binswanger's disease;blepharospasm;bloch-sulzberger syndrome;brachial plexus birth injuries;brachial plexus injuries;bradbury-eggleston syndrome;brain and spinal tumors;brain aneurysm;brain injury;brown-sequard syndrome;bulbospinal muscular atrophy;cadasil;canavan disease;carpal tunnel syndrome;causalgia;cavernomas;cavernous angioma;cavernous malformation;central cervical cord syndrome;central cord syndrome;central pain syndrome;central pontine myelinolysis;cephalic disorders;ceramidase deficiency;cerebellar degeneration;cerebellar hypoplasia;cerebral aneurysms;cerebral arteriosclerosis;cerebral atrophy;cerebral beriberi;cerebral cavernous malformation;cerebral gigantism;cerebral hypoxia;cerebral palsy;cerebro-oculo-facio-skeletal syndrome (cofs;charcot-marie-tooth disease;chiari malformation;cholesterol ester storage disease;chorea;choreoacanthocytosis;chronic inflammatory demyelinating polyneuropathy (cidp;chronic orthostatic intolerance;chronic pain;cockayne syndrome type ii;coffin lowry syndrome;colpocephaly;coma;complex regional pain syndrome;congenital facial diplegia;congenital myasthenia;congenital myopathy;congenital vascular cavernous malformations;corticobasal degeneration;cranial arteritis;craniosynostosis;cree encephalitis;creutzfeldt-jakob disease;cumulative trauma disorders;cushing's syndrome;cytomegalic inclusion body disease;cytomegalovirus infection;dancing eyes-dancing feet syndrome;dandy-walker syndrome;dawson disease;de morsier's syndrome;deep brain stimulation for parkinson's disease;dejerine-klumpke palsy;dementia;dementia - multi-infarct;dementia - semantic;dementia - subcortical;dementia with lewy bodies;dentate cerebellar ataxia;dentatorubral atrophy;dermatomyositis;developmental dyspraxia;devic's syndrome;diabetic neuropathy;diffuse sclerosis;dravet syndrome;dysautonomia;dysgraphia;dyslexia;dysphagia;dyspraxia;dyssynergia cerebellaris myoclonica;dyssynergia cerebellaris progressiva;dystonias;early infantile epileptic encephalopathy;empty sella syndrome;encephalitis;encephalitis lethargica;encephaloceles;encephalopathy;encephalopathy (familial infantile;encephalotrigeminal angiomatosis;epilepsy;epileptic hemiplegia;erb-duchenne and dejerine-klumpke palsies;erb's palsy;essential tremor;extrapontine myelinolysis;fabry disease;fahr's syndrome;fainting;familial dysautonomia;familial hemangioma;familial idiopathic basal ganglia calcification;familial periodic paralyses;familial spastic paralysis;farber's disease;febrile seizures;fibromuscular dysplasia;fisher syndrome;floppy infant syndrome;foot drop;friedreich's ataxia;frontotemporal dementia;gaucher disease;generalized gangliosidoses;gerstmann's syndrome;gerstmann-straussler-scheinker disease;giant axonal neuropat;giant cell arteritis;giant cell inclusion disease;globoid cell leukodystrophy;glossopharyngeal neuralgia;glycogen storage disease;guillain-barr;syndrome;hallervorden-spatz disease;head injury;headache;hemicrania continua;hemifacial spasm;hemiplegia alterans;hereditary neuropathies;hereditary spastic paraplegia;heredopathia atactica polyneuritiformis;herpes zoster;herpes zoster oticus;hirayama syndrome;holmes-adie syndrome;holoprosencephaly;htlv-1 associated myelopathy;hughes syndrome;huntington's disease;hydranencephaly;hydrocephalus;hydrocephalus - normal pressure;hydromyelia;hypercortisolism	66.219.219.8	http://phenolyzer.usc.edu/done/3332/0lO5mxG5e3gjPPQb
+3331	2014-12-28	chao-ling1024@hotmail.com	combined hyperlipidemia	114.251.223.252	http://phenolyzer.usc.edu/done/3331/AEsiwPl9iVQZoQm2
+3330	2014-12-28	chao-ling1024@hotmail.com	hyperlipidaemia	114.251.223.252	http://phenolyzer.usc.edu/done/3330/j42NUmUy-jN-u6tH
+3329	2014-12-28	chao-ling1024@hotmail.com	hyperlipoproteinemia	114.251.223.252	http://phenolyzer.usc.edu/done/3329/rXZ7G-IwjhkgfkUP
+3328	2014-12-28	NA	sclerosing hemangioma;lung	NA	http://phenolyzer.usc.edu/done/3328/KGcy3Sw40okae88_
+3327	2014-12-26	chao-ling1024@hotmail.com	hyperlipidaemia	114.251.223.252	http://phenolyzer.usc.edu/done/3327/zWlFo8ZCGYEv97Pt
+3326	2014-12-25	chao-ling1024@hotmail.com	allergic bronchopulmonary aspergillosis	114.251.223.252	http://phenolyzer.usc.edu/done/3326/GPv32T_4Phb3YGNr
+3325	2014-12-24	chao-ling1024@hotmail.com	allergic bronchopulmonary aspergillosis	114.251.223.252	http://phenolyzer.usc.edu/done/3325/gVa0cE8rH4WF7f8r
+3324	2014-12-24	chao-ling1024@hotmail.com	hyperlipidemia	114.251.223.252	http://phenolyzer.usc.edu/done/3324/czqTn64uhXIc_GEA
+3323	2014-12-24	chao-ling1024@hotmail.com	hyperlipidemia combined	114.251.223.252	http://phenolyzer.usc.edu/done/3323/Pj0Fv_sY00IhIjrg
+3322	2014-12-24	chao-ling1024@hotmail.com	hyperlipidemia familial combined	114.251.223.252	http://phenolyzer.usc.edu/done/3322/a-XzjsMpHnN64U_m
+3321	2014-12-24	chao-ling1024@hotmail.com	hyperlipidemia	114.251.223.252	http://phenolyzer.usc.edu/done/3321/PHa5wovUaMkkRmJh
+3320	2014-12-24	mstein@ucsd.edu	posttraumatic stress disorder	72.11.241.115	http://phenolyzer.usc.edu/done/3320/0cQtJtNIvmpLO1V_
+3319	2014-12-24	mstein@ucsd.edu	posttraumatic stress disorder	72.11.241.115	http://phenolyzer.usc.edu/done/3319/kEIPQbDj3cijBXnO
+3318	2014-12-24	mstein@ucsd.edu	posttraumatic stress disorder	72.11.241.115	http://phenolyzer.usc.edu/done/3318/EXxMnt3wI0W3eMfw
+3317	2014-12-24	mstein@ucsd.edu	posttraumatic stress disorder;ptsd;posttraumatic stress;trauma;traumatic stress;post-traumatic stress;post-traumatic stress disorder	72.11.241.115	http://phenolyzer.usc.edu/done/3317/0dEsphJQrYZtS3h5
+3316	2014-12-24	mstein@ucsd.edu	posttraumatic stress disorder;ptsd;posttraumatic stress;trauma;traumatic stress;post-traumatic stress;post-traumatic stress disorder	72.11.241.115	http://phenolyzer.usc.edu/done/3316/m9I_30Wl4HvgVKny
+3315	2014-12-23	chao-ling1024@hotmail.com	familial alzheimer	114.251.223.252	http://phenolyzer.usc.edu/done/3315/vedugr4_KFv4xnDN
+3314	2014-12-23	chao-ling1024@hotmail.com	familial alzheimer	114.251.223.252	http://phenolyzer.usc.edu/done/3314/EYYNA6Xyhe_tYloI
+3313	2014-12-23	chao-ling1024@hotmail.com	familial alzheimer early onset	114.251.223.252	http://phenolyzer.usc.edu/done/3313/qJv5tE9LjXifod5H
+3312	2014-12-23	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3312/VpTwVxlwhArgN4g7
+3311	2014-12-23	junfei@tutegenomics.com	absence of the septum pellucidum;acid lipase disease;acid maltase deficiency;acquired epileptiform aphasia;acute disseminated encephalomyelitis;adhd;adie's pupil;adie's syndrome;adrenoleukodystrophy;agenesis of the corpus callosum;agnosia;aicardi syndrome;aicardi-goutieres syndrome disorder;aids - neurological complications;alexander disease;alpers' disease;alternating hemiplegia;alzheimer's disease;amyotrophic lateral sclerosis (als;anencephaly;aneurysm;angelman syndrome;angiomatosis;anoxia;antiphospholipid syndrome;aphasia;apraxia;arachnoid cysts;arachnoiditis;arnold-chiari malformation;arteriovenous malformation;asperger syndrome;ataxia;ataxia telangiectasia;ataxias and cerebellar or spinocerebellar degeneration;atrial fibrillation and stroke;attention deficit-hyperactivity disorder;autism;autonomic dysfunction;ack pain;barth syndrome;batten disease;becker's myotonia;behcet's disease;bell's palsy;benign essential blepharospasm;benign focal amyotrophy;benign intracranial hypertension;bernhardt-roth syndrome;binswanger's disease;blepharospasm;bloch-sulzberger syndrome;brachial plexus birth injuries;brachial plexus injuries;bradbury-eggleston syndrome;brain and spinal tumors;brain aneurysm;brain injury;brown-sequard syndrome;bulbospinal muscular atrophy;cadasil;canavan disease;carpal tunnel syndrome;causalgia;cavernomas;cavernous angioma;cavernous malformation;central cervical cord syndrome;central cord syndrome;central pain syndrome;central pontine myelinolysis;cephalic disorders;ceramidase deficiency;cerebellar degeneration;cerebellar hypoplasia;cerebral aneurysms;cerebral arteriosclerosis;cerebral atrophy;cerebral beriberi;cerebral cavernous malformation;cerebral gigantism;cerebral hypoxia;cerebral palsy;cerebro-oculo-facio-skeletal syndrome (cofs;charcot-marie-tooth disease;chiari malformation;cholesterol ester storage disease;chorea;choreoacanthocytosis;chronic inflammatory demyelinating polyneuropathy (cidp;chronic orthostatic intolerance;chronic pain;cockayne syndrome type ii;coffin lowry syndrome;colpocephaly;coma;complex regional pain syndrome;congenital facial diplegia;congenital myasthenia;congenital myopathy;congenital vascular cavernous malformations;corticobasal degeneration;cranial arteritis;craniosynostosis;cree encephalitis;creutzfeldt-jakob disease;cumulative trauma disorders;cushing's syndrome;cytomegalic inclusion body disease;cytomegalovirus infection;dancing eyes-dancing feet syndrome;dandy-walker syndrome;dawson disease;de morsier's syndrome;deep brain stimulation for parkinson's disease;dejerine-klumpke palsy;dementia;dementia - multi-infarct;dementia - semantic;dementia - subcortical;dementia with lewy bodies;dentate cerebellar ataxia;dentatorubral atrophy;dermatomyositis;developmental dyspraxia;devic's syndrome;diabetic neuropathy;diffuse sclerosis;dravet syndrome;dysautonomia;dysgraphia;dyslexia;dysphagia;dyspraxia;dyssynergia cerebellaris myoclonica;dyssynergia cerebellaris progressiva;dystonias;early infantile epileptic encephalopathy;empty sella syndrome;encephalitis;encephalitis lethargica;encephaloceles;encephalopathy;encephalopathy (familial infantile;encephalotrigeminal angiomatosis;epilepsy;epileptic hemiplegia;erb-duchenne and dejerine-klumpke palsies;erb's palsy;essential tremor;extrapontine myelinolysis;fabry disease;fahr's syndrome;fainting;familial dysautonomia;familial hemangioma;familial idiopathic basal ganglia calcification;familial periodic paralyses;familial spastic paralysis;farber's disease;febrile seizures;fibromuscular dysplasia;fisher syndrome;floppy infant syndrome;foot drop;friedreich's ataxia;frontotemporal dementia;gaucher disease;generalized gangliosidoses;gerstmann's syndrome;gerstmann-straussler-scheinker disease;giant axonal neuropat;giant cell arteritis;giant cell inclusion disease;globoid cell leukodystrophy;glossopharyngeal neuralgia;glycogen storage disease;guillain-barr;syndrome;hallervorden-spatz disease;head injury;headache;hemicrania continua;hemifacial spasm;hemiplegia alterans;hereditary neuropathies;hereditary spastic paraplegia;heredopathia atactica polyneuritiformis;herpes zoster;herpes zoster oticus;hirayama syndrome;holmes-adie syndrome;holoprosencephaly;htlv-1 associated myelopathy;hughes syndrome;huntington's disease;hydranencephaly;hydrocephalus;hydrocephalus - normal pressure;hydromyelia;hypercortisolism;hypersomnia;hypertonia;hypotonia;hypoxia;immune-mediated encephalomyelitis;inclusion body myositis;incontinentia pigmenti;infantile hypotonia;infantile neuroaxonal dystrophy;infantile phytanic acid storage disease;infantile refsum disease;infantile spasms;inflammatory myopathies;iniencephaly;intestinal lipodystrophy;intracranial cysts;intracranial hypertension;isaacs' syndrome;joubert syndrome;kearns-sayre syndrome;kennedy's disease;kinsbourne syndrome;kleine-levin syndrome;klippel-feil syndrome;klippel-trenaunay syndrome (kts;kl;ver-bucy syndrome;korsakoff's amnesic syndrome;krabbe disease;kugelberg-welander disease;kuru;lambert-eaton myasthenic syndrome;landau-kleffner syndrome;lateral femoral cutaneous nerve entrapment;lateral medullary syndrome;learning disabilities;leigh's disease;lennox-gastaut syndrome;lesch-nyhan syndrome;leukodystrophy;levine-critchley syndrome;lewy body dementia;lipid storage diseases;lipoid proteinosis;lissencephaly;locked-in syndrome;lou gehrig's disease;lupus - neurological sequelae;lyme disease - neurological complication;machado-joseph disease;macrencephaly;megalencephaly;melkersson-rosenthal syndrome;meningitis;meningitis and encephalitis;menkes disease;meralgia paresthetica;metachromatic leukodystrophy;microcephaly;migraine;miller fisher syndrome;mini stroke;mitochondrial myopathies;moebius syndrome;monomelic amyotrophy;motor neuron diseases;moyamoya disease;mucolipidoses;mucopolysaccharidoses;multifocal motor neuropathy;multi-infarct dementia;multiple sclerosis;multiple system atrophy;multiple system atrophy with orthostatic hypotension;muscular dystrophy;myasthenia - congenital;myasthenia gravis;myelinoclastic diffuse sclerosis;myoclonic encephalopathy of infants;myoclonus;myopathy;myopathy - congenital;myopathy - thyrotoxic;myotonia;myotonia congenita;narcolepsy;neuroacanthocytosis;neurodegeneration with brain iron accumulation;neurofibromatosis;neuroleptic malignant syndrome;neurological complications of aids;neurological complications of lyme disease;neurological consequences of cytomegalovirus infection;neurological manifestations of pompe disease;neurological sequelae of lupus;neuromyelitis optica;neuromyotonia;neuronal ceroid lipofuscinosis;neuronal migration disorders;neuropathy - hereditary;neurosarcoidosis;neurosyphilis;neurotoxicity;nevus cavernosus;niemann-pick disease;normal pressure hydrocephalus;occipital neuralgia;ohtahara syndrome;olivopontocerebellar atrophy;opsoclonus myoclonus;orthostatic hypotension;o'sullivan-mcleod syndrome;overuse syndrome;pain - chronic;pantothenate kinase-associated neurodegeneration;paraneoplastic syndromes;paresthesia;parkinson's disease;paroxysmal choreoathetosis;paroxysmal hemicrania;parry-romberg;pelizaeus-merzbacher disease;pena shokeir ii syndrome;perineural cysts;periodic paralyses;peripheral neuropathy;periventricular leukomalacia;persistent vegetative state;pervasive developmental disorders;phytanic acid storage disease;pick's disease;pinched nerve;piriformis syndrome;pituitary tumors;polymyositis;pompe disease;porencephaly;postherpetic neuralgia;postinfectious encephalomyelitis;post-polio syndrome;postural hypotension;postural orthostatic tachycardia syndrome;postural tachycardia syndrome;primary dentatum atrophy;primary lateral sclerosis;primary progressive aphasia;prion diseases;progressive hemifacial atrophy;progressive locomotor ataxia;progressive multifocal leukoencephalopathy;progressive sclerosing poliodystrophy;progressive supranuclear palsy;prosopagnosia;pseudo-torch syndrome;pseudotoxoplasmosis syndrome;pseudotumor cerebri;psychogenic movement;ramsay hunt syndrome i;ramsay hunt syndrome ii;rasmussen's encephalitis;reflex sympathetic dystrophy syndrome;refsum disease;refsum disease - infantile;repetitive motion disorders;repetitive stress injuries;restless legs syndrome;retrovirus-associated myelopathy;rett syndrome;reye's syndrome;rheumatic encephalitis;riley-day syndrome;sacral nerve root cysts;saint vitus dance;salivary gland disease;sandhoff disease;schilder's disease;schizencephaly;seitelberger disease;seizure disorder;semantic dementia;septo-optic dysplasia;severe myoclonic epilepsy of infancy (smei;shaken baby syndrome;shingles;shy-drager syndrome;sj;gren's syndrome;sleep apnea;sleeping sickness;sotos syndrome;spasticity;spina bifida;spinal cord infarction;spinal cord injury;spinal cord tumors;spinal muscular atrophy;spinocerebellar atrophy;spinocerebellar degeneration;steele-richardson-olszewski syndrome;stiff-person syndrome;striatonigral degeneration;stroke;sturge-weber syndrome;subacute sclerosing panencephalitis;subcortical arteriosclerotic encephalopathy;sunct headache;swallowing disorders;sydenham chorea;syncope;syphilitic spinal sclerosis;syringohydromyelia;syringomyelia;systemic lupus erythematosus;tabes dorsalis;tardive dyskinesia;tarlov cysts;tay-sachs disease;temporal arteritis;tethered spinal cord syndrome;thomsen's myotonia;thoracic outlet syndrome;thyrotoxic myopathy;tic douloureux;todd's paralysis;tourette syndrome;transient ischemic attack;transmissible spongiform encephalopathies;transverse myelitis;traumatic brain injury;tremor;trigeminal neuralgia;tropical spastic paraparesis;troyer syndrome;tuberous sclerosis;vascular erectile tumor;vasculitis syndromes of the central and peripheral nervous systems;von economo;s disease;von hippel-lindau disease (vhl;von recklinghausen's disease;wallenberg's syndrome;werdnig-hoffman disease;wernicke-korsakoff syndrome;west syndrome;whiplash;whipple's disease;williams syndrome;wilson disease;wolman;s disease;x-linked spinal and bulbar muscular atrophy;zellweger syndrome	66.219.219.8	http://phenolyzer.usc.edu/done/3311/Kn2hrG-2eLFW1hX9
+3310	2014-12-22	NA	gsd ia	NA	http://phenolyzer.usc.edu/done/3310/BLBvwfpJnPC5SOCb
+3309	2014-12-22	NA	gsd ia	NA	http://phenolyzer.usc.edu/done/3309/VPK4LhpqaVMfUmcV
+3308	2014-12-22	NA	gsd ia	NA	http://phenolyzer.usc.edu/done/3308/lDEvjVwLOxK30Dws
+3307	2014-12-22	NA	g	NA	http://phenolyzer.usc.edu/done/3307/LKWTCTxlFe4hOYdB
+3306	2014-12-22	mstein@ucsd.edu	post_traumatic_stress_disorder;post_traumatic_stress;posttraumatic_stress_disorder;posttraumatic_stress;ptsd	72.11.241.115	http://phenolyzer.usc.edu/done/3306/fm4kuJpMBxHXCDsL
+3305	2014-12-22	mstein@ucsd.edu	post_traumatic_stress_disorder;post_traumatic_stress;posttraumatic_stress_disorder;posttraumatic_stress;ptsd	72.11.241.115	http://phenolyzer.usc.edu/done/3305/lw7862i7VJPmeazh
+3304	2014-12-22	mstein@ucsd.edu	post_traumatic_stress_disorder;post_traumatic_stress;posttraumatic_stress_disorder;posttraumatic_stress;ptsd	72.11.241.115	http://phenolyzer.usc.edu/done/3304/L37ZeuvnStmdQ3UC
+3303	2014-12-22	mstein@ucsd.edu	post_traumatic_stress_disorder;post_traumatic_stress;posttraumatic_stress_disorder;posttraumatic_stress;ptsd	72.11.241.115	http://phenolyzer.usc.edu/done/3303/ikeU4Yox4Cpk3ppL
+3302	2014-12-22	mstein@ucsd.edu	posttraumatic stress disorder;posttraumatic stress;post-traumatic stress	72.11.241.115	http://phenolyzer.usc.edu/done/3302/nLH9_M0W-87O8Yz4
+3301	2014-12-22	mstein@ucsd.edu	posttraumatic stress;ptsd;post-traumatic stress;posttraumatic stress disorder;post-traumatic stress disorder	72.11.241.115	http://phenolyzer.usc.edu/done/3301/TMHJNg8o4HM5Euae
+3300	2014-12-22	junfei@tutegenomics.com	neurological disorder	66.219.219.8	http://phenolyzer.usc.edu/done/3300/GIful5AQVHzaqos6
+3299	2014-12-22	chao-ling1024@hotmail.com	colorectal cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3299/_iSC2rWDSolyOfpL
+3298	2014-12-22	NA	gsd ia	NA	http://phenolyzer.usc.edu/done/3298/KJla_l3Yk8Q6cuvX
+3297	2014-12-22	chao-ling1024@hotmail.com	pancreatic cancer somatic	114.251.223.252	http://phenolyzer.usc.edu/done/3297/t_pR0UDIwplOwQR4
+3296	2014-12-22	chao-ling1024@hotmail.com	pancreatic cancer somatic	114.251.223.252	http://phenolyzer.usc.edu/done/3296/tgarIgbtNMo91YdT
+3295	2014-12-22	NA	gsd ia	NA	http://phenolyzer.usc.edu/done/3295/Od76-RVdrxi-o5jO
+3294	2014-12-22	NA	thyroid cancer;follicular thyroid carcinoma	NA	http://phenolyzer.usc.edu/done/3294/ZeeS1DiHqNNBNqgu
+3293	2014-12-22	chao-ling1024@hotmail.com	pancreatic cancer	114.251.223.252	http://phenolyzer.usc.edu/done/3293/GzlRM5G30Lk9Qxbl
+3292	2014-12-21	NA	renal cell carcinoma	NA	http://phenolyzer.usc.edu/done/3292/7cX9_airzOftWWce
+3291	2014-12-21	NA	spermatogenesis	NA	http://phenolyzer.usc.edu/done/3291/RccrbTlmebe19rit
+3290	2014-12-21	NA	spermatogenesis	NA	http://phenolyzer.usc.edu/done/3290/wIeP0QhWgTyTQKq5
+3289	2014-12-20	liucijabik@gmail.com	fgfr3	78.60.68.73	http://phenolyzer.usc.edu/done/3289/vqpUNnGWsewzbqQc
+3288	2014-12-20	liucijabik@gmail.com	creatine kinase	78.60.68.73	http://phenolyzer.usc.edu/done/3288/_UfO85cmqkusJwmr
+3287	2014-12-20	liucijabik@gmail.com	creatine kinase abnormal	78.60.68.73	http://phenolyzer.usc.edu/done/3287/GoQTNeOTmPqnIxd_
+3285	2014-12-18	foo@bar.com	ameloblastoma	128.3.91.117	http://phenolyzer.usc.edu/done/3285/OnUThLjDCnmeOfsj
+3284	2014-12-18	foo@bar.com	actute;lymphoblastic;leukemia	128.3.91.117	http://phenolyzer.usc.edu/done/3284/dPcUM2LKnKu3gRK8
+3283	2014-12-18	foo@bar.com	acute lymphocytic leukemia	128.3.91.117	http://phenolyzer.usc.edu/done/3283/AfSUcpiTJmpmPKpM
+3282	2014-12-18	foo@bar.com	acute lymphoblastic leukemia	128.3.91.117	http://phenolyzer.usc.edu/done/3282/F092fWy4VW1gqlHb
+3281	2014-12-17	phenolyzer@mailinator.com	flexion contractures;calf muscle pseudohypertrophy;waddling gait	169.229.195.137	http://phenolyzer.usc.edu/done/3281/wrx7rYekDZeNRBgN
+3280	2014-12-17	phenolyzer@mailinator.com	310200	169.229.195.137	http://phenolyzer.usc.edu/done/3280/YHOxrU-_d6m75iQY
+3279	2014-12-17	phenolyzer@mailinator.com	omim;270400	169.229.195.137	http://phenolyzer.usc.edu/done/3279/cArKF-8TVUjagAQr
+3278	2014-12-17	NA	myelodysplasia;aplastic anemia	NA	http://phenolyzer.usc.edu/done/3278/ytx2iJKdbx7Rxxff
+3277	2014-12-17	zeliha.gormez@tubitak.gov.tr	osteogenesis imperfecta	193.140.73.50	http://phenolyzer.usc.edu/done/3277/8U8HTK-DdxZQGci0
+3276	2014-12-17	NA	microcephalies	NA	http://phenolyzer.usc.edu/done/3276/1Lujnl20qhqQO_r9
+3275	2014-12-16	NA	seizures;arrhythmia	NA	http://phenolyzer.usc.edu/done/3275/E7HjdZeFOxncSySR
+3273	2014-12-16	eeinarsdottir@gmail.com	dyslexia;autism;schizophrenia;bipolar disorder;cognitive ability;cognitive function;cognitive ability	2.68.128.141	http://phenolyzer.usc.edu/done/3273/NIDE7Lcm3VgUnkVb
+3272	2014-12-16	eeinarsdottir@gmail.com	dyslexia;autism;schizophrenia;bipolar disorder;cognitive ability;cognitive function;cognitive ability	2.68.128.141	http://phenolyzer.usc.edu/done/3272/xSvWLdHTHIj54cYi
+3271	2014-12-16	eeinarsdottir@gmail.com	dyslexia	2.68.128.141	http://phenolyzer.usc.edu/done/3271/DnMyguL9uK-fTp4Y
+3270	2014-12-16	eeinarsdottir@gmail.com	dyslexia	2.68.128.141	http://phenolyzer.usc.edu/done/3270/nZxx9F5qCBSwu969
+3269	2014-12-16	eeinarsdottir@gmail.com	testphenocsmd1	2.68.128.141	http://phenolyzer.usc.edu/done/3269/7Scknq32YDbFD3hG
+3268	2014-12-16	drramki.chop@gmail.com	vesicoureteral reflux;tetralogy of fallot;ventricular septal defect;pulmonary stenosis;cholestasis	159.14.241.230	http://phenolyzer.usc.edu/done/3268/jmj8Wh80WEs_Ogm-
+3267	2014-12-16	drramki.chop@gmail.com	alagille syndrome;vesicoureteral reflux;tetralogy of fallot;ventricular septal defect;pulmonary stenosis;cholestasis	159.14.241.230	http://phenolyzer.usc.edu/done/3267/ZR_WCwnslNcXUzlQ
+3266	2014-12-16	zeliha.gormez@tubitak.gov.tr	pectoralis	193.140.73.50	http://phenolyzer.usc.edu/done/3266/BvphWgh-X-M_RnMY
+3265	2014-12-16	zeliha.gormez@tubitak.gov.tr	poland	193.140.73.50	http://phenolyzer.usc.edu/done/3265/UDbI0W5VegOTyWd0
+3264	2014-12-16	zeliha.gormez@tubitak.gov.tr	pitt hopkins	193.140.73.50	http://phenolyzer.usc.edu/done/3264/EuDO9eQ2Rr3J7-YS
+3263	2014-12-16	zeliha.gormez@tubitak.gov.tr	pitt hopkinn	193.140.73.50	http://phenolyzer.usc.edu/done/3263/iHSTs6ATFcqc8yGC
+3262	2014-12-15	NA	alzheimer;brain	NA	http://phenolyzer.usc.edu/done/3262/7wRf_3HGyIO3-Zzn
+3261	2014-12-15	NA	alzheimer;brain	NA	http://phenolyzer.usc.edu/done/3261/aU9FQPB5RujOoJGa
+3260	2014-12-15	NA	alzheimer;brain	NA	http://phenolyzer.usc.edu/done/3260/oaSBbc_ux9hcMc91
+3259	2014-12-14	lab-luojinxia@kingmed.com.cn	breast cancer	58.61.218.58	http://phenolyzer.usc.edu/done/3259/DfA3vBeTzKSihoDQ
+3258	2014-12-14	lab-luojinxia@kingmed.com.cn	hereditary pancreatic cancer	58.61.218.58	http://phenolyzer.usc.edu/done/3258/knjmDf48tA29UBn3
+3257	2014-12-14	lab-luojinxia@kingmed.com.cn	hereditary pancreatitis	58.61.218.58	http://phenolyzer.usc.edu/done/3257/DHs2QFEF34suQkW9
+3256	2014-12-14	lab-luojinxia@kingmed.com.cn	hereditary pancreatitis	58.61.218.58	http://phenolyzer.usc.edu/done/3256/oRo1oEHr0TZRjbia
+3255	2014-12-14	lab-luojinxia@kingmed.com.cn	hereditary pancreatic cancer	58.61.218.58	http://phenolyzer.usc.edu/done/3255/Sw6o0nA7Tk-AGBts
+3254	2014-12-14	lab-luojinxia@kingmed.com.cn	hereditary pancreatitis	58.61.218.58	http://phenolyzer.usc.edu/done/3254/t1Vw_KyAxQpwc-D8
+3253	2014-12-14	lab-luojinxia@kingmed.com.cn	hereditary pancreatic cancer	58.61.218.58	http://phenolyzer.usc.edu/done/3253/lvLbGh3HZwusqn8X
+3252	2014-12-14	lab-hucm@kingmed.com.cn	114480;pancreatic cancer	58.61.218.58	http://phenolyzer.usc.edu/done/3252/jIZ5rivcp62xQ3zR
+3251	2014-12-14	NA	alzheimer;brain	NA	http://phenolyzer.usc.edu/done/3251/20So8Vbv-AOhQmOF
+3250	2014-12-14	dinindu.senanayake@vuw.ac.nz	lysosomal storage;cholesterol;sphingolipids	130.195.205.50	http://phenolyzer.usc.edu/done/3250/ZeN15JfYHaYlyLLb
+3249	2014-12-14	dinindu.senanayake@vuw.ac.nz	lysosomal storage;sphingolipids;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3249/3awX8gjFXZAl4IcG
+3248	2014-12-13	dinindu.senanayake@vuw.ac.nz	cholesterol;lysosomal storage;sphingolipids	130.195.205.50	http://phenolyzer.usc.edu/done/3248/zcvhPow7KdNFKQFC
+3247	2014-12-13	dinindu.senanayake@vuw.ac.nz	cholesterol;lysosomal storage;sphingolipids	130.195.205.50	http://phenolyzer.usc.edu/done/3247/qIFK14H_8iMWoE3G
+3246	2014-12-13	dinindu.senanayake@vuw.ac.nz	cholesterol;lysosomal storage;sphingolipids	130.195.205.50	http://phenolyzer.usc.edu/done/3246/Qunlwt20-l8GQx7F
+3245	2014-12-13	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3245/nalUbSVTEjOrRCtt
+3244	2014-12-12	mderenko@mail.ru	breast cancer	94.247.56.64	http://phenolyzer.usc.edu/done/3244/lQ5o-sdDE1eiXUW7
+3243	2014-12-12	zeliha.gormez@tubitak.gov.tr	miller syndrome	193.140.73.50	http://phenolyzer.usc.edu/done/3243/x9HFttCm6W2QCF5l
+3242	2014-12-11	NA	microcephaly;seckel syndrome	NA	http://phenolyzer.usc.edu/done/3242/sV2dHJZxmY95KHLF
+3241	2014-12-11	NA	microcephaly;seckel syndrome;mental retardation	NA	http://phenolyzer.usc.edu/done/3241/kq5CmoNYRbS-6vdB
+3240	2014-12-10	NA	microcephaly;seckel syndrome	NA	http://phenolyzer.usc.edu/done/3240/k9l0XhFqlxDZE0Va
+3239	2014-12-10	junyupub@outlook.com	pigmentation	61.129.42.14	http://phenolyzer.usc.edu/done/3239/hs5hydUEyY82a7-N
+3238	2014-12-10	junyupub@outlook.com	deaf	139.227.87.205	http://phenolyzer.usc.edu/done/3238/Uyr_xH_B9_qQmnXn
+3237	2014-12-10	NA	microcephaly;seckel syndrome	NA	http://phenolyzer.usc.edu/done/3237/m5RX0yUy3Ov_vQTG
+3236	2014-12-10	fcdfc@sdf.com	alzheimer;brain	120.149.54.128	http://phenolyzer.usc.edu/done/3236/UXCLvkwEg1YFlKWO
+3235	2014-12-10	NA	proteinuria	NA	http://phenolyzer.usc.edu/done/3235/r9puYkAirkIlQrcv
+3234	2014-12-10	NA	nephrotic syndrome	NA	http://phenolyzer.usc.edu/done/3234/4tYaBjyEPxgPPNcF
+3233	2014-12-10	NA	microcephaly;seckel syndrome	NA	http://phenolyzer.usc.edu/done/3233/TgMqr6seCQrQ-N8u
+3232	2014-12-10	NA	deafness autosomal recessive	NA	http://phenolyzer.usc.edu/done/3232/Qj3z6yBLYdQQX0km
+3231	2014-12-10	NA	movement disorders	NA	http://phenolyzer.usc.edu/done/3231/3RCcIEb3_w7h77p1
+3230	2014-12-10	NA	nephrotic syndrome	NA	http://phenolyzer.usc.edu/done/3230/9WQFTbolWUdP78qv
+3229	2014-12-10	anu.reigo@ut.ee	diabetes;coronary;vascular;lipid;myocardial;nephropathy;obesity;renal;mitochondrial;hepatorenal	193.40.12.10	http://phenolyzer.usc.edu/done/3229/hdnUU8kpI9NJhltU
+3228	2014-12-09	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3228/moiDb-JlKADjwZdr
+3227	2014-12-09	dinindu.senanayake@vuw.ac.nz	cholesterol;sphingolipids;lysosomal storage	130.195.205.50	http://phenolyzer.usc.edu/done/3227/28HPq3gUAk7Lr70e
+3226	2014-12-09	dinindu.senanayake@vuw.ac.nz	sphingolipids;lysosomal storage	130.195.205.50	http://phenolyzer.usc.edu/done/3226/pf7iYxtBk9ZPydyr
+3225	2014-12-09	dinindu.senanayake@vuw.ac.nz	sphingolipids;lysosomal storage	130.195.205.50	http://phenolyzer.usc.edu/done/3225/AJGwV9CDjiF64Op_
+3224	2014-12-09	akham@umn.edu	all_diseases	134.84.196.20	http://phenolyzer.usc.edu/done/3224/uLvRVhbgMbzFxe2b
+3223	2014-12-09	akham@umn.edu	squamous cell carcinoma of the head and neck squamous cell carcinoma head and neck somatic;cancers;carcinoma squamous cell	134.84.196.20	http://phenolyzer.usc.edu/done/3223/nV0dJt0mCwQe1y44
+3222	2014-12-09	anu.reigo@ut.ee	diabetes	193.40.12.10	http://phenolyzer.usc.edu/done/3222/pLb_wD6q0lb9IXiE
+3221	2014-12-09	anu.reigo@ut.ee	diabetes;obesity;waist	193.40.12.10	http://phenolyzer.usc.edu/done/3221/UKWbBvaO7Ewo0wRG
+3220	2014-12-09	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3220/OQ7BkhBevMKRKoHu
+3219	2014-12-09	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3219/4IoP6bKGg03hMJwm
+3218	2014-12-09	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3218/0L0dVA_JEjb_OqVB
+3217	2014-12-09	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3217/wroiGIKnW1ekyWPw
+3216	2014-12-09	anu.reigo@ut.ee	diabetes	193.40.12.10	http://phenolyzer.usc.edu/done/3216/CWLO_nSJqxL_b7VO
+3215	2014-12-09	dinindu.senanayake@vuw.ac.nz	sphingolipids;lysosomal storage	130.195.205.50	http://phenolyzer.usc.edu/done/3215/d9qn1d8ffurgYpbE
+3214	2014-12-09	dinindu.senanayake@vuw.ac.nz	sphingolipids;lysosomal storage	130.195.205.50	http://phenolyzer.usc.edu/done/3214/mn2UB1ZWkSwN-y7g
+3213	2014-12-08	anu.reigo@ut.ee	retinopathy;labyrinthitis;obesity;weight gain;vertigo;microvascular	193.40.12.10	http://phenolyzer.usc.edu/done/3213/HVfZOW_tBlgfFfhN
+3212	2014-12-08	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3212/GcuvvlR5R-UbvNVN
+3211	2014-12-08	tsviya.olender@weizmann.ac.il	anosmia isolated congenital	132.76.50.6	http://phenolyzer.usc.edu/done/3211/MOfjkf6PnTjkOaLp
+3210	2014-12-08	midnight78911@gmail.com	sphingolipids	111.69.102.236	http://phenolyzer.usc.edu/done/3210/k46KCOpVwB1xJnjS
+3209	2014-12-08	carsweshau@gmail.com	sphingolipids;cholesterol;cystinosis	111.69.102.236	http://phenolyzer.usc.edu/done/3209/uAE2R3yepBb_lfjR
+3207	2014-12-08	NA	mental retardation;autistic disorder autism spectrum disorder;brain	NA	http://phenolyzer.usc.edu/done/3207/awMGJaOY4AvKaytf
+3206	2014-12-07	dinindu.senanayake@vuw.ac.nz	niemann pick disease	130.195.249.120	http://phenolyzer.usc.edu/done/3206/u2HRELVHuhcNI90L
+3205	2014-12-07	NA	thyroid cancer;thyroid papillary carcinoma	NA	http://phenolyzer.usc.edu/done/3205/O5Ohpv4D3BhGhM5s
+3204	2014-12-07	NA	intestinal disease;intestinal lymphangiectasia;diarrhea	NA	http://phenolyzer.usc.edu/done/3204/vMra71K43cnMM6vO
+3203	2014-12-07	NA	intestinal disease;intestinal lymphangiectasia;diarrhea	NA	http://phenolyzer.usc.edu/done/3203/MVLeEx4WIW6Q5TLA
+3202	2014-12-07	NA	intestinal disease;intestinal lymphangiectasia;diarrhea	NA	http://phenolyzer.usc.edu/done/3202/nKUYGUtFM_5eLwTg
+3201	2014-12-06	NA	breath holding spells	NA	http://phenolyzer.usc.edu/done/3201/nSC2IMYnib5oV01K
+3200	2014-12-06	NA	breath holding spells	NA	http://phenolyzer.usc.edu/done/3200/Usd09fm9eh58MMjG
+3198	2014-12-05	NA	primary familial brain calcification	NA	http://phenolyzer.usc.edu/done/3198/ZvVSCF1RY9wvbGUP
+3197	2014-12-05	schahl.kimberly@mayo.edu	intrauterine growth retardation	129.176.151.24	http://phenolyzer.usc.edu/done/3197/7IrkIeg2GDbwLFhB
+3196	2014-12-05	schahl.kimberly@mayo.edu	amblyopia	129.176.151.24	http://phenolyzer.usc.edu/done/3196/FgJEdu33EKeB7z2O
+3195	2014-12-05	schahl.kimberly@mayo.edu	esotropia	129.176.151.24	http://phenolyzer.usc.edu/done/3195/ysMpPIflRHcncpzz
+3194	2014-12-05	schahl.kimberly@mayo.edu	axial hypotonia	129.176.151.24	http://phenolyzer.usc.edu/done/3194/6EkrWa08NH_x9T1A
+3193	2014-12-05	schahl.kimberly@mayo.edu	ophthalmoplegia	129.176.151.24	http://phenolyzer.usc.edu/done/3193/hnOcLMvv_PXAuo0g
+3192	2014-12-05	schahl.kimberly@mayo.edu	diabetes insipidus	129.176.151.24	http://phenolyzer.usc.edu/done/3192/hKgbJKa6GCufSLnS
+3191	2014-12-05	schahl.kimberly@mayo.edu	hartsfield syndrome	129.176.151.24	http://phenolyzer.usc.edu/done/3191/BVC1my9QhwdXUw7r
+3190	2014-12-05	schahl.kimberly@mayo.edu	developmental delay	129.176.151.24	http://phenolyzer.usc.edu/done/3190/cjqbly_401qQ8A3F
+3189	2014-12-05	schahl.kimberly@mayo.edu	cleft palate	129.176.151.24	http://phenolyzer.usc.edu/done/3189/WgIHy5mgS_gtoRqU
+3188	2014-12-05	schahl.kimberly@mayo.edu	cleft lip	129.176.151.24	http://phenolyzer.usc.edu/done/3188/O2K-VaP9bkArVSZU
+3187	2014-12-05	schahl.kimberly@mayo.edu	ectrodactyly	129.176.151.24	http://phenolyzer.usc.edu/done/3187/7d65ESreb2UCHlIk
+3186	2014-12-05	schahl.kimberly@mayo.edu	holoprosencephaly	129.176.151.24	http://phenolyzer.usc.edu/done/3186/aewKt8bjOoW8Smw2
+3185	2014-12-05	schahl.kimberly@mayo.edu	dysmorphic facial features	129.176.151.24	http://phenolyzer.usc.edu/done/3185/qbDVHtMX6yJJGgDs
+3184	2014-12-05	schahl.kimberly@mayo.edu	ventricular septal defect	129.176.151.24	http://phenolyzer.usc.edu/done/3184/sucZ5cQnthHzZF5y
+3183	2014-12-05	schahl.kimberly@mayo.edu	bilateral cataracts	129.176.151.24	http://phenolyzer.usc.edu/done/3183/AryagyUHIu_DiD1h
+3182	2014-12-05	schahl.kimberly@mayo.edu	cerebral hemorrhage	129.176.151.24	http://phenolyzer.usc.edu/done/3182/AOqNqcf2JuAvFtba
+3181	2014-12-05	schahl.kimberly@mayo.edu	dilated cardiomyopathy	129.176.151.24	http://phenolyzer.usc.edu/done/3181/vusnzof7h93sqHrI
+3180	2014-12-05	schahl.kimberly@mayo.edu	arteriovenous malformation	129.176.151.24	http://phenolyzer.usc.edu/done/3180/dDAYeNzACH7OwJuR
+3179	2014-12-05	schahl.kimberly@mayo.edu	arteriovenous fistula	129.176.151.24	http://phenolyzer.usc.edu/done/3179/us5toUmu2Bj8EZ94
+3178	2014-12-05	schahl.kimberly@mayo.edu	restrictive cardiomyopathy	129.176.151.24	http://phenolyzer.usc.edu/done/3178/JCRIDgsDfkrRutBI
+3177	2014-12-05	schahl.kimberly@mayo.edu	joint hypermobility	129.176.151.24	http://phenolyzer.usc.edu/done/3177/DvpsZ7nmnGIC2Ocl
+3176	2014-12-05	j.seggewiss@wwu.de	breast cancer	128.176.137.31	http://phenolyzer.usc.edu/done/3176/dNovsdE7OjYncaQk
+3175	2014-12-05	NA	brain,glioma	NA	http://phenolyzer.usc.edu/done/3175/uz_R_jEIe-XopkQ7
+3174	2014-12-04	NA	fahr syndrome;fahrs syndrome	NA	http://phenolyzer.usc.edu/done/3174/rpdCU_qSmhHklNSM
+3173	2014-12-04	dinindu.senanayake@vuw.ac.nz	lipids;lysosomal storage disease;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3173/3_q_WpHlf9Uq_oF0
+3172	2014-12-04	dinindu.senanayake@vuw.ac.nz	lysosomal storage disease;cholesterol	130.195.205.50	http://phenolyzer.usc.edu/done/3172/HujUFfFVnOi7VLs6
+3171	2014-12-04	dinindu.senanayake@vuw.ac.nz	lysosomal storage disease	130.195.205.50	http://phenolyzer.usc.edu/done/3171/MnF-vSDP89P9HbPa
+3170	2014-12-04	schahl.kimberly@mayo.edu	atrial septal defect	129.176.151.24	http://phenolyzer.usc.edu/done/3170/53tGk_34cqNcdMDv
+3169	2014-12-04	schahl.kimberly@mayo.edu	ophthalmoplegia;developmental delay;axial hypotonia;esotropia;amblyopia;intrauterine growth retardation	129.176.151.24	http://phenolyzer.usc.edu/done/3169/bSfyHSL_h5pZNByp
+3168	2014-12-04	schahl.kimberly@mayo.edu	holoprosencephaly;ectrodactyly;cleft lip;cleft palate;developmental delay;hartsfield syndrome;diabetes insipidus	129.176.151.24	http://phenolyzer.usc.edu/done/3168/s8bz6MDOV_pcJOY5
+3167	2014-12-04	schahl.kimberly@mayo.edu	dilated cardiomyopathy;intraventricular hemorrhage;cataracts;atrial septal defect;ventricular septal defect;dysmorphic facial features	129.176.151.24	http://phenolyzer.usc.edu/done/3167/-X6MTL2t7JzBAndc
+3166	2014-12-04	anu.reigo@ut.ee	type 2 diabetes	193.40.12.10	http://phenolyzer.usc.edu/done/3166/Z4EuUQKRQ0JIoL_m
+3165	2014-12-04	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3165/RgdH3-50-vLVKzYz
+3164	2014-12-04	anu.reigo@ut.ee	t2d	193.40.12.10	http://phenolyzer.usc.edu/done/3164/GtXajDH_2X5PEesy
+3163	2014-12-03	dinindu.senanayake@vuw.ac.nz	niemann pick	130.195.205.50	http://phenolyzer.usc.edu/done/3163/LGKouGH6mN_cKkTo
+3162	2014-12-03	NA	schizophrenia	128.125.248.135	http://phenolyzer.usc.edu/done/3162/z-qeowVUk8_0i3wy
+3161	2014-12-03	liucijabik@gmail.com	developmental delay;dysmorphism;skeletal abnormalities	78.60.68.73	http://phenolyzer.usc.edu/done/3161/01jkOOT7OpKH606A
+3160	2014-12-03	NA	hemoglobin	NA	http://phenolyzer.usc.edu/done/3160/arybkyEUsN5YHrJ1
+3159	2014-12-03	schahl.kimberly@mayo.edu	holoprosencephaly;ectrodactyly;cleft lip;cleft palate;developmental delay;diabetes insipidus	129.176.151.24	http://phenolyzer.usc.edu/done/3159/FWxPzBXK6OQiTyN7
+3158	2014-12-03	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3158/49gPdnB5JWtetBYj
+3157	2014-12-03	anu.reigo@ut.ee	adenocarcinoma of lung	193.40.12.10	http://phenolyzer.usc.edu/done/3157/ON1TFN7in3R8p9KK
+3156	2014-12-03	anu.reigo@ut.ee	lung	193.40.12.10	http://phenolyzer.usc.edu/done/3156/9jF093RB6cQXBciG
+3155	2014-12-03	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3155/RHwh10vCDlQnjtPc
+3154	2014-12-03	anu.reigo@ut.ee	all_diseases	193.40.12.10	http://phenolyzer.usc.edu/done/3154/HJBmUOWweAT3YeBo
+3150	2014-12-02	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3150/m87qR8vid3TY5tJZ
+3149	2014-12-02	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3149/5XOZ46koT0pzIqcd
+3148	2014-12-02	NA	breast cancer	NA	http://phenolyzer.usc.edu/done/3148/rBtVqljqVT-QaNVW
 3147	2014-12-02	gz-bixin@kingmed.com.cn	myodystrophy	58.61.218.58	http://phenolyzer.usc.edu/done/3147/2gf3kMD6k56r3HYU
 3146	2014-12-02	NA	myopathies	NA	http://phenolyzer.usc.edu/done/3146/32fpTXhAPWtVC9u1
 3145	2014-12-02	anu.reigo@ut.ee	diabetes type 2;diabetes mellitus type 2;diabetes complications;diabetes mellitus noninsulin dependent;diabetes;diabetes gestational;diabetes	193.40.12.10	http://phenolyzer.usc.edu/done/3145/qKFUB8B9gT8yEtq6

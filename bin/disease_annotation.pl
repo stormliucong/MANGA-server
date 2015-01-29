@@ -46,11 +46,11 @@ $man and pod2usage (-verbose=>2, -exitval=>1, -output=>\*STDOUT);
 if($if_logistic_regression)
 {
 print STDERR "NOTICE: The logistic regression model was used!!!\n";
-$GENE_DISEASE_WEIGHT = 8.8071273;	
-$HPRD_WEIGHT = 0.5408658; 
-$BIOSYSTEM_WEIGHT   = 0.2211757 ;
-$GENE_FAMILY_WEIGHT = 0.2597622 ;
-$HTRI_WEIGHT        = 3.0041348 ; 	
+$GENE_DISEASE_WEIGHT =  9.5331966;	
+$HPRD_WEIGHT = 0.8335866; 
+$BIOSYSTEM_WEIGHT   = 0.1755904 ;
+$GENE_FAMILY_WEIGHT = 0.3561601 ;
+$HTRI_WEIGHT        = 4.1003533 ; 	
 }
 $GENE_DISEASE_WEIGHT = 1.0 unless (defined $GENE_DISEASE_WEIGHT);
 $HPRD_WEIGHT = 0.1 unless (defined $HPRD_WEIGHT);
@@ -78,7 +78,7 @@ output_gene_prioritization();
 #-----------------------------------------Subroutines---------------------------------------------
 sub output_gene_prioritization{                        #The main sub to output prioritized genelist
 my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
-@disease_input <=50 or die "Too many terms!!! No more than 200 terms are accepted!!!";  
+@disease_input <=1000 or die "Too many terms!!! No more than 1000 terms are accepted!!!";  
 
 #------------------------------------Process each individual term first -------------------------------------
 for my $individual_term(@disease_input)
@@ -116,10 +116,11 @@ for my $individual_term(@disease_input)
        	    }
        }
        my %seen;
-       my %disease_score_hash;
+       my ($hash, %disease_score_hash, @hpo_ids);
        if ($is_phenotype)
        {
-          %disease_score_hash = phenotype_extension($individual_term);
+          ($hash, @hpo_ids)= phenotype_extension($individual_term);
+          %disease_score_hash = %$hash;
           for (@diseases)
           {
           my $disease_key = lc $_;
@@ -132,9 +133,16 @@ for my $individual_term(@disease_input)
           my $disease_score = join ("\t", ($disease_score_hash{$_}[1], $disease_score_hash{$_}[0]) );
           push (@diseases, lc $disease_score);
           }
+          
        } 
        
        $individual_term=~s/\W+/_/g;          #The non-word characters are changed into '_'
+       if(@hpo_ids)
+       {
+       open(OUT_PHENOTYPE, ">$out"."_$individual_term"."_hpo") or die;
+       print OUT_PHENOTYPE $_."\n" for @hpo_ids;
+       close(OUT_PHENOTYPE);  
+       }
        open (OUT_DISEASE,">$out"."_$individual_term"."_diseases") or die;
        for (keys %disease_hash) {
        my @lines=split("\n", $disease_hash{$_});
@@ -276,11 +284,11 @@ print STDERR "------------------------------------------------------------------
         {
         open (ANNOTATED,">$out.annotated_gene_scores") ;
         open (ANNOTATED_GENE_LIST, ">$out.annotated_gene_list");
-        print ANNOTATED_GENE_LIST join("\t", qw(Rank Gene ID Score))."\n";
+        print ANNOTATED_GENE_LIST join("\t", qw(Rank Gene ID Score Status))."\n";
         }
 	    open (PREDICTED, ">$out.predicted_gene_scores");
 	    open (GENE_LIST,">$out.final_gene_list");
-	    print GENE_LIST join("\t", qw(Rank Gene ID Score))."\n";
+	    print GENE_LIST join("\t", qw(Rank Gene ID Score Status))."\n";
 	      print  PREDICTED   "Tuple number in the gene_disease databse for all the terms: $count \n"; 
 	      print  ANNOTATED   "Tuple number in the gene_disease databse for all the terms: $count \n"
 	      if %gene_hash; 
@@ -318,8 +326,9 @@ print STDERR "------------------------------------------------------------------
                    if ($gene_hash{$gene});
                    #Normalize score for the genelist
                    $normalized_score = sprintf('%.4g', $normalized_score);
-                   print GENE_LIST $rank."\t".$gene."\t".$gene_id{$gene}."\t".$normalized_score."\n";
-                   print ANNOTATED_GENE_LIST ++$annotated_rank."\t".$gene."\t".$gene_id{$gene}."\t".$normalized_score."\n"
+                   print GENE_LIST $rank."\t".$gene."\t".$gene_id{$gene}."\t".$normalized_score."\t".$status."\n";
+                   print ANNOTATED_GENE_LIST ++$annotated_rank."\t".$gene."\t".$gene_id{$gene}."\t"
+                   .$normalized_score."\t".$status."\n"
                    if ($gene_hash{$gene});
             }  
             close (PREDICTED);
@@ -384,7 +393,7 @@ sub disease_extension{                           #Input some disease terms and r
 			my $query_term = $input_term;
 			   $query_term =~ s/\bs\b//g;
 			   $query_term =~ s/\W+/ /g;       
-			if($disease_key=~/\b$query_term\b/i or ($query_term eq $id_num and $id_source eq "OMIM"))               #If the term matches
+			if($disease_key=~/\b$query_term\b/i or ($id_num and $query_term eq $id_num and $id_source eq "OMIM"))               #If the term matches
 			{  
 				#If exact match
 				next if($if_exact_match and $disease_key !~ /(^|;)$query_term($|;)/i);   
@@ -486,6 +495,7 @@ sub phenotype_extension{
 	my $input_term = $_[0];
 	   $input_term =~s/[\W_]+/ /g;
 	my %disease_hash;
+	my @hpo_ids;
 	#  %disease_hash( "disease_name_key" => [score, original_disease_name] )
 	if( -f "$work_path/ontology_search.pl" )
 	{
@@ -497,7 +507,7 @@ sub phenotype_extension{
     open (OMIM_DESCRIPTION, "$path/$omim_description_file") or die "ERROR: Can't open $omim_description_file!!! \n";
     
     my $line = `perl $work_path/ontology_search.pl -o $path/hpo.obo -format id -p '$input_term' 2>/dev/null`;
-    my @hpo_ids = split("\n", $line);
+       @hpo_ids = split("\n", $line);
     my @hpo_annotation = <HPO_ANNOTATION>;
     shift @hpo_annotation;
     @hpo_ids = sort @hpo_ids;
@@ -577,8 +587,8 @@ sub phenotype_extension{
     	      }
 	}
 	
+	return (\%disease_hash,@hpo_ids);
 	
-	return %disease_hash;
 }
 
 sub score_genes{                                 #Input the disease list and return all the genes and item count
@@ -630,7 +640,7 @@ sub score_genes{                                 #Input the disease list and ret
     		$inference_score = 1.0 if (not $inference_score);
     		my @genes = split(",",$words[0]);
     		my $gene = $genes[0];
-    		$GENE_WEIGHT{$words[4]}= $addon_gene_disease_weight if (not $GENE_WEIGHT{$words[4]});
+    		$GENE_WEIGHT{$words[4]}= $addon_gene_disease_weight if (not defined $GENE_WEIGHT{$words[4]});
     		my $score = $words[3]*$inference_score*$GENE_WEIGHT{$words[4]};
             
     		if($score!=0)
@@ -739,7 +749,7 @@ sub score_all_genes{                              #GENE	DISEASE	DISEASE_ID	SCORE
         next if (not $gene);
     	if($i==0){$i++;next;}
     		$count++;
-    		$GENE_WEIGHT{$source}= $addon_gene_disease_weight if (not $GENE_WEIGHT{$source});
+    		$GENE_WEIGHT{$source}= $addon_gene_disease_weight if (not defined $GENE_WEIGHT{$source});
     		$score *= $GENE_WEIGHT{$source};
     		
     		if($score!=0 )      

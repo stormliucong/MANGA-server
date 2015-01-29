@@ -3,7 +3,8 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
    });      
      $('.selectpicker').selectpicker('refresh');
      $("[data-toggle='popover']").popover({container: 'body',
-   	  trigger: 'focus'
+    	 trigger: 'click',
+	   	 html:true
    	  });
      $('#addon_seed').selectpicker('selectAll');
      

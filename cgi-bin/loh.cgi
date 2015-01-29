@@ -62,6 +62,8 @@ my $addons = join(',', @addons);
 my @addons_seed = $q->param("addon_seed");
 my $addons_seed = join(',', @addons_seed);
 $options eq "all_diseases" or $disease!~/^\W*$/  or die "No disease input is detected!!! $options";
+my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $disease);
+           
 
 GenomicsServer::verifyEmail($email,$q);
 GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
@@ -77,14 +79,20 @@ my $password = $RANDOM_PASS;
 my $warning_message = '';
 my $weblink;
 my ($total_disease_num,$legal_disease_num,$total_gene_num,$legal_gene_num)=(0,0,0,0);
+    $total_disease_num=@disease_list;
 
 writeInfoFile ();
+if($total_disease_num>200)
+{
+	$warning_message .= 'Too many disease input!!';
+}
 generateFeedback ($q, $submission_id, $password, $warning_message);
 
 #GenomicsServer::executeProgram ("$CGI_DIRECTORY/serve_loh.pl -id $submission_id 2> $WORK_DIRECTORY/$submission_id/error_log");
-
+if($warning_message eq '')
+{
 GenomicsServer::executeProgram("perl $CGI_DIRECTORY/serve_loh.pl 2> $WORK_DIRECTORY/serve_loh_error_log") ;
-
+}
 sub writeInfoFile {
 	
 	if($bedfile){
@@ -109,8 +117,6 @@ sub writeInfoFile {
         my @genelist;
         if (defined $disease) {
         	open (DISEASES, ">$WORK_DIRECTORY/$submission_id/disease_list.txt") or die "Error: cannot write to user phenotype file: $!\n";
-        	my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $disease);
-            $total_disease_num=@disease_list;
         	$legal_disease_num=0;
         	for my $individual_term(@disease_list){
         	if($individual_term=~/^\W*$/){next;}
@@ -169,6 +175,7 @@ sub writeInfoFile {
         {
         	print INFO "addon_seed=$addons_seed\n";
         }
+        if($warning_message ne '') { system("rm -rf $WORK_DIRECTORY/$SUBMISSION_ID"); }
         close (INFO);
 }
 
@@ -184,9 +191,12 @@ open(TEMPLATE,"$HTML_DIRECTORY/$template_file");
 my $replace_message=();
 $replace_message.=qq|<h3 class="page-header text-primary"> Submission $SUBMISSION_ID </h3>|;
 $replace_message.=$q->p ("Your submission ID <b>$SUBMISSION_ID</b> has been received by us at <b>$submission_time</b>.");
+if($total_disease_num>0 and $total_disease_num<200)
+{
 $replace_message.=$q->p (qq#The results will be generated at<br><br> <a href="$weblink"><b>$weblink</b></a> <br>#);
 $replace_message.=$q->p ("You entered <b>$legal_disease_num</b> disease terms\n");
 $replace_message.=$q->p ("You entered <b>$legal_gene_num</b> gene terms\n");
+}
 $replace_message.= $q->p ($warning_message);
 
 for my $line (<TEMPLATE>){

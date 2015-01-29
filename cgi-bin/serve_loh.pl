@@ -205,7 +205,7 @@ sub processSubmission {
     $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>| if($effective_term_num);
 	if($info{"all_diseases"} ne "yes")
 	{
-	$summary_message.=qq|<li class="list-group-item">$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
+	$summary_message.=qq|<li class="list-group-item">$info{legal_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
 	$summary_message.=qq|<li class="list-group-item">They are: | if($effective_term_num);
 	for (@effective_term){
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n|;
@@ -231,14 +231,14 @@ sub processSubmission {
 	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
     }
     else{
-    	$summary_message.=qq|<li class="list-group-item">Sorry, there is no gene found within your list/region. |  
+    	$summary_message.=qq|<li class="list-group-item">Sorry, there is no available result. |  
     	if($info{"gene_file"} or $info{"bedfile"}) ; 
     	
     }
     if(-s "out.variant_prioritization")
     {
-    	$summary_message.=qq|<li class="list-group-item">The prioritized CNVs could be found |;
-	    $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.variant_prioritization" ><b><u>Here</u></b></a>.<hr>\n|;	
+    	$summary_message.=qq|<li class="list-group-item">The prioritized <b class="text-info">CNVs</b> could be found |;
+	    $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.variant_prioritization" ><b><u>Here</u></b></a>\n|;	
     }
 	
 	if($effective_term_num)

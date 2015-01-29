@@ -1,0 +1,2 @@
+perl disease_annotation.pl 'type 1 diabetes' -d ../lib/compiled_database/ -p -ph -out ./type_1_diabetes_train_weight_1/
+out -hprd 1 -biosystem 1 -gene_family 1 -htri 1

@@ -1,0 +1,12 @@
+
+
+
+
+
+NOTICE: time=Wed Jan 28 22:42:23 2015 command=control_loh.pl
+********************************************************************************
+WARNING: submissions from 1 to 3564 have NOT been processed!
+Pressing Ctrl+C then running 'control_annovar.pl.pl 1-3564' will solve this probem!
+********************************************************************************
+old_submission_id = 3564 ...
+wait 100 seconds before checking again ...
