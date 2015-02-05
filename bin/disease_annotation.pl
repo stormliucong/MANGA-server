@@ -181,7 +181,7 @@ for my $individual_term(@disease_input)
 
        for my $gene(sort{ $output{$b}[0] <=> $output{$a}[0] }keys %output){
 	   my $p=$output{$gene}[0]/$count;                    #The probability of the gene when the disease is given
-	   print OUT_GENE_SCORE $gene."\t"."Normalized score: $p\n".$output{$gene}[1]."\n";
+	   print OUT_GENE_SCORE $gene."\t"."Normalized score: $p\tRaw Score: $output{$gene}[0]\n".$output{$gene}[1]."\n";
                                                                           }
        print STDERR "------------------------------------------------------------------------ \n";
         }
@@ -196,7 +196,7 @@ else{
        print OUT_GENE_SCORE "Tuple number in the gene_disease database for the term $individual_term: $count\n";
        for my $gene(sort{ $output{$b}[0] <=> $output{$a}[0] }keys %output){
 	       my $p=$output{$gene}[0]/$count;                    #The probability of the gene when the disease is given
-	       print OUT_GENE_SCORE $gene."\t"."Normalized score: $p\n".$output{$gene}[1]."\n";
+	       print OUT_GENE_SCORE $gene."\t"."Normalized score: $p\tRaw Score: $output{$gene}[0]\n".$output{$gene}[1]."\n";
                                                                            }
 print STDERR "------------------------------------------------------------------------ \n";
      }	
@@ -321,8 +321,8 @@ print STDERR "------------------------------------------------------------------
                    my ($score, $content) = ($predicted_output{$gene}[0], $predicted_output{$gene}[1]);
                  
                    my $normalized_score = $predicted_output{$gene}[0]/$max_score;
-                   print PREDICTED $gene."\t"."ID:$gene_id{$gene} - $status\t".$score."\n".$content."\n";
-                   print ANNOTATED $gene."\tID:$gene_id{$gene} $gene_hash{$gene} $status"."\t".$score."\n".$content."\n"
+                   print PREDICTED $gene."\t"."ID:$gene_id{$gene} - $status\t".$score."\tNormalized score: $normalized_score\n".$content."\n";
+                   print ANNOTATED $gene."\tID:$gene_id{$gene} $gene_hash{$gene} $status"."\t".$score."\tNormalized score: $normalized_score\n".$content."\n"
                    if ($gene_hash{$gene});
                    #Normalize score for the genelist
                    $normalized_score = sprintf('%.4g', $normalized_score);
@@ -689,7 +689,7 @@ sub merge_result{                                #Merge gene_scores for each ter
 				chomp($line);
 				if($i==0)
 				{
-					$line=~/: (\d+)$/;
+					$line=~/: (\d+)/;
 					$individual_count = $1;
 					$count+=$1;
 					$i++;

@@ -1,4 +1,51 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+3623	2015-02-04	NA	osteogenesis imperfecta	NA	http://phenolyzer.usc.edu/done/3623/gDqPjnuJUP38j9u9
+3622	2015-02-03	babaref@yahoo.com	mental retardation autosomal recessive 43	194.225.5.221	http://phenolyzer.usc.edu/done/3622/zmXXS0AerrBOoNgy
+3621	2015-02-03	NA	cancer	NA	http://phenolyzer.usc.edu/done/3621/lZnnEG2BVxrzTaV5
+3613	2015-02-02	NA	retinal degeneration	NA	http://phenolyzer.usc.edu/done/3613/EKo7n69svbEoW6EG
+3612	2015-02-02	NA	retinal diseases	NA	http://phenolyzer.usc.edu/done/3612/B74JAEp97H6oNg4W
+3611	2015-02-02	NA	retinal diseases	NA	http://phenolyzer.usc.edu/done/3611/r-g2ZuNjGnsV9ZcT
+3610	2015-02-02	NA	retinal diseases	NA	http://phenolyzer.usc.edu/done/3610/YAB-42LvTHOW4oi4
+3609	2015-02-02	NA	deaf	NA	http://phenolyzer.usc.edu/done/3609/YjCrQTQGwdwVp8GQ
+3608	2015-02-02	NA	deaf	NA	http://phenolyzer.usc.edu/done/3608/qzpxi4nHEJWrJA6K
+3607	2015-02-02	NA	deaf	NA	http://phenolyzer.usc.edu/done/3607/31QxAYfTeRXwf2s8
+3602	2015-02-02	lelimaufc@gmail.com	adhd;brain;neurodevelopmental	159.14.241.250	http://phenolyzer.usc.edu/done/3602/Uxs3HyOiOY2jlpp9
+3601	2015-02-02	farahz@cfri.ca	hereditary sensory and autonomic neuropathy	142.103.200.96	http://phenolyzer.usc.edu/done/3601/i--og9Nak0ljQJOg
+3600	2015-02-02	NA	breast cancer;ovarian cancer;hereditary;brca1;brca2	NA	http://phenolyzer.usc.edu/done/3600/5SCnhkV47ScLBEoz
+3599	2015-02-02	NA	breast cancer;ovarian cancer;hereditary;brca1;brca2	NA	http://phenolyzer.usc.edu/done/3599/axEcI1IQbDmQks3A
+3598	2015-02-02	NA	breast cancer;ovarian cancer;hereditary;brca1;brca2	NA	http://phenolyzer.usc.edu/done/3598/zmj1c9FqWqzKwQaE
+3597	2015-02-02	NA	prostate cancer	NA	http://phenolyzer.usc.edu/done/3597/RGMT9loUbO4sn_Ci
+3596	2015-02-02	NA	prostate cancer	NA	http://phenolyzer.usc.edu/done/3596/ZEbBdK7Ffqfzq9b8
+3595	2015-02-02	NA	retinal degeneration	NA	http://phenolyzer.usc.edu/done/3595/LxxG050yaUyLuKSk
+3594	2015-02-02	NA	retinal diseases	NA	http://phenolyzer.usc.edu/done/3594/9WOLYfoHjuTkHfiK
+3593	2015-01-30	wlwang1116@gmail.com	amilial;thrombocytopenia;hematologic;malignancy	104.32.150.202	http://phenolyzer.usc.edu/done/3593/EccrKj_LVzr594uh
+3592	2015-01-30	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3592/hXFCfVQkI_kkvGft
+3591	2015-01-30	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3591/BVdDJDFdktJeHgFG
+3590	2015-01-30	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3590/uwdSwWBhyiJhV1uO
+3589	2015-01-30	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3589/zIyf9qPZ5aUsht63
+3588	2015-01-30	ibrahimakalin@yahoo.com	diabetes mellitus;schizophrenia	176.219.164.203	http://phenolyzer.usc.edu/done/3588/zGBx6tNXJfHXoJjR
+3587	2015-01-30	ibrahimakalin@yahoo.com	schizophrenia;diabetus mellitus	176.219.164.203	http://phenolyzer.usc.edu/done/3587/KELifB-fcwNrDYXI
+3586	2015-01-30	NA	epilepsy;microcephaly	NA	http://phenolyzer.usc.edu/done/3586/Tf_zM0uhTJ3vfYdM
+3585	2015-01-30	NA	brca1;2;hereditary breast and ovarian cancer	NA	http://phenolyzer.usc.edu/done/3585/ngPU8bv2sRMeRKVE
+3584	2015-01-30	NA	breast cancer;ovarian cancer;brca1;2;hereditary	NA	http://phenolyzer.usc.edu/done/3584/qCdgEt2N4raaes7p
+3583	2015-01-29	NA	movement disorders	NA	http://phenolyzer.usc.edu/done/3583/DQe3jyLgnFPYJ2o4
+3582	2015-01-29	NA	movement disorders	NA	http://phenolyzer.usc.edu/done/3582/SmUHIfVkVCVfQZ9q
+3581	2015-01-29	chenlong_he@sina.com	deafness;epilepsy;developmental delay in early childhood	58.61.218.58	http://phenolyzer.usc.edu/done/3581/SSInulrELGwC1lok
+3580	2015-01-29	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3580/ihR0PnBizpN8ed9s
+3579	2015-01-29	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3579/DXoOIGQeWFLgd0YU
+3578	2015-01-29	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3578/cgcU5_MYyT3KaZaO
+3577	2015-01-29	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3577/10kqUJ4pYBubtozW
+3576	2015-01-29	NA	cleft palate	NA	http://phenolyzer.usc.edu/done/3576/Xdu32acWkGLdJGjE
+3575	2015-01-29	c.bouwkamp@erasmusmc.nl	autism	95.96.104.197	http://phenolyzer.usc.edu/done/3575/nnajIrHvdoBf3-pa
+3574	2015-01-29	c.bouwkamp@erasmusmc.nl	autism	95.96.104.197	http://phenolyzer.usc.edu/done/3574/0K4LyZbDU5Bjpwyy
+3573	2015-01-29	c.bouwkamp@erasmusmc.nl	autism	95.96.104.197	http://phenolyzer.usc.edu/done/3573/oiIm5jOFj9tu_uCM
+3572	2015-01-29	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3572/jZ4GR1X9QnXS9_Lh
+3571	2015-01-29	NA	autism spectrum disorder;autism	NA	http://phenolyzer.usc.edu/done/3571/yG_wqXICUINFVepw
+3570	2015-01-29	NA	autism spectrum disorder;autism	NA	http://phenolyzer.usc.edu/done/3570/hNcXdEVJkI_ULmgV
+3569	2015-01-29	NA	autism spectrum disorder;autism	NA	http://phenolyzer.usc.edu/done/3569/vaYDDGTBcXsuWdPK
+3568	2015-01-29	NA	autism spectrum disorder;autism	NA	http://phenolyzer.usc.edu/done/3568/6WxOx_BHFDaNS6kq
+3567	2015-01-29	c.bouwkamp@erasmusmc.nl	schizophrenia;bipolar disorder;autism	156.83.1.2	http://phenolyzer.usc.edu/done/3567/WMpAVCEbnUgaJfi9
+3565	2015-01-29	NA	colorectal cancer	NA	http://phenolyzer.usc.edu/done/3565/R2eBW07PApJRz2rx
 3562	2015-01-28	NA	mullerian;mullerian aplasia	NA	http://phenolyzer.usc.edu/done/3562/GGjW4ymSm9K2fFtP
 3561	2015-01-28	hollieandcarson@yahoo.com	dce;dce	73.177.2.209	http://phenolyzer.usc.edu/done/3561/u2MeC5VWj1lVFewv
 3560	2015-01-28	d.mei@meyer.it	landau kleffner syndrome;rolandic epilepsy mental retardation and speech dyspraxia autosomal dominant;rolandic;epilepsy mental retardation and speech dyspraxia x linked;rolandic epilepsy speech dyspraxia;rolandic epilepsy mental retardation and speech dyspraxia	159.213.45.242	http://phenolyzer.usc.edu/done/3560/m5-gvEYhv4g3ZT-R

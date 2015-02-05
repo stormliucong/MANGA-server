@@ -209,6 +209,7 @@ sub processSubmission {
 	$summary_message.=qq|<li class="list-group-item">They are: | if($effective_term_num);
 	for (@effective_term){
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n|;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_hpo" ><b>(HPO)</b></a>  \n| if (-s "out_${_}_hpo");
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><span class="label label-info"><b>WordCloud</b></span></a>| if($info{"wordcloud"})  ;
 	}
 	$summary_message.=qq|</li>|;
@@ -325,7 +326,7 @@ my $rank=1;
 			my $status_out = $status;
 			$status = "Reported" if ($status eq "SeedGene");
 			$score = sprintf("%.4g",$score);
-			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status_out</p><p>Score:$score</p></h3>";
+			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status_out</p><p>Raw Score:$score</p></h3>";
 			$gene_html{$gene}.=$line.qq|<div><p><span><a class = "outside $status" href="http://www.ncbi.nlm.nih.gov/gene/$id">$gene</a></span></p>|;
 		}
 	    else

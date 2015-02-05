@@ -82,10 +82,7 @@ my ($total_disease_num,$legal_disease_num,$total_gene_num,$legal_gene_num)=(0,0,
     $total_disease_num=@disease_list;
 
 writeInfoFile ();
-if($total_disease_num>200)
-{
-	$warning_message .= 'Too many disease input!!';
-}
+
 generateFeedback ($q, $submission_id, $password, $warning_message);
 
 #GenomicsServer::executeProgram ("$CGI_DIRECTORY/serve_loh.pl -id $submission_id 2> $WORK_DIRECTORY/$submission_id/error_log");
@@ -94,7 +91,7 @@ if($warning_message eq '')
 GenomicsServer::executeProgram("perl $CGI_DIRECTORY/serve_loh.pl 2> $WORK_DIRECTORY/serve_loh_error_log") ;
 }
 sub writeInfoFile {
-	
+	if($warning_message ne '') { system("rm -rf $WORK_DIRECTORY/$SUBMISSION_ID"); exit(1); }
 	if($bedfile){
 	my $orig_file = "$WORK_DIRECTORY/$submission_id/query.bed";
 	open (BED, ">$orig_file") or confess "Error: cannot write query_bed file: $!";
@@ -175,7 +172,7 @@ sub writeInfoFile {
         {
         	print INFO "addon_seed=$addons_seed\n";
         }
-        if($warning_message ne '') { system("rm -rf $WORK_DIRECTORY/$SUBMISSION_ID"); }
+       
         close (INFO);
 }
 
@@ -191,7 +188,7 @@ open(TEMPLATE,"$HTML_DIRECTORY/$template_file");
 my $replace_message=();
 $replace_message.=qq|<h3 class="page-header text-primary"> Submission $SUBMISSION_ID </h3>|;
 $replace_message.=$q->p ("Your submission ID <b>$SUBMISSION_ID</b> has been received by us at <b>$submission_time</b>.");
-if($total_disease_num>0 and $total_disease_num<200)
+if($total_disease_num>0 )
 {
 $replace_message.=$q->p (qq#The results will be generated at<br><br> <a href="$weblink"><b>$weblink</b></a> <br>#);
 $replace_message.=$q->p ("You entered <b>$legal_disease_num</b> disease terms\n");

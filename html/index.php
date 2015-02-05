@@ -226,7 +226,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
        title="Advanced Options",
        data-content="Phenotype interpretation: Interpret phenotype terms into disease names
 		          All diseases: All diseases in the gene disease database are used">
-       <span class="glyphicon glyphicon-th-list"></span></button>
+       <span class="glyphicon glyphicon-th-list"></span></button> 
 	   </div>
        </div> 
        
@@ -361,6 +361,13 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[02/05/2015]</strong></p>
+    		 <p> The Phenolyzer 1.0.4 is released.Now no R packages need to be installed by the user for the utility of command line wordcloud function. </p>
+    		 <p> The HPO terms corresponding to each term (if existing) are also available in the result!.</p>
+    		</div></div>  
+    		
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[11/25/2014]</strong></p>
