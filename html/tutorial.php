@@ -70,6 +70,8 @@
    
   <div class="container">
    <div class="col-md-offset-1">
+   <h3 id="mannual" class="page-header text-primary">Mannual</h3>
+   <p> A detailed mannual can be downloaded <a href="/download/Phenolyzer_manual.pdf">here</a>.</p>
 	<h3 id="QuickStart" class="page-header text-primary">Quick Start</h3>  
 	<p>Follow the instructions below: get to the homepage, enter the disease or phenotype, enter your email if you wannt to recevie 
 	 email for notification. Than submit!</p>

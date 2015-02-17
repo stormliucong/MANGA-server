@@ -26,7 +26,7 @@ if (defined $id) {
 } else {
 	my $subroutine = \&processSubmission;
 	
-	GenomicsServer::parallelProcessSubmission ($subroutine, 5, 5, 100);	#max simultaneous jobs=5, check status every 5 seconds, exit after 100 seconds
+	GenomicsServer::parallelProcessSubmission ($subroutine, 30, 5, 100);	#max simultaneous jobs=5, check status every 5 seconds, exit after 100 seconds
 	
 
 }
@@ -144,7 +144,7 @@ sub processSubmission {
 			@words=@words[0..4];
 			my @genes = split(",", $words[1]);
 			$words[0]=~/exonic/ or next;
-			my @scores = map {$gene_hash{$_};  } @genes; 
+			my @scores = map {$gene_hash{$_} or 0;  } @genes; 
 			my $key = join("\t",@words[2..4,1]);
 			$variant_out{$key} = max(@scores);
 		 
@@ -205,10 +205,11 @@ sub processSubmission {
     $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>| if($effective_term_num);
 	if($info{"all_diseases"} ne "yes")
 	{
-	$summary_message.=qq|<li class="list-group-item">$info{total_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
+	$summary_message.=qq|<li class="list-group-item">$info{legal_disease_num} disease terms have been entered, among which, $effective_term_num terms have corresponding records in our database.</li>\n|;
 	$summary_message.=qq|<li class="list-group-item">They are: | if($effective_term_num);
 	for (@effective_term){
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_diseases" ><b>$_</b></a>  \n|;
+	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_hpo" ><b>(HPO)</b></a>  \n| if (-s "out_${_}_hpo");
 	$summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out_${_}_wordcloud.png" ><span class="label label-info"><b>WordCloud</b></span></a>| if($info{"wordcloud"})  ;
 	}
 	$summary_message.=qq|</li>|;
@@ -217,8 +218,9 @@ sub processSubmission {
 	{
 	$summary_message.=qq|<li class="list-group-item">All the possible diseases in the gene_disease database will be considered.</li>\n|;	
 	}
-	
-	if(-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )
+	my @temp = split(/\s+/,`wc -l out.annotated_gene_scores`);
+	my $num = $temp[0];
+	if(-s 'out.annotated_gene_scores' and $num>1 )
 	{
 		   my $out_num = `wc -l out.annotated_gene_list`;
 		   $out_num =~ /(\d+)/;
@@ -230,14 +232,14 @@ sub processSubmission {
 	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_list" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
     }
     else{
-    	$summary_message.=qq|<li class="list-group-item">Sorry, there is no gene found within your list/region. |  
+    	$summary_message.=qq|<li class="list-group-item">Sorry, there is no available result. |  
     	if($info{"gene_file"} or $info{"bedfile"}) ; 
     	
     }
     if(-s "out.variant_prioritization")
     {
-    	$summary_message.=qq|<li class="list-group-item">The prioritized CNVs could be found |;
-	    $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.variant_prioritization" ><b><u>Here</u></b></a>.<hr>\n|;	
+    	$summary_message.=qq|<li class="list-group-item">The prioritized <b class="text-info">CNVs</b> could be found |;
+	    $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.variant_prioritization" ><b><u>Here</u></b></a>\n|;	
     }
 	
 	if($effective_term_num)
@@ -261,7 +263,7 @@ sub processSubmission {
 	
 	}
 	
-	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and `wc -l out.annotated_gene_scores`>1 )  ) ) 
+	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and $num>1 )  ) ) 
 	  {   $submission_message.="<P>So sorry, none of your terms has matched records, why don't you try to breakdown long terms in to short ones?\n</p>";    } 
    
     
@@ -314,7 +316,7 @@ my $rank=1;
 		if(not $gene){
 			$count++;
 			last if ($count > $MAX_COUNT);
-			$line=~/^(.*?)\tID:(\d*).*?(SeedGene|Predicted)\s*(.*?)$/;
+			$line=~/^(.*?)\tID:(\d*).*?(SeedGene|Predicted)\s*(.*?)\s*Normalized score:.*?$/;
 			$gene=$1;
 			my @genes = split(",", $gene);
 			$gene = $genes[0];
@@ -324,7 +326,7 @@ my $rank=1;
 			my $status_out = $status;
 			$status = "Reported" if ($status eq "SeedGene");
 			$score = sprintf("%.4g",$score);
-			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status_out</p><p>Score:$score</p></h3>";
+			$line= qq|<h3 id="$count" class="gene_score $status"><p>|.$rank." ".$gene."</p><p>$status_out</p><p>Raw Score:$score</p></h3>";
 			$gene_html{$gene}.=$line.qq|<div><p><span><a class = "outside $status" href="http://www.ncbi.nlm.nih.gov/gene/$id">$gene</a></span></p>|;
 		}
 	    else

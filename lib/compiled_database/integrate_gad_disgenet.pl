@@ -2,8 +2,8 @@ use strict;
 open (DIS_GEN_NET, "../DisGenNet_Curated.txt") or die;
 open (GAD, "../GAD_gene_disease.txt") or die;
 open (GENE_ID, "./DB_HUMAN_GENE_ID") or die;
-open (TRAINING, ">DB_DISGENET_GENE_DISEASE_SCORE") or die;
-open (TESTING,  ">DB_GAD_GENE_DISEASE_SCORE") or die;
+open (DISGENET_OUT, ">DB_DISGENET_GENE_DISEASE_SCORE") or die;
+open (GAD_OUT,  ">DB_GAD_GENE_DISEASE_SCORE") or die;
 my $i=0;
 my %gene_transform;
 for my $line (<GENE_ID>)
@@ -45,10 +45,11 @@ for my $line (<DIS_GEN_NET>){
 	my ($gene, $disease, $score, $disease_id) = @words[6,9,1,8];
 	$disease =~s/"//g;
 	 $disease = TextStandardize($disease);
+	 $disease = GetRidOfSusceptibility($disease);
 	$gene=$gene_transform{uc $gene};
 	my $repeat_line = join ("\t", ($gene, $disease_id, $score, "DISGENET"));
     my $output = join ("\t", ($gene, $disease, $disease_id, $score, "DISGENET"));
-    print TRAINING $output."\n" if ($score and not $repeat_check{$repeat_line});
+    print DISGENET_OUT $output."\n" if ($score and not $repeat_check{$repeat_line});
     $repeat_check{$repeat_line} = 1;
 }
 $i=0;
@@ -68,51 +69,49 @@ for my $line (<GAD>){
 	$disease =~s/\bIII\b/3/g;
 	$disease =~s/\bI\b/1/g;
 	 $disease = TextStandardize($disease);
+	 $disease = GetRidOfSusceptibility($disease);
 	 $disease = lc $disease;
 	if($if_association and $gene and $disease!~/^\W*$/ and $pubmed_id >0 )
 	{	
 		next if($if_association !~ /^Y$/);
 		my $gene_disease = join("\t",($gene,$disease));
         $conflict_check{$gene_disease} = $pubmed_id  if (not $conflict_check{$gene_disease});
-        $conflict_check{$gene_disease}.= ", ".$pubmed_id  if ( $conflict_check{$gene_disease}); 
+        $conflict_check{$gene_disease}.= " ".$pubmed_id  if ( $conflict_check{$gene_disease}); 
        		
 	};
  } 
  my @output;
  my %disease_check = ();
- $i = 0;
- for my $each (keys %conflict_check){
- 	 push @output, join("\t",($each, "PUBMED:".$conflict_check{$each}, 0.25, "GAD"));
-     my ($gene, $disease) = split("\t", $each);
-     $i+=1 and $disease_check{$disease}{"index"} = sprintf('%04s',$i) if(not $disease_check{$disease}{"index"});
-     if( not $disease_check{$disease}{"count"})
-     {
-     $disease_check{$disease}{"count"} = 1; 
-     }
- 	 else{
- 	 $disease_check{$disease}{"count"} +=1;	
-        }
- 	
+ my $max_count = 0;
+ for my $each (keys %conflict_check){ 
+ 	 my @pubmed_ids = split(" ", $conflict_check{$each});
+ 	 $max_count = scalar(@pubmed_ids) if(scalar(@pubmed_ids)>$max_count);
  }
- 
- 
+ for my $each (keys %conflict_check){ 
+ my @pubmed_ids = split(" ", $conflict_check{$each});	
+ push @output, join("\t",($each, "PUBMED:".$conflict_check{$each}, 0.25*(@pubmed_ids)/$max_count, "GAD"));
+ }
 @output = sort {my @words1 = split("\t",$a);
  	            my @words2 = split("\t",$b);
  	             $words1[1].$words1[2] cmp $words2[1].$words2[2]; }  @output;
- 	 print TESTING $_."\n" for (@output);
-@output = sort { $disease_check{$b}{"count"} <=> $disease_check{$a}{"count"};  
-	                   }  keys %disease_check;
- 	 print TESTING_INDEX $_."\t".$disease_check{$_}{"count"}."\t".$disease_check{$_}{"index"}."\n" for (@output);
- 	 
+ 	 print GAD_OUT $_."\n" for (@output);
+
  	 
 sub TextStandardize {
 	my $word=$_[0];
 	$word=~s/^\W*(.*?)\W*$/$1/;
-	$word=~s/\W+/ /g;
 	$word=~s/'s\b//g;
+	$word=~s/\W+/ /g;
+	$word=~s/\berthematosus\b/erythematosus/gi;
+	$word=~s/\bshow all\b//ig;
 	return $word;
 } 
- 	 
+sub GetRidOfSusceptibility{
+	@_==1 or die "input illegal!!";
+	$_[0] =~ s/^(.*?)\W*susc?eptibi?lity( to)?,?.*/$1/i;
+	$_[0] =~ s/autism \d+/autism/gi;
+	return $_[0];
+}
  	 
  	 
  	 

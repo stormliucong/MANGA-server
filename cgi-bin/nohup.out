@@ -1,0 +1,27 @@
+Usage:
+     serve_loh.pl [arguments]
+
+     Optional arguments:
+            -h, --help                      print help message
+            -m, --man                       print complete documentation
+            -v, --verbose                   use verbose output
+                --id <int>                  process this specific submission
+            
+
+     Function: function as a LOH server
+                   
+     Version: $LastChangedDate: 2013-05-21 08:53:41 -0700 (Tue, 21 May 2013) $
+
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+wc: out.annotated_gene_scores: No such file or directory
+wc: out.annotated_gene_scores: No such file or directory
+wc: out.annotated_gene_scores: No such file or directory
+wc: out.annotated_gene_scores: No such file or directory
+wc: out.annotated_gene_scores: No such file or directory
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE disease_list.txt -phenotype  2> query.disease_annotation.log>
+wc: out.annotated_gene_scores: No such file or directory

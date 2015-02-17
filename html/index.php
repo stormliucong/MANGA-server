@@ -58,7 +58,7 @@
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
+                   <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu/">iCAGES</a></li>
                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
                     <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
@@ -226,7 +226,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
        title="Advanced Options",
        data-content="Phenotype interpretation: Interpret phenotype terms into disease names
 		          All diseases: All diseases in the gene disease database are used">
-       <span class="glyphicon glyphicon-th-list"></span></button>
+       <span class="glyphicon glyphicon-th-list"></span></button> 
 	   </div>
        </div> 
        
@@ -361,6 +361,29 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[02/05/2015]</strong></p>
+    		 <p> The Phenolyzer 1.0.4 is released.Now no R packages need to be installed by the user for the utility of command line wordcloud function. </p>
+    		 <p> The HPO terms corresponding to each term (if existing) are also available in the result!.</p>
+    		</div></div>  
+    		
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[11/25/2014]</strong></p>
+    		 <p> The GeneReview score has been recalculated, for each GeneReview book, the score will not be repeatedly calculated for different specific OMIM diseases.
+    		 <p> Phenolyzer 1.0.3 is releases! </p>
+    		</div></div>
+	   
+	   
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[10/27/2014]</strong></p>
+    		 <p>The 'Regulates' relations are now penalized to a quarter, which does not affect the performance and prevents the general transcription factors to show up on top.
+    		 </p>
+    		 <p>Phenolyzer.1.0.2 is released!</p>
+    		</div></div>
+	   
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[10/21/2014]</strong></p>

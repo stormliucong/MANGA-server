@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 use strict;
 use Email::Sender::Transport::SMTP::TLS;
 use Email::Sender::Simple qw(sendmail);
@@ -10,16 +11,16 @@ use Email::Simple;
         password => 'uh2BLq9VFE6IRUpMf0uMBQ',
         });
 
-
+my $content = `df -h`;
 
 my $email = Email::Simple->create(
         header => [
         To      => '<yanghui@usc.edu>',
         From    => '"Hui Yang" <yanghui@usc.edu>',
         'Reply-to' => '<yanghui@usc.edu>',
-        subject => "This is a test email",
+        subject => "space in bioinform2",
         ],
-        body => 'This is a test email',
+        body => $content,
 );
 
 sendmail($email, { transport => $transport });

@@ -142,6 +142,7 @@ for my $line(<GENEREVIEWS>){     #GENE	DISEASE	OMIM_NUMBER
 	chomp($line);
 	my @words=split("\t",$line);
 	next if ($words[0] =~ /not applicable/i);
+	$GENE_REVIEW_SCORE = $words[3];
 	$words[0] = uc $words[0];
 	my $disease_id="OMIM:".$words[2];
 	my $disease = $words[1];
@@ -225,6 +226,7 @@ sub getRidOfSusceptibility{
 	@_==1 or die "input illegal!!";
 	$_[0] =~ s/^(.*?)\W*susc?eptibi?lity( to)?,?.*/$1/i;
 	$_[0] =~ s/autism \d+/autism/gi;
+	$_[0] =~ s/\berthematosus\b/erythematosus/gi;
 	return $_[0];
 }
 sub eliminateNonWords{

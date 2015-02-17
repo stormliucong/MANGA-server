@@ -147,15 +147,15 @@ color:#fafafa;
              #cy_container{
              display:block;
              margin:auto;
-             height:900px;
+             height:800px;
              width:900px;
              background-color:#ee99ff;
              padding:0px;
           
              }
              #cy {
-            height: 850px;
-            width: 900px;
+            height: 800px;
+            width: 950px;
             position: static;
             margin:5px auto;
             border:2px #428bca solid;
@@ -317,6 +317,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffedf7', end
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #c49c62;
+	background-color: #fafaf1;
 }
 .navbar-default .navbar-text {
 	color: #ecf0f1;
@@ -326,6 +327,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffedf7', end
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #c49c62;
+	background-color: #fafaf1;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #c49c62;
