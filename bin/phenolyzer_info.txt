@@ -1,4 +1,96 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+3742	2015-02-14	NA	miller	NA	http://phenolyzer.usc.edu/done/3742/Niso_9CW1vUWgDW4
+3740	2015-02-13	kstamm@mcw.edu	neurodevelopmental	141.106.130.192	http://phenolyzer.usc.edu/done/3740/EEGs-LMgnBIr4sTI
+3739	2015-02-13	NA	cancer	NA	http://phenolyzer.usc.edu/done/3739/jYjsKKKO7qmi8US5
+3738	2015-02-12	NA	autosomal recessive nonsyndromic sensorineural deafness	NA	http://phenolyzer.usc.edu/done/3738/EgAZnQZimWCJwlvC
+3737	2015-02-12	NA	autosomal recessive nonsyndromic sensorineural deafness	NA	http://phenolyzer.usc.edu/done/3737/i9vOMVEWeyAJ7NoA
+3736	2015-02-12	NA	normal	NA	http://phenolyzer.usc.edu/done/3736/WQOPKn9Q3aFl4KXc
+3735	2015-02-12	NA	normal	NA	http://phenolyzer.usc.edu/done/3735/NELj2WuqPiKIcwiA
+3734	2015-02-12	NA	normal	NA	http://phenolyzer.usc.edu/done/3734/E6ZbQA8UIhOvd8_N
+3733	2015-02-12	NA	movement disorder	NA	http://phenolyzer.usc.edu/done/3733/5vBMBnoGRkM5t3Zy
+3732	2015-02-12	NA	movement disorders	NA	http://phenolyzer.usc.edu/done/3732/KNVH2BSmrTUM0Lmi
+3731	2015-02-12	NA	movement disorders	NA	http://phenolyzer.usc.edu/done/3731/HIR37PcG9BJJ3PJT
+3730	2015-02-12	NA	movement disorder	NA	http://phenolyzer.usc.edu/done/3730/fkwpRUg1lQiXTln6
+3729	2015-02-12	NA	hypomagnesemia with secondary hypocalcemia	NA	http://phenolyzer.usc.edu/done/3729/QGEmzc9ipbVAPgYG
+3728	2015-02-12	NA	hypomagnesemia with secondary hypocalcemia	NA	http://phenolyzer.usc.edu/done/3728/uyiN4QhArvnc4PE9
+3727	2015-02-12	NA	hypomagnesemia with secondary hypocalcemia	NA	http://phenolyzer.usc.edu/done/3727/zjXGV22yYueTZI6u
+3726	2015-02-12	anu.reigo@ut.ee	hernia;gait abnormalities	193.40.23.20	http://phenolyzer.usc.edu/done/3726/YKv7R1vU0cfzizU2
+3725	2015-02-12	NA	hypomagnesemia	NA	http://phenolyzer.usc.edu/done/3725/xPoFRBeTLXriExqZ
+3724	2015-02-12	NA	hypomagnesemia	NA	http://phenolyzer.usc.edu/done/3724/myEcR7_ErlAsVMZx
+3723	2015-02-12	anu.reigo@ut.ee	hernia inguinal	193.40.23.20	http://phenolyzer.usc.edu/done/3723/x7ygGk17mUsZGGvs
+3722	2015-02-12	NA	brugada;long qt;arrhythmogenic;arrhythmias	NA	http://phenolyzer.usc.edu/done/3722/wWxuFobKWj-LBIrl
+3721	2015-02-12	kamran.azim@iccs.edu	hypomagnesemia	111.68.111.214	http://phenolyzer.usc.edu/done/3721/00_rgXbCcMuEicse
+3720	2015-02-12	anu.reigo@ut.ee	hernia	193.40.23.20	http://phenolyzer.usc.edu/done/3720/fN0qEzRLrE0Fbs4f
+3719	2015-02-12	NA	hypomagnesemia	NA	http://phenolyzer.usc.edu/done/3719/hcxKLkaOmXtBukLP
+3718	2015-02-12	NA	hypomagnesemia	NA	http://phenolyzer.usc.edu/done/3718/alCTrDePRJ_S_iaX
+3717	2015-02-12	anu.reigo@ut.ee	hernia	193.40.23.20	http://phenolyzer.usc.edu/done/3717/Iig5oSR25GGJmBjI
+3716	2015-02-12	lilybzk@gmail.com	cohesinopathy	80.178.228.215	http://phenolyzer.usc.edu/done/3716/Mt7vBWlQ0VBW1rNG
+3715	2015-02-12	NA	deafness;hearing loss;bone;otosclerosis	NA	http://phenolyzer.usc.edu/done/3715/7ueMo6vnaiaXsE9M
+3714	2015-02-12	galmoran@hotmail.com	otosclerosis	132.70.41.238	http://phenolyzer.usc.edu/done/3714/uz6U3zUiQ7MfqEu7
+3713	2015-02-12	NA	deafness	NA	http://phenolyzer.usc.edu/done/3713/9k7Q7JV-Y8U3i40J
+3712	2015-02-12	zeliha.gormez@tubitak.gov.tr	vesicular	193.140.73.50	http://phenolyzer.usc.edu/done/3712/M2qd6PNo-NjJW4gU
+3711	2015-02-12	NA	epilepsy;seizures	NA	http://phenolyzer.usc.edu/done/3711/brera84QrmUcBNMM
+3694	2015-02-10	pasculorente@gmail.com	brain injury	193.145.150.119	http://phenolyzer.usc.edu/done/3694/YV4EpX3DDddw5SCF
+3693	2015-02-10	NA	cancer;cancers	NA	http://phenolyzer.usc.edu/done/3693/4bw7gc0PO7Koasce
+3692	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3692/NlPDk8Pl3rV6EKee
+3691	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3691/jtx1WZNMwIwGCvHT
+3690	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3690/gqr40qWuEYFPm6Nb
+3689	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3689/DeCug-04I5E4wAUO
+3688	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3688/pqxGu9jfFqHQex2c
+3687	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3687/Byr4JohCW5WzqhXK
+3686	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3686/0CH_9pLUbKApwK8c
+3685	2015-02-10	NA	hearing loss	NA	http://phenolyzer.usc.edu/done/3685/0JfdvHbJFE19aDEp
+3684	2015-02-10	NA	hearing loss	NA	http://phenolyzer.usc.edu/done/3684/ISjU5dFvAySfqlLM
+3683	2015-02-10	NA	hearing loss	NA	http://phenolyzer.usc.edu/done/3683/0fiybKDjHuUGpG-U
+3682	2015-02-10	NA	otosclerosis;deafness;bone	NA	http://phenolyzer.usc.edu/done/3682/g6ZX0lRCzKNrMI1b
+3681	2015-02-10	informatica.uichuimi@gmail.com	liver;brain	193.145.150.29	http://phenolyzer.usc.edu/done/3681/DmP_DB7lNegVJycL
+3680	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3680/mv3HHoESZi_UOnaZ
+3679	2015-02-10	NA	otosclerosis;deafness;bone	NA	http://phenolyzer.usc.edu/done/3679/3I7zk2HveN6QgQK4
+3678	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3678/jNsExDCu2A-O1u_E
+3677	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3677/0ZhRUejtgldMaduT
+3676	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3676/lbbHF4hmvEewmG8Z
+3675	2015-02-10	NA	cancer	NA	http://phenolyzer.usc.edu/done/3675/TCVUNUyWZhQFNomZ
+3674	2015-02-09	wcassano@verizon.net	autism;bipolar;schizophrenia;brain	96.244.89.187	http://phenolyzer.usc.edu/done/3674/Pdw02CXstxfYRqAv
+3673	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3673/LIW6Q-p9DXWh4xBC
+3672	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3672/dgyseo-aRftcu9Wp
+3671	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3671/r1R4PmRioWsy2Lg4
+3670	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3670/0CjNLilliI9kkCHF
+3669	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3669/odMR5-KexZOOhrPL
+3668	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3668/j2G-Q06VYplfxEq_
+3667	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3667/TdQJOAuSU0c-53uA
+3666	2015-02-09	NA	cancer	NA	http://phenolyzer.usc.edu/done/3666/1KgEgBcDx1WrPAWT
+3665	2015-02-09	NA	deafness	NA	http://phenolyzer.usc.edu/done/3665/oy_r6LGLYGnk4SmB
+3664	2015-02-09	galmoran@hotmail.com	deafness	132.70.41.238	http://phenolyzer.usc.edu/done/3664/9jV1nN6zJoi8F663
+3663	2015-02-08	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3663/d0qQY_M0obJIDou5
+3662	2015-02-08	NA	retinitis pigmentosa	NA	http://phenolyzer.usc.edu/done/3662/sxARcnRRuxoFSntk
+3661	2015-02-08	NA	hemangioma;brain	NA	http://phenolyzer.usc.edu/done/3661/7IJRSpPy0-FMSTGt
+3660	2015-02-08	NA	cerebral cavernous malformations	NA	http://phenolyzer.usc.edu/done/3660/prBC14bO_UcB4Gzt
+3659	2015-02-08	NA	muscular diseases;mitochondrial diseases;metabolic diseases;neurodegenerative diseases;neuromuscular disease	NA	http://phenolyzer.usc.edu/done/3659/WjduReOFONrYisRJ
+3658	2015-02-07	NA	retinal disease	NA	http://phenolyzer.usc.edu/done/3658/VN9MWCZ2kqKLHvUk
+3657	2015-02-07	NA	retinal disease	NA	http://phenolyzer.usc.edu/done/3657/Dm35RoaV1dh_cwyT
+3656	2015-02-07	NA	retinal diseases	NA	http://phenolyzer.usc.edu/done/3656/GyHkc6ZwV3-d9Bk0
+3655	2015-02-07	NA	anemia	NA	http://phenolyzer.usc.edu/done/3655/aQ9n6_4Xs9Injph1
+3654	2015-02-07	NA	anemia	NA	http://phenolyzer.usc.edu/done/3654/uMuxF_KXTziIzqEz
+3653	2015-02-07	NA	diabetes	NA	http://phenolyzer.usc.edu/done/3653/LRiXBt6rnHA1gc-F
+3652	2015-02-07	NA	brca1	NA	http://phenolyzer.usc.edu/done/3652/Tu88cJuB7_-QADst
+3651	2015-02-07	NA	brca1	NA	http://phenolyzer.usc.edu/done/3651/ZlS7fa2_1f7MbDj_
+3650	2015-02-07	wangdp@nextomics.org	autism epilepsy	221.221.150.130	http://phenolyzer.usc.edu/done/3650/U5qczFKr1p2I4pdb
+3649	2015-02-07	aseto@lunenfeld.ca	osteosarcoma	99.232.125.39	http://phenolyzer.usc.edu/done/3649/Y4jzqsTqp5NjCdOh
+3648	2015-02-07	NA	cerebral cavernous angioma	NA	http://phenolyzer.usc.edu/done/3648/kQw2MwDLgLJSTYW7
+3647	2015-02-06	NA	brca1	NA	http://phenolyzer.usc.edu/done/3647/hXIuxWfaGYzrQyli
+3646	2015-02-06	c.bouwkamp@erasmusmc.nl	schizophrenia bipolar disorder	95.96.104.197	http://phenolyzer.usc.edu/done/3646/tDPsjVsL72D6NQE-
+3645	2015-02-06	NA	114480	NA	http://phenolyzer.usc.edu/done/3645/cRgYUMb_WNI1P-Sj
+3644	2015-02-06	cdp2131@columbia.edu	microcephaly;short stature	156.145.62.184	http://phenolyzer.usc.edu/done/3644/emYDr5scEUkWtj9L
+3643	2015-02-06	cdp2131@columbia.edu	microcephaly	156.145.62.184	http://phenolyzer.usc.edu/done/3643/a4v-HVrPO9r_L_Cd
+3642	2015-02-06	anu.reigo@ut.ee	psoriasis	193.40.23.20	http://phenolyzer.usc.edu/done/3642/zEDALbS7xuw6e8OB
+3641	2015-02-05	NA	retinal disease	NA	http://phenolyzer.usc.edu/done/3641/8lM-AGvPswY5qLHW
+3640	2015-02-05	NA	retinal degeneration	NA	http://phenolyzer.usc.edu/done/3640/CxpzxC8v0exZxXSw
+3639	2015-02-05	NA	retinal degeneration	NA	http://phenolyzer.usc.edu/done/3639/U6pHCSWojK3NSCw_
+3637	2015-02-05	anu.reigo@ut.ee	arthritis	193.40.23.20	http://phenolyzer.usc.edu/done/3637/c97Ypyoz0zKDat2M
+3636	2015-02-05	anu.reigo@ut.ee	psoriasis	193.40.23.20	http://phenolyzer.usc.edu/done/3636/gO6FJMqkS15AOmKG
+3635	2015-02-05	NA	hearing loss;deafness	NA	http://phenolyzer.usc.edu/done/3635/ybKU2wwGkeVMZvj9
+3634	2015-02-04	NA	cancer	NA	http://phenolyzer.usc.edu/done/3634/1b8IV6YrbGJ6rHOn
+3624	2015-02-04	NA	hemophagocytosis;thrombocytopenia;fever	NA	http://phenolyzer.usc.edu/done/3624/9oycfYh3pa7T2pzF
 3623	2015-02-04	NA	osteogenesis imperfecta	NA	http://phenolyzer.usc.edu/done/3623/gDqPjnuJUP38j9u9
 3622	2015-02-03	babaref@yahoo.com	mental retardation autosomal recessive 43	194.225.5.221	http://phenolyzer.usc.edu/done/3622/zmXXS0AerrBOoNgy
 3621	2015-02-03	NA	cancer	NA	http://phenolyzer.usc.edu/done/3621/lZnnEG2BVxrzTaV5

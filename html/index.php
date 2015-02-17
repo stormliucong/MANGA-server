@@ -58,7 +58,7 @@
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
+                   <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
                     <li><a href="http://icages.usc.edu/">iCAGES</a></li>
                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
                     <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>

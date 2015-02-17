@@ -320,7 +320,24 @@
        just enter 'mental', or you can enter both, like 'mental retardation;mental disorder'.</p>
       
       </div></div></div>
-      
+       
+   <div class="panel panel-success">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
+        What does it mean if I separate my term 'acute lymphocytic leukemia' as 'acute;lymphocytic;leukemia'?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-13" class="panel-collapse collapse">
+      <div class="panel-body">
+    <p> A delimiter like ';' or Enter means you treat them as different terms. Then any disease name containing 'acute''lymphocytic'
+        or 'leukemia' will be considered. But we have a conditional probabity system to combine your terms, thus the most specific term
+        will be dominant and its corresponding genes will be prioritized on top. Multiple short terms should be considered when you want a 
+        stronger predictability. </p>
+         </div>
+    </div>
+  </div>
       
   
       

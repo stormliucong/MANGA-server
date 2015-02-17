@@ -144,7 +144,7 @@ sub processSubmission {
 			@words=@words[0..4];
 			my @genes = split(",", $words[1]);
 			$words[0]=~/exonic/ or next;
-			my @scores = map {$gene_hash{$_};  } @genes; 
+			my @scores = map {$gene_hash{$_} or 0;  } @genes; 
 			my $key = join("\t",@words[2..4,1]);
 			$variant_out{$key} = max(@scores);
 		 
@@ -316,7 +316,7 @@ my $rank=1;
 		if(not $gene){
 			$count++;
 			last if ($count > $MAX_COUNT);
-			$line=~/^(.*?)\tID:(\d*).*?(SeedGene|Predicted)\s*(.*?)$/;
+			$line=~/^(.*?)\tID:(\d*).*?(SeedGene|Predicted)\s*(.*?)\s*Normalized score:.*?$/;
 			$gene=$1;
 			my @genes = split(",", $gene);
 			$gene = $genes[0];
