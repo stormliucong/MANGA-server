@@ -314,8 +314,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                <label title="" for="wordcloud" class="col-md-3 control-label wordcloud">Word Cloud  </label>
                <div class="col-md-5">
                 <select class="selectpicker show-menu-arrow " name="wordcloud" id="wordcloud">
-	           <option value="no" >No</option>
-               <option selected value="yes"  >Yes</option>
+	           <option selected value="no" >No</option>
+               <option value="yes"  >Yes</option>
 	           </select>
                 </div>
                  <div class="col-md-3">
@@ -361,6 +361,13 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[02/17/2015]</strong></p>
+    		 <p> The Phenolyzer 1.0.5 is released. A script named 'calculate_score.pl' 
+    		   for integrating ANNOVAR result and Phenolyzer result is available! A detailed user mannual is provided in Tutorial! </p>
+    		</div></div>  
+	   
 	   	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[02/05/2015]</strong></p>

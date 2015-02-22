@@ -156,8 +156,7 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
                 }
                   
                   //The label click events
-                  
-                  wordcloud_label.css("color","#d0228f");
+              
                   wordcloud_label.click(function(){
                 	  if($("#wordcloud").selectpicker("val")=="yes"  )
               		{
