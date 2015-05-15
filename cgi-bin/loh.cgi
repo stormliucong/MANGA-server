@@ -61,6 +61,7 @@ my @addons = $q->param('addon');
 my $addons = join(',', @addons);
 my @addons_seed = $q->param("addon_seed");
 my $addons_seed = join(',', @addons_seed);
+my @gene_score = $q->param("gene_score");
 $options eq "all_diseases" or $disease!~/^\W*$/  or die "No disease input is detected!!! $options";
 my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $disease);
            
@@ -103,8 +104,7 @@ sub writeInfoFile {
   	open (INFO, ">$WORK_DIRECTORY/$SUBMISSION_ID/info") or confess "Error: cannot write info file: $!";
   	    print INFO "ip=$ip\nhost=$host\n";
         print INFO "email=$email\nsubmission_time=$submission_time\npassword=$password\nbuildver=$buildver\nbedfile=$bedfile\n";
-        ($options eq "all_diseases")?print INFO "all_diseases=yes\n":print INFO "all_diseases=no\n";
-        ($options eq "full_expand")?print INFO "full_expand=yes\n":print INFO "full_expand=no\n"; 
+        ($options eq "all_diseases")?print INFO "all_diseases=yes\n":print INFO "all_diseases=no\n"; 
         ($options eq "phenotype_interpretation")? print INFO "phenotype_interpretation=yes\n":print INFO "phenotype_interpretation=no\n";
         print INFO "coba=yes\n" if($coba);
         print INFO "wordcloud=yes\n" if($wordcloud eq 'yes');
@@ -172,7 +172,10 @@ sub writeInfoFile {
         {
         	print INFO "addon_seed=$addons_seed\n";
         }
-       
+        for my $each (@gene_score){
+        	print INFO "haploinsufficiency=yes\n" if($each eq "haploinsufficiency");
+        	print INFO "intolerance=yes\n" if($each eq "intolerance");
+        }
         close (INFO);
 }
 
@@ -193,6 +196,10 @@ if($total_disease_num>0 )
 $replace_message.=$q->p (qq#The results will be generated at<br><br> <a href="$weblink"><b>$weblink</b></a> <br>#);
 $replace_message.=$q->p ("You entered <b>$legal_disease_num</b> disease terms\n");
 $replace_message.=$q->p ("You entered <b>$legal_gene_num</b> gene terms\n");
+}
+elsif($options eq 'all_diseases') {
+	$replace_message.=$q->p (qq#The results will be generated at<br><br> <a href="$weblink"><b>$weblink</b></a> <br>#);
+	$replace_message.=$q->p ("You chose <b>All Disease</b> option\n");
 }
 $replace_message.= $q->p ($warning_message);
 

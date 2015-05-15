@@ -48,14 +48,14 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
                    <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
-                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
-                      <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
+                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -76,10 +76,10 @@
 			</div>
 			  <div class="panel-body">
 			
-           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/3103/vISWi7x7udCIkwZq/index.html">    Amyotrophic lateral sclerosis</a></h3> 
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/2808/AZVYt9RDP4GbSFYL/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/3101/ANJG3-rBNjUfiORJ/index.html">  Autism</a></h3>
-		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/3102/w1NziXCSlx_4Kubt/index.html">  Huntington</a></h3>
+           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4738/1_OXoD4WszZeFicS/index.html">    Amyotrophic lateral sclerosis</a></h3> 
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4737/uutz_AeaS4TkwBjI/index.html">  Cancer</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4736/11VzeqJPOC7rBbve/index.html">  Autism</a></h3>
+		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4735/JmaKdyhPQb4YX8N6/index.html">  Huntington</a></h3>
 		    
 		    
 		    </div>
@@ -91,13 +91,13 @@
              <table class="table table-striped">		 
             <tr><td>Help: <br><br><code>perl disease_annotation.pl --help</code></td></tr>	
             <tr><td>Prioritize 'sleep' genes: 
-            <br><br><code>perl disease_annotation.pl sleep -p -ph -logistic -out sleep/out </code></td></tr>	  
+            <br><br><code>perl disease_annotation.pl sleep -p -ph -logistic -out out/sleep/out </code></td></tr>	  
 			<tr><td>Use the terms in 'disease' file: 
-			<br><br><code>perl disease_annotation.pl disease -f -p -ph -logistic -out disease/out </code></td></tr>
+			<br><br><code>perl disease_annotation.pl disease -f -p -ph -logistic -out out/disease/out </code></td></tr>
 			<tr><td>Use the cnv.bed region: 
-			<br><br><code>perl disease_annotation.pl alzheimer -bedfile cnv.bed -p -ph -logistic -out alzheimer/out </code> </td></tr>
+			<br><br><code>perl disease_annotation.pl alzheimer -bedfile cnv.bed -p -ph -logistic -out out/alzheimer/out </code> </td></tr>
 			<tr><td>Use the Mentha gene-gene interaction database as Addon 
-			<br><br><code>perl disease_annotation.pl alzheimer -p -ph -logistic -out alzheimer/out -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05</code> </td></tr>
+			<br><br><code>perl disease_annotation.pl alzheimer -p -ph -logistic -out out/alzheimer_addon/out -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05</code> </td></tr>
 			</table>
 			</div>
 			</div>

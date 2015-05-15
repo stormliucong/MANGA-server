@@ -87,7 +87,7 @@
                 	         })
                 	         .selector('edge.BIOSYSTEM')
                 	         .css({
-                	           'line-color':"mapData(weight,0.2,0.8, #9a9933, #8a8811)"
+                	           'line-color':"#baba11"
                 	           
                 	         })
                 	         .selector('edge.HPRD')

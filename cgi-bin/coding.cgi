@@ -96,7 +96,7 @@ sub prepareWorkDirectory {
 	my $maxLenth=16;
         my @a = (0..9,'a'..'z','A'..'Z','-','_');
         my $password = join '', map { $a[int rand @a] } 0..($maxLenth-1);        
-        $weblink = qq (http://loh.usc.edu/done/$submission_id/$password/index.html) ;
+        $weblink = qq (http://phenolyzer.usc.edu/done/$submission_id/$password/index.html) ;
                
 	mkdir ("$WORK_DIRECTORY/$submission_id") or confess "Error: cannot generate submission directory for submission id $submission_id: $!";
 	chmod 0777, "$WORK_DIRECTORY/$submission_id" or confess "Error: unable to set the permission of directories: $!";

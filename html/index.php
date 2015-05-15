@@ -66,7 +66,7 @@
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -349,7 +349,15 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
     </div>
 	</div>
 	
-	
+	 <div class="form-group">
+	 <label for="step" class="col-md-3 control-label">Addon Gene Scores</label>
+	 <div class="col-md-7">
+      <select class="selectpicker show-tick"  multiple name="gene_score" id="gene_score" data-selected-text-format="count>1">
+	           <option value="haploinsufficiency">Gene Haploinsufficiency Score</option>		
+	           <option value="intolerance">Gene Intolerance Score</option>	  	   
+	  </select>
+    </div>
+	</div>
 	<!-- End of Addon -->
 	   
 	  
@@ -361,17 +369,38 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   	     <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[05/15/2015]</strong></p>
+    		 <p> The OMIM,GWAS Catalog, ClinVar databases are updated to the newest version! 
+    		 </p>         </div></div> 
+	   
+	     <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[05/01/2015]</strong></p>
+    		 <p>  Two additional gene scores were added into Phenolyzer as annotations:
+    		       <b><a href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001154">Gene Haploinsufficiency Score</a></b> for dominant disease genes, and 
+    		       <b><a href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003709">Gene Intolerance Score</a></b> for severe disease genes
+             </div></div>  
+	   
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[03/26/2015]</strong></p>
+    		 <p>  A minor bug in 'calculate_score.pl' script was fixed.
+    		      		</div></div>  
+	    
+	    
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[02/17/2015]</strong></p>
-    		 <p> The Phenolyzer 1.0.5 is released. A script named 'calculate_score.pl' 
+    		 <p> The Phenolyzer v0.1.1 is released. A script named 'calculate_score.pl' 
     		   for integrating ANNOVAR result and Phenolyzer result is available! A detailed user mannual is provided in Tutorial! </p>
     		</div></div>  
 	   
 	   	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[02/05/2015]</strong></p>
-    		 <p> The Phenolyzer 1.0.4 is released.Now no R packages need to be installed by the user for the utility of command line wordcloud function. </p>
+    		 <p> The Phenolyzer v0.1.0 is released.Now no R packages need to be installed by the user for the utility of command line wordcloud function. </p>
     		 <p> The HPO terms corresponding to each term (if existing) are also available in the result!.</p>
     		</div></div>  
     		
@@ -379,7 +408,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	    <div class="panel-body">
     		 <p><strong>[11/25/2014]</strong></p>
     		 <p> The GeneReview score has been recalculated, for each GeneReview book, the score will not be repeatedly calculated for different specific OMIM diseases.
-    		 <p> Phenolyzer 1.0.3 is releases! </p>
+   
     		</div></div>
 	   
 	   
@@ -388,7 +417,6 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
     		 <p><strong>[10/27/2014]</strong></p>
     		 <p>The 'Regulates' relations are now penalized to a quarter, which does not affect the performance and prevents the general transcription factors to show up on top.
     		 </p>
-    		 <p>Phenolyzer.1.0.2 is released!</p>
     		</div></div>
 	   
 	    <div class="panel panel-default">
@@ -401,31 +429,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
     		 </p>
     		</div></div>
 	   
-	   <div class="panel panel-default">
-	    <div class="panel-body">
-    		<p><strong>[09/19/2014]</strong> <p>Phenolyzer is updated into version 1.0.1!</p>
-			<p>The word cloud is available by choosing Wordcloud option.
-			<p> For command line tool: </p>
-			 <p><code>-wordcloud </code>can be used to generate a wordcloud now.
-			<p><code>-addon </code>can be used to add your own gene-disease mapping database, the format should be as
-			'GENE	DISEASE	DISEASE_ID	SCORE	SOURCE'</p>
-			<p><code>-addon_gg </code>can be used to add your own gene-gene mapping database, the format should be as
-			'GENE A GENE B	EVIDENCE SCORE PMID'</p>
-			<p><code>-addon_gg_weight  -addon_weight </code> can be used to control the weights.
-			</p></a></div></div>
-			 <div class="panel panel-default">
-           <div class="panel-body">
-    		<p><strong>[08/19/2014]</strong> <p>Phenolyzer website remade!</p>
-			<p>Please report any bugs if you find any. And please give us feedbacks about your experience of Pehnolyzer!</p></div></div>
-	       
-	       
-	       <div class="panel panel-default">
-           <div class="panel-body">
-    		<p><strong>[06/11/2014]</strong> <p>Phenolyzer version 1.0.0 is for test!</p>
-			<p>Biosystem has been updated to 7172014!<br><br>
-			NOTICE: Bioperl is required for the commandline tool!
-			Please have a look at  <a href="http://www.bioperl.org/wiki/Installing_BioPerl">Bioperl</a> 
-			If you don't have Bioperl in your computer. </p></div></div> 
+
 			
 		</div> 
 		

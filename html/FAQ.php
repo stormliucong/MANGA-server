@@ -47,15 +47,15 @@
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
-                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
-                      <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+             <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
+                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
+                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -108,7 +108,7 @@
       <br><br>
       Also, for 14 classic monogenic disease genes, Phenolyzer ranked all of them as TOP1, the best among all these tools.
       <br>
-       <img src="./img/single_gene_frequency.png" width=570 height=500 />
+       <img src="./img/single_gene_frequency.png" width=470 height=400 />
       </p>
       
       </div></div></div>
@@ -225,31 +225,8 @@
     </div>
     <div id="collapse-9" class="panel-collapse collapse">
       <div class="panel-body">
-    <p>1) An interactive gene-disease network plot is on top.
-			<br><br><img src="images/network.jpg" alt="network" width="600"/>
-		    <br><br>  2) The disease names interpreting your terms are in separate files.
-		    <br><br> For each term ,there is a corresponding file, in the form of 'disease names' 'source', where 
-		         'disease names' are speparated by semicolon, 'source' includes 'CTD_DISEASE' 'DISEASE_ONTOlOGY' 
-		         'GENE_DISEASE'. Also, a<a href="http://phenolyzer.usc.edu/done/2014/VYZiDTkhFO12vLXS/out_cancer_wordcloud.png"> <span class="label label-info">WordCloud</span></a>
-		         based on the interpretation is also available.           
-			
-			<br>  3)  The detailed reports and normalized gene lists, for all the genes or reported genes only, or 
-			      with gene/region selections.
-			<br><br>  The detailed reports is in the forms 'Gene Infomation', 'block of details'.
-			<br><br>  The Gene Information contains the Entrez Gene symbol, Gene ID, Position (If it is in your input region), 
-			      status (Reported or Predicted), and Scores (conditional probability for the seed genes, 
-			      absolute scores without normalization for the final report).  
-			<br><br> For a gene-disease relation, the detail contains the Pubmed or data source ID, 
-			         the exact disease name, the corresponding term, and the contributing score.
-			<br><br> For a gene-gene relation, the detail contains the Pubmed or data sourcr ID,
-			         The exact relation type, the related gene, and the contributing score.    
-			          
-		    <br>  4) A barplot of at most top 500 genes is also available.
-	     	<br>  5) Details: The top 50 genes will be presented with the links to the each data source. 
-			<br>  The link of the gene in NCBI, the data source, and the relation evidence are sparately highlighted.
-			<br><br><img src="images/top50.jpg" alt="top50" width="700"/></p>    
-			<br>  		
-			</div>
+    <p>  Please see the <a href="/tutorial.php#ResultPage" target="_blank">turorial</a> page.
+	</p>		</div>
     </div>
   </div>
   
@@ -263,9 +240,9 @@
     </div>
     <div id="collapse-10" class="panel-collapse collapse">
       <div class="panel-body">
-      <p>The network includes the top50 prioritized genes, and their associated diseases and relations within each other.
+      <p>The network includes the top50 prioritized genes, and their associated diseases and relations with seed genes.
 			<br><br>
-			<img src="images/network_instruction.png" alt="network_instruction" width="700"/>
+			<img src="images/network_instructions.png" alt="network_instruction" width="700"/>
 			<br><br>
 			
 			<b>Round Nodes:</b> Genes, blue as reported, and yellow as predicted. The bigger, the higher the score. 
@@ -298,9 +275,9 @@
        diseases could be turned on and off. By default, the disease names are not shown as they are sometimes super long :).
        <br>
        Also, the different types of interactions could be slelectively shown by choosing one in the 'Edges' selection. The Layout is basically how the network
-       is shaped, by default it is force-driven, but by changing option here one can make it more organized, like 'circle' layout:)
+       is shaped, by default it is force-driven, but by changing <b>Layout</b> one can make it more organized, like 'circle' layout:)
        <br>
-       By the way, why not just save a photo of your network and demonstrated others with it? Just click the Save Photo button:)
+       By the way, why not just save a photo of your network and show it to your friends? Just click the Save Photo button:)
       </p>
       
       </div></div></div>
@@ -332,9 +309,9 @@
     <div id="collapse-13" class="panel-collapse collapse">
       <div class="panel-body">
     <p> A delimiter like ';' or Enter means you treat them as different terms. Then any disease name containing 'acute''lymphocytic'
-        or 'leukemia' will be considered. But we have a conditional probabity system to combine your terms, thus the most specific term
+        or 'leukemia' will be considered. But we have a Weighted Sum system to combine your terms, thus the most specific term
         will be dominant and its corresponding genes will be prioritized on top. Multiple short terms should be considered when you want a 
-        stronger predictability. </p>
+        better recall. </p>
          </div>
     </div>
   </div>

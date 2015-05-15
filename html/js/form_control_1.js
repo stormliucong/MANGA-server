@@ -7,7 +7,7 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
 	   	 html:true
    	  });
      $('#addon_seed').selectpicker('selectAll');
-     
+     $('#gene_score').selectpicker('selectAll');
 //}); 
 
 

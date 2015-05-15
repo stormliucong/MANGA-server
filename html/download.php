@@ -49,15 +49,15 @@
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar3.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu:5000/">iCAGES</a></li>
-                     <li><a href="http://enlight.usc.edu/">Enlight</a></li>
-                      <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+                <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
+                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
+                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="http://wannovar3.usc.edu/asset/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -91,11 +91,8 @@
 			<h3 class="panel-title  big-title">Phenolyzer Command Line Tool</h3></div>
 			<div class="panel-body">	
 		   	<h3 class="text-info"><span class="glyphicon glyphicon-ok"></span>
-			<a class="text-info" href="./download/Phenolyzer.1.0.4.tar.gz">
-			Phenolyzer 1.0.4 </a></h3>
-		    <h3 class="text-info"><span class="glyphicon glyphicon-ok"></span>
-			<a class="text-info" href="./download/Phenolyzer.1.0.5.tar.gz">
-			Phenolyzer 1.0.5 </a></h3>
+			<a class="text-info" href="https://github.com/WangGenomicsLab/phenolyzer">
+			Github </a></h3>
 			</div>
 		
 		 </div></div>

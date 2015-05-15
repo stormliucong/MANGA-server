@@ -70,6 +70,7 @@ sub processSubmission {
 	$system_command = "perl $BIN_DIRECTORY/disease_annotation.pl -d $LIB_DIRECTORY/compiled_database -out out -prediction -w $BIN_DIRECTORY ";
 	$system_command.="-f ";
 	$system_command.="-wordcloud " if($info{"wordcloud"});
+	
 	if($info{"user_defined_weight"})
 	{
 		$system_command.="-hprd_weight         $info{'HPRD_WEIGHT'} ";
@@ -102,8 +103,8 @@ sub processSubmission {
 	if($info{'addon_seed'}) {$system_command.="-addon $info{'addon_seed'} ";}
 	if($info{"disease_file"}){$system_command.="$info{disease_file} ";}
 	if($info{"phenotype_interpretation"} eq "yes"){$system_command.="-phenotype ";}
-	if($info{"full_expand"} eq "yes"){$system_command.="-e ";}
-	
+	if($info{"haploinsufficiency"} eq "yes"){ $system_command.="-hi "; }
+	if($info{"intolerance"} eq "yes"){ $system_command.="-it "; }
 	if($info{"bedfile"}){
 		$system_command.="-bedfile query.bed -buildver $info{buildver} ";
 	}
@@ -192,12 +193,19 @@ sub processSubmission {
     $summary_message.=	qq|<li class="list-group-item">Buildver is $info{buildver}.</li>| if $info{bedfile};
 	$summary_message.=	qq|<li class="list-group-item">All diseases are considered.</li>| if($info{all_diseases} eq "yes");
 	$summary_message.=	qq|<li class="list-group-item">Phenotypes are interpretated.</li>| if($info{phenotype_interpretation} eq "yes");
+	my $out_gene_num;
 	if(-s "gene_list.txt"){
 		my $gene_num=`wc -l gene_list.txt`;
 		$gene_num=~s/^(\d+).*$/$1/;
 		$summary_message.=	qq|<li class="list-group-item"><b>$gene_num</b> genes are entered within the genelist.</li>|;
-		my $out_gene_num = `wc -l out.annotated_gene_list`;
+		if(-s "out.annotated_gene_list")
+		{
+		$out_gene_num = `wc -l out.annotated_gene_list`;
 		$out_gene_num=~s/^(\d+).*$/$1/;
+		}
+		else{
+			$out_gene_num=0;
+		}
 		$summary_message.=	qq|<li class="list-group-item">No gene within the genelist or the region was found.</li>|		
 		if( $out_gene_num<=1);
 	}
@@ -218,14 +226,9 @@ sub processSubmission {
 	{
 	$summary_message.=qq|<li class="list-group-item">All the possible diseases in the gene_disease database will be considered.</li>\n|;	
 	}
-	my @temp = split(/\s+/,`wc -l out.annotated_gene_scores`);
-	my $num = $temp[0];
-	if(-s 'out.annotated_gene_scores' and $num>1 )
+	if(-s 'out.annotated_gene_scores'  )
 	{
-		   my $out_num = `wc -l out.annotated_gene_list`;
-		   $out_num =~ /(\d+)/;
-		   $out_num = $1;
-		   $out_num--;
+		   my $out_num = --$out_gene_num;
 	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC REPORT</b> could be found |;
 	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_scores" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
 	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC GENE LIST</b> could be found |;
@@ -263,7 +266,7 @@ sub processSubmission {
 	
 	}
 	
-	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and $num>1 )  ) ) 
+	if(not ( ($effective_term_num and not -s 'out.annotated_gene_scores') or  (-s 'out.annotated_gene_scores' and $out_gene_num >= 1 )  ) ) 
 	  {   $submission_message.="<P>So sorry, none of your terms has matched records, why don't you try to breakdown long terms in to short ones?\n</p>";    } 
    
     

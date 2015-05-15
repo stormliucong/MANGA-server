@@ -2,12 +2,12 @@
 	
 var BARPLOT = function (MAX){
 	var valueLabelWidth = 40; // space reserved for value labels (right)
-	var barHeight = 18; // height of one bar
+	var barHeight = 23; // height of one bar
 	var barLabelWidth = 100; // space reserved for bar labels
 	var barLabelPadding = 5; // padding between bar and bar labels (left)
 	var gridLabelHeight = 18; // space reserved for gridline labels
 	var gridChartOffset = 3; // space between start of grid and first bar
-	var maxBarWidth = 800; // width of the bar with the max value
+	var maxBarWidth = 600; // width of the bar with the max value
 
 	function type(d) {
 		  d.value = parseFloat(d.value); // coerce to number
@@ -28,13 +28,13 @@ var BARPLOT = function (MAX){
 		var colorScale = d3.scale.linear().domain([0,d3.max(data,barValue)]).range(["#ef7788","#5555ef"]);
 		var colorScale2 = d3.scale.linear().domain([0,d3.max(data,barValue)]).range(["#cf0022","#1111cf"]);
 		// scales
-		var yScale = d3.scale.ordinal().domain(d3.range(0, data.length)).rangeBands([0, data.length * barHeight],0.06);
+		var yScale = d3.scale.ordinal().domain(d3.range(0, data.length)).rangeBands([0, data.length * barHeight],0.10);
 		var y = function(d, i) { return yScale(i); };
 		var yText = function(d, i) { return y(d, i) + yScale.rangeBand() / 2; };
 		var x = d3.scale.linear().domain([0, d3.max(data, barValue)]).range([0, maxBarWidth]);
 		// svg container element
 		var chart = d3.select('#bar').append("svg")
-		  .attr('width', maxBarWidth + barLabelWidth + valueLabelWidth)
+		  .attr('width', '100%')
 		  .attr('height', gridLabelHeight + gridChartOffset + data.length * barHeight)
 		  .style('background','#fcf3ff');
 		// grid line labels
@@ -106,8 +106,72 @@ var BARPLOT = function (MAX){
 		  .attr("y2", yScale.rangeExtent()[1] + gridChartOffset)
 		  .style("stroke", "#000")
 		  .style("stroke-width","0");
-		});   }
-
+		//-------------------------- HI score ---------------------------
+		  var annotationStart = barLabelPadding+ gridChartOffset+barLabelWidth + maxBarWidth;
+		  HI_score_width = 60;
+		  annotationStart += 3;
+		  var annotationContainer = {};
+		  annotationContainer.HI = chart.append('g').attr('transform', 'translate('+annotationStart+','+ (gridLabelHeight + gridChartOffset)+')');
+		  annotationContainer.HI.selectAll('rect').data(data).enter().append('rect')
+		  .attr("x",10)
+		  .attr('y',y)
+		  .attr('fill',"#55c3cf")
+		  .attr('width',function(d){ 
+		  	return ('HaploinsufficiencyScore' in d)?HI_score_width:null; })
+		  .attr('height',20)
+		  .attr({'rx':5,'ry':5})
+		  .style('cursor','pointer')
+		  .on('click', function(){ window.open("http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001154") });
+		 annotationContainer.HI.selectAll('text').data(data).enter().append('text')
+		 .attr('x',13)
+		 .attr('y',yText)
+		 .attr('dy', '.35em')
+		 .attr("text-anchor", "start") // text-align: right
+		 .attr("fill", "#fefefe")
+		 .attr("font-size","9px")
+		 .attr('font-weight','700')
+		 .text(function(d){ 
+			return ('HaploinsufficiencyScore' in d)?"HI: "+Number(d['HaploinsufficiencyScore']).toFixed(3):null;
+		 })
+		 .style('cursor','pointer')
+		  .on('click', function(){ window.open("http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1001154") });
+		
+		//-------------------------- IT score ---------------------------
+		 IT_score_width = 80;
+		  annotationStart += 5 +HI_score_width;
+		  var annotationContainer = {};
+		  annotationContainer.IT = chart.append('g').attr('transform', 'translate('+annotationStart+','+ (gridLabelHeight + gridChartOffset)+')');
+		  annotationContainer.IT.selectAll('rect').data(data).enter().append('rect')
+		  .attr("x",10)
+		  .attr('y',y)
+		  .attr('fill',"#ff5566")
+		  .attr('width',function(d){ 
+		  	return ('GeneIntoleranceScore' in d)?IT_score_width:null; })
+		  .attr('height',20)
+		  .attr({'rx':5,'ry':5})
+		  .style('cursor','pointer')
+		  .on('click', function(){ window.open("http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003709") });
+		 annotationContainer.IT.selectAll('text').data(data).enter().append('text')
+		 .attr('x',13)
+		 .attr('y',yText)
+		 .attr('dy', '.35em')
+		 .attr("text-anchor", "start") // text-align: right
+		 .attr("fill", "#fefefe")
+		 .attr("font-size","9px")
+		 .attr('font-weight','700')
+		 .text(function(d){ 
+			return ('GeneIntoleranceScore' in d)?"RVIS: "+Number(d['GeneIntoleranceScore']).toFixed(3):null;
+		 })
+		 .style('cursor','pointer')
+		  .on('click', function(){ window.open("http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003709") });
+		
+		});   
+		}
+		
+		
+		
+		
+		
 $("#bar div").css({'padding':'20px 20px'});
 $("#bar a").css({'margin-left':'30px'});
 
