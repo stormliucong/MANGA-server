@@ -679,6 +679,7 @@ sub score_genes{                                 #Input the disease list and ret
     while($i<@diseases and $j<@disease_gene_score)
     {
     	chomp($disease_gene_score[$j]);
+    	last if(not $disease_gene_score[$j]);
     	my @words=split("\t",$disease_gene_score[$j]); #@words:[0]GENE	[1]DISEASE	[2]DISEASE_ID	[3]SCORE	[4]SOURCE
     	my ($query_disease, $inference_score) = split("\t",$diseases[$i]);
     	if($query_disease eq $words[1])  
@@ -687,6 +688,7 @@ sub score_genes{                                 #Input the disease list and ret
     		$inference_score = 1.0 if (not $inference_score);
     		my @genes = split(",",$words[0]);
     		my $gene = $genes[0];
+    		if(not $gene){ print STDERR $disease_gene_score[$j]."\n"; $j++; next;}
     		$GENE_WEIGHT{$words[4]}= $addon_gene_disease_weight if (not defined $GENE_WEIGHT{$words[4]});
     		my $score = $words[3]*$inference_score*$GENE_WEIGHT{$words[4]};
             

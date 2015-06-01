@@ -147,14 +147,14 @@ color:#fafafa;
              #cy_container{
              display:block;
              margin:auto;
-             height:800px;
+             height:700px;
              width:900px;
              background-color:#ee99ff;
              padding:0px;
           
              }
              #cy {
-            height: 800px;
+            height: 700px;
             width: 950px;
             position: static;
             margin:5px auto;

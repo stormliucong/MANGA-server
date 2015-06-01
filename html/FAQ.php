@@ -242,7 +242,7 @@
       <div class="panel-body">
       <p>The network includes the top50 prioritized genes, and their associated diseases and relations with seed genes.
 			<br><br>
-			<img src="images/network_instructions.png" alt="network_instruction" width="700"/>
+			<img src="images/network_instruction.png" alt="network_instruction" width="700"/>
 			<br><br>
 			
 			<b>Round Nodes:</b> Genes, blue as reported, and yellow as predicted. The bigger, the higher the score. 
