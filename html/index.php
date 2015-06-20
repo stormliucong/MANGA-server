@@ -369,6 +369,13 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   	   	     <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[06/19/2015]</strong></p>
+    		 <p> The HPO ontology and anotation, DO ontology, and OMIM disease synonyms are updated to the newest version! 
+    		 </p>         </div></div> 
+	   
+	   
 	   	     <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[05/15/2015]</strong></p>
