@@ -37,7 +37,7 @@
 	<body>
 	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header col-md-3">
+        <div class="navbar-header col-md-2">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -358,8 +358,16 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	  </select>
     </div>
 	</div>
+	
+	
+	
 	<!-- End of Addon -->
-	   
+	   <h3 class="page-header text-primary">Reference</h3> 
+	   <div class = "col-md-12"> 
+	     <p>Yang, Hui, Peter N. Robinson, and Kai Wang. 
+	     <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3484.html">"Phenolyzer: phenotype-based prioritization of candidate genes for human diseases." Nature Methods (2015).
+	     </a></p>
+	   </div> 
 	  
                  
                  <input type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" name="ip" />
@@ -369,6 +377,17 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   <div class="panel panel-default">
+        <div class="panel-body">
+             <p><strong>[08/04/2015]</strong></p>
+             <p> The addon databases only contribute 25% now as they are not confident as original databases!</p>         </div></div> 
+	   
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[07/20/2015]</strong></p>
+    		 <p> Finally, Phenolyzer is published in <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3484.html"><b>Nature Methods</b></a>! 
+    		 </p>         </div></div> 
+	   
 	   	   	     <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[06/19/2015]</strong></p>

@@ -100,11 +100,11 @@ sub processSubmission {
 	    $system_command.="-logistic ";
     }
 	if($info{'addon_gg'}){$system_command.="-addon_gg $info{'addon_gg'} -addon_gg_weight 0.05 ";}
-	if($info{'addon_seed'}) {$system_command.="-addon $info{'addon_seed'} ";}
+	if($info{'addon_seed'}) {$system_command.="-addon $info{'addon_seed'} -addon_weight 0.25 ";}
 	if($info{"disease_file"}){$system_command.="$info{disease_file} ";}
 	if($info{"phenotype_interpretation"} eq "yes"){$system_command.="-phenotype ";}
-	if($info{"haploinsufficiency"} eq "yes"){ $system_command.="-hi "; }
-	if($info{"intolerance"} eq "yes"){ $system_command.="-it "; }
+	if(defined $info{"haploinsufficiency"} and $info{"haploinsufficiency"} eq "yes"){ $system_command.="-hi "; }
+	if(defined $info{"intolerance"} and $info{"intolerance"} eq "yes"){ $system_command.="-it "; }
 	if($info{"bedfile"}){
 		$system_command.="-bedfile query.bed -buildver $info{buildver} ";
 	}
@@ -193,23 +193,21 @@ sub processSubmission {
     $summary_message.=	qq|<li class="list-group-item">Buildver is $info{buildver}.</li>| if $info{bedfile};
 	$summary_message.=	qq|<li class="list-group-item">All diseases are considered.</li>| if($info{all_diseases} eq "yes");
 	$summary_message.=	qq|<li class="list-group-item">Phenotypes are interpretated.</li>| if($info{phenotype_interpretation} eq "yes");
-	my $out_gene_num;
+	my $out_gene_num = 0;
 	if(-s "gene_list.txt"){
 		my $gene_num=`wc -l gene_list.txt`;
-		$gene_num=~s/^(\d+).*$/$1/;
+		$gene_num=~/(\d+)/;
+		$gene_num = $1;
 		$summary_message.=	qq|<li class="list-group-item"><b>$gene_num</b> genes are entered within the genelist.</li>|;
-		if(-s "out.annotated_gene_list")
-		{
-		$out_gene_num = `wc -l out.annotated_gene_list`;
-		$out_gene_num=~s/^(\d+).*$/$1/;
-		}
-		else{
-			$out_gene_num=0;
-		}
 		$summary_message.=	qq|<li class="list-group-item">No gene within the genelist or the region was found.</li>|		
 		if( $out_gene_num<=1);
 	}
-	
+	if(-s "out.annotated_gene_list")
+    {
+        $out_gene_num = `wc -l out.annotated_gene_list`;
+        $out_gene_num=~ /(\d+)/;
+        $out_gene_num= $1;
+    }
     $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>| if($effective_term_num);
 	if($info{"all_diseases"} ne "yes")
 	{
@@ -228,7 +226,7 @@ sub processSubmission {
 	}
 	if(-s 'out.annotated_gene_scores'  )
 	{
-		   my $out_num = --$out_gene_num;
+		   my $out_num = $out_gene_num;
 	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC REPORT</b> could be found |;
 	       $summary_message.=qq|<a class = "outside" href = "$WEBSITE/done/$id/$password/out.annotated_gene_scores" ><b><u>Here</u>($out_num genes)</b></a>.\n|;
 	       $summary_message.=qq|<li class="list-group-item">The <b class="text-info">GENELIST/REGION SPECIFIC GENE LIST</b> could be found |;
@@ -471,6 +469,7 @@ my $rank=1;
 	
 	#system("cp index.html $HTML_DIRECTORY/done/$id/$password") and warn "Error runnning <cp index.html $HTML_DIRECTORY/done/$id/$password>";
 	system("mv index.html $HTML_DIRECTORY/done/$id/$password/") and die;
+	system("echo '   ' > $HTML_DIRECTORY/done/$id/index.html") and die;
 	system("mv network.json $HTML_DIRECTORY/done/$id/$password/") and print STDERR "Can't find network.json!!\n";
 	system("mv details.json $HTML_DIRECTORY/done/$id/$password/") and print STDERR "Can't find details.json!!\n";
 	system("mv out* $HTML_DIRECTORY/done/$id/$password/") and die;

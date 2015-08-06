@@ -107,7 +107,7 @@ var BARPLOT = function (MAX){
 		  .style("stroke", "#000")
 		  .style("stroke-width","0");
 		//-------------------------- HI score ---------------------------
-		  var annotationStart = barLabelPadding+ gridChartOffset+barLabelWidth + maxBarWidth;
+		  var annotationStart = barLabelPadding+ gridChartOffset+barLabelWidth + maxBarWidth + 20;
 		  HI_score_width = 60;
 		  annotationStart += 3;
 		  var annotationContainer = {};
