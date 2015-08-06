@@ -63,7 +63,7 @@ my @addons_seed = $q->param("addon_seed");
 my $addons_seed = join(',', @addons_seed);
 my @gene_score = $q->param("gene_score");
 $options eq "all_diseases" or $disease!~/^\W*$/  or die "No disease input is detected!!! $options";
-my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $disease);
+my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}:]+/,lc $disease);
            
 
 GenomicsServer::verifyEmail($email,$q);

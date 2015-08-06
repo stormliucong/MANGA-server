@@ -79,7 +79,7 @@ output_gene_prioritization();
 
 #-----------------------------------------Subroutines---------------------------------------------
 sub output_gene_prioritization{                        #The main sub to output prioritized genelist
-my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}]+/,lc $query_diseases);
+my @disease_input=split (qr/[^ _,\w\.\-'\(\)\[\]\{\}:]+/,lc $query_diseases);
 @disease_input <=1000 or die "Too many terms!!! No more than 1000 terms are accepted!!!";  
 
 #------------------------------------Process each individual term first -------------------------------------
@@ -561,7 +561,7 @@ sub phenotype_extension{
     my ($i,$j) = (0,0);		
 		while($i<@hpo_ids and $j<@hpo_annotation)
         { 
-    	chomp($hpo_annotation[$j]);
+    	$hpo_annotation[$j] =~s/[\r\n]+//g;
     	my @words=split("\t",$hpo_annotation[$j]);    #[0]HPO_ID	[1]SOURCE	[2]HPO_DISEASE_NAME	[3]FREQUENCY
     	  if($hpo_ids[$i] eq "HP:".$words[0]) 
     	  {
@@ -822,8 +822,9 @@ sub score_all_genes{                              #GENE	DISEASE	DISEASE_ID	SCORE
 	 }
 
 	return (\%item,$count);
-}	
+}
 
+#################################### This annovar_annotate function is no longer used   ##############################
 sub annovar_annotate{
 #----------------------Code borrowed from bed2gene.pl-------------------------
 
@@ -832,9 +833,9 @@ sub annovar_annotate{
 	unless defined $buildver;
 	$buildver eq 'hg18' or $buildver eq 'hg19' or pod2usage ("Error in argument: the --buildver argument must be 'hg18' or 'hg19'");
     my $sc;
-       $sc = "perl $path/../../bin/convert2annovar.pl -format bed $out_directory/$bedfile > $out.avinput";
+       $sc = "perl $path/../../bin/convert.pl -format bed $out_directory/$bedfile > $out.avinput";
     system ($sc) and die "Error: cannot execute system command $sc\n";	
-      $sc = "perl $path/../../bin/annotate_variation.pl -geneanno -buildver $buildver -outfile $out $out.avinput $path/../humandb";
+      $sc = "perl $path/../../bin/annotate.pl -geneanno -buildver $buildver -outfile $out $out.avinput $path/../humandb";
     system ($sc) and die "Error: cannot execute system command $sc\n";	
     my ($countregion, $countexonic) = qw/0 0/;
     my ($totallen);
@@ -849,16 +850,17 @@ sub annovar_annotate{
 	$countexonic++;
 	my @gene = split (/,/, $field[1]);
 	
-	for my $gene (@gene) 
-	  {
+	for my $gene (@gene) {
 		$gene_hash{$gene} = "$field[2]:$field[3]-$field[4]";
-	  }
+	 }
 	  $totallen += ($field[4]-$field[3]+1);
 	}
 print REGION_GENE $_."\n" for keys %gene_hash;            
 print STDERR "NOTICE: Among $countregion BED regions ($totallen base pairs), $countexonic disrupt exons, and ", scalar keys %gene_hash, " genes are affected\n";
 #----------------------Code borrowed from bed2gene.pl-------------------------
 }
+###################################################################################################################
+
 
 sub setup_variables{
 #Input argument setup
