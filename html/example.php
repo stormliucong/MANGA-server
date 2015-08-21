@@ -72,7 +72,7 @@
 		<div class="col-lg-10 col-lg-offset-1 " >
 		<div class="panel panel-primary">
       <div class="panel-heading">
-			<h3 class="panel-title  big-title">Some pregenerated examples could be found below</h3>
+			<h3 class="panel-title  big-title">Some pregenerated examples could be found below <br>(Caution: they might not be updated!) </h3>
 			</div>
 			  <div class="panel-body">
 			

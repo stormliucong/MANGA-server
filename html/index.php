@@ -127,7 +127,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <textarea  required title="" class="form-control" name="disease" id="disease" rows="4" placeholder="please enter your focused disease/phenotype terms"></textarea> 
 	   <span class="help-block">Please use semicolon or enter as separators. Like "alzheimer;brain".
 	    <br> Try to use multiple terms instead of a super long term
-	    <br>OMIM IDs are also accepted, like 114480 for 'Breast cancer'</span>
+	    <br>OMIM IDs are also accepted, like 114480 for 'Breast cancer'
+	    <br>Please enter 'HP:0002459;HP:0010522;HP:0001662' as HPO IDs.</span>
 	   </div>
 	  </div> 
 	  
@@ -334,7 +335,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
       <select class="selectpicker show-tick"  multiple name="addon_seed" id="addon_seed" data-selected-text-format="count>1">
 	           <option  value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>		
 	           <option value="DB_GAD_GENE_DISEASE_SCORE">Genetic Association Database</option>	
-	           <option  value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  	   
+	           <option  value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  
+	           <option  value="DB_IGA_NEPHROPATHY">Extra genes for Iga nephropathy (Thanks to Xuewen Song)</option>		   
 	  </select>
     </div>
 	</div>
@@ -377,6 +379,11 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   <div class="panel panel-default">
+        <div class="panel-body">
+             <p><strong>[08/06/2015]</strong></p>
+             <p> Now the HPO Identifiers are supported. For example, please enter 'HP:0002459; HP:0010522; HP:0001662'.</p>         </div></div> 
+	   
 	   <div class="panel panel-default">
         <div class="panel-body">
              <p><strong>[08/04/2015]</strong></p>

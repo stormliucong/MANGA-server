@@ -199,14 +199,16 @@ sub processSubmission {
 		$gene_num=~/(\d+)/;
 		$gene_num = $1;
 		$summary_message.=	qq|<li class="list-group-item"><b>$gene_num</b> genes are entered within the genelist.</li>|;
-		$summary_message.=	qq|<li class="list-group-item">No gene within the genelist or the region was found.</li>|		
-		if( $out_gene_num<=1);
+		
 	}
 	if(-s "out.annotated_gene_list")
     {
         $out_gene_num = `wc -l out.annotated_gene_list`;
         $out_gene_num=~ /(\d+)/;
         $out_gene_num= $1;
+        $summary_message.=	qq|<li class="list-group-item">No gene within the genelist or the region was found.</li>|		
+		if( $out_gene_num<=1);
+        $out_gene_num--;
     }
     $summary_message.=	qq|<li class="list-group-item">At most <b>$MAX_COUNT</b> genes will be found in details, for the complete list, please download the report here.</li>| if($effective_term_num);
 	if($info{"all_diseases"} ne "yes")

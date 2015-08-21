@@ -116,11 +116,14 @@ sub writeInfoFile {
         	open (DISEASES, ">$WORK_DIRECTORY/$submission_id/disease_list.txt") or die "Error: cannot write to user phenotype file: $!\n";
         	$legal_disease_num=0;
         	for my $individual_term(@disease_list){
-        	if($individual_term=~/^\W*$/){next;}
-        	$legal_disease_num++;
-            $individual_term=~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
-            $individual_term=~s/\s+/ /g;
-            print DISEASES $individual_term."\n";
+        		if($individual_term=~/^\W*$/){next;}
+        		$legal_disease_num++;
+            	$individual_term=~s/^\W*(.*?)\W*$/$1/;                 #Get rid of the whitespaces in the beginnning and end
+            	$individual_term=~s/\s+/ /g;
+            	if(length($individual_term)>150){
+            		die "ERROR: the maximal length of each term is 150 bp, please use semicolon to separate your terms!\n";
+            	}
+            	print DISEASES $individual_term."\n";
         	}
         	close (DISEASES);
         	print INFO "disease_file=disease_list.txt\n";

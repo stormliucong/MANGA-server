@@ -76,7 +76,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          What does Phenolyzer do?
+         1) What does Phenolyzer do?
         </a>
       </h4>
     </div>
@@ -93,7 +93,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
-       How does Phenolyzer perform?
+      2) How does Phenolyzer perform?
         </a>
       </h4>
     </div>
@@ -117,7 +117,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          How does Phenolyzer work?
+         3) How does Phenolyzer work?
         </a>
       </h4>
     </div>
@@ -136,7 +136,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">
-          What terms does Phenolyzer accept?
+         4) What terms does Phenolyzer accept?
         </a>
       </h4>
     </div>
@@ -154,7 +154,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">
-         What should I do if I don't know a specific disease/phenotype right now?
+        5) What should I do if I don't know a specific disease/phenotype right now?
         </a>
       </h4>
     </div>
@@ -169,7 +169,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">
-        What other inputs do Phenolyzer accept?
+       6) What other inputs do Phenolyzer accept?
         </a>
       </h4>
     </div>
@@ -186,7 +186,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7">
-        What if Phenolyzer doesn't have records for my term?
+       7) What if Phenolyzer doesn't have records for my term?
         </a>
       </h4>
     </div>
@@ -202,7 +202,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8">
-       What types of databases do Phenolyzer use?
+      8) What types of databases do Phenolyzer use?
         </a>
       </h4>
     </div>
@@ -219,7 +219,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9">
-       What are in the output?
+      9) What are in the output?
         </a>
       </h4>
     </div>
@@ -234,7 +234,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-10">
-       How could I understand the network?
+      10) How could I understand the network?
         </a>
       </h4>
     </div>
@@ -262,7 +262,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-11">
-        How could I play with the network?
+       11) How could I play with the network?
         </a>
       </h4>
     </div>
@@ -286,7 +286,7 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-12">
-        Why do I have different results for 'Mental Retardation' with 'Mental Disorder'?
+       12) Why do I have different results for 'Mental Retardation' with 'Mental Disorder'?
         </a>
       </h4>
     </div>
@@ -297,12 +297,58 @@
        just enter 'mental', or you can enter both, like 'mental retardation;mental disorder'.</p>
       
       </div></div></div>
-       
-   <div class="panel panel-success">
+  
+       <div class="panel panel-success">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-14">
+       13) How could I add my own seed genes?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-14" class="panel-collapse collapse">
+      <div class="panel-body">
+    <p> Please compile your seed genes in the format(tab_delimited), and save the file in PHENOLYZER_DIR/lib/compiled_database: <br>
+    Afterwards please use -addon_gg [your_filename] -addon_gg_weight [weight] in your command line.
+    </p>
+    <table class="table table-striped table-bordered">
+    <tr><th>Entrez Gene A </th><th> Entrez Gene B </th> <th>Evidence description </th><th> Normalized score (0 to 1)</th> <th>Source (Pubmed ID)</th></tr> 
+    <tr><td>BARD1</td><td>DCAF7</td><td>Mentha protein interaction</td><td>0.126</td><td>22990118</td></tr>
+    
+    </table>
+     
+         </div>
+    </div>
+  </div>
+      
+       <div class="panel panel-success">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-15">
+       14) How could I add my own gene-gene interactions?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-15" class="panel-collapse collapse">
+      <div class="panel-body">
+    <p> Please compile your gene-gene interaction in the format below (tab-delimited), and save the file in PHENOLYZER_DIR/lib/compiled_database: <br>
+    Afterwards please use -addon_gg [your_filename] -addon_weight [weight] in your command line.
+    </p>
+    <table class="table table-striped table-bordered">
+    <tr><th>Entrez Gene </th><th> Disease name </th> <th>Reference </th><th> Normalized score (0 to 1)</th> <th>Source</th></tr> 
+    <tr><td>CCR5 </td><td>acquired immunodeficiency syndrome</td><td>PUBMED:21502085 21502085</td><td>0.00595238095238095</td><td>GAD</td></tr>
+    
+    </table>
+     
+         </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-danger">
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
-        What does it mean if I separate my term 'acute lymphocytic leukemia' as 'acute;lymphocytic;leukemia'?
+       15) What does it mean if I separate my term 'acute lymphocytic leukemia' as 'acute;lymphocytic;leukemia'?
         </a>
       </h4>
     </div>
@@ -315,11 +361,6 @@
          </div>
     </div>
   </div>
-      
-  
-      
-      
-      
   
 </div>	</div>
 		<!-- container -->

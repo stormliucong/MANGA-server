@@ -6,7 +6,8 @@ $(window).load(function() {    $('.selectpicker').selectpicker({
     	 trigger: 'click',
 	   	 html:true
    	  });
-     $('#addon_seed').selectpicker('selectAll');
+     $('#addon_seed').selectpicker('val',['DB_DISGENET_GENE_DISEASE_SCORE', 'DB_GAD_GENE_DISEASE_SCORE', 'DB_GENECARDS_GENE_DISEASE_SCORE']);
+     $('#addon_seed').selectpicker('refresh');
      $('#gene_score').selectpicker('selectAll');
 //}); 
 
