@@ -61,9 +61,17 @@
         </div><!--/.nav-collapse --> 
 	  </div>
     </div>
+    	<div class="jumbotron" id="phenolyzer">
+	<div class="container">
+	<div class="col-lg-10 col-lg-offset-1" >
+  <h1>Phenohub</h1>
+  <p>This is where people can share and exchange their discoveries! Is it cool?</p> 
+
+  </p></div></div></div>
 		<div class="container">
 	
-			<section class="post_result ol-lg-10 col-lg-offset-1" style="padding-top: 50px">
+			<section class="post_result ol-lg-10 col-lg-offset-1" style="padding-top: 30px">
+
 	<h3 class="text-primary page-header">Post your result</h3>
 	<form action="/cgi-bin/post_result.cgi">
   <div class="form-group  ">
@@ -82,6 +90,7 @@
     <label for="gene">Gene (e.x. BRCA1;BRCA2)</label>
     <input type="text" name="gene" class="form-control" id="gene" placeholder="gene" required = true>
   </div>
+   <div class="form-group">
   <label for="confidence">Confidence</label>
   <select class="form-control" name = "confidence" id="confidence">
   <option value="1">1</option>
@@ -90,11 +99,19 @@
   <option value="4">4</option>
   <option value="5" selected>5</option>
     </select>
+    </div>
+     <div class="form-group">
+    <label for="open">Public or private</label>
+    <select class="form-control" name = "open" id="open">
+  <option value="public">Public</option>
+  <option value="private">Private</option>
+    </select>
+    </div>
     <br>
     <button class="btn btn-info" type="submit">Submit</button>
     </form>
     <br>
-    <h3 class="text-primary page-header">Current postings</h2>
+    <h3 class="text-primary page-header">Current public postings</h2>
 			%%%%Content%%%%  
 			
 			</section>

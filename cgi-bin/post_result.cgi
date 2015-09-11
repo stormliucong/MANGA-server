@@ -11,15 +11,20 @@ my $phenotype = $q->param("phenotype");
 my $disease = $q->param("disease");
 my $gene = $q->param("gene");
 my $confidence = $q->param("confidence");
+my $public = $q->param("open"); 
 setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
 if ($email){
 	GenomicsServer::verifyEmail($email,$q);
-	open(my $fh, ">>$LIB_DIRECTORY/custom_db/DB_CUSTOM_GENE_DISEASE") or die;
+	my $fh;
+	if($public eq "public") {
+		open($fh, ">>$LIB_DIRECTORY/custom_db/DB_CUSTOM_GENE_DISEASE") or die;
+	}else{
+		open($fh, ">>$LIB_DIRECTORY/custom_db/DB_CUSTOM_GENE_DISEASE_PRIVATE") or die;
+	}
 	flock ($fh,2);
 	print $fh join("\t", ($datestring, $email, $phenotype, $disease, $gene, $confidence))."\n";
 	flock ($fh,8);
 	close($fh);
-	
 }
 
 my $cgi_error = $q->cgi_error;
