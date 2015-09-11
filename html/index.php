@@ -80,6 +80,7 @@
   disease/phenotype terms. </p> 
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
   <button class="title-button btn btn-info btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
+  <a class="title-button btn btn-warning btn-lg" data-toggle="modal" href="/cgi-bin/post_result.cgi">Post your result</a>
   
   <!-- Modal -->
 <div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -367,7 +368,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <h3 class="page-header text-primary">Reference</h3> 
 	   <div class = "col-md-12"> 
 	     <p>Yang, Hui, Peter N. Robinson, and Kai Wang. 
-	     <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3484.html">"Phenolyzer: phenotype-based prioritization of candidate genes for human diseases." Nature Methods (2015).
+	     <a href="http://www.nature.com/nmeth/journal/v12/n9/abs/nmeth.3484.html">Phenolyzer: phenotype-based prioritization of candidate genes for human diseases. Nature Methods (2015).
 	     </a></p>
 	   </div> 
 	  
@@ -379,6 +380,13 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	      <div class="panel panel-default">
+        <div class="panel-body">
+             <p><strong>[09/11/2015]</strong></p>
+             <p>Please notice you can now post your findings on Phenolyzer! <br><br> 
+             <a href="https://github.com/WangGenomicsLab/phenolyzer/releases/tag/v0.1.4">Phenolyzer 0.1.4</a> was released! A bug in Bioperl dependency was fixed. Now it is strictly required to install Bioperl before you can use Phenolyzer.'.</p>         </div></div> 
+	   
+	   
 	   <div class="panel panel-default">
         <div class="panel-body">
              <p><strong>[08/06/2015]</strong></p>
@@ -392,7 +400,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[07/20/2015]</strong></p>
-    		 <p> Finally, Phenolyzer is published in <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3484.html"><b>Nature Methods</b></a>! 
+    		 <p> Finally, Phenolyzer is published in <a href="http://www.nature.com/nmeth/journal/v12/n9/abs/nmeth.3484.html"><b>Nature Methods</b></a>! 
     		 </p>         </div></div> 
 	   
 	   	   	     <div class="panel panel-default">
