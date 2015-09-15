@@ -336,7 +336,7 @@
     </p>
     <table class="table table-striped table-bordered">
     <tr><th>Entrez Gene </th><th> Disease name </th> <th>Reference </th><th> Normalized score (0 to 1)</th> <th>Source</th></tr> 
-    <tr><td>CCR5 </td><td>acquired immunodeficiency syndrome</td><td>PUBMED:21502085 21502085</td><td>0.00595238095238095</td><td>GAD</td></tr>
+    <tr><td>CCR5 </td><td>acquired immunodeficiency syndrome</td><td>PUBMED:21502085</td><td>0.00595238095238095</td><td>GAD</td></tr>
     
     </table>
      

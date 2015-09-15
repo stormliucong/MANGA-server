@@ -80,7 +80,7 @@
   disease/phenotype terms. </p> 
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
   <button class="title-button btn btn-info btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
-  <a class="title-button btn btn-warning btn-lg" data-toggle="modal" href="/cgi-bin/post_result.cgi">Post your result</a>
+  <a class="title-button btn btn-warning btn-lg" data-toggle="modal" href="/cgi-bin/phenohub.cgi">Phenohub</a>
   
   <!-- Modal -->
 <div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
