@@ -54,6 +54,7 @@
 			    <li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/cgi-bin/phenohub.cgi">Phenohub</a></li>
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
@@ -80,7 +81,7 @@
   disease/phenotype terms. </p> 
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
   <button class="title-button btn btn-info btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
-  <a class="title-button btn btn-warning btn-lg" data-toggle="modal" href="/cgi-bin/phenohub.cgi">Phenohub</a>
+  <a class="title-button btn btn-warning btn-lg" data-toggle="modal" href="/cgi-bin/phenohub.cgi">Post result</a>
   
   <!-- Modal -->
 <div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -482,12 +483,5 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
      <div class="footer col-lg-offset-1">
      <p class="text-muted">Rights Reserved @Wang Lab, Powered By Hui Yang USC Neuroscience</p>
       </div></div>    
-                
-                 
-               
-               
-                 
-                 
-             
 	</body>
 </html>

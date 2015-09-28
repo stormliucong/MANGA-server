@@ -43,6 +43,7 @@
 			   	<li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
 			   	<li class="active" ><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/cgi-bin/phenohub.cgi">Phenohub</a></li>
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>

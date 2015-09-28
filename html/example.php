@@ -43,6 +43,7 @@
 			   	<li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
 			   	<li ><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
 			   	<li  class="active"><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
+			   	<li><a href="http://phenolyzer.usc.edu/cgi-bin/phenohub.cgi">Phenohub</a></li>
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
@@ -78,7 +79,7 @@
 			
            <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4738/1_OXoD4WszZeFicS/index.html">    Amyotrophic lateral sclerosis</a></h3> 
 		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4737/uutz_AeaS4TkwBjI/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4736/11VzeqJPOC7rBbve/index.html">  Autism</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/8468/ooSqC1rRHr2Cqon4/index.html">  Autism</a></h3>
 		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4735/JmaKdyhPQb4YX8N6/index.html">  Huntington</a></h3>
 		    
 		    

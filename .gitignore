@@ -1,8 +1,7 @@
 work/
 lib/*
 !lib/compiled_database/
-lib/compiled_database/*
-!lib/compiled_database/*.pl
+lib/humandb
 html/done/
 html/images/
 html/download/
