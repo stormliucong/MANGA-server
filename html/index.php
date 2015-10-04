@@ -338,7 +338,8 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	           <option  value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>		
 	           <option value="DB_GAD_GENE_DISEASE_SCORE">Genetic Association Database</option>	
 	           <option  value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  
-	           <option  value="DB_IGA_NEPHROPATHY">Extra genes for Iga nephropathy (Thanks to Xuewen Song)</option>		   
+	           <option  value="DB_IGA_NEPHROPATHY">Extra genes for Iga nephropathy (Thanks to Xuewen Song)</option>	
+	           <option value="DB_CHD_YUFENG_EXPANSION"> (For test use only) CHD </option>	   
 	  </select>
     </div>
 	</div>

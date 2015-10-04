@@ -6,7 +6,7 @@ deleteOldFiles();
 
 sub deleteOldFiles {
 	 my @file_list = split("\n",`ls $HTML_DIRECTORY/done`);
-	 my $days=30;
+	 my $days=2;
 	 for my $file (@file_list)
 	 {
 	 	my $file_days = -M "$HTML_DIRECTORY/done/$file";
