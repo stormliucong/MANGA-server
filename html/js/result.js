@@ -396,6 +396,7 @@
 	         if(if_json_success)
 	        	 { 	 
 	        	 var current_page = $("#page-number").val();
+	        	   
 	        	    $("#details").find("a").css("cursor","pointer");
 	        	    var MAX_PAGE = Math.ceil(json.length/50);
 	        	    for(var i=0;i<50 && i<json.length;i++)
@@ -422,7 +423,7 @@
 	        	     $("#page-number").val(page);
 	        	     $("a.outside").attr("target","_blank");
 	        	 }
-	        	
+	        	 
 	        	 $("#page-start").click( function() {
 	        		 change_page(1); });
 	        	 $("#page-end").click(function(){
@@ -447,8 +448,10 @@
 	            	 
 	            	 }
 	            
+	             
+	             $("#details").prepend('<a class="outside" style="padding-top:20px;color:#010101;width:100%;text-align:center;display:block" href = "'
+	                        +window.location.href+'out.predicted_gene_scores">View source data</a>');
 	             $("a.outside").attr("target","_blank");
-	            
                });
                    
           

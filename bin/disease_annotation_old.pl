@@ -5,7 +5,6 @@ use Pod::Usage;
 use Getopt::Long;
 use Cwd;
 use File::Basename;
-use Bio::OntologyIO;
 use warnings;
 my $out_directory = cwd();
 my $dirname = dirname(__FILE__);
@@ -553,6 +552,7 @@ sub phenotype_extension{
     if ( not -f "$path/$hpo_annotation_file" );
     open (HPO_ANNOTATION, "$path/$hpo_annotation_file") or die "ERROR: Can't open $hpo_annotation_file!!! \n";
     open (OMIM_DESCRIPTION, "$path/$omim_description_file") or die "ERROR: Can't open $omim_description_file!!! \n";
+    
     my $line = `perl $work_path/ontology_search.pl -o $path/hpo.obo -format id -p '$input_term' 2>/dev/null`;
        @hpo_ids = split("\n", $line);
     my @hpo_annotation = <HPO_ANNOTATION>;

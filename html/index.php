@@ -2,8 +2,14 @@
 
 <html>
 <meta charset="utf-8"> 
+<meta property="og:type" content="website />"
+<meta property="og:image" content="http://phenolyzer.usc.edu/img/cancer.png">
+<meta property="og:title" content="Phenolyzer: Phenotype-based gene analyzer">
+<meta property="og:description" content="Phenolyzer stands for Phenotype Based Gene Analyzer, a tool focusing on discovering genes based on user-specific
+  disease/phenotype terms.">  
 	<head>
 	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
+	
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
         <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
 	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,16 +29,9 @@
     <script data-turbolinks-track="true" src="asset/js/jquery.fileupload.js"></script>
 	<script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
 	<script data-turbolinks-track="true" src="js/form_control_1.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-56057397-1', 'auto');
-  ga('send', 'pageview');
 
-</script>
+
 	</head>
 	<body>
 	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -44,7 +43,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu/index.php"><p class="title">Phenolyzer</p></a>
+             <a class="navbar-brand" style="padding:3px" href="/index.php">
+           <img src="./img/phenolyzer.png" style="height:100%"></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
@@ -82,6 +82,13 @@
   <p><a class="title-button btn btn-danger btn-lg" role="button" href="#getstart">Get Started</a>
   <button class="title-button btn btn-info btn-lg" data-toggle="modal" data-target="#contact-phenolyzer">Contact</button>
   <a class="title-button btn btn-warning btn-lg" data-toggle="modal" href="/cgi-bin/phenohub.cgi">Post result</a>
+   <br>
+    <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="false">
+</div>
   
   <!-- Modal -->
 <div class="modal fade" id="contact-phenolyzer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -111,8 +118,10 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 
   </p></div></div></div>
   
-		<div class="container">
+<div class="container">
 		<div class="phenolyzer-content col-lg-8 col-lg-offset-1">
+				
+		
    	    <form action="/cgi-bin/loh.cgi" method="post" ENCTYPE="multipart/form-data" role="form" class="form-horizontal" >
      	
      	<h3 id="getstart" class="page-header text-primary">Basic Information</h3>  
@@ -382,6 +391,17 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   <div class="panel panel-default">
+        <div class="panel-body">
+             <p><strong>[10/20/2015]</strong></p>
+             <p> OK, it's really bad to have a server failure. Due to our environment re-setup, I just found the wordcloud is not working. We have just fixed it! </p></div></div>
+	   
+	    <div class="panel panel-default">
+        <div class="panel-body">
+             <p><strong>[10/05/2015]</strong></p>
+             <p>Due to a recent server failure and server environment re-setup, the result from <b>2015-09-28 to 2015-10-05</b> is not correct! Please rerun your analysis! <br><br> 
+            </p></div></div>
+	   
 	      <div class="panel panel-default">
         <div class="panel-body">
              <p><strong>[09/11/2015]</strong></p>
@@ -485,4 +505,40 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
      <p class="text-muted">Rights Reserved @Wang Lab, Powered By Hui Yang USC Neuroscience</p>
       </div></div>    
 	</body>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56057397-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '642011455939272',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+  FB.ui(
+		  {
+		   method: 'share',
+		   href: 'http://phenolyzer.usc.edu/'
+		 }, function(response){});
+  
+</script>
+	
+
 </html>
