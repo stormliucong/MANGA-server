@@ -66,7 +66,7 @@ sub setupVariable {                      #Hui Yang added the WEBSITE here
 	$PROCESSED_ID_FILENAME = "${WORK_DIRECTORY}/processed_id";
 	
 	open (SUBMISSION_ID, $SUBMISSION_ID_FILENAME) or die "Error: cannot open submission_id file $SUBMISSION_ID_FILENAME in work directory $WORK_DIRECTORY: $!";
-	flock SUBMISSION_ID, 1;
+	flock SUBMISSION_ID, 2;
 	$SUBMISSION_ID = <SUBMISSION_ID>;
 	flock SUBMISSION_ID, 8;
 	close (SUBMISSION_ID);
@@ -83,11 +83,11 @@ sub prepareWorkDirectory {
 	-f $PROCESSED_ID_FILENAME or (system ">$PROCESSED_ID_FILENAME" and chmod 0777,$PROCESSED_ID_FILENAME) or die "Error:$PROCESSED_ID_FILENAME does not exist and can't be created!";
 	
 	open (SUBMISSION_ID, $SUBMISSION_ID_FILENAME) or die "Error: cannot open submission_id file $SUBMISSION_ID_FILENAME in work directory $WORK_DIRECTORY: $!";
-	flock SUBMISSION_ID, 1;
+	flock SUBMISSION_ID, 2;
 	$SUBMISSION_ID = <SUBMISSION_ID>;
 	flock SUBMISSION_ID, 8;
 	close (SUBMISSION_ID);
-	defined $SUBMISSION_ID or $SUBMISSION_ID=0; 
+	defined $SUBMISSION_ID or die("ERROR: Cannot get submission_id"); 
 	$SUBMISSION_ID ++;
 	open (SUBMISSION_ID, ">$SUBMISSION_ID_FILENAME") or die "Error: cannot write submission_id file in work directory $WORK_DIRECTORY: $!";
 	flock SUBMISSION_ID, 2;

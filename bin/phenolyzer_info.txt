@@ -1,4 +1,191 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+10342	2015-11-15	guiming@uchicago.edu	ulcerative colitis	128.135.101.189	http://phenolyzer.usc.edu/done/10342/YZOmr89Okb1QjiXm
+10340	2015-11-15	909356229@qq.com	atherosclerosis;artery injury	202.202.232.160	http://phenolyzer.usc.edu/done/10340/xs9jX0fFo2MjL0qF
+10339	2015-11-15	rfrancocruz2@unl.edu	parkinson's	66.87.139.132	http://phenolyzer.usc.edu/done/10339/12j0NFWXCS5TI9t6
+10338	2015-11-15	wangyanchi@sklmg.edu.cn	pachygyria	58.20.40.96	http://phenolyzer.usc.edu/done/10338/kAkY2PjHuxddUZHQ
+10337	2015-11-14	NA	storage;lysozyme	NA	http://phenolyzer.usc.edu/done/10337/y-A3551tUpzruycD
+10336	2015-11-14	hassan.roknizadeh@gmail.com	severe combined immunodeficiency	80.191.221.105	http://phenolyzer.usc.edu/done/10336/L-OSaCZS6bRjo_o8
+10335	2015-11-14	zhouzaiwei@163.com	hypertonia	180.172.44.211	http://phenolyzer.usc.edu/done/10335/Kvh-6pxW9GR13P1v
+10334	2015-11-14	zhouzaiwei@163.com	cerebellar dysplasia;developmental delay;hypertonia	180.172.44.211	http://phenolyzer.usc.edu/done/10334/qP5BZL-HohJqXnqU
+10333	2015-11-14	zhouzaiwei@163.com	cerebellar dysplasia	180.172.44.211	http://phenolyzer.usc.edu/done/10333/lyQOPo_jje730vaB
+10332	2015-11-14	zhouzaiwei@163.com	cerebellar dysplasia;developmental delay;hypertonia	180.172.44.211	http://phenolyzer.usc.edu/done/10332/rm5brKUmwbdJ0Iuo
+10331	2015-11-14	test@gmail.com	prostate cancer	128.125.247.143	http://phenolyzer.usc.edu/done/10331/xT785DLM07W3D9Os
+10330	2015-11-14	pamela.magini@unibo.it	radial aplasia	151.42.87.236	http://phenolyzer.usc.edu/done/10330/cGs-ewzdgSLbRtgm
+10329	2015-11-14	pamela.magini@unibo.it	craniosynostosis;radial aplasia	151.42.87.236	http://phenolyzer.usc.edu/done/10329/3rpGEftXfqGrBLl7
+10328	2015-11-14	wangyanchi@sklmg.edu.cn	pachygyria nova	58.20.40.96	http://phenolyzer.usc.edu/done/10328/tQYlLu1rev3lU3YB
+10327	2015-11-14	gotos@icloud.com	iga glomerulonephritis	125.0.159.15	http://phenolyzer.usc.edu/done/10327/d4u5TiwL1M9P-LKj
+10326	2015-11-14	gotos@icloud.com	iga nephropathy	125.0.159.15	http://phenolyzer.usc.edu/done/10326/dUtlh0o2p0g9CJTv
+10325	2015-11-14	gotos@icloud.com	iga nephropathy	125.0.159.15	http://phenolyzer.usc.edu/done/10325/EqfaNa0EWoXsiV0l
+10324	2015-11-14	gotos@icloud.com	iga nephropathy 1;iga nephropathy 2	125.0.159.15	http://phenolyzer.usc.edu/done/10324/gCRCE3vNTuWJWAUD
+10323	2015-11-14	gotos@icloud.com	iga nephropathy 1	125.0.159.15	http://phenolyzer.usc.edu/done/10323/yEK7jQj2TiWs5FXX
+10322	2015-11-14	gotos@icloud.com	atypical hemolytic uremic syndrome	125.0.159.15	http://phenolyzer.usc.edu/done/10322/con8_wwshd5KmXJi
+10321	2015-11-14	gotos@icloud.com	iga nephropathy 1	125.0.159.15	http://phenolyzer.usc.edu/done/10321/_VPYkJf8wEy0bFZB
+10320	2015-11-14	gotos@icloud.com	iga nephropathy 1	125.0.159.15	http://phenolyzer.usc.edu/done/10320/O4LpNTfAVN0Br6LG
+10319	2015-11-14	wangyanchi@sklmg.edu.cn	pachygyria	58.20.40.96	http://phenolyzer.usc.edu/done/10319/dNQpBdF7moAY_R0z
+10318	2015-11-14	wangyanchi@sklmg.edu.cn	pachygyria	58.20.40.96	http://phenolyzer.usc.edu/done/10318/tPhsdQglXbsd6Deg
+10317	2015-11-14	wangyanchi@sklmg.edu.cn	pachygyria	58.20.40.96	http://phenolyzer.usc.edu/done/10317/huuTTj8fRzzxDIXO
+10316	2015-11-14	wangyanchi@sklmg.edu.cn	pachygria	58.20.40.96	http://phenolyzer.usc.edu/done/10316/RfsTwSaE6An5nRKw
+10315	2015-11-13	hassan.roknizadeh@gmail.com	cvid	80.191.221.105	http://phenolyzer.usc.edu/done/10315/ShQdy1zrz3ebR_Z0
+10314	2015-11-13	hassan.roknizadeh@gmail.com	common variable immune deficiency (cvid	80.191.221.105	http://phenolyzer.usc.edu/done/10314/KHvdIi2R0h0zJ64T
+10313	2015-11-13	hassan.roknizadeh@gmail.com	wiskott-aldrich syndrome	80.191.221.105	http://phenolyzer.usc.edu/done/10313/1jE6KCyyMOPFZzhv
+10312	2015-11-13	gotos@icloud.com	iga nephropathy 1	126.152.210.92	http://phenolyzer.usc.edu/done/10312/HiIZDIvigKEUz1ID
+10309	2015-11-13	zhouzaiwei@163.com	developmental delay;cerebellar dysplasia;hypertonia	180.172.44.211	http://phenolyzer.usc.edu/done/10309/1U312xL8pGdmDrtI
+10308	2015-11-13	claudio.dellorusso@artemisia.it	cleft palate;cleft lip;palate	31.27.96.121	http://phenolyzer.usc.edu/done/10308/AIDKDe2iKBqn0ZSO
+10307	2015-11-13	pamela.magini@unibo.it	craniosynostosis;radial aplasia	137.204.99.250	http://phenolyzer.usc.edu/done/10307/E6sY7cGDxBg0kmvI
+10306	2015-11-13	annalisavetro@gmail.com	progeria	192.167.73.51	http://phenolyzer.usc.edu/done/10306/5lNiWmts7KU7EnLd
+10305	2015-11-13	NA	breast cancer, chronic myeloid leukemia	NA	http://phenolyzer.usc.edu/done/10305/52uDibyCgPtAa-aF
+10304	2015-11-13	fanyanjie13@163.com	short stature;mental retardation;epilepsy;hip dysplasia	98.126.10.12	http://phenolyzer.usc.edu/done/10304/A5wJTtL01PLQjIFG
+10303	2015-11-13	fanyanjie13@163.com	short stature;developmental delay	98.126.10.12	http://phenolyzer.usc.edu/done/10303/piB-PH8VZLWfFaPW
+10302	2015-11-13	fanyanjie13@163.com	chondrodysplasia punctata	98.126.10.12	http://phenolyzer.usc.edu/done/10302/98Q9CAlrowEb2cHG
+10301	2015-11-13	gy-9100@163.com	hydrocephalus	119.96.208.62	http://phenolyzer.usc.edu/done/10301/0jva6qdk-baSiPCc
+10300	2015-11-13	fanyanjie13@163.com	chondrodysplasia punctata	98.126.10.12	http://phenolyzer.usc.edu/done/10300/dX1aHPThfRvpM9Yu
+10299	2015-11-13	zhouchengming1989@163.com	kallmann syndrome	221.232.137.210	http://phenolyzer.usc.edu/done/10299/KVqlNJn22C-4wK5e
+10298	2015-11-12	zhouzaiwei@163.com	hypertonia;cerebellar dysplasia;developmental delay	58.32.236.249	http://phenolyzer.usc.edu/done/10298/WpfCJme9D1Nwdl6p
+10297	2015-11-12	yangjunhuicq@163.com	infantile spasms;sleep	118.26.245.162	http://phenolyzer.usc.edu/done/10297/Amj3B_mgTybxQ1kp
+10296	2015-11-12	NA	114550	NA	http://phenolyzer.usc.edu/done/10296/r0XFX0hbX44TSB9z
+10295	2015-11-12	NA	114550	NA	http://phenolyzer.usc.edu/done/10295/kJBmzAGWkcnTdy_G
+10294	2015-11-12	NA	114550	NA	http://phenolyzer.usc.edu/done/10294/dM7IuyaDexVzL3bP
+10293	2015-11-12	yangjunhuicq@163.com	infantile spasms;sleep	118.26.245.162	http://phenolyzer.usc.edu/done/10293/Orjno3qPIGZfjF1s
+10292	2015-11-12	zhouzaiwei@163.com	hypertonia	58.32.236.249	http://phenolyzer.usc.edu/done/10292/gpzt39FdRt8UcG83
+10291	2015-11-12	101280295@qq.com	microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10291/LGPq8YZN8GaOwhIx
+10290	2015-11-12	101280295@qq.com	microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10290/ijl4TmR9cvbAnU25
+10289	2015-11-12	101280295@qq.com	microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10289/gQo6TpMVm7nrnyHN
+10288	2015-11-12	101280295@qq.com	microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10288/gDSZqJePJ8hJbjbf
+10287	2015-11-12	101280295@qq.com	microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10287/_L15wHwS53ZWv7ZL
+10286	2015-11-12	j.szot@victorchang.edu.au	double outlet right ventricle;tetralogy of fallot	129.94.110.105	http://phenolyzer.usc.edu/done/10286/XgyLxDhmiM1JVBq6
+10285	2015-11-12	j.szot@victorchang.edu.au	double outlet right ventricle;tetralogy of fallot	129.94.110.105	http://phenolyzer.usc.edu/done/10285/GQ2Jng89tealSnh4
+10284	2015-11-12	471855840@qq.com	hypospadias	58.20.55.76	http://phenolyzer.usc.edu/done/10284/S73FMvwbmAv4E0oh
+10283	2015-11-12	471855840@qq.com	hypospadias	58.20.55.76	http://phenolyzer.usc.edu/done/10283/WDJ0Y8JhmOfMK67u
+10282	2015-11-12	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10282/S9I-NgrYPzsGyyp7
+10281	2015-11-12	101280295@qq.com	microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10281/5CirsLTjB2IXsol5
+10280	2015-11-12	101280295@qq.com	nanophthalmos microphthalmia	116.6.99.223	http://phenolyzer.usc.edu/done/10280/GAoBM4BVuzyAac0S
+10279	2015-11-12	NA	congenital heart disease	NA	http://phenolyzer.usc.edu/done/10279/QALd7LZUUSHI53CT
+10278	2015-11-12	karvai@genedx.com	hp:0007371;hp:0001263;hp0004378;hp0002779;hp:0002751;hp:0002486;hp:0002108;hp:0002023;hp:0001999;hp:0001601;hp:0001344;hp:0001324;hp:0001290;hp:0001263;hp:0001257	69.74.168.162	http://phenolyzer.usc.edu/done/10278/fmrmh7azMZmh6JZv
+10277	2015-11-12	NA	congenital heart disease	NA	http://phenolyzer.usc.edu/done/10277/clo6FElkdc1ojhqs
+10276	2015-11-12	amitkishore.bio@gmail.com	lung diseases;sarcoidosis	194.94.191.148	http://phenolyzer.usc.edu/done/10276/Z4L8UEo0Y7LojLE4
+10275	2015-11-12	amitkishore.bio@gmail.com	lung diseases;sarcoidosis	194.94.191.148	http://phenolyzer.usc.edu/done/10275/WbihEXlU-sIIYppr
+10274	2015-11-12	amitkishore.bio@gmail.com	all_diseases	194.94.191.148	http://phenolyzer.usc.edu/done/10274/f_eoA_pW8pYqTKWt
+10273	2015-11-12	NA	dystonia myoclonic	NA	http://phenolyzer.usc.edu/done/10273/Zw1cc1GhllUqR51n
+10272	2015-11-12	NA	dementia familial nonspecific	NA	http://phenolyzer.usc.edu/done/10272/vz3po2HcARCxxQIQ
+10271	2015-11-12	pamela.magini@unibo.it	craniosynostosis radial aplasia syndrome	137.204.99.250	http://phenolyzer.usc.edu/done/10271/E35CFTuCuoY9HmTp
+10270	2015-11-12	pamela.magini@unibo.it	craniosynostosis radial aplasia syndrome	137.204.99.250	http://phenolyzer.usc.edu/done/10270/JtsPhuTF3i-L2dNN
+10269	2015-11-12	pamela.magini@unibo.it	craniosynostosis;radial aplasia	137.204.99.250	http://phenolyzer.usc.edu/done/10269/vTu_l-2VvFzzZVI4
+10268	2015-11-12	NA	mental retardation;mental disorders	NA	http://phenolyzer.usc.edu/done/10268/q9knGTbwRyiK-bbm
+10267	2015-11-12	NA	mental retardation;mental disorders	NA	http://phenolyzer.usc.edu/done/10267/isv9_jnzmJ4JMIA_
+10265	2015-11-12	claudio.dellorusso@artemisia.it	osteochondrodysplasia	31.27.96.121	http://phenolyzer.usc.edu/done/10265/BNke8GqFAKrNjnuT
+10264	2015-11-12	NA	mental disorders;mental disorders	NA	http://phenolyzer.usc.edu/done/10264/vS1NQICLIek90wzC
+10263	2015-11-12	NA	mental disorders;mental disorders	NA	http://phenolyzer.usc.edu/done/10263/ygYzX_Lj4AXwSLCD
+10262	2015-11-12	claudio.dellorusso@artemisia.it	skeletal abnormalities	31.27.96.121	http://phenolyzer.usc.edu/done/10262/iO5s6ATIoCwzOivg
+10261	2015-11-12	changjin.hong@gmail.com	wolff-parkinson-white	140.254.63.2	http://phenolyzer.usc.edu/done/10261/Oz6jfhyM-FWGrdWv
+10260	2015-11-12	claudio.dellorusso@artemisia.it	corpus callosum agenesis neuronopathy	31.27.96.121	http://phenolyzer.usc.edu/done/10260/wZqDme11U_r3NEJR
+10259	2015-11-12	karvai@genedx.com	hp:0002197;hp:0001303;hp:0000252;hp:0001973;hp:0001290;hp:0100704;hp:0008530;hp:0002943;hp:0000938;hp:0011344;hp:0003508;hp:0008848;hp:0000639;hp:0012444;hp:0010552;hp:0001298;hp:0001510;hp:0004793;hp:0005263	69.74.168.162	http://phenolyzer.usc.edu/done/10259/aqaABHgfSBWDeUQF
+10258	2015-11-12	claudio.dellorusso@artemisia.it	corpus callosum agenesis microcephaly polymicrogyria corpus callosum agenesis	31.27.96.121	http://phenolyzer.usc.edu/done/10258/h84uaAsRdegaalA5
+10257	2015-11-12	NA	dementia familial nonspecific	NA	http://phenolyzer.usc.edu/done/10257/s6Z8GyHPzVSuUqhU
+10256	2015-11-12	changjin.hong@gmail.com	epilepsy;hip dysplasia;hypertrichosis;intellectual disability;strabismus	140.254.63.2	http://phenolyzer.usc.edu/done/10256/CgTdGZVaHoas8SNL
+10255	2015-11-12	changjin.hong@gmail.com	hyperexcitability;aggressive behavior;seizures;myoclonic;intellectual disability;long nose;sleep disturbance	140.254.63.2	http://phenolyzer.usc.edu/done/10255/67bEVox1bor-SJjs
+10254	2015-11-12	NA	coloboma	NA	http://phenolyzer.usc.edu/done/10254/syAdBm0bu583PqB4
+10253	2015-11-12	pamela.magini@unibo.it	hereditary spastic paraplegia;immunologic deficiency	137.204.99.250	http://phenolyzer.usc.edu/done/10253/jm0jkLTHB9U4fxJB
+10252	2015-11-12	pamela.magini@unibo.it	hereditary spastic paraplegia	137.204.99.250	http://phenolyzer.usc.edu/done/10252/S975X4UhRJHcAupT
+10251	2015-11-12	1260616237@qq.com	hypertension	111.34.48.229	http://phenolyzer.usc.edu/done/10251/vFR91SDR6kIj5HlJ
+10250	2015-11-12	1260616237@qq.com	hypertension essential	111.34.48.229	http://phenolyzer.usc.edu/done/10250/SNfpXUJacLG0CqZW
+10249	2015-11-12	NA	coloboma	NA	http://phenolyzer.usc.edu/done/10249/JEWZkxUQejnz3R6L
+10248	2015-11-12	changjin.hong@gmail.com	hyperexcitability;aggressive behavior;seizures;myoclonic;intellectual disability	140.254.63.2	http://phenolyzer.usc.edu/done/10248/8yMOHnSOBRSs_640
+10247	2015-11-12	changjin.hong@gmail.com	a bundle branch block;a short pr interval;paroxysms of tachycardia	140.254.63.2	http://phenolyzer.usc.edu/done/10247/IbBMglVKrAt32VCG
+10246	2015-11-12	zhouzaiwei@163.com	hypermyotonia	202.120.2.30	http://phenolyzer.usc.edu/done/10246/oMsY1jDW7wiQvOre
+10245	2015-11-12	NA	coloboma	NA	http://phenolyzer.usc.edu/done/10245/3J2XJa9PqPGbj_fl
+10244	2015-11-12	471855840@qq.com	hypospadias	175.9.204.4	http://phenolyzer.usc.edu/done/10244/fD0yksxZmFM-3beP
+10243	2015-11-12	NA	coloboma	NA	http://phenolyzer.usc.edu/done/10243/nH9cIUGAlRBfLinv
+10242	2015-11-12	szalaics@gmail.com	atherosclerosis generalized;diabetes;obesity	193.224.49.38	http://phenolyzer.usc.edu/done/10242/U7hkOh17LsdIY16p
+10241	2015-11-12	szalaics@gmail.com	breast cancer somatic	193.224.49.38	http://phenolyzer.usc.edu/done/10241/kZESLWTrH8w-pwJU
+10240	2015-11-12	cy_jiang@126.com	ataxia;hp:0001417	76.191.115.46	http://phenolyzer.usc.edu/done/10240/ZieBumPCj9O0mnPM
+10239	2015-11-12	cy_jiang@126.com	ataxia	76.191.115.46	http://phenolyzer.usc.edu/done/10239/4U48QLfaPx494XrI
+10238	2015-11-12	szalaics@gmail.com	asthma	193.224.49.38	http://phenolyzer.usc.edu/done/10238/PQAPR5lCQkvSmuC_
+10237	2015-11-12	NA	114550	NA	http://phenolyzer.usc.edu/done/10237/4dkhbwNc69aqVJsT
+10236	2015-11-12	NA	114550	NA	http://phenolyzer.usc.edu/done/10236/PcJpGyFIbbBGLGtO
+10235	2015-11-12	cy_jiang@126.com	nystagmus;retinitis pigmentosa;mental retardation;amenorrhea;irregularly spaced teeth;hp:0000007	76.191.115.46	http://phenolyzer.usc.edu/done/10235/uIDnfrgg-gRkwsGW
+10234	2015-11-12	cy_jiang@126.com	nystagmus;retinitis pigmentosa;mental retardation;amenorrhea;irregularly spaced teeth;hp:0000007	76.191.115.46	http://phenolyzer.usc.edu/done/10234/-IHikY-gVr4Z3Zef
+10233	2015-11-12	szalaics@gmail.com	acute lymphoblastic leukemia	193.224.49.38	http://phenolyzer.usc.edu/done/10233/3zcWgKBKwpzrUP3Z
+10232	2015-11-12	szalaics@gmail.com	atherosclerosis generalized	193.224.49.38	http://phenolyzer.usc.edu/done/10232/XuNM_toF7hFVrTmy
+10231	2015-11-12	cy_jiang@126.com	ataxia;hp:0001417	76.191.115.46	http://phenolyzer.usc.edu/done/10231/Vl-59W_qSUFeuPlw
+10230	2015-11-12	orisnas@126.com	hp:0002459	223.104.7.76	http://phenolyzer.usc.edu/done/10230/fslBE2bIzCbJO55z
+10229	2015-11-12	1093595423@qq.com	brca1	183.157.160.55	http://phenolyzer.usc.edu/done/10229/mrfojZ1cL4qoCgVb
+10228	2015-11-12	1093595423@qq.com	nqo1	183.157.160.55	http://phenolyzer.usc.edu/done/10228/VA1TjeUgGDzg1P7j
+10227	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10227/q6RPY02GDbtyt61P
+10226	2015-11-11	1093595423@qq.com	breast cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10226/DfcV6loxSim1Y85K
+10225	2015-11-11	1093595423@qq.com	breast cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10225/nijalNR_jjFvPRD2
+10224	2015-11-11	yangjunhuicq@163.com	infantile spasms	118.26.245.162	http://phenolyzer.usc.edu/done/10224/wK1zTrSxez3YYJfj
+10223	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10223/QtW93qqKLub0VT4J
+10222	2015-11-11	yangjunhuicq@163.com	infiltrative basal cell carcinoma	118.26.245.162	http://phenolyzer.usc.edu/done/10222/t29l7gjFozS8tzoM
+10221	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10221/rGx356GGpK0XZc5J
+10220	2015-11-11	cy_jiang@126.com	ataxia;hp:0001417	76.191.115.46	http://phenolyzer.usc.edu/done/10220/xY2UB7N-VcYfmp-r
+10219	2015-11-11	cy_jiang@126.com	ataxia	76.191.115.46	http://phenolyzer.usc.edu/done/10219/LQU2Q4F8zBqOMNZm
+10218	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10218/mQHFx7VSz6BqZMkE
+10217	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10217/njNdaeYrV3WZsJ2Z
+10216	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10216/KhVo2y-PcZpVOPMi
+10215	2015-11-11	NA	cataract;nystagmus	NA	http://phenolyzer.usc.edu/done/10215/q0LPUDhVT9QQsSwY
+10214	2015-11-11	NA	cataract;nystagmus	NA	http://phenolyzer.usc.edu/done/10214/-2rnFe9kEqch_iRc
+10213	2015-11-11	cy_jiang@126.com	ataxia;hp:0001417	76.191.115.46	http://phenolyzer.usc.edu/done/10213/tDn8RhGz0wAdMeRH
+10212	2015-11-11	cy_jiang@126.com	ataxia	76.191.115.46	http://phenolyzer.usc.edu/done/10212/MGqUkV3A8U8IcUwJ
+10211	2015-11-11	1093595423@qq.com	diabetes	183.157.160.55	http://phenolyzer.usc.edu/done/10211/T0tAqUKkqjkVGyzp
+10210	2015-11-11	NA	blood	NA	http://phenolyzer.usc.edu/done/10210/zz2Jhh8-erWQqegr
+10209	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10209/zYTk61LxAiPnB4jW
+10208	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10208/VSHogmNMxX6UQIu_
+10207	2015-11-11	cy_jiang@126.com	ataxia	76.191.115.46	http://phenolyzer.usc.edu/done/10207/__BkuAZoInI-UQLu
+10206	2015-11-11	1093595423@qq.com	cyp2c9	183.157.160.55	http://phenolyzer.usc.edu/done/10206/bkbyGachII26djT7
+10205	2015-11-11	hassan.roknizadeh@gmail.com	wiskott aldrich syndrome	194.225.72.186	http://phenolyzer.usc.edu/done/10205/UhqBCcDlidVJwxoC
+10204	2015-11-11	NA	rhabdomyosarcoma	NA	http://phenolyzer.usc.edu/done/10204/xJ2RS0yJn-wq-KVj
+10203	2015-11-11	1093595423@qq.com	mthfr	183.157.160.55	http://phenolyzer.usc.edu/done/10203/WlOm_YyA0OUagh5J
+10202	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10202/leQN1AvJKqZAxniy
+10201	2015-11-11	1093595423@qq.com	cda	183.157.160.55	http://phenolyzer.usc.edu/done/10201/AVuvCFCY_u84eQtB
+10200	2015-11-11	1093595423@qq.com	rrm1	183.157.160.55	http://phenolyzer.usc.edu/done/10200/0cs-tRphh7PrUK9P
+10199	2015-11-11	1093595423@qq.com	rrm1	183.157.160.55	http://phenolyzer.usc.edu/done/10199/TlQIBZiYShWAMlwK
+10198	2015-11-11	1093595423@qq.com	cda	183.157.160.55	http://phenolyzer.usc.edu/done/10198/LkoHnVw5iiGGvmmH
+10197	2015-11-11	1093595423@qq.com	breast cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10197/R4wOgNi1mQiGaS3t
+10196	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10196/NtyJZQbnJx_7XL7p
+10195	2015-11-11	NA	rhabdomyosarcoma	NA	http://phenolyzer.usc.edu/done/10195/vr-_JNFnhdf114VF
+10194	2015-11-11	1093595423@qq.com	lung cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10194/2DyxqR3sHyDRnNKw
+10193	2015-11-11	1093595423@qq.com	add1	183.157.160.55	http://phenolyzer.usc.edu/done/10193/VFFH1ez261bEWfRk
+10192	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10192/LNx_iBrqJ4_n7hF1
+10191	2015-11-11	1093595423@qq.com	cancer	183.157.160.55	http://phenolyzer.usc.edu/done/10191/iBd3oXDWusd8_oQo
+10190	2015-11-11	sttcpu@126.com	leukemia	123.113.102.22	http://phenolyzer.usc.edu/done/10190/G_B8WmhdRssHjYf3
+10189	2015-11-11	282042312@qq.com	malignant melanoma	175.13.253.176	http://phenolyzer.usc.edu/done/10189/9bCCPIN2f4vlDLli
+10188	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10188/XpIEpJLbD_4oil8O
+10187	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10187/itT0UhUOdBzneSF5
+10186	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10186/wWq7YKpTPrD-xbC2
+10185	2015-11-11	471855840@qq.com	premature ovarian failure	58.20.55.76	http://phenolyzer.usc.edu/done/10185/Raw6sQ-VhZFHOfCJ
+10184	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10184/22bkGjbKDmn3Llcu
+10183	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10183/dAtcRr9YtmpLXhNO
+10182	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10182/uf7HUqs3gF5HaJ7_
+10181	2015-11-11	471855840@qq.com	breast cancer	58.20.55.76	http://phenolyzer.usc.edu/done/10181/01t4YgqyCyREv17q
+10180	2015-11-11	NA	114550	NA	http://phenolyzer.usc.edu/done/10180/Q-NT94KSF4P-9Wgt
+10179	2015-11-11	NA	mitochondrial diseases;mitochondrial myopathy;type 1 diabetes mellitus;adrenal insufficiency	NA	http://phenolyzer.usc.edu/done/10179/vIPPEQ5GJ4L9qKRY
+10178	2015-11-11	NA	cancer	NA	http://phenolyzer.usc.edu/done/10178/zTJAKeyGbwNpqHbg
+10177	2015-11-11	sttcpu@126.com	cardiomyopathy	123.113.102.22	http://phenolyzer.usc.edu/done/10177/9k3D0O4q8uxSMpwm
+10176	2015-11-11	sttcpu@126.com	cardiomyopathy	123.113.102.22	http://phenolyzer.usc.edu/done/10176/e9yp3IyXdIi9ECbx
+10175	2015-11-11	kzhu68@hotmail.com	congenital hypothyroidism duox2 related thryoid dyshormonogenesis 6 12	116.228.8.18	http://phenolyzer.usc.edu/done/10175/JbeGg8A3reLVTdAF
+10174	2015-11-11	kzhu68@hotmail.com	duox2	116.228.8.18	http://phenolyzer.usc.edu/done/10174/XHCA-QCrVPTkfArD
+10173	2015-11-11	kzhu68@hotmail.com	hypothyrodism	116.228.8.18	http://phenolyzer.usc.edu/done/10173/UJJY9Cf1G-CYFEDc
+10172	2015-11-11	kzhu68@hotmail.com	congenital hypothyrodism	116.228.8.18	http://phenolyzer.usc.edu/done/10172/ihN3h0f1mFL6_HFK
+10171	2015-11-11	kzhu68@hotmail.com	congenital hypothyrodism	116.228.8.18	http://phenolyzer.usc.edu/done/10171/07ZOBS9sDaezOAbw
+10170	2015-11-11	wms67825@163.com	breast cancer	153.119.163.2	http://phenolyzer.usc.edu/done/10170/cRML3wC9CN5kGexG
+10169	2015-11-11	kzhu68@hotmail.com	alport syndrome	116.228.8.18	http://phenolyzer.usc.edu/done/10169/Ujou3xu3RfxYlZ6j
+10168	2015-11-11	kzhu68@hotmail.com	alport syndrome and thin basement membrane nephropathy	116.228.8.18	http://phenolyzer.usc.edu/done/10168/mRPZrpkHSgsoH6Cb
+10167	2015-11-11	344080569@qq.com	myoclonic epilepsy	116.6.99.220	http://phenolyzer.usc.edu/done/10167/-jE-fpJMMuJFl-ED
+10166	2015-11-11	344080569@qq.com	myoclonic epilepsy	116.6.99.220	http://phenolyzer.usc.edu/done/10166/vOyf7g18Jm40t02o
+10165	2015-11-11	kzhu68@hotmail.com	alport syndrome	116.228.8.18	http://phenolyzer.usc.edu/done/10165/GCdUjhVt908X1B-G
+10164	2015-11-11	kzhu68@hotmail.com	alport syndrome	116.228.8.18	http://phenolyzer.usc.edu/done/10164/FNempJjVT_qtqPNk
+10163	2015-11-11	dylwp_316@aliyun.com	disorder of gonad development	118.144.164.249	http://phenolyzer.usc.edu/done/10163/UmE3iTq8PYc_X-Q8
+10162	2015-11-11	m.chen@latrobe.edu.au	colon cancer	131.172.140.36	http://phenolyzer.usc.edu/done/10162/4Upt3wD0AkjbfaD7
+10161	2015-11-11	yuyongguo_1@163.com	autism spectrum disorder	101.81.11.97	http://phenolyzer.usc.edu/done/10161/R6ikN9nzGeVvCr_8
+10160	2015-11-11	now_87345jue@163.com	prostate cancer	128.125.247.143	http://phenolyzer.usc.edu/done/10160/Fy97Lax8TTP_HxRZ
+10159	2015-11-11	NA	mitochondrial myopathies;diabetes mellitus insulin dependent	NA	http://phenolyzer.usc.edu/done/10159/ZMz4S5T34eSGd8e2
+10158	2015-11-11	j.szot@victorchang.edu.au	atrioventricular canal;atrioventricular canal defect	129.94.8.173	http://phenolyzer.usc.edu/done/10158/0Co3DFE4rvo6KFgI
+10157	2015-11-11	colin.farrell@hsc.utah.edu	anemia, iron	128.110.242.42	http://phenolyzer.usc.edu/done/10157/lIBMTJk7vf0Obx1E
+10156	2015-11-11	d.a.mordaunt@gmail.com	short stature, microcephaly, low weight	203.109.147.19	http://phenolyzer.usc.edu/done/10156/BceBDhqMKvuZ2Npg
+10155	2015-11-11	ls2683@cumc.columbia.edu	congenital diaphragmatic hernia	156.111.111.128	http://phenolyzer.usc.edu/done/10155/yWZt-KPDsd-95g79
+10154	2015-11-11	karvai@genedx.com	hp:0001263;hp:0100021;hp:0001999;hp:0000821;hp:0001328;hp:0007018;hp:0000739;hp:0100033;hp:0000405;hp:0004322;hp:0002751;hp:0000267;hp:0002007;hp:0000256;hp:0000369;hp:0000278;hp:0000156;hp:0001608;hp:0000504;hp:0000505;hp:0000473;hp:0000954;hp:0001238;hp:0001018;hp:0000954;hp:0001822;hp:0002645	69.74.168.162	http://phenolyzer.usc.edu/done/10154/YFbO99oRae63xfhl
+10153	2015-11-11	ys2411@columbia.edu	congenital diaphragmatic hernia	156.145.28.189	http://phenolyzer.usc.edu/done/10153/3KL5wfefyJnrS46e
+10152	2015-11-11	avt2130@cumc.columbia.edu	myopia	156.111.60.214	http://phenolyzer.usc.edu/done/10152/HxexjfCcvgdjTjZd
 10151	2015-11-11	janschin22@yahoo.com.br	enteropathy;autoimmune hemolytic anemia;diabetes type 1	143.106.1.36	http://phenolyzer.usc.edu/done/10151/oxkxQnQK32nUawl_
 10150	2015-11-11	janschin22@yahoo.com.br	autoimmunity;girl	143.106.1.36	http://phenolyzer.usc.edu/done/10150/N-A2XJIP4yYw9TvA
 10149	2015-11-11	janschin22@yahoo.com.br	girl;hypogammaglobulinemia;autoimmunity	143.106.1.36	http://phenolyzer.usc.edu/done/10149/btZrz0PAGtzCyVWw
@@ -1567,51 +1754,69 @@ ID	TIME	EMAIL	PHENOTYPE	IP	URL
 8551	2015-09-27	NA	marfan syndrome	NA	http://phenolyzer.usc.edu/done/8551/efwZS9ImFAyD_zi1
 8550	2015-09-27	NA	hypomagnesemia with secondary hypocalcemia	NA	http://phenolyzer.usc.edu/done/8550/OXiKur22g8miNYOY
 5620	2015-07-13	NA	hemolytic anemia	NA	http://phenolyzer.usc.edu/done/5620/zqYhdhkwTZXp2B_I
-48	2015-10-27	udp3f@eservices.virginia.edu	pseudoexfoliation;pseudoexfoliation glaucoma;open angle glaucoma	128.143.109.124	http://phenolyzer.usc.edu/done/48/X0uIzk6NdT8csr-O
-47	2015-10-27	udp3f@eservices.virginia.edu	pseudoexfoliation;pseudoexfoliation glaucoma	128.143.109.124	http://phenolyzer.usc.edu/done/47/MxrWBIodSRpL5yH4
-46	2015-10-27	udp3f@eservices.virginia.edu	pseudoexfoliation	128.143.109.124	http://phenolyzer.usc.edu/done/46/OR5p_58i2Ot8o7wV
-45	2015-10-27	udp3f@eservices.virginia.edu	pseudoexfoliation glaucoma;pseudoexfoliation;open angle glaucoma	128.143.109.124	http://phenolyzer.usc.edu/done/45/IwIr8dtY6CoqSzkY
-44	2015-10-27	joao.silva@ibmc.up.pt	atrial septal defect;knee joint valgus deformity;hypermobility;hypermobility of interphalangeal joints	85.242.34.138	http://phenolyzer.usc.edu/done/44/bqPuZ60Lr1inb1Rq
-43	2015-10-27	joao.silva@ibmc.up.pt	atrial septal defect;knee joint valgus deformity;laxity	85.242.34.138	http://phenolyzer.usc.edu/done/43/OkBhD9ddj8iHu7QU
-42	2015-10-27	NA	glaucoma	NA	http://phenolyzer.usc.edu/done/42/PZoGhNQSJJL90D8C
-41	2015-10-27	joao.silva@ibmc.up.pt	hypertelorism;telecanthus;upslanting palpebral fissures;large eyes;small ears;intellectual disability	85.242.34.138	http://phenolyzer.usc.edu/done/41/emwc7_NitsX3qVdb
-40	2015-10-27	NA	global developmental delay;language impairment;autism;dyskinesis;flat feet;neurobehavioral manifestations;stereotypical motor behaviors	NA	http://phenolyzer.usc.edu/done/40/N9Po1EsojJ0cbMth
-39	2015-10-27	NA	global developmental delay;language impairment;autism;dyskinesis;flat feet;neurobehavioral manifestations;stereotypical motor behaviors	NA	http://phenolyzer.usc.edu/done/39/pMxV1GqzGeStEcNI
-38	2015-10-27	NA	mental retardation;mental disorder	NA	http://phenolyzer.usc.edu/done/38/zht19Z8AKMquBjbf
-37	2015-10-27	NA	global developmental delay;language impairment;autism;dyskinesis;flat feet;neurobehavioral manifestations;stereotypical motor behaviors	NA	http://phenolyzer.usc.edu/done/37/qyMQOqC7BN7tlj5T
-36	2015-10-27	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/36/p5de-R0lhYiTnYYg
-35	2015-10-27	joao.silva@ibmc.up.pt	second finger ulnar deviation;duane anomaly;abducens palsy	85.242.34.138	http://phenolyzer.usc.edu/done/35/7UbQYqjDAbRLYeDY
-34	2015-10-27	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/34/wZ_ET3KcmjjqQIkw
-33	2015-10-27	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/33/_uQRf4HOlLhf5E0D
-32	2015-10-27	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/32/OMMULD0zHPmjZIlT
-31	2015-10-27	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/31/ENsCF3CwJAgk47AP
-30	2015-10-27	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/30/dbOJGoCDCLoA7hnP
-29	2015-10-27	NA	stuttering	NA	http://phenolyzer.usc.edu/done/29/MEYe_uQQ8t0GKoqd
-28	2015-10-27	rajamoturi18@gmail.com	encephalopathy;global developmental delay;flat feet;language impairment;autistic behavior;dyskinesis;neurobehavioral manifestations	14.141.43.230	http://phenolyzer.usc.edu/done/28/Xgn9UTxgL9NVJWKa
-27	2015-10-27	rajamoturi18@gmail.com	encephalopathy;global developmental delay;flat feet;language impairment;autistic behavior;dyskinesis;neurobehavioral manifestations	14.141.43.230	http://phenolyzer.usc.edu/done/27/6gU5pVmRLKQ-6HWx
-26	2015-10-27	nagaramajdi@gmail.com	arrhythmogenic right ventricular cardiomyopathy	139.124.156.19	http://phenolyzer.usc.edu/done/26/5t15ry-AZMua-Nj1
-25	2015-10-26	NA	flat feet;encephalopathy;metabolic syndrome;autistic disorder;language delay;global developmental delay;dyskinetic;basal ganglia calcification;limb muscle weakness;motor skills disorders	NA	http://phenolyzer.usc.edu/done/25/BWUC5OCsd_rnt5qS
-24	2015-10-26	caopanxiang@sina.cn	lymphoma;immunodeficiency;leukemia	60.10.194.21	http://phenolyzer.usc.edu/done/24/5ugUorCeebIDmouo
-23	2015-10-26	caopanxiang@sina.cn	leukemia	60.10.194.21	http://phenolyzer.usc.edu/done/23/LHdznv6zX5U5gPaG
-22	2015-10-26	caopanxiang@sina.cn	lymphoma;immunodeficiency	60.10.194.21	http://phenolyzer.usc.edu/done/22/izga10TppFPMK7zq
-21	2015-10-26	caopanxiang@sina.cn	lymphoma	60.10.194.21	http://phenolyzer.usc.edu/done/21/FGZbYX7cfq1XTGan
-20	2015-10-26	caopanxiang@sina.cn	immunodeficiency	60.10.194.21	http://phenolyzer.usc.edu/done/20/jPq2fiTve_NSllbC
-19	2015-10-26	yangjunhuicq@163.com	infantile spasms	123.151.22.194	http://phenolyzer.usc.edu/done/19/qVSMMC8uR-Oexk4I
-18	2015-10-26	j.szot@victorchang.edu.au	tetralogy of fallot;ventricular septal defect	129.94.110.105	http://phenolyzer.usc.edu/done/18/pW_zW69XsVg-Mm2K
-17	2015-10-26	j.szot@victorchang.edu.au	tetralogy of fallot;ventricular septal defect	129.94.110.105	http://phenolyzer.usc.edu/done/17/52KEJmoBI9coGl95
-16	2015-10-26	NA	intellectual disability	NA	http://phenolyzer.usc.edu/done/16/wrKoO5odghoGui7a
-15	2015-10-26	NA	cancer	NA	http://phenolyzer.usc.edu/done/15/q0mM-cWLPb7Sxsbl
-14	2015-10-26	boczek.nicole@mayo.edu	romano ward syndrome	129.176.151.14	http://phenolyzer.usc.edu/done/14/3oh_AJeDNNZLhYcM
-13	2015-10-26	boczek.nicole@mayo.edu	qt prolongation	129.176.151.14	http://phenolyzer.usc.edu/done/13/k-oPLfAXjpvInzQE
-12	2015-10-26	boczek.nicole@mayo.edu	prolonged qt interval	129.176.151.14	http://phenolyzer.usc.edu/done/12/k56MoIQGVamOdHC9
-11	2015-10-26	boczek.nicole@mayo.edu	long qt	129.176.151.14	http://phenolyzer.usc.edu/done/11/Io4NQmJ7Rn3bFmCg
-10	2015-10-26	boczek.nicole@mayo.edu	long qt syndrome	129.176.151.14	http://phenolyzer.usc.edu/done/10/ClOOuYZk1NJbs4wU
-9	2015-10-26	udp3f@eservices.virginia.edu	pseudoexfoliation glaucoma;pseudoexfoliation;open angle glaucoma	128.143.109.124	http://phenolyzer.usc.edu/done/9/wt-PF6Gumn9oqCOw
-8	2015-10-26	udp3f@eservices.virginia.edu	pseudoexfoliation glaucoma;pseudoexfoliation;open angle glaucoma	128.143.109.124	http://phenolyzer.usc.edu/done/8/x_pQWEkZUUXIg54Y
-7	2015-10-26	boczek.nicole@mayo.edu	romano ward syndrome	129.176.151.18	http://phenolyzer.usc.edu/done/7/6wtVt6jgVa9Ax_Jg
-6	2015-10-26	boczek.nicole@mayo.edu	long qt	129.176.151.18	http://phenolyzer.usc.edu/done/6/vKePxlDSk4glyX6G
-5	2015-10-26	boczek.nicole@mayo.edu	qt prolongation	129.176.151.18	http://phenolyzer.usc.edu/done/5/vqzzYbVJKqYwR5f7
-4	2015-10-26	boczek.nicole@mayo.edu	prolonged qt interval	129.176.151.28	http://phenolyzer.usc.edu/done/4/E8TQIJgipfp-eeCX
-3	2015-10-26	boczek.nicole@mayo.edu	long qt syndrome	129.176.151.28	http://phenolyzer.usc.edu/done/3/dFEharUFjU-87aNY
-2	2015-10-26	december95@gmail.com	heart	108.203.50.93	http://phenolyzer.usc.edu/done/2/lsCOREuJYJPlwjDt
-1	2015-10-26	joao.silva@ibmc.up.pt	abducens palsy;duane anomaly;oculomotor nerve palsy;second finger ulnar deviation	85.242.34.138	http://phenolyzer.usc.edu/done/1/v6Mpgh6vw163FdPx
+114	2015-11-17	NA	epilepsy temporal lobe;brain	NA	http://phenolyzer.usc.edu/done/114/FmYzKj5LVPa6Wk4g
+113	2015-11-17	mariana.kekis@nationwidechildrens.org	speech delay;central hypotonia;delayed gross motor development;premature;speech delay;micrognathia;tented upper lip vermilion;hypertonicity;movement disorders	140.254.63.2	http://phenolyzer.usc.edu/done/113/T9WjLrI1ipwxwV87
+112	2015-11-17	colin.farrell@hsc.utah.edu	iron;iron overload;anemia	128.110.242.42	http://phenolyzer.usc.edu/done/112/JFE5f5UWTGsf1Ke4
+111	2015-11-17	colin.farrell@hsc.utah.edu	iron, iron overload, anemia	128.110.242.42	http://phenolyzer.usc.edu/done/111/aBGhWLsO2yJjtGon
+110	2015-11-17	mariana.kekis@nationwidechildrens.org	motor delay;speech delay;intellectual disability;short stature;stereotypical hand wringing;microcephaly;hyperextensible joints;myelin deficiencies;scoliosis	140.254.63.2	http://phenolyzer.usc.edu/done/110/e-X5TwPQKQs0bVZc
+109	2015-11-17	mariana.kekis@nationwidechildrens.org	stereotypical hand wringing;intellectual disability;hyperextensible joints;microcephaly;myelin deficiencies	140.254.63.2	http://phenolyzer.usc.edu/done/109/8EIcsLEHnfR425Gb
+108	2015-11-17	mariana.kekis@nationwidechildrens.org	motor delay;speech delay;intellectual disability;short stature;stereotypical hand wringing;microcephaly;hyperextensible joints;myelin deficiencies;scoliosis;failure to thrive	140.254.63.2	http://phenolyzer.usc.edu/done/108/5SDl0tXmdz8hELMn
+107	2015-11-17	mariana.kekis@nationwidechildrens.org	delayed motor milestones;speech delay;ataxia;midface hypoplasia;occipital plagiocephaly;strabismus;myopia;falls;clumsiness	140.254.63.2	http://phenolyzer.usc.edu/done/107/X_YtG9_yPn0xobsZ
+106	2015-11-17	mariana.kekis@nationwidechildrens.org	delayed motor milestones;speech delay;ataxia;midface hypoplasia;occipital plagiocephaly;strabismus;myopia	140.254.63.2	http://phenolyzer.usc.edu/done/106/YpS1KPak5ARVd_mA
+105	2015-11-17	mariana.kekis@nationwidechildrens.org	delayed motor milestones;speech delay;ataxia;midface hypoplasia;occipital plagiocephaly;strabismus;myopia	140.254.63.2	http://phenolyzer.usc.edu/done/105/KgKM3aqSb8SDfqZG
+104	2015-11-17	tglucas88@gmail.com	madd	194.117.40.158	http://phenolyzer.usc.edu/done/104/IzCyrNl7z04ybmFq
+103	2015-11-17	mazzottidr@gmail.com	aging;longevity	200.144.94.8	http://phenolyzer.usc.edu/done/103/ItTv15MhY_wVbSlz
+102	2015-11-17	mariana.kekis@nationwidechildrens.org	occipital plagiocephaly;strabismus;myopia;midface hypoplasia;motor delay;clumsiness;ataxia;speech delay;falls	140.254.63.2	http://phenolyzer.usc.edu/done/102/86wsUMxuvFLLWXCg
+101	2015-11-17	mazzottidr@gmail.com	aging;longevity	200.144.94.8	http://phenolyzer.usc.edu/done/101/lQjIeSsjz9NWY2jl
+100	2015-11-17	mazzottidr@gmail.com	longevity;aging	200.144.94.8	http://phenolyzer.usc.edu/done/100/bFTAz9L0DXzKS9Ne
+99	2015-11-17	mazzottidr@gmail.com	longevity	200.144.94.8	http://phenolyzer.usc.edu/done/99/DrYVFfL9KkUH-Py0
+98	2015-11-17	mariana.kekis@nationwidechildrens.org	delayed motor milestone;delayed speech;ataxia;mild midface hypoplasia, occipital flattening;vision loss;myopia;strabismus	140.254.63.2	http://phenolyzer.usc.edu/done/98/mb-Tv57FDlHqWHwr
+97	2015-11-17	mariana.kekis@nationwidechildrens.org	1. walked at 27 mos;2. speech at 15 mos, at 3 yrs has 10-20 words with poor articulation;3. wide-based clumsy gait, frequent falls;4. mild midface hypoplasia, occipital flattening;5. corrective lenses for strabimus and myopia	140.254.63.2	http://phenolyzer.usc.edu/done/97/60WvGrzd3NNP6QpS
+96	2015-11-17	mariana.kekis@nationwidechildrens.org	deleyed motor milestone;delayed speech;ataxia;dysmorphic features;vision loss	140.254.63.2	http://phenolyzer.usc.edu/done/96/9sOzideRQ2_z8HSv
+95	2015-11-17	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/95/97A63TXtU8DcM9IV
+94	2015-11-17	NA	brugada syndrome	NA	http://phenolyzer.usc.edu/done/94/DebxWjUi7qryvt-e
+93	2015-11-17	pamela.magini@unibo.it	thrombocytopenia	137.204.99.250	http://phenolyzer.usc.edu/done/93/4WmtXDvpZxcfZs5C
+92	2015-11-17	jmitt100@gmail.com	schizophrenia	212.96.63.25	http://phenolyzer.usc.edu/done/92/0PVjR2ll2SxB4WUp
+91	2015-11-17	pamela.magini@unibo.it	spastic paraparesis;diplopia;reduced visual fields	137.204.99.250	http://phenolyzer.usc.edu/done/91/QZjb_E8dalvDIh1M
+90	2015-11-17	sara.baldassari@studio.unibo.it	limb reduction defect	137.204.99.250	http://phenolyzer.usc.edu/done/90/3urrVPISYITBjzy7
+89	2015-11-17	pamela.magini@unibo.it	spastic paraplegia hereditary;developmental delay;intellectual disability;microsomia	137.204.99.250	http://phenolyzer.usc.edu/done/89/YhTuUVuuIfMQ-7F9
+88	2015-11-17	pamela.magini@unibo.it	spastic paraplegia hereditary	137.204.99.250	http://phenolyzer.usc.edu/done/88/SnHGSkKYDaI20AaC
+87	2015-11-17	pamela.magini@unibo.it	spastic paraparesis	137.204.99.250	http://phenolyzer.usc.edu/done/87/EdWeXQUy7YU7zBsc
+86	2015-11-17	NA	mental retardation;mental disorders	NA	http://phenolyzer.usc.edu/done/86/KxqVdWpZ--Elh34H
+85	2015-11-17	NA	mental retardation;mental disorders	NA	http://phenolyzer.usc.edu/done/85/aGcoiXxRzROsV8cl
+84	2015-11-17	NA	mental retardation;mental disorders	NA	http://phenolyzer.usc.edu/done/84/hFqCgUH4LS-SfUBZ
+83	2015-11-17	NA	mental retardation;mental disorders	NA	http://phenolyzer.usc.edu/done/83/bIf_hS2EAErx8Ij1
+82	2015-11-17	garanjones@nhs.net	morbidity	194.176.105.146	http://phenolyzer.usc.edu/done/82/e0WObA9yS87I5t3u
+81	2015-11-17	NA	polycystic kidney	NA	http://phenolyzer.usc.edu/done/81/2Kv9SLS-EiL2rQpd
+80	2015-11-17	tautvydas@yahoo.com	mental retardation;intellectual disability	193.219.87.235	http://phenolyzer.usc.edu/done/80/FCqk9SwM8khTEQVV
+79	2015-11-17	sara.baldassari@studio.unibo.it	limb deformities congenital;limb reduction defect	137.204.99.250	http://phenolyzer.usc.edu/done/79/EZHqlBHkP1sAy-O9
+78	2015-11-17	sara.baldassari@studio.unibo.it	limb deformities congenital	137.204.99.250	http://phenolyzer.usc.edu/done/78/HcWoQ2DpSgDg1zuO
+77	2015-11-17	NA	polycystic kidney	NA	http://phenolyzer.usc.edu/done/77/qNpAzBFw-kPDeGH3
+76	2015-11-17	joao.silva@ibmc.up.pt	arterial dissection;conductive deafness	193.137.38.251	http://phenolyzer.usc.edu/done/76/OO9Kx8hDHjThCh-G
+75	2015-11-17	joao.silva@ibmc.up.pt	cerebellar ataxia;optic atrophy	193.137.38.251	http://phenolyzer.usc.edu/done/75/GLyumMnZqz8JUc2Z
+74	2015-11-17	tautvydas@yahoo.com	mental retardation;intellectual disability	193.219.87.235	http://phenolyzer.usc.edu/done/74/gwQsd3y0SADJaLRE
+73	2015-11-17	NA	epilepsy	NA	http://phenolyzer.usc.edu/done/73/yMXoilPppW88kB0F
+72	2015-11-17	tautvydas@yahoo.com	mental retardation;intellectual disability	193.219.87.235	http://phenolyzer.usc.edu/done/72/XD1QMVpVe8Ye3GmN
+71	2015-11-17	sara.baldassari@studio.unibo.it	epilepsy temporal lobe	137.204.99.250	http://phenolyzer.usc.edu/done/71/qGOQvpxPyIVDWogy
+70	2015-11-17	sara.baldassari@studio.unibo.it	epilepsy temporal lobe	137.204.99.250	http://phenolyzer.usc.edu/done/70/ZndP-Zs9qW8HtISi
+69	2015-11-17	sara.baldassari@studio.unibo.it	epilepsy temporal lobe	137.204.99.250	http://phenolyzer.usc.edu/done/69/mF1eMp-jtrRZv_Hz
+68	2015-11-17	sara.baldassari@studio.unibo.it	hp:0000006;hp:0002069;hp:0007359	137.204.99.250	http://phenolyzer.usc.edu/done/68/LuEqJsLaM3_995JR
+67	2015-11-17	tautvydas@yahoo.com	mental retardation;intellectual disability	193.219.87.235	http://phenolyzer.usc.edu/done/67/34S-LTyua8e2tCQE
+66	2015-11-17	pamela.magini@unibo.it	radial aplasia	137.204.99.250	http://phenolyzer.usc.edu/done/66/9So1jcXTnjzWtPk3
+65	2015-11-17	pamela.magini@unibo.it	intellectual disability	137.204.99.250	http://phenolyzer.usc.edu/done/65/uWFNt0yC5CcX1Zom
+64	2015-11-16	chrisyang_1999@163.com	marfan syndrome	123.124.148.35	http://phenolyzer.usc.edu/done/64/lL-Sjs5NZB1Eo2fr
+63	2015-11-16	NA	sle	NA	http://phenolyzer.usc.edu/done/63/RmMNj5lUdKNsVJP5
+62	2015-11-16	fuliwanperfect@163.com	obesity	111.204.135.64	http://phenolyzer.usc.edu/done/62/gq7WCv3F3df2Plb1
+61	2015-11-16	orisnas@126.com	infantile spasms	123.151.22.194	http://phenolyzer.usc.edu/done/61/rYlLhnrsikyyebbm
+60	2015-11-16	wk1lian@126.com	fat body mass	123.124.148.35	http://phenolyzer.usc.edu/done/60/kNaYcB51R3xBqSat
+59	2015-11-16	yoshy@shinkei.com	cobblestone lissencephaly	118.21.136.87	http://phenolyzer.usc.edu/done/59/SCB3S6qQpjrJ5olc
+58	2015-11-16	yoshy@shinkei.com	familial epilepsy	118.21.136.87	http://phenolyzer.usc.edu/done/58/48PxZF55O3Vb4wFG
+57	2015-11-16	yoshy@shinkei.com	epilepsy familial temporal lobe	118.21.136.87	http://phenolyzer.usc.edu/done/57/-0oU3KY3pfMemcqG
+56	2015-11-16	fanyanjie13@163.com	chondrodysplasia punctata	101.81.11.97	http://phenolyzer.usc.edu/done/56/nCnK9z7wM4W4Ymif
+55	2015-11-16	fanyanjie13@163.com	chondrodysplasia punctata	101.81.11.97	http://phenolyzer.usc.edu/done/55/pob4t6qfO5_SvjhB
+54	2015-11-16	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/54/YahiC-Ac3VqnTNVz
+53	2015-11-16	NA	epilepsy	NA	http://phenolyzer.usc.edu/done/53/Xy3O0rzSfuMjmctt
+52	2015-11-16	108609342@qq.com	lupus nephritis	222.247.53.67	http://phenolyzer.usc.edu/done/52/jHQZ1serRVnZrBS0
+51	2015-11-16	richard.gill@gmail.com	obesity	156.111.111.127	http://phenolyzer.usc.edu/done/51/55w4dVzyRIdHTRpx
+50	2015-11-16	richard.gill@gmail.com	obesity	156.111.111.127	http://phenolyzer.usc.edu/done/50/Hcn9-wNvDDU6s_Uy
+49	2015-11-16	richard.gill@gmail.com	obesity	156.111.111.127	http://phenolyzer.usc.edu/done/49/mn8PYS4zFjtA7Clz

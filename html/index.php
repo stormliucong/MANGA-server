@@ -391,6 +391,15 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[11/17/2015]</strong></p>
+    		 <p> 1) We really apologize for a tricky server bug! The submission ID jumps back to 1 suddenly. 
+    		 <b>NOTICE:</b> It's been fixed now but the submissions with ID smaller than 150 won't be processed. Please submit your disease again.
+
+    		 <br>2) OMIM database was updated again.
+    		 </p>         </div></div> 
+	   
 	   <div class="panel panel-default">
         <div class="panel-body">
              <p><strong>[10/20/2015]</strong></p>
