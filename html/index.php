@@ -67,7 +67,7 @@
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://genomics.usc.edu" style="padding:5px"><img src="/img/WGL_long.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -148,6 +148,10 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <div class="col-md-8">
 	  <button type="submit" class="btn btn-info ">
 	  <span class="glyphicon glyphicon-send"></span> Submit</button>
+	  <button type="button" id="translate" class="btn btn-primary translate"
+	  data-toggle="tooltip" data-placement="top" title="Translate Chinese disease/phenotypes into Engelish"
+	  >
+	  <span class="glyphicon glyphicon-globe"></span> Translate</button>
       <button type="reset" class="btn btn-success ">
 	  <span class="glyphicon glyphicon-repeat"></span> Reset</button>
 	   </div></div>    
@@ -391,6 +395,14 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[11/19/2015]</strong></p>
+    		 <p>1) OMIM database was updated to 2011-11-19
+    		 <p>2) We added a functionality <b class="text-danger">specifically for Chinese</b>, now you can entern chinese and click 'Translate' to translate your
+    		 disease into English!
+    		 </p>         </div></div> 
+	   
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[11/17/2015]</strong></p>
@@ -541,11 +553,6 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
-  FB.ui(
-		  {
-		   method: 'share',
-		   href: 'http://phenolyzer.usc.edu/'
-		 }, function(response){});
   
 </script>
 	

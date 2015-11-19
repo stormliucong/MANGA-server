@@ -1,4 +1,125 @@
 ID	TIME	EMAIL	PHENOTYPE	IP	URL
+10471	2015-11-19	mariana.kekis@nationwidechildrens.org	delayed motor milestones;spasticity;hypomyelination;nystagmus	140.254.63.2	http://phenolyzer.usc.edu/done/10471/J35339LCbwBn4qCJ
+10470	2015-11-19	erik.zmuda@nationwidechildrens.org	delayed speech;autism;autistic spectrum;intellectual disability;hearing loss;dysmorphic features;hyperextensibility;failure to thrive;skeletal abnormalities;scoliosis;limb malformation	140.254.63.2	http://phenolyzer.usc.edu/done/10470/zGvUGoccJwAadBmN
+10469	2015-11-19	mariana.kekis@nationwidechildrens.org	delayed motor milestones;speech delay;hypotonia;spasticity;cerebral palsy;long face;high palate;contractures of knees;scoliosis	140.254.63.2	http://phenolyzer.usc.edu/done/10469/TfUOGV8x5X8MEhGC
+10468	2015-11-19	mariana.kekis@nationwidechildrens.org	delayed motor milestones;hypotonia;hypertelorism;pulmonary valve stenosis;hypospadias	140.254.63.2	http://phenolyzer.usc.edu/done/10468/Ykw_GPDDTNBpOn3p
+10467	2015-11-19	mariana.kekis@nationwidechildrens.org	premature;frontal bossing;hypertelorism;epicanthal folds;patent ductus arteriosus;secundum atrial septal defect;muscular ventricular septal defect;pulmonic stenosis;dysplastic pulmonary valve	140.254.63.2	http://phenolyzer.usc.edu/done/10467/_tSFw01OSogFggXT
+10466	2015-11-19	mariana.kekis@nationwidechildrens.org	premature;frontal bossing;hypertelorism;epicanthal folds;patent ductus arteriosus;secundum atrial septal defect;muscular ventricular septal defect;pulmonic stenosis;dysplastic pulmonary valve;malrotation of the small intestine	140.254.63.2	http://phenolyzer.usc.edu/done/10466/q5VrQ_JLhdZ6OQCY
+10465	2015-11-19	mariana.kekis@nationwidechildrens.org	premature;frontal bossing;hypertelorism;epicanthic folds;patent ductus arteriosus;secundum atrial septal defect;muscular ventricular septal defect;pulmonic stenosis;dysplastic pulmonary valve	140.254.63.2	http://phenolyzer.usc.edu/done/10465/HyXY6o4Tg-N4nZnb
+10464	2015-11-19	rochaff87@gmail.com	autoimmunity;t lymphocytes	177.8.106.82	http://phenolyzer.usc.edu/done/10464/TeiyOZWE55HpMvQY
+10463	2015-11-19	mariana.kekis@nationwidechildrens.org	delayed motor milestones;hearing loss;hypotonia;seizure disorder;nasofrontal encephalocele;midface hypoplasia;agenesis of the corpus callosum;cleft lip cleft palate;tracheomalacia;microcephaly;failure to thrive;colpocephaly;keratopathy;coloboma;limbal dermoid;secundum atrial septal defect;sinus bradycardia;arrhythmia;preauricular tags	140.254.63.2	http://phenolyzer.usc.edu/done/10463/-w0DAuSIJNXdSWqL
+10462	2015-11-19	mariana.kekis@nationwidechildrens.org	delayed motor milestones;hearing loss;hypotonia;hypertonicity;seizure disorder;microcephaly;encephalocele;midface hypoplasia;agenesis of the corpus callosum;cleft lip cleft palate;eyelash abnormality;tracheomalacia	140.254.63.2	http://phenolyzer.usc.edu/done/10462/w4eAm6V4AB3JntiF
+10461	2015-11-19	mariana.kekis@nationwidechildrens.org	speech delay;autism;intellectual disability;hearing loss;malar hypoplasia;downslanting palpebral fissures;narrow palate;retrognathia;hyperextensible joints;platyspondyly;arachnodactyly;kyphosis;epiphyseal abnormality;marfanoid habitus	140.254.63.2	http://phenolyzer.usc.edu/done/10461/_RCJoiF4NyhFcXtc
+10460	2015-11-19	NA	glycogen	NA	http://phenolyzer.usc.edu/done/10460/xlb2DJh4jn0Y4lGX
+10459	2015-11-19	mariana.kekis@nationwidechildrens.org	delayed motor milestones;regression;speech delay;intellectual disability;hypotonia;seizure disorder;movement disorder;high arched eyebrows;synophrys;long eyelashes;cupid bow shaped upper lip;long philtrum;short stature;microcephaly;thinning of the corpus callosum;myopia;perimembranous ventricular septal defect;thoracolumbar kyphoscoliosis;precocious puberty	140.254.63.2	http://phenolyzer.usc.edu/done/10459/ZRaAGffS36Ud926x
+10458	2015-11-19	celine.chery@inserm.fr	glycogen	193.55.2.151	http://phenolyzer.usc.edu/done/10458/XBlHmvG2SKVgcvKV
+10457	2015-11-19	jairantonio.tenorio@salud.madrid.org	hp:0000098;hp:0000256;hp:0000540;hp:0000483;hp:0000337;hp:0000218;hp:0000307;hp:0001763;hp:0001270;hp:0001270;hp:0001249;hp:0001520;hp:0005616;hp:0100711	213.0.53.141	http://phenolyzer.usc.edu/done/10457/iNXewAqdlFQsXMFT
+10456	2015-11-19	jairantonio.tenorio@salud.madrid.org	hp:0000098;hp:0000256;hp:0000540;hp:0000483;hp:0000337;hp:0000218;hp:0000307;hp:0001763;hp:0001270;hp:0001270;hp:0001249;hp:0001520;hp:0005616;hp:0100711	213.0.53.141	http://phenolyzer.usc.edu/done/10456/BgFO3CnO2ykeNO0x
+10452	2015-11-19	s.castellana@css-mendel.it	hypercalcemia	193.206.211.3	http://phenolyzer.usc.edu/done/10452/OUekmG73KLol_FAI
+10451	2015-11-19	Danielle.N.Gnibus.17@dartmouth.edu	breast cancer	84.1.26.42	http://phenolyzer.usc.edu/done/10451/fTxwru7TojMsC9WR
+10450	2015-11-19	NA	diabetes type 2	NA	http://phenolyzer.usc.edu/done/10450/X6XtiCVsJr2v0fQg
+10449	2015-11-19	s.castellana@css-mendel.it	hypercalcemia	193.206.211.3	http://phenolyzer.usc.edu/done/10449/46K_o6Fg3usKeSm-
+10448	2015-11-19	karen.stals@nhs.net	polydactyly;low set ears	194.176.105.146	http://phenolyzer.usc.edu/done/10448/7S-W49l7UsOj5Am9
+10447	2015-11-19	karen.stals@nhs.net	postaxial polydactyly of feet;postaxial polydactyly of hand;low set ears;absent fibulae	194.176.105.146	http://phenolyzer.usc.edu/done/10447/_1RqfdrNG96Q5YF0
+10446	2015-11-19	karen.stals@nhs.net	postaxial polydactyly of feet;postaxial polydactyly of hand;low set ears;absent fibulae	194.176.105.146	http://phenolyzer.usc.edu/done/10446/BlECmAqOWrmAp3Zi
+10445	2015-11-19	nirpillar@hotmail.com	steroid resistant nephrotic;steroid resistant nephrotic syndrome	132.66.34.236	http://phenolyzer.usc.edu/done/10445/hn8NI-qB3ZLRar9v
+10444	2015-11-19	wl0050685@sina.com	depression psychosis	211.100.51.177	http://phenolyzer.usc.edu/done/10444/aSQQjhFpLbCSMO5I
+10443	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10443/B53ERKE8TBpCKTCo
+10442	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10442/Sgkr-LCqrdLEiARq
+10441	2015-11-19	wl0050685@sina.com	depression, parkinson, brainstem	NA	http://phenolyzer.usc.edu/done/10441/cHANuAD4Dsf28CFJ
+10440	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10440/YVzL1hxj-mNK8lQs
+10439	2015-11-19	wl0050685@sina.com	depression psychosis, parkinson	211.100.51.177	http://phenolyzer.usc.edu/done/10439/-cyb2hY4f3Oz8zW-
+10438	2015-11-19	wl0050685@sina.com	depression psychosis, brainstem lesions, parkingson	211.100.51.177	http://phenolyzer.usc.edu/done/10438/1nAhJSmYtnIzerK1
+10437	2015-11-19	wl0050685@sina.com	depression psychosis, brainstem lesions, parkingson	211.100.51.177	http://phenolyzer.usc.edu/done/10437/GmlyFaZj6F1Lz1fl
+10436	2015-11-19	wl0050685@sina.com	depression, pakinson, multiple cerebral white matter lesions	211.100.51.177	http://phenolyzer.usc.edu/done/10436/9OFeRA9ag8L7cYkh
+10435	2015-11-19	Danielle.N.Gnibus.17@dartmouth.edu	breast cancer	84.1.26.42	http://phenolyzer.usc.edu/done/10435/kvmx2EIml976s1gP
+10434	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10434/OPQitn2sucH7UC9p
+10433	2015-11-19	NA	hydrocephalus	NA	http://phenolyzer.usc.edu/done/10433/pb-r2GRgwUcqAK4h
+10432	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10432/jXzM3v-0HftJhquF
+10431	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10431/lJW68-yD2peCZ3j_
+10430	2015-11-19	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture;bicuspid aortic valve;bulbous nose;global developmental delay;curly hair	194.114.146.227	http://phenolyzer.usc.edu/done/10430/-XK5HF1PN1xgHKJF
+10429	2015-11-19	claire.guissart@inserm.fr	ataxia	194.167.35.211	http://phenolyzer.usc.edu/done/10429/JSBN-y-gzlGl8OWP
+10428	2015-11-18	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture	194.114.146.227	http://phenolyzer.usc.edu/done/10428/x8gF0Q7RbP-oFspV
+10427	2015-11-18	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture	194.114.146.227	http://phenolyzer.usc.edu/done/10427/-HPryOiedBfFn53L
+10426	2015-11-18	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture	194.114.146.227	http://phenolyzer.usc.edu/done/10426/828xX-BGE2K13jlO
+10425	2015-11-18	e.ip@victorchang.edu.au	hypoplastic left heart;hypoplastic left heart syndrome	129.94.111.5	http://phenolyzer.usc.edu/done/10425/Uo_7X9tO5_IP6-yM
+10424	2015-11-18	gy-9100@163.com	hydrocephalus	119.96.2.55	http://phenolyzer.usc.edu/done/10424/iyz5KUAbvMhaGy8h
+10423	2015-11-18	1058057743@qq.com	parkinson	123.125.144.70	http://phenolyzer.usc.edu/done/10423/PaUuFC0Pukg675-E
+10422	2015-11-18	j.szot@victorchang.edu.au	heart	129.94.110.105	http://phenolyzer.usc.edu/done/10422/FEjy3np-9c0-wBLJ
+10421	2015-11-18	357306334@qq.com	autism	119.96.208.62	http://phenolyzer.usc.edu/done/10421/K7zsy9a5Hkhipu9q
+10420	2015-11-18	471855840@qq.com	premature ovarian insufficient	58.20.55.76	http://phenolyzer.usc.edu/done/10420/wlMC7F5p39k0s75L
+10419	2015-11-18	471855840@qq.com	premature ovarian failure	58.20.55.76	http://phenolyzer.usc.edu/done/10419/_RldiGv4zZXVPaAJ
+10418	2015-11-18	471855840@qq.com	poi	58.20.55.76	http://phenolyzer.usc.edu/done/10418/kbozOVZH_TJ-UrCE
+10417	2015-11-18	NA	hdl cholesterol;ldl cholesterol;triglycerides;alcohol consumption	NA	http://phenolyzer.usc.edu/done/10417/KaVnb5N3sPs-a7qt
+10416	2015-11-18	mariana.kekis@nationwidechildrens.org	premature;small for gestational age;intellectual disability;delayed motor milestones;speech delay;spasticity;increased deep tendon reflexes;hypotelorism;cleft lip cleft palate;holoprosencephaly;exotropia;hyperopia;astigmatism	140.254.63.2	http://phenolyzer.usc.edu/done/10416/dk9DV6ihQfzAXRi_
+10415	2015-11-18	mariana.kekis@nationwidechildrens.org	stroke;moyamoya	140.254.63.2	http://phenolyzer.usc.edu/done/10415/AkZ0U34Hm-lALnUy
+10414	2015-11-18	NA	chronic granulomatous disease	NA	http://phenolyzer.usc.edu/done/10414/Mb3UBy-sSCNPW8qr
+10413	2015-11-18	mariana.kekis@nationwidechildrens.org	delayed motor milestones;central hypotonia;macrocephaly	140.254.63.2	http://phenolyzer.usc.edu/done/10413/T5s6UfwA-LMIH3Qb
+10412	2015-11-18	mariana.kekis@nationwidechildrens.org	failure to thrive;hypoglycemia;heterotaxy;dextrocardia;unbalanced atrioventricular septal defect;polysplenia	140.254.63.2	http://phenolyzer.usc.edu/done/10412/pGPVlG9Pgbm1CZQg
+10411	2015-11-18	mariana.kekis@nationwidechildrens.org	hypoplastic left heart;unilateral renal agenesis;dysplastic kidneys	140.254.63.2	http://phenolyzer.usc.edu/done/10411/kAUMYKqzn5iHuMSm
+10410	2015-11-18	mariana.kekis@nationwidechildrens.org	seizures;delayed motor milestones;speech delay;intellectual disability	140.254.63.2	http://phenolyzer.usc.edu/done/10410/Ycwl8uKTadzblEx9
+10409	2015-11-18	mariana.kekis@nationwidechildrens.org	motor delay;speech delay;autism spectrum disorder;intellectual disability;hearing impairment;hypotonia;coarse facies;synophrys;upturned nose;short stature;microcephaly;strabismus;failure to thrive	140.254.63.2	http://phenolyzer.usc.edu/done/10409/STLPbtFyqZIKKDke
+10408	2015-11-18	caterinamarconi@hotmail.it	thrombocytopenia	137.204.99.250	http://phenolyzer.usc.edu/done/10408/AKY19SaSrYcqix9q
+10407	2015-11-18	mariana.kekis@nationwidechildrens.org	motor delay;speech delay;hypotonia;facial asymmetry;hypertelorism;epicanthal folds;retrognathia;ptosis;chiari malformation;choroid plexus cyst;arachnoid cysts;ventricular septal defect;hydronephrosis;hydrocele;nevus epidermal	140.254.63.2	http://phenolyzer.usc.edu/done/10407/KNYMsAmCC0w4Ii53
+10406	2015-11-18	NA	cancer	NA	http://phenolyzer.usc.edu/done/10406/2T4_kJuQVNlWZyg0
+10405	2015-11-18	mariana.kekis@nationwidechildrens.org	motor delay;speech delay;intellectual disability;hypotonia;cerebral palsy spastic quadriplegic;deep set eye;feeding problems	140.254.63.2	http://phenolyzer.usc.edu/done/10405/llCXJZQgVdPXNDMh
+10404	2015-11-18	NA	agammaglobulinemia	NA	http://phenolyzer.usc.edu/done/10404/2bvOl0riCYIGg91y
+10403	2015-11-18	NA	agammaglobulinemia	NA	http://phenolyzer.usc.edu/done/10403/QB8_cPntirCAC09v
+10402	2015-11-18	mariana.kekis@nationwidechildrens.org	central hypotonia;delayed gross motor development;hypertonicity;micrognathia;movement disorder;premature;speech delay;tented upper lip vermilion	140.254.63.2	http://phenolyzer.usc.edu/done/10402/6m0aZsFeaPBAwfjK
+10401	2015-11-18	janschin22@yahoo.com.br	polyendocrinopathies autoimmune	143.106.1.36	http://phenolyzer.usc.edu/done/10401/pMnwwL_QJ4XE2agI
+10400	2015-11-18	janschin22@yahoo.com.br	autoimmunity	143.106.1.36	http://phenolyzer.usc.edu/done/10400/s7a3IzZIOcBQE0Q1
+10399	2015-11-18	hannahtitheradge@nhs.net	intestinal;stricture	194.176.105.159	http://phenolyzer.usc.edu/done/10399/_QWn4jUh88JCM-gt
+10398	2015-11-18	hannahtitheradge@nhs.net	stricture;intestine	194.176.105.159	http://phenolyzer.usc.edu/done/10398/VTou2zj_tfUkxUps
+10397	2015-11-18	hannahtitheradge@nhs.net	small bowel strictures	194.176.105.159	http://phenolyzer.usc.edu/done/10397/867Cw_xNwb1gM1Qo
+10396	2015-11-18	lilybzk@gmail.com	abnormality of the aortic valve;bulbous nasal tip;abnormality of the nasal tip;abnormal nasal morphology;neurodevelopmental delay;abnormality of hair texture	194.114.146.227	http://phenolyzer.usc.edu/done/10396/YnIwB_eMj6n-7_37
+10395	2015-11-18	hannahtitheradge@nhs.net	hp:0100594;hp:0011473;hp:0001903;hp:0012848;hp:0002240;hp:0002024;hp:0000678;hp:0002299;hp:0001808;hp:0000164;hp:0001256	194.176.105.159	http://phenolyzer.usc.edu/done/10395/DuXxKnGpNcLs11Cm
+10394	2015-11-18	hannahtitheradge@nhs.net	hp:0100594;hp:0011473;hp:0001903;hp:0012848;hp:0002240;hp:0002024	194.176.105.159	http://phenolyzer.usc.edu/done/10394/MMcF74bHxN4Zyisx
+10393	2015-11-18	hannahtitheradge@nhs.net	hp:0000252;hp:0004322;hp:0001508;hp:0000823;hp:0001256;hp:0001301;hp:0002013;hp:0002014;hp:0002240;hp:0100594;hp:0011473;hp:0002299;hp:0001903;hp:0003073;hp:0002750;hp:0001217;hp:0012848;hp:0000164;hp:0001808;hp:0002024	194.176.105.159	http://phenolyzer.usc.edu/done/10393/Xyp66hooYpPPbvRn
+10392	2015-11-18	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10392/yIOMDS5n-AkNUYhZ
+10391	2015-11-18	gy-9100@163.com	leukoencephalopathy;leukodystrophy	119.96.208.62	http://phenolyzer.usc.edu/done/10391/VFaQVhw5mWCIFYP_
+10390	2015-11-18	tautvydas@yahoo.com	mental retardation;intellectual disability	193.219.87.235	http://phenolyzer.usc.edu/done/10390/n4tKucAUxyOKR-du
+10389	2015-11-18	abc@abc.com	leukoencephalopathy;leukodystrophy	107.178.195.212	http://phenolyzer.usc.edu/done/10389/-YIegIXXE1fM53Gh
+10388	2015-11-18	abc@123.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10388/2pIIbFtNIcHmlx-L
+10387	2015-11-18	claire.guissart@inserm.fr	all_diseases	194.167.35.211	http://phenolyzer.usc.edu/done/10387/02cpLwhdwuUOZwk8
+10386	2015-11-18	claire.guissart@inserm.fr	ataxia	194.167.35.211	http://phenolyzer.usc.edu/done/10386/ajgW1a6P2Idv30gf
+10382	2015-11-18	gy-9100@163.com	hp:0002459;hp:0010522;hp:0001662	119.96.208.62	http://phenolyzer.usc.edu/done/10382/QGQuX36ma3qrJ7WT
+10381	2015-11-17	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10381/I0SOaigtiNoQ84y7
+10380	2015-11-17	e.ip@victorchang.edu.au	hypoplastic left heart	129.94.111.5	http://phenolyzer.usc.edu/done/10380/zKCC65Lf7F_0UGr5
+10379	2015-11-17	e.ip@victorchang.edu.au	dextrocardia with situs inversus	129.94.111.5	http://phenolyzer.usc.edu/done/10379/G95NhqKWXGog_I2V
+10378	2015-11-17	gy-9100@163.com	leukoencephalopathy;leukodystrophy	119.96.208.62	http://phenolyzer.usc.edu/done/10378/GQtnh5NmznKLN4i2
+10377	2015-11-17	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10377/KVJ3DAO-yPa4apAu
+10376	2015-11-17	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10376/mCFXTY_Sn3N8LTi-
+10375	2015-11-17	506634337@qq.com	hyperglycaemia;diabetes;tuberculosis	116.6.99.221	http://phenolyzer.usc.edu/done/10375/nyEraN2LbKq675u9
+10374	2015-11-17	gy-9100@163.com	leukoencephalopathy;leukodystrophy	119.96.208.62	http://phenolyzer.usc.edu/done/10374/QIM9VwVlhRZFvXpn
+10373	2015-11-17	gy-9100@163.com	leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10373/MKuZbxA-TQhqAYMJ
+10372	2015-11-17	rafik.tadros@gmail.com	brugada syndrome	145.117.154.101	http://phenolyzer.usc.edu/done/10372/oP5X026WEIAwyMN8
+10371	2015-11-17	1058057743@qq.com	liver cancer	123.125.144.70	http://phenolyzer.usc.edu/done/10371/QfYHdJoY3EqpLUiU
+10370	2015-11-17	1058057743@qq.com	liver disease	123.125.144.70	http://phenolyzer.usc.edu/done/10370/0qS-JdX23YhuOTZz
+10369	2015-11-17	1058057743@qq.com	obesity	123.125.144.70	http://phenolyzer.usc.edu/done/10369/_rsH6s_-mnjlxuHl
+10368	2015-11-17	1058057743@qq.com	obesity	123.125.144.70	http://phenolyzer.usc.edu/done/10368/rGF1dJTYBtZe2g5U
+10367	2015-11-17	gy-9100@163.com	leukodystrophy;leukoencephalopathy	119.96.208.62	http://phenolyzer.usc.edu/done/10367/-iJD1fP2tYWrcZvN
+10366	2015-11-17	leyu@genekang.com	diabetes	123.125.144.70	http://phenolyzer.usc.edu/done/10366/RxElcbQDw9flhLB5
+10365	2015-11-17	1058057743@qq.com	diabetes type 2	123.125.144.70	http://phenolyzer.usc.edu/done/10365/lNeF_YRws8a9pWwU
+10364	2015-11-17	j.szot@victorchang.edu.au	atrioventricular canal defect	129.94.110.105	http://phenolyzer.usc.edu/done/10364/nIafRmoYGU38rHi8
+10363	2015-11-17	helbigi@email.chop.edu	hp:0001250	96.245.100.12	http://phenolyzer.usc.edu/done/10363/-E-1BgI_FPH9MkfK
+10362	2015-11-17	helbigi@email.chop.edu	epilepsy, intellectual disability, brain malformation	96.245.100.12	http://phenolyzer.usc.edu/done/10362/NOPDtxU9C5nLYTkY
+10361	2015-11-17	tautvydas11@yahoo.com	mental retardation;intellectual disability	5.20.221.29	http://phenolyzer.usc.edu/done/10361/wOqvy1AkIG0O2Qxv
+10360	2015-11-17	tautvydas11@yahoo.com	mental retardation;intellectual disability	5.20.221.29	http://phenolyzer.usc.edu/done/10360/K-mPa-0e9em_sn2S
+10359	2015-11-17	tautvydas11@yahoo.com	mental retardation;intellectual disability	5.20.221.29	http://phenolyzer.usc.edu/done/10359/6beVibrKGkD4bRYh
+10358	2015-11-17	zhanghl@newgenegle.com	breast cancer	182.138.101.75	http://phenolyzer.usc.edu/done/10358/lOsMcU64PzuDr0ZW
+10357	2015-11-17	zhanghl@newgenegle.com	breast cancer	182.138.101.75	http://phenolyzer.usc.edu/done/10357/oIGhiMb0KT-6FO0c
+10356	2015-11-17	gustavo.henriquedasilva@hotmail.com	aging;longevity	189.18.161.19	http://phenolyzer.usc.edu/done/10356/pgvVNaNGW-9VLpS4
+10355	2015-11-17	gustavo.henriquedasilva@hotmail.com	longevity;aging	189.18.161.19	http://phenolyzer.usc.edu/done/10355/uAtazHpdeyMD99W8
+10354	2015-11-17	tautvydas11@yahoo.com	mental retardation;intellectual disability	5.20.221.29	http://phenolyzer.usc.edu/done/10354/d2DFOPpwwM-iFtlz
+10353	2015-11-17	gustavo.henriquedasilva@hotmail.com	longevity;aging	189.18.161.19	http://phenolyzer.usc.edu/done/10353/-XhSEQ1Akm7TZvxI
+10352	2015-11-17	gustavo.henriquedasilva@hotmail.com	longevity;aging	189.18.161.19	http://phenolyzer.usc.edu/done/10352/Y3wan9m6vs5RzeDp
+10351	2015-11-17	gustavo.henriquedasilva@hotmail.com	longevity;aging	189.18.161.19	http://phenolyzer.usc.edu/done/10351/GeaKYpSwFILaYLsk
+10350	2015-11-17	gustavo.henriquedasilva@hotmail.com	longevity;aging	189.18.161.19	http://phenolyzer.usc.edu/done/10350/WiQH6eyRB1Qm5p3X
+10349	2015-11-17	gustavo.henriquedasilva@hotmail.com	longevity;aging	189.18.161.19	http://phenolyzer.usc.edu/done/10349/d98g5saKWe2u8xHM
+10348	2015-11-17	gustavo.henriquedasilva@hotmail.com	anging;longevity	189.18.161.19	http://phenolyzer.usc.edu/done/10348/zxKSXf4TzWLj4zh9
+10347	2015-11-17	gustavo.henriquedasilva@hotmail.com	anging;longevity	189.18.161.19	http://phenolyzer.usc.edu/done/10347/mTqL-SZNtS-32sb3
+10346	2015-11-17	tautvydas11@yahoo.com	mental retardation;intellectual disability	5.20.221.29	http://phenolyzer.usc.edu/done/10346/hCXlNV9zFK-zJ1oX
+10345	2015-11-17	karen.stals@nhs.net	microcephaly;developmental delay;short stature	82.32.24.144	http://phenolyzer.usc.edu/done/10345/NjyD6uLlavWW3jfm
 10342	2015-11-15	guiming@uchicago.edu	ulcerative colitis	128.135.101.189	http://phenolyzer.usc.edu/done/10342/YZOmr89Okb1QjiXm
 10340	2015-11-15	909356229@qq.com	atherosclerosis;artery injury	202.202.232.160	http://phenolyzer.usc.edu/done/10340/xs9jX0fFo2MjL0qF
 10339	2015-11-15	rfrancocruz2@unl.edu	parkinson's	66.87.139.132	http://phenolyzer.usc.edu/done/10339/12j0NFWXCS5TI9t6

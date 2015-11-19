@@ -1,4 +1,8 @@
-$(window).load(function() {    $('.selectpicker').selectpicker({
+$(window).load(function() {    
+	
+	
+	$('[data-toggle="tooltip"]').tooltip();
+	$('.selectpicker').selectpicker({
         width:'100%',
    });      
      $('.selectpicker').selectpicker('refresh');
@@ -334,7 +338,27 @@ var instruction = "<li>Enter your <b>query terms</b></li>" +
               
 
 });
-                 
+//Translate
+
+$(document).on('click','#translate',function(e){
+	var text = $('#disease').val();
+	$.ajax({
+		method: 'POST',
+		url:  '/php/translate.php',
+		dataType: 'json', 
+		accepts: 'json',
+		data: {text: text},
+		complete: function(data){
+			if(data){
+				//console.dir(data);
+				$('#disease').val(data.responseJSON['translation']);
+			}
+		}
+	});
+	return true;
+});
+
+
 //file upload
 $(document).on('change', '.btn-file :file', function() {
   var input = $(this),
