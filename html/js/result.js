@@ -140,10 +140,10 @@
                 	        .selector('node.disease')
                 	        .css({
                 	        	'text-outline-width':'2px',
-                	        	'text-outline-color':'mapData(weight,0,1,#FF33cc,#FF0066)',
+                	        	'text-outline-color':'mapData(weight,0,1,#e033aa,#ea0066)',
                 	        	'content':'',
                 	        	'shape':'roundrectangle',
-                	        	'background-color':'mapData(weight,0,1,#FF33cc,#FF0066)',
+                	        	'background-color':'mapData(weight,0,1,#e033aa,#ea0066)',
                 	        	'width':'mapData(weight, 0, 1, 18, 90)',
                 	        	'height':'20',
                 	        	'font-size':'10px'
@@ -151,12 +151,12 @@
                 	        .selector('node.term')
                 	        .css({
                 	        	'text-outline-width':'3px',
-                	        	'text-outline-color':'#FF33CC',
-                	        	'background-color':'#fe2200',
-                	        	'font-size':'35px',
+                	        	'text-outline-color':'#e02222',
+                	        	'background-color':'#e02222',
+                	        	'font-size':'30px',
                 	        	'shape':'circle',
-                	        	'width':'25px',
-                	        	'height':'25px'
+                	        	'width':'20px',
+                	        	'height':'20px'
                 	        	
                 	        	
       

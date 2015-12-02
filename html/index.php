@@ -149,7 +149,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	  <button type="submit" class="btn btn-info ">
 	  <span class="glyphicon glyphicon-send"></span> Submit</button>
 	  <button type="button" id="translate" class="btn btn-primary translate"
-	  data-toggle="tooltip" data-placement="top" title="Translate Chinese disease/phenotypes into Engelish"
+	  data-toggle="tooltip" data-placement="top" title="Translate Chinese disease/phenotypes into English"
 	  >
 	  <span class="glyphicon glyphicon-globe"></span> Translate</button>
       <button type="reset" class="btn btn-success ">
@@ -398,7 +398,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	   <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[11/19/2015]</strong></p>
-    		 <p>1) OMIM database was updated to 2011-11-19
+    		 <p>1) OMIM database was updated to 2015-11-19
     		 <p>2) We added a functionality <b class="text-danger">specifically for Chinese</b>, now you can entern chinese and click 'Translate' to translate your
     		 disease into English!
     		 </p>         </div></div> 
