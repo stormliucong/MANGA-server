@@ -13,7 +13,7 @@ sub deleteOldFiles {
 	    #print STDERR $file."\t".$file_days."\n";	
 	 	if( ($file_days>$days) and (-d "$HTML_DIRECTORY/done/$file"))
 	 	{	 	
-	    next if($file eq "4738" or $file eq "4737" or $file eq "4736" or $file eq "4735" or $file eq "5620");			
+	    next if($file eq "10901" or $file eq "4738" or $file eq "4737" or $file eq "8799" );			
 	 	system("rm -rf $HTML_DIRECTORY/done/$file") and warn "WARNING:Can't remove old files in $HTML_DIRECTORY/done/$file \n"  ;
 	 	print STDERR "Delete $file succesfully! \n";
 	 	}

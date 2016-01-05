@@ -350,7 +350,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
       <select class="selectpicker show-tick"  multiple name="addon_seed" id="addon_seed" data-selected-text-format="count>1">
 	           <option  value="DB_DISGENET_GENE_DISEASE_SCORE">DisGenet Disease Gene Mapping</option>		
 	           <option value="DB_GAD_GENE_DISEASE_SCORE">Genetic Association Database</option>	
-	           <option  value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option>	  
+	           <!-- option  value="DB_GENECARDS_GENE_DISEASE_SCORE">GeneCards Gene Disease Association</option -->	  
 	           <option  value="DB_IGA_NEPHROPATHY">Extra genes for Iga nephropathy (Thanks to Xuewen Song)</option>	
 	           <option value="DB_CHD_YUFENG_EXPANSION"> (For test use only) CHD </option>	   
 	  </select>
@@ -395,6 +395,22 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[01/05/2016]</strong></p>
+    		<p>Due to copyright issues, GeneCards database is no longer provided in Phenolyzer.
+    		</p>     </div></div> 
+	   
+	   
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[12/02/2015]</strong></p>
+    		<p>Dear all, you might have experienced some changes in your result. Don't panic! There's been several big updates in <b>NCBI's Biosystem 
+    		 database</b>. We recently noticed it and updated the database in Phenolyzer!
+    		 Toast!
+    		</p>     </div></div> 
+	   
+	   
 	   <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[11/19/2015]</strong></p>
