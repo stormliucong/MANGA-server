@@ -169,7 +169,7 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
                <div class="col-md-3">
 	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
        title="Gene Selection",
-       data-content="Turn on the Gene Selection to input your own genelist instead of conducting a genome-wide priotritization? You can use your gene list 
+       data-content="Turn on the Gene Selection to input your own genelist instead of conducting a genome-wide prioritization? You can use your gene list 
         generated from wANNOVAR! Is that amazing?">
        <span class="glyphicon glyphicon-th-list"></span></button>
 	   </div></div>
@@ -395,6 +395,12 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   <div class="panel panel-default">
+	    <div class="panel-body">
+    		 <p><strong>[01/24/2016]</strong></p>
+    		<p>OMIM database is now updated to 2016-01-24 version!
+    		</p>     </div></div> 
+	   
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[01/05/2016]</strong></p>
