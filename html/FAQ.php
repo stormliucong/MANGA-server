@@ -349,7 +349,27 @@
     <div class="panel-heading">
       <h4 class="panel-title big-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
-       15) What does it mean if I separate my term 'acute lymphocytic leukemia' as 'acute;lymphocytic;leukemia'?
+       15) Why are all the scores positive?
+       
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-13" class="panel-collapse collapse">
+      <div class="panel-body">
+    <p> 
+      1) we want to correctify a typo in the Nature Methods paper, in Page 5 Paragraph 5 Line 3, the 'wTXn-X0' should be 'wTxn - X0w0'.
+      2) The final score is the linear output instead of the logistic probability. All the weights except the intercept are promised to be positive. Thus to make
+      	sure our final score is positive, the negative intercept is deducted.
+     </p>
+         </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-danger">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
+       16) What does it mean if I separate my term 'acute lymphocytic leukemia' as 'acute;lymphocytic;leukemia'?
         </a>
       </h4>
     </div>
