@@ -348,13 +348,13 @@
   <div class="panel panel-danger">
     <div class="panel-heading">
       <h4 class="panel-title big-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-16">
        15) Why are all the scores positive?
        
         </a>
       </h4>
     </div>
-    <div id="collapse-13" class="panel-collapse collapse">
+    <div id="collapse-16" class="panel-collapse collapse">
       <div class="panel-body">
     <p> 
       1) we want to correctify a typo in the Nature Methods paper, in Page 5 Paragraph 5 Line 3, the 'wTXn-X0' should be 'wTxn - X0w0'.
@@ -368,17 +368,36 @@
   <div class="panel panel-danger">
     <div class="panel-heading">
       <h4 class="panel-title big-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-13">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-17">
        16) What does it mean if I separate my term 'acute lymphocytic leukemia' as 'acute;lymphocytic;leukemia'?
         </a>
       </h4>
     </div>
-    <div id="collapse-13" class="panel-collapse collapse">
+    <div id="collapse-17" class="panel-collapse collapse">
       <div class="panel-body">
     <p> A delimiter like ';' or Enter means you treat them as different terms. Then any disease name containing 'acute''lymphocytic'
         or 'leukemia' will be considered. But we have a Weighted Sum system to combine your terms, thus the most specific term
         will be dominant and its corresponding genes will be prioritized on top. Multiple short terms should be considered when you want a 
         better recall. </p>
+         </div>
+    </div>
+  </div>
+  
+   <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4 class="panel-title big-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-18">
+       17) How could I get the structured output for Cytoscape?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-18" class="panel-collapse collapse">
+      <div class="panel-body">
+    <p> The structured output file is called 'network.json' and it is in the result URL directory.
+     One example is shown: http://phenolyzer.usc.edu/done/10901/pFsk41MHw4ceYCAn/network.json
+     <br>You need to modify the URL yourself as there is no direct link for download!
+    
+     </p>
          </div>
     </div>
   </div>
