@@ -395,6 +395,12 @@ Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogen
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	    <div class="panel panel-default">
+	    <div class="panel-body">
+    	<p><strong>[08/04/2016]</strong></p>
+    	<p>OMIM database is now updated to 2016-08-04 version!
+    	</p>     </div></div> 
+	   
 	   <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[01/24/2016]</strong></p>

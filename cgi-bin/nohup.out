@@ -47,3 +47,29 @@ NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl
 NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05 -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it -gene gene_list.txt  2> query.disease_annotation.log>
 NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05 -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it  2> query.disease_annotation.log>
 NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05 -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE,DB_GENECARDS_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it -gene gene_list.txt  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -gene gene_list.txt  2> query.disease_annotation.log>
+Error: cannot read info file /var/www/html/loh/work/18920/info: No such file or directory at serve_loh.pl line 53.
+Error: cannot read info file /var/www/html/loh/work/18919/info: No such file or directory at serve_loh.pl line 53.
+Error: cannot read info file /var/www/html/loh/work/18919/info: No such file or directory at serve_loh.pl line 53.
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05 -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it  2> query.disease_annotation.log>
+Error: cannot read result file out.merge_gene_scores: No such file or directory
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -phenotype  2> query.disease_annotation.log>
+Error: cannot read result file out.merge_gene_scores: No such file or directory
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -gene gene_list.txt  2> query.disease_annotation.log>
+mv: cannot move `index.html' to `/var/www/html/loh/html/done/17748/0GuS1betUJXDjKa8/': No such file or directory
+Died at serve_loh.pl line 473.
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -wordcloud -logistic -addon_gg DB_MENTHA_GENE_GENE_INTERACTION -addon_gg_weight 0.05 -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -gene gene_list.txt  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it  2> query.disease_annotation.log>
+NOTICE: Running system command <perl /var/www/html/loh/bin/disease_annotation.pl -d /var/www/html/loh/lib/compiled_database -out out -prediction -w /var/www/html/loh/bin -f -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 disease_list.txt -phenotype -hi -it -gene gene_list.txt  2> query.disease_annotation.log>
+mv: cannot move `index.html' to `/var/www/html/loh/html/done/15290/a-WKIoQ7cJ_LW2jy/': No such file or directory
+Died at serve_loh.pl line 473, <TEMPLATE> line 153.
+mv: cannot move `index.html' to `/var/www/html/loh/html/done/15960/Rc-7ftw_Pj1Q_3yN/': No such file or directory
+Died at serve_loh.pl line 473.
+mv: cannot move `index.html' to `/var/www/html/loh/html/done/12875/lqxTaAYcWgigjLzU/': No such file or directory
+Died at serve_loh.pl line 473.
+mv: cannot move `index.html' to `/var/www/html/loh/html/done/17626/9qv5Z7O128npPYJr/': No such file or directory
+Died at serve_loh.pl line 473.
+mv: cannot move `index.html' to `/var/www/html/loh/html/done/16404/7v7OZ0lM-jBui8Lg/': No such file or directory
+Died at serve_loh.pl line 473.
