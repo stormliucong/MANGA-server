@@ -341,7 +341,7 @@
                       	window.open(cy.png({'bg':'#ffffff'}));
                       });
                       $("#tooltips").click( function(){
-                      	window.open("http://phenolyzer.usc.edu/images/network_instruction.png","","height=600px, width=1000px,top=200px, left = 200px");
+                      	window.open("/images/network_instruction.png","","height=600px, width=1000px,top=200px, left = 200px");
                       });  
                       
                       var adjust_layout = $('#adjust_layout');

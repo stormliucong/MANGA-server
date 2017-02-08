@@ -101,12 +101,12 @@
       <div class="modal-body">
 	 <h5><strong>Phenolyzer</strong> relies on your feedback. Please send an Email if you wish to make a request, a comment, or report a bug.</h5>	
          <h5>Dr. Kai Wang:<br>
-Assistant Professor, Psychiatry and Preventive Medicine; Member, Zilkha Neurogenetic Institute and Norris Comprehensive Cancer Center
-        <br>Web Site: <a href="http://genomics.usc.edu/">http://genomics.usc.edu</a>
-        <br>Email: <a href="mailto:kaiwang@usc.edu">kaiwang@usc.edu</a> </li>
+Associate Professor, Columbia University
+        <br>Web Site: <a href="http://wglab.org/">http://wglab.org</a>
+        <br>Email: <a href="mailto:kaichop@gmail.com">kaichop@gmail.com</a> </li>
          <br><br>Hui Yang:<br>
            Graduate Student, Zilkha Neurogenetic Institute, USC Neuroscience Graduate Program        
-        <br>Web Site: <a href="http://genomics.usc.edu/">http://genomics.usc.edu</a>
+        <br>Web Site: <a href="http://wglab.org/">http://wglab.org</a>
         <br>Email: <a href="mailto:yanghui@usc.edu">yanghui@usc.edu</a> </li></h5>
       </div>
       <div class="modal-footer">

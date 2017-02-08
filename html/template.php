@@ -13,14 +13,14 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		         <script data-turbolinks-track="true" type="text/javascript"  src="http://phenolyzer.usc.edu/jquery-1.11.1.min.js"></script>
-    <script data-turbolinks-track="true" type="text/javascript"  src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
-	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
-    <script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/vendor/jquery.ui.widget.js"></script>
-	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/jquery-ui-1.10.4.custom.min.js"></script>
-    <script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/jquery.iframe-transport.js"></script>
-    <script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/js/bootstrap-switch.min.js"></script>
-	<script data-turbolinks-track="true" src="http://phenolyzer.usc.edu/asset/js/turbolinks.js"></script>
+		         <script data-turbolinks-track="true" type="text/javascript"  src="/jquery-1.11.1.min.js"></script>
+    <script data-turbolinks-track="true" type="text/javascript"  src="/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
+	<script data-turbolinks-track="true" src="/bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
+    <script data-turbolinks-track="true" src="/asset/js/vendor/jquery.ui.widget.js"></script>
+	<script data-turbolinks-track="true" src="/asset/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script data-turbolinks-track="true" src="/asset/js/jquery.iframe-transport.js"></script>
+    <script data-turbolinks-track="true" src="/js/bootstrap-switch.min.js"></script>
+	<script data-turbolinks-track="true" src="/asset/js/turbolinks.js"></script>
  
 
 	</head>
@@ -40,7 +40,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
+              <li><a href="/">Home</a></li>	
 			   	<li ><a href="/download.php">Download</a></li>
 			   	<li><a href="/tutorial.php">Tutorial</a></li>
 			   	<li><a href="/FAQ.php">FAQ</a></li>
