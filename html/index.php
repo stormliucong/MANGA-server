@@ -3,12 +3,12 @@
 <html>
 <meta charset="utf-8"> 
 <meta property="og:type" content="website />"
-<meta property="og:image" content="http://phenolyzer.wglab.org/img/cancer.png">
+<meta property="og:image" content="/img/cancer.png">
 <meta property="og:title" content="Phenolyzer: Phenotype-based gene analyzer">
 <meta property="og:description" content="Phenolyzer stands for Phenotype Based Gene Analyzer, a tool focusing on discovering genes based on user-specific
   disease/phenotype terms.">  
 	<head>
-	<link rel="icon" type="image/x-icon" href="http://phenolyzer.wglab.org/img/phenolyzer_logo.png" />
+	<link rel="icon" type="image/x-icon" href="/img/phenolyzer_logo.png" />
 	
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
         <link href="./css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
@@ -43,8 +43,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-             <a class="navbar-brand" style="padding:3px" href="/index.php">
-           <img src="./img/phenolyzer.png" style="height:100%"></a>
+             <a class="navbar-brand" style="padding:3px" href="/">
+           <img src="/img/phenolyzer.png" style="height:100%"></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
@@ -67,7 +67,7 @@
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu" style="padding:5px"><img src="/img/WGL_long.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://wglab.org" style="padding:5px"><img src="/img/WGL_long.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>

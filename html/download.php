@@ -34,7 +34,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer</p></a>
+             <a class="navbar-brand" style="padding:3px" href="/">
+           <img src="./img/phenolyzer.png" style="height:100%"></a>
+
+          <!--a class="navbar-brand" href="http://phenolyzer.wglab.org"><p class="title">Phenolyzer</p></a-->
 		 
         </div>
         <div class="collapse navbar-collapse">
@@ -58,7 +61,7 @@
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://wglab.org"><img src="/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://wglab.org" style="padding:5px"><img src="/img/WGL_long.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
