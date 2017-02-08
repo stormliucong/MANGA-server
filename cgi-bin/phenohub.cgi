@@ -12,7 +12,7 @@ my $disease = $q->param("disease");
 my $gene = $q->param("gene");
 my $confidence = $q->param("confidence");
 my $public = $q->param("open"); 
-setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
+setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
 if ($email){
 	GenomicsServer::verifyEmail($email,$q);
 	my $fh;
@@ -61,7 +61,7 @@ $table_str .= qq|</table>|;
 $template =~s/%%%%Content%%%%/$table_str/;
 if($email){
 	my $script = qq|<script>
-    	window.location.replace("http://phenolyzer.usc.edu/cgi-bin/post_result.cgi");
+    	window.location.replace("/cgi-bin/post_result.cgi");
     	</script>|;
 	$template=~s/%%%%script%%%%/$script/;	
 }

@@ -5,10 +5,10 @@
 	<head>
 	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
-        <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
-	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
-	    <link href="./bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
-	    <link href="http://phenolyzer.usc.edu/css/phenolyzer.css" rel="stylesheet" type="text/css" >
+        <link href="/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
+	    <link href="/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="/bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
+	    <link href="/css/phenolyzer.css" rel="stylesheet" type="text/css" >
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -39,26 +39,26 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
-			   	<li class="active" ><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/cgi-bin/phenohub.cgi">Phenohub</a></li>
+              <li><a href="/">Home</a></li>	
+			   	<li class="active" ><a href="/download.php">Download</a></li>
+			   	<li><a href="/tutorial.php">Tutorial</a></li>
+			   	<li><a href="/FAQ.php">FAQ</a></li>
+			   	<li><a href="/example.php">Example</a></li>
+			   	<li><a href="/cgi-bin/phenohub.cgi">Phenohub</a></li>
 			   	
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
-                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
+                <li><a href="http://wannovar.wglab.org">wANNOVAR</a></li>
+                    <li><a href="http://icages.wglab.org/">iCAGES</a></li>
+                    <li><a href="http://enlight.wglab.org/">Enlight</a></li>
                     <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://wglab.org"><img src="/img/logo.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -80,10 +80,10 @@
 			<h3 class="panel-title  big-title">Sample Input</h3></div>
 			<div class="panel-body">
 			 <h3 class="text-danger"><span class="glyphicon glyphicon-ok"></span>
-			 <a  class="text-danger" href="http://phenolyzer.usc.edu/download/genelist.txt">
+			 <a  class="text-danger" href="/download/genelist.txt">
 			Sample Gene List</a></h3>
 			<h3 class="text-danger"><span class="glyphicon glyphicon-ok"></span>
-		    <a  class="text-danger"href="http://phenolyzer.usc.edu/download/cnv.bed">
+		    <a  class="text-danger"href="/download/cnv.bed">
 			Sample Region bed file</a></h3>
 			</div></div></div>
 			<div class="col-md-5" >
@@ -92,7 +92,7 @@
 			<h3 class="panel-title  big-title">Phenolyzer Command Line Tool</h3></div>
 			<div class="panel-body">	
 		   	<h3 class="text-info"><span class="glyphicon glyphicon-ok"></span>
-			<a class="text-info" href="https://github.com/WangGenomicsLab/phenolyzer">
+			<a class="text-info" href="https://github.com/WGLab/phenolyzer">
 			Github </a></h3>
 			</div>
 		

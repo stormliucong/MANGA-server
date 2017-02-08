@@ -67,7 +67,7 @@ my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}:]+/,lc $disease);
            
 
 GenomicsServer::verifyEmail($email,$q);
-GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
+GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
 GenomicsServer::prepareWorkDirectory ();
 #---------------------------------------------generate priliminary result----------------------
 
@@ -187,7 +187,7 @@ sub generateFeedback {
 	
 	my ($q, $submission_id, $password, $warning_message) = @_;
 	my $preliminary_page=();
-	$weblink="http://phenolyzer.usc.edu/done/$submission_id/$password/index.html";
+	$weblink="http://phenolyzer.wglab.org/done/$submission_id/$password/index.html";
 	my $template_file;
 	$template_file=$coba?"template_coba.php":"template.php";
 open(TEMPLATE,"$HTML_DIRECTORY/$template_file");

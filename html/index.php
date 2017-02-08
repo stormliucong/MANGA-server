@@ -3,25 +3,25 @@
 <html>
 <meta charset="utf-8"> 
 <meta property="og:type" content="website />"
-<meta property="og:image" content="http://phenolyzer.usc.edu/img/cancer.png">
+<meta property="og:image" content="http://phenolyzer.wglab.org/img/cancer.png">
 <meta property="og:title" content="Phenolyzer: Phenotype-based gene analyzer">
 <meta property="og:description" content="Phenolyzer stands for Phenotype Based Gene Analyzer, a tool focusing on discovering genes based on user-specific
   disease/phenotype terms.">  
 	<head>
-	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
+	<link rel="icon" type="image/x-icon" href="http://phenolyzer.wglab.org/img/phenolyzer_logo.png" />
 	
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
-        <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
-	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
+	    <link href="./bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="./bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
-	    <link href="http://phenolyzer.usc.edu/css/phenolyzer.css" rel="stylesheet" type="text/css" >
+	    <link href="./css/phenolyzer.css" rel="stylesheet" type="text/css" >
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
 		        <script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
-                  <script type="text/javascript"  src="http://phenolyzer.usc.edu/jquery-1.11.0.min.js"></script>
-	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
+                  <script type="text/javascript"  src="./jquery-1.11.0.min.js"></script>
+	              <script type="text/javascript"  src="./bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
 	              <script data-turbolinks-track="true" src="./bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
 				<script data-turbolinks-track="true" src="asset/js/vendor/jquery.ui.widget.js"></script>
 	<script data-turbolinks-track="true" src="asset/js/jquery-ui-1.10.4.custom.min.js"></script>
@@ -49,12 +49,12 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li class="active" ><a href="http://phenolyzer.usc.edu/index.php">Home</a></li>	
-			   	<li><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
-			    <li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/cgi-bin/phenohub.cgi">Phenohub</a></li>
+              <li class="active" ><a href="/">Home</a></li>	
+			   	<li><a href="/download.php">Download</a></li>
+			    <li><a href="/tutorial.php">Tutorial</a></li>
+			   	<li><a href="/FAQ.php">FAQ</a></li>
+			   	<li><a href="/example.php">Example</a></li>
+			   	<li><a href="/cgi-bin/phenohub.cgi">Phenohub</a></li>
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>

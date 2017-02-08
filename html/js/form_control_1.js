@@ -245,7 +245,7 @@ $(window).load(function() {
                    var old_string;
                    
                      $.when(
-                     $.get('http://phenolyzer.usc.edu/hot_disease_term.txt', function (data) {
+                     $.get('./hot_disease_term.txt', function (data) {
                     	   disease_count = data.split("\n");  
                     	   disease_count.pop();
                 	   })

@@ -201,14 +201,14 @@ sub processSubmission {
 	if ($failed_command) {
 		$email_body = "We were unable to generate results for your submission due to an '$failed_command' error.\n";
 	} else {
-		$email_body = "Your submission is done: http://loh.usc.edu/done/$id/$password/index.html\n\n";#### url
+		$email_body = "Your submission is done: http://phenolyzer.wglab.org/done/$id/$password/index.html\n\n";#### url
 		$email_body .= "bedfile=$info{bedfile}\nbuildver=$info{buildver}\n\n";
 		
 		
 		
 		
 	
-		$email_tail .= "The citation for the above result is: http://loh.usc.edu\n\n";
+		$email_tail .= "The citation for the above result is: http://phenolyzer.wglab.org\n\n";
 		$email_tail .= "Questions or comments may be directed to $CARETAKER.\n";
 		$email_tail =~ s/(.{1,69})\s/$1\n/g;
 	}

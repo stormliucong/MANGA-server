@@ -3,12 +3,12 @@
 <html>
 <meta charset="utf-8"> 
 	<head>
-	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
+	<link rel="icon" type="image/x-icon" href="/img/phenolyzer_logo.png" />
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
-        <link href="http://phenolyzer.usc.edu/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
-	    <link href="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
-	    <link href="./bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
-	    <link href="http://phenolyzer.usc.edu/css/phenolyzer.css" rel="stylesheet" type="text/css" >
+        <link href="/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
+	    <link href="/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="/bootstrap-3.2.0-dist/css/bootstrap-select.min.css" rel="stylesheet">
+	    <link href="/css/phenolyzer.css" rel="stylesheet" type="text/css" >
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -33,30 +33,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://phenolyzer.usc.edu"><p class="title">Phenolyzer</p></a>
+          <a class="navbar-brand" href="/"><p class="title">Phenolyzer</p></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
               <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
-			   	<li><a href="http://phenolyzer.usc.edu/download.php">Download</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/tutorial.php">Tutorial</a></li>
-			   	<li ><a href="http://phenolyzer.usc.edu/FAQ.php">FAQ</a></li>
-			   	<li  class="active"><a href="http://phenolyzer.usc.edu/example.php">Example</a></li>
-			   	<li><a href="http://phenolyzer.usc.edu/cgi-bin/phenohub.cgi">Phenohub</a></li>
+			   	<li><a href="/download.php">Download</a></li>
+			   	<li><a href="/tutorial.php">Tutorial</a></li>
+			   	<li ><a href="/FAQ.php">FAQ</a></li>
+			   	<li  class="active"><a href="/example.php">Example</a></li>
+			   	<li><a href="/cgi-bin/phenohub.cgi">Phenohub</a></li>
 			   	
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
-                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
-                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+                   <li><a href="http://wannovar.wglab.org">wANNOVAR</a></li>
+                    <li><a href="http://icages.wglab.org">iCAGES</a></li>
+                    <li><a href="http://enlight.wglab.org">Enlight</a></li>
+                    <li><a href="http://seqmule.wglab.org">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
 		  <div class="navbar-header navbar-right col-md-3" >
-		    <a class="title navbar-brand" href="http://genomics.usc.edu"><img src="/img/logo.png" alt="" style="height:100%;"></a>
+		    <a class="title navbar-brand" href="http://wglab.org"><img src="/img/logo.png" alt="" style="height:100%;"></a>
 		  </div>
         </div><!--/.nav-collapse --> 
 	  </div>
@@ -77,10 +77,10 @@
 			</div>
 			  <div class="panel-body">
 			
-           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4738/1_OXoD4WszZeFicS/index.html">    Amyotrophic lateral sclerosis</a></h3> 
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/4737/uutz_AeaS4TkwBjI/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/8799/aL4IFnI04-dCKiK9/index.html">  Autism</a></h3>
-		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="http://phenolyzer.usc.edu/done/10901/pFsk41MHw4ceYCAn/index.html">  Huntington</a></h3>
+           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/4738/1_OXoD4WszZeFicS/index.html">    Amyotrophic lateral sclerosis</a></h3> 
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/4737/uutz_AeaS4TkwBjI/index.html">  Cancer</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/8799/aL4IFnI04-dCKiK9/index.html">  Autism</a></h3>
+		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/10901/pFsk41MHw4ceYCAn/index.html">  Huntington</a></h3>
 		    
 		    
 		    </div>
