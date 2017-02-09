@@ -59,10 +59,10 @@
 			  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related projects<span class="caret"></span></a>
 		    <ul class="dropdown-menu" role="menu">
-                   <li><a href="http://wannovar.usc.edu">wANNOVAR</a></li>
-                    <li><a href="http://icages.usc.edu/">iCAGES</a></li>
-                    <li><a href="http://enlight.usc.edu/">Enlight</a></li>
-                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+                   <li><a href="http://wannovar.wglab.org">wANNOVAR</a></li>
+                    <li><a href="http://icages.wglab.org/">iCAGES</a></li>
+                    <li><a href="http://enlight.wglab.org/">Enlight</a></li>
+                    <li><a href="http://seqmule.wglab.org/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
@@ -395,6 +395,14 @@ Associate Professor, Columbia University
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+
+            <div class="panel panel-default">
+            <div class="panel-body">
+        <p><strong>[02/07/2017]</strong></p>
+        <p>Phenolyzer webserver is being migrated! You may experience page loading problems and other issues.
+        </p>     </div></div>
+
+
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     	<p><strong>[08/04/2016]</strong></p>
@@ -434,28 +442,10 @@ Associate Professor, Columbia University
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[11/17/2015]</strong></p>
-    		 <p> 1) We really apologize for a tricky server bug! The submission ID jumps back to 1 suddenly. 
-    		 <b>NOTICE:</b> It's been fixed now but the submissions with ID smaller than 150 won't be processed. Please submit your disease again.
 
-    		 <br>2) OMIM database was updated again.
+    		 <p> OMIM database was updated again.
     		 </p>         </div></div> 
 	   
-	   <div class="panel panel-default">
-        <div class="panel-body">
-             <p><strong>[10/20/2015]</strong></p>
-             <p> OK, it's really bad to have a server failure. Due to our environment re-setup, I just found the wordcloud is not working. We have just fixed it! </p></div></div>
-	   
-	    <div class="panel panel-default">
-        <div class="panel-body">
-             <p><strong>[10/05/2015]</strong></p>
-             <p>Due to a recent server failure and server environment re-setup, the result from <b>2015-09-28 to 2015-10-05</b> is not correct! Please rerun your analysis! <br><br> 
-            </p></div></div>
-	   
-	      <div class="panel panel-default">
-        <div class="panel-body">
-             <p><strong>[09/11/2015]</strong></p>
-             <p>Please notice you can now post your findings on Phenolyzer! <br><br> 
-             <a href="https://github.com/WangGenomicsLab/phenolyzer/releases/tag/v0.1.4">Phenolyzer 0.1.4</a> was released! A bug in Bioperl dependency was fixed. Now it is strictly required to install Bioperl before you can use Phenolyzer.'.</p>         </div></div> 
 	   
 	   
 	   <div class="panel panel-default">
@@ -463,16 +453,6 @@ Associate Professor, Columbia University
              <p><strong>[08/06/2015]</strong></p>
              <p> Now the HPO Identifiers are supported. For example, please enter 'HP:0002459; HP:0010522; HP:0001662'.</p>         </div></div> 
 	   
-	   <div class="panel panel-default">
-        <div class="panel-body">
-             <p><strong>[08/04/2015]</strong></p>
-             <p> The addon databases only contribute 25% now as they are not confident as original databases!</p>         </div></div> 
-	   
-	    <div class="panel panel-default">
-	    <div class="panel-body">
-    		 <p><strong>[07/20/2015]</strong></p>
-    		 <p> Finally, Phenolyzer is published in <a href="http://www.nature.com/nmeth/journal/v12/n9/abs/nmeth.3484.html"><b>Nature Methods</b></a>! 
-    		 </p>         </div></div> 
 	   
 	   	   	     <div class="panel panel-default">
 	    <div class="panel-body">
@@ -495,49 +475,13 @@ Associate Professor, Columbia University
     		       <b><a href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003709">Gene Intolerance Score</a></b> for severe disease genes
              </div></div>  
 	   
-	    <div class="panel panel-default">
-	    <div class="panel-body">
-    		 <p><strong>[03/26/2015]</strong></p>
-    		 <p>  A minor bug in 'calculate_score.pl' script was fixed.
-    		      		</div></div>  
 	    
-	    
-	    <div class="panel panel-default">
-	    <div class="panel-body">
-    		 <p><strong>[02/17/2015]</strong></p>
-    		 <p> The Phenolyzer v0.1.1 is released. A script named 'calculate_score.pl' 
-    		   for integrating ANNOVAR result and Phenolyzer result is available! A detailed user mannual is provided in Tutorial! </p>
-    		</div></div>  
-	   
-	   	    <div class="panel panel-default">
-	    <div class="panel-body">
-    		 <p><strong>[02/05/2015]</strong></p>
-    		 <p> The Phenolyzer v0.1.0 is released.Now no R packages need to be installed by the user for the utility of command line wordcloud function. </p>
-    		 <p> The HPO terms corresponding to each term (if existing) are also available in the result!.</p>
-    		</div></div>  
-    		
-	    <div class="panel panel-default">
-	    <div class="panel-body">
-    		 <p><strong>[11/25/2014]</strong></p>
-    		 <p> The GeneReview score has been recalculated, for each GeneReview book, the score will not be repeatedly calculated for different specific OMIM diseases.
-   
-    		</div></div>
-	   
-	   
-	    <div class="panel panel-default">
-	    <div class="panel-body">
-    		 <p><strong>[10/27/2014]</strong></p>
-    		 <p>The 'Regulates' relations are now penalized to a quarter, which does not affect the performance and prevents the general transcription factors to show up on top.
-    		 </p>
-    		</div></div>
 	   
 	    <div class="panel panel-default">
 	    <div class="panel-body">
     		 <p><strong>[10/21/2014]</strong></p>
     		 <p>Several important databases are integrated as the form of plugins: <b class="text-info">Mentha protein-protein interaction database</b> for gene-gene mapping,
     		 , <b class="text-info">DisGenet gene-disease database</b>, <b class="text-info">Genetic Association Database</b>, <b class="text-info">GeneCards</b> for disease-gene mapping!<br><br> 
-    		 Now the database for disease-gene relations have more than <b>100000</b> records!
-    		 <br><br>The Addon Databases could be found and selected below!
     		 </p>
     		</div></div>
 	   

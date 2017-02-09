@@ -1,0 +1,3 @@
+template_new.html is used by serve_loh.pl (the result page with the network and gene list)
+template.php is used by loh.cgi (response page after submission)
+post_result_template.html is used by phenohub.cgi

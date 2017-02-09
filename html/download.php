@@ -3,7 +3,7 @@
 <html>
 <meta charset="utf-8"> 
 	<head>
-	<link rel="icon" type="image/x-icon" href="http://phenolyzer.usc.edu/img/phenolyzer_logo.png" />
+	<link rel="icon" type="image/x-icon" href="/img/phenolyzer_logo.png" />
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
         <link href="/css/redmond/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" >
 	    <link href="/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,9 +14,9 @@
 		<![endif]-->
 		
 		        <script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
-                  <script type="text/javascript"  src="http://phenolyzer.usc.edu/jquery-1.11.0.min.js"></script>
-	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
-	              <script data-turbolinks-track="true" src="./bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
+                  <script type="text/javascript"  src="/jquery-1.11.0.min.js"></script>
+	              <script type="text/javascript"  src="/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
+	              <script data-turbolinks-track="true" src="/bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
 				<script data-turbolinks-track="true" src="asset/js/vendor/jquery.ui.widget.js"></script>
 	<script data-turbolinks-track="true" src="asset/js/jquery-ui-1.10.4.custom.min.js"></script>
     <script data-turbolinks-track="true" src="asset/js/jquery.iframe-transport.js"></script>
@@ -56,7 +56,7 @@
                 <li><a href="http://wannovar.wglab.org">wANNOVAR</a></li>
                     <li><a href="http://icages.wglab.org/">iCAGES</a></li>
                     <li><a href="http://enlight.wglab.org/">Enlight</a></li>
-                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+                    <li><a href="http://seqmule.wglab.org/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>

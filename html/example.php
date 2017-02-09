@@ -14,9 +14,9 @@
 		<![endif]-->
 		
 		        <script data-turbolinks-track="true" src="asset/js/turbolinks.js"></script>
-                  <script type="text/javascript"  src="http://phenolyzer.usc.edu/jquery-1.11.0.min.js"></script>
-	              <script type="text/javascript"  src="http://phenolyzer.usc.edu/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
-	              <script data-turbolinks-track="true" src="./bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
+                  <script type="text/javascript"  src="/jquery-1.11.0.min.js"></script>
+	              <script type="text/javascript"  src="/bootstrap-3.2.0-dist/js/bootstrap.min.js" ></script>
+	              <script data-turbolinks-track="true" src="/bootstrap-3.2.0-dist/js/bootstrap-select.min.js"></script>
 				<script data-turbolinks-track="true" src="asset/js/vendor/jquery.ui.widget.js"></script>
 	<script data-turbolinks-track="true" src="asset/js/jquery-ui-1.10.4.custom.min.js"></script>
     <script data-turbolinks-track="true" src="asset/js/jquery.iframe-transport.js"></script>
@@ -40,7 +40,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
+              <li><a href="/">Home</a></li>	
 			   	<li><a href="/download.php">Download</a></li>
 			   	<li><a href="/tutorial.php">Tutorial</a></li>
 			   	<li ><a href="/FAQ.php">FAQ</a></li>
@@ -79,10 +79,10 @@
 			</div>
 			  <div class="panel-body">
 			
-           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/4738/1_OXoD4WszZeFicS/index.html">    Amyotrophic lateral sclerosis</a></h3> 
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/4737/uutz_AeaS4TkwBjI/index.html">  Cancer</a></h3>
-		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/8799/aL4IFnI04-dCKiK9/index.html">  Autism</a></h3>
-		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/10901/pFsk41MHw4ceYCAn/index.html">  Huntington</a></h3>
+           <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/1/dIv3Tz6iaSVHA1_J/index.html">    Amyotrophic lateral sclerosis</a></h3> 
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/2/-IKgZUEM-WKSsKAU/index.html">  Cancer</a></h3>
+		     <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/3/4IW3-KJNSfPhU5Nf/index.html">  Autism</a></h3>
+		    <h3 class="text-primary"><span class="glyphicon glyphicon-ok"></span><a href="/done/4/XL6W9xInBqkCIhNH/index.html">  Huntington</a></h3>
 		    
 		    
 		    </div>

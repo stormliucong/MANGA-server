@@ -40,7 +40,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li><a href="http://phenolyzer.usc.edu">Home</a></li>	
+              <li><a href="/">Home</a></li>	
 			   	<li><a href="/download.php">Download</a></li>
 			   	<li><a href="/tutorial.php">Tutorial</a></li>
 			   	<li class="active" ><a href="/FAQ.php">FAQ</a></li>
@@ -178,9 +178,9 @@
     </div>
     <div id="collapse-6" class="panel-collapse collapse">
       <div class="panel-body">
-    <p>1) A gene list, (Entrez Genes or IDs, lower case is accepted). <a href="http://phenolyzer.usc.edu/download/genelist.txt"><span class="label label-success">Example</span></a>
+    <p>1) A gene list, (Entrez Genes or IDs, lower case is accepted). <a href="/download/genelist.txt"><span class="label label-success">Example</span></a>
 			<br>
-           2) A region file, in '.bed' format. <a href="http://phenolyzer.usc.edu/download/cnv.bed"><span class="label label-success">Example</span></a></p>
+           2) A region file, in '.bed' format. <a href="/download/cnv.bed"><span class="label label-success">Example</span></a></p>
          </div>
     </div>
   </div>
@@ -396,7 +396,7 @@
     <div id="collapse-18" class="panel-collapse collapse">
       <div class="panel-body">
     <p> The structured output file is called 'network.json' and it is in the result URL directory.
-     One example is shown: http://phenolyzer.usc.edu/done/10901/pFsk41MHw4ceYCAn/network.json
+     One example is shown: http://phenolyzer.wglab.org/done/1/dIv3Tz6iaSVHA1_J/network.json
      <br>You need to modify the URL yourself as there is no direct link for download!
     
      </p>

@@ -53,7 +53,7 @@
                   <li><a href="http://phenolyzer.wglab.org/">Phenolyzer</a></li>
                     <li><a href="http://icages.wglab.org">iCAGES</a></li>
                     <li><a href="http://enlight.wglab.org">Enlight</a></li>
-                    <li><a href="http://seqmule.usc.edu/">SeqMule</a></li>
+                    <li><a href="http://seqmule.wglab.org/">SeqMule</a></li>
                   </ul>
                 </li>
           </ul>
