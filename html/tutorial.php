@@ -110,7 +110,8 @@
 		<!-- container -->
             <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">Rights Reserved @Hui Yang USC Neuroscience</p>
+        <p class="text-muted">All Rights Reserved @Wang Genomics Lab 2010-<script type="text/javascript"> document.write(new Date().getFullYear());
+</script></p>
       </div></div>     
                 
                  

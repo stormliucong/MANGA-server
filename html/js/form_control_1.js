@@ -301,7 +301,8 @@ var instruction = "<li>Enter your <b>query terms</b></li>" +
                   
                   
     instruction = "<li><b>Phenotype interpretation</b>: <br>Interpret phenotype terms into disease names</li>" +
-		          "<li><b>All diseases</b>: <br>All diseases in the gene disease database are used</li>";
+    			  "<li><b>Disease Only:</b> <br>Terms are treated only as disease terms</li>" + 
+		          "<li><b>All diseases</b>: <br>Terms neglected, all diseases in database used</li>";
                   advanced_options_label.tooltip({ content: instruction,
                 	  position: { my: "right bottom", at: "right top-5"},
                 	  tooltipClass: "advanced_instruction"});

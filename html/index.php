@@ -229,7 +229,7 @@ Associate Professor, Columbia University
         
             
 	         <div class="form-group">
-	 <label for="other_options" title="" class="col-md-3 control-label advanced_options">Advanced Options  </label>
+	 <label for="other_options" title="" class="col-md-3 control-label advanced_options">Phenotype Interpret  </label>
 	 <div class="col-md-5">
       <select class="selectpicker show-menu-arrow" title = "" name="other_options" id="other_options">
 	          <option selected value="phenotype_interpretation" >Phenotype Interpretation</option>
@@ -239,9 +239,10 @@ Associate Professor, Columbia University
     </div>
      <div class="col-md-3">
 	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
-       title="Advanced Options",
-       data-content="Phenotype interpretation: Interpret phenotype terms into disease names
-		          All diseases: All diseases in the gene disease database are used">
+       title="Advanced Options", data-html="true"
+       data-content="<b>Phenotype interpretation:</b> Interpret phenotype terms into disease names<br>
+                   <b>Disease Only:</b> Terms are treated only as disease terms<br>
+		           <b>All diseases:</b> Terms neglected, all diseases in database used">
        <span class="glyphicon glyphicon-th-list"></span></button> 
 	   </div>
        </div> 
@@ -495,7 +496,8 @@ Associate Professor, Columbia University
 		<!-- container -->
             <div class="container">
      <div class="footer col-lg-offset-1">
-     <p class="text-muted">Rights Reserved @Wang Lab, Powered By Hui Yang USC Neuroscience</p>
+        <p class="text-muted">All Rights Reserved @Wang Genomics Lab 2010-<script type="text/javascript"> document.write(new Date().getFullYear());
+</script></p>
       </div></div>    
 	</body>
 		<script>
