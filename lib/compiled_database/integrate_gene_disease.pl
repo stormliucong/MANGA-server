@@ -1,16 +1,16 @@
 use strict;
 use warnings;
 use Scalar::Util qw(looks_like_number);
-open(CLINVAR,"../clinVar_genemap_20150515.txt") or die;
-open(OMIM1,"../omim_genemap_20170316.txt") or die;
+open(CLINVAR,"../clinVar_genemap_20170523.txt") or die;
+open(OMIM1,"../omim_genemap_20170522.txt") or die;
 #open(OMIM2,"../omim_genemap2_20160124.txt") or die;
-open(ORPHANET,"../orphanet_genemap.txt") or die;
+#open(ORPHANET,"../orphanet_genemap.txt") or die;
 open(GWAS, "../gwas_catalog_dev") or die;                         
 open(CLINVAR_OUT,">DB_CLINVAR_GENE_DISEASE") or die;
 open(OMIM_OUT,">DB_OMIM_GENE_DISEASE_TEMP") or die;
 open(OMIM_OUT_FINAL,">DB_OMIM_GENE_DISEASE") or die;
-open(ORPHANET_OUT,">DB_ORPHANET_GENE_DISEASE_TEMP") or die;
-open(ORPHANET_OUT_FINAL,">DB_ORPHANET_GENE_DISEASE") or die;
+#open(ORPHANET_OUT,">DB_ORPHANET_GENE_DISEASE_TEMP") or die;
+#open(ORPHANET_OUT_FINAL,">DB_ORPHANET_GENE_DISEASE") or die;
 open(GENE_ID, "DB_HUMAN_GENE_ID") or die;
 
 
@@ -141,17 +141,17 @@ for my $line(<OMIM2>)      #process omim_genemap.txt
 =cut
 system("sort DB_OMIM_GENE_DISEASE_TEMP|uniq >> DB_OMIM_GENE_DISEASE");
 
-print ORPHANET_OUT_FINAL join("\t",qw/GENE DISEASE ORPHANET_NUMBER SOURCE_COUNT LINKAGE_INFO/)."\n";
-for my $line(<ORPHANET>){
-	chomp($line);
-	my @words=split("\t",$line);
-	$words[6]= GetRidOfAnnotations($words[6]);
-	$words[6]=~s/^\W*(.*?)\W*$/$1/;
-	
-	if($words[17]=~/^\d+$/){
-		print ORPHANET_OUT join("\t",($words[13],$words[6],$words[5],$words[17],$words[22]))."\n";
-		}
-}
+#print ORPHANET_OUT_FINAL join("\t",qw/GENE DISEASE ORPHANET_NUMBER SOURCE_COUNT LINKAGE_INFO/)."\n";
+#for my $line(<ORPHANET>){
+#	chomp($line);
+#	my @words=split("\t",$line);
+#	$words[6]= GetRidOfAnnotations($words[6]);
+#	$words[6]=~s/^\W*(.*?)\W*$/$1/;
+#	
+#	if($words[17]=~/^\d+$/){
+#		print ORPHANET_OUT join("\t",($words[13],$words[6],$words[5],$words[17],$words[22]))."\n";
+#		}
+#}
 sub GetRidOfAnnotations{
 	@_==1 or die;
 	my $disease = $_[0];
@@ -159,8 +159,8 @@ sub GetRidOfAnnotations{
 	return $disease;
 }
 
-system("sort DB_ORPHANET_GENE_DISEASE_TEMP|uniq>>DB_ORPHANET_GENE_DISEASE");
-system("rm DB_ORPHANET_GENE_DISEASE_TEMP DB_OMIM_GENE_DISEASE_TEMP");
+#system("sort DB_ORPHANET_GENE_DISEASE_TEMP|uniq>>DB_ORPHANET_GENE_DISEASE");
+#system("rm DB_ORPHANET_GENE_DISEASE_TEMP DB_OMIM_GENE_DISEASE_TEMP");
 
 
 

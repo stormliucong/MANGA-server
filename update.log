@@ -1,0 +1,35 @@
+2017-05-23 update log
+
+Updated database (6):
+OMIM database:
+updated to 2017-05-22 version
+
+GWAS 
+updated to 2017-05-22 version.
+
+clinVar database:
+updated to 2017-05-23 version
+
+HPO database:
+updated to 2017-04-13
+
+DO database:
+updated to 2017-02-03
+
+Biosystem database:
+updated to 2017-04-23 version
+
+
+
+Not updated database (4):
+HRPD gene-gene interaction database:
+There is no avaiable update.
+
+HTRI database:
+There is no avaiable update.
+
+Gene Family database:
+There is no avaiable update 
+
+orphanet
+Not updated. (They completed changed their download files. Need to write new script to parse the xml format)
