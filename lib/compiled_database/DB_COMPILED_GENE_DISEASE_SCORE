@@ -19,8 +19,8 @@ AASS,LKR/SDH,LKRSDH,LORSDH	Saccharopinuria	OMIM:268700	0.1875	OMIM
 AAT1,FAA1	Aortic aneurysm familial thoracic 1	OMIM:607086	0.375	OMIM
 AAT2,FAA2	Aortic aneurysm familial thoracic 2	OMIM:607087	0.375	OMIM
 ABAT,GABA-AT,GABAT,NPD009	GABA transaminase deficiency	OMIM:613163	0.75	OMIM
-ABCA12,ARCI4A,ARCI4B,ICR2B,LI2	Ichthyosis autosomal recessive 4B	OMIM:242500	1	OMIM
 ABCA12,ARCI4A,ARCI4B,ICR2B,LI2	Ichthyosis congenital autosomal recessive 4A	OMIM:601277	1	OMIM
+ABCA12,ARCI4A,ARCI4B,ICR2B,LI2	Ichthyosis congenital autosomal recessive 4B	OMIM:242500	1	OMIM
 ABCA1,ABC-1,ABC1,CERP,HDLDT1,TGD	Coronary artery disease in familial hypercholesterolemia protection against	OMIM:143890	1	OMIM
 ABCA1,ABC-1,ABC1,CERP,HDLDT1,TGD	HDL deficiency type 2	OMIM:604091	1	OMIM
 ABCA1,ABC-1,ABC1,CERP,HDLDT1,TGD	Tangier disease	OMIM:205400	1	OMIM
@@ -88,9 +88,11 @@ ACHE,ACEE,ARACHE,N-ACHE,YT	Blood group Yt system	OMIM:112100	1	OMIM
 ACO2,ACONM,ICRD	Infantile cerebellar retinal degeneration	OMIM:614559	1	OMIM
 ACO2,ACONM,ICRD	Optic atrophy 9	OMIM:616289	1	OMIM
 ACOX1,ACOX,PALMCOX,SCOX	Peroxisomal acyl CoA oxidase deficiency	OMIM:264470	1	OMIM
+ACOX2,BCOX,BRCACOX,BRCOX,THCCOX	Bile acid synthesis defect congenital 6	OMIM:617308	1	OMIM
 SPG21,ACP33,GL010,MAST	Mast syndrome	OMIM:248900	1	OMIM
 ACP5,SPENCDI,TRAP	Spondyloenchondrodysplasia 	OMIM:607944	1	OMIM
 NDUFAB1,ACP,FASN2A,SDAP	Cerebral palsy ataxic autosomal recessive	OMIM:605388	0.375	OMIM
+ACPT	Amelogenesis imperfecta type IJ	OMIM:617297	0.75	OMIM
 ACRPS	Acropectoral syndrome	OMIM:605967	0.375	OMIM
 ACRPV	Acropectorovertebral dysplasia	OMIM:102510	0.375	OMIM
 ACSF3	Combined malonic and methylmalonic aciduria	OMIM:614265	0.75	OMIM
@@ -147,7 +149,6 @@ ADAR,ADAR1,AGS6,DRADA,DSH,DSRAD,G1P1,IFI-4,IFI4,K88DSRBP,P136	Aicardi Goutieres 
 ADAR,ADAR1,AGS6,DRADA,DSH,DSRAD,G1P1,IFI-4,IFI4,K88DSRBP,P136	Dyschromatosis symmetrica hereditaria	OMIM:127400	1	OMIM
 ADAT3,FWP005,MRT36,MST121,MSTP121,S863-5,TAD3	Mental retardation autosomal recessive 36	OMIM:615286	0.75	OMIM
 ADCK3,ARCA2,CABC1,COQ10D4,COQ8,SCAR9	Coenzyme Q10 deficiency primary 4	OMIM:612016	1	OMIM
-ADCK4,NPHS9	Nephrotic syndrome type 9	OMIM:615573	0.75	OMIM
 ADCY10,HCA2,SAC,SACI,SACY	Hypercalciuria absorptive	OMIM:143870	0.75	OMIM
 ADCY5,AC5,FDFM	Dyskinesia familial 	OMIM:606703	1	OMIM
 ADD1,ADDA	Hypertension essential salt sensitive	OMIM:145500	1	OMIM
@@ -183,7 +184,7 @@ MLLT10,AF10	Leukemia acute myeloid	OMIM:601626	1	OMIM
 AFA1,MPB	Alopecia androgenetic 1	OMIM:109200	0.375	OMIM
 AFF2,FMR2,FMR2P,FRAXE,MRX2,OX19	Mental retardation X linked FRAXE type	OMIM:309548	0.75	OMIM
 AFF4,AF5Q31,MCEF	CHOPS syndrome	OMIM:616368	0.75	OMIM
-AFG3L2,SCA28,SPAX5	Ataxia spastic 5 autosomal recessive	OMIM:614487	1	OMIM
+AFG3L2,SCA28,SPAX5	Spastic ataxia 5 autosomal recessive	OMIM:614487	1	OMIM
 AFG3L2,SCA28,SPAX5	Spinocerebellar ataxia 28	OMIM:610246	1	OMIM
 AFP,FETA,HPAFP	Alpha fetoprotein deficiency	OMIM:615969	1	OMIM
 AFP,FETA,HPAFP	Hereditary persistence of alpha fetoprotein	OMIM:615970	1	OMIM
@@ -267,7 +268,7 @@ ALDOB,ALDB,ALDO2	Fructose intolerance	OMIM:229600	1	OMIM
 ALG10,ALG10A,DIE2,KCR1	Long QT syndrome acquired reduced	OMIM:613688	0.75	OMIM
 ALG11,CDG1P,GT8	Congenital disorder of glycosylation type Ip	OMIM:613661	0.75	OMIM
 ALG12,CDG1G,ECM39,PP14673,HALG12	Congenital disorder of glycosylation type Ig	OMIM:607143	1	OMIM
-ALG13,CDG1S,CXORF45,GLT28D1,MDS031,TDRD13,YGL047W	Epileptic encephalopathy early infantile 36	OMIM:300884	0.75	OMIM
+ALG13,CDG1S,CXORF45,GLT28D1,MDS031,TDRD13,YGL047W	Congenital disorder of glycosylation type Is	OMIM:300884	0.75	OMIM
 ALG1,CDG1K,HMAT1,HMT-1,HMT1,MT-1,MAT-1,HMAT-1	Congenital disorder of glycosylation type Ik	OMIM:608540	0.75	OMIM
 ALG2,CDGII,NET38,HALPG2	Myasthenic syndrome congenital 14 	OMIM:616228	1	OMIM
 ALG3,CDG1D,CDGS4,D16ERTD36E,NOT56L,NOT56	Congenital disorder of glycosylation type Id	OMIM:601110	0.75	OMIM
@@ -309,6 +310,7 @@ AMER1,FAM123B,OSCS,WTX	Osteopathia striata 	OMIM:300373	1	OMIM
 AMH,MIF,MIS	Persistent Mullerian duct syndrome type I	OMIM:261550	0.75	OMIM
 AMHR2,AMHR,MISR2,MISRII,MRII	Persistent Mullerian duct syndrome type II	OMIM:261550	0.75	OMIM
 AMMEC,CXDELQ22.3,DELXQ22.3	Alport syndrome mental retardation midface hypoplasia and elliptocytosis	OMIM:300194	0.5625	OMIM
+AMMECR1,AMMERC1	Midface hypoplasia hearing impairment elliptocytosis and nephrocalcinosis	OMIM:300990	0.75	OMIM
 AMN,PRO1028,AMNIONLESS	Megaloblastic anemia 1 Norwegian type	OMIM:261100	1	OMIM
 AMPD1,MAD,MADA,MMDD	Myopathy due to myoadenylate deaminase deficiency	OMIM:615511	0.75	OMIM
 AMPD2,SPG63	Pontocerebellar hypoplasia type 9	OMIM:615809	1	OMIM
@@ -357,8 +359,9 @@ AOMS2	Abdominal obesity metabolic syndrome	OMIM:605572	0.375	OMIM
 AP1S1,AP19,CLAPS1,EKV3,MEDNIK,SIGMA1A,WUGSC:H_DJ0747G18.2	MEDNIK syndrome	OMIM:609313	0.75	OMIM
 AP1S2,MGC:1902,MRX59,MRXS21,MRXS5,MRXSF,PGS,SIGMA1B	Mental retardation X linked syndromic 5	OMIM:304340	1	OMIM
 AP1S3	Psoriasis 15 pustular	OMIM:616106	0.75	OMIM
-AP2S1,AP17,AP17-DELTA,CLAPS2,FBH3,FBHOK,HHC3	Hypocalciuric hypercalcemia familial type III	OMIM:600740	1	OMIM
+AP2S1,AP17,AP17-DELTA,CLAPS2,FBH3,FBHOK,HHC3	Hypocalciuric hypercalcemia type III	OMIM:600740	1	OMIM
 AP3B1,ADTB3,ADTB3A,HPS,HPS2,PE	Hermansky Pudlak syndrome 2	OMIM:608233	0.75	OMIM
+AP3B2,NAPTB	Epileptic encephalopathy early infantile 48	OMIM:617276	1	OMIM
 AP4B1,BETA-4,CPSQ5,SPG47	Spastic paraplegia 47 autosomal recessive	OMIM:614066	0.75	OMIM
 AP4E1,CPSQ4,SPG51	Spastic paraplegia 51 autosomal recessive	OMIM:613744	0.75	OMIM
 AP4E1,CPSQ4,SPG51	Stuttering familial persistent 1	OMIM:184450	0.75	OMIM
@@ -388,7 +391,7 @@ APOB,FLDB,LDLCQ4	Hypobetalipoproteinemia	OMIM:615558	1	OMIM
 APOC2,APO-CII,APOC-II	Hyperlipoproteinemia type Ib	OMIM:207750	1	OMIM
 APOC3,APOCIII,HALP2	Apolipoprotein C III deficiency	OMIM:614028	1	OMIM
 APOE,AD2,LDLCQ5,LPG	Alzheimer disease 2	OMIM:104310	1	OMIM
-APOE,AD2,LDLCQ5,LPG	Hyperlipoproteinemia type III	OMIM:107741	1	OMIM
+APOE,AD2,LDLCQ5,LPG	Coronary artery disease severe	OMIM:617347	1	OMIM
 APOE,AD2,LDLCQ5,LPG	Lipoprotein glomerulopathy	OMIM:611771	1	OMIM
 APOE,AD2,LDLCQ5,LPG	Macular degeneration age related	OMIM:603075	1	OMIM
 APOE,AD2,LDLCQ5,LPG	Sea blue histiocyte disease	OMIM:269600	1	OMIM
@@ -408,6 +411,7 @@ AQP3,AQP-3,GIL	Blood group GIL	OMIM:607457	1	OMIM
 AQP5,AQP-5,PPKB	Palmoplantar keratoderma Bothnian type	OMIM:600231	0.75	OMIM
 AQP7,AQP7L,AQP9,AQPAP,GLYCQTL	Glycerol quantitative trait locus	OMIM:614411	1	OMIM
 ARCI7	Ichthyosis congenital autosomal recessive 7	OMIM:615022	0.375	OMIM
+ARCN1,COPD	Short stature rhizomelic 	OMIM:617164	0.75	OMIM
 AR,AIS,DHTR,HUMARA,HYSP1,KD,NR3C4,SBMA,SMAX1,TFM	Androgen insensitivity	OMIM:300068	1	OMIM
 AR,AIS,DHTR,HUMARA,HYSP1,KD,NR3C4,SBMA,SMAX1,TFM	Androgen insensitivity partial 	OMIM:312300	1	OMIM
 AR,AIS,DHTR,HUMARA,HYSP1,KD,NR3C4,SBMA,SMAX1,TFM	Hypospadias 1 X linked	OMIM:300633	1	OMIM
@@ -472,7 +476,9 @@ ASRT8	Asthma related traits	OMIM:613207	0.375	OMIM
 ASS1,ASS,CTLN1	Citrullinemia	OMIM:215700	1	OMIM
 ASXL1,BOPS,MDS	Bohring Opitz syndrome	OMIM:605039	0.75	OMIM
 ASXL1,BOPS,MDS	Myelodysplastic syndrome somatic	OMIM:614286	0.75	OMIM
+ASXL2,ASXH2	Shashi Pena syndrome	OMIM:617190	0.75	OMIM
 ASXL3,BRPS,KIAA1713	Bainbridge Ropers syndrome	OMIM:615485	0.75	OMIM
+ATAD3A	Harel Yoon syndrome	OMIM:617183	0.75	OMIM
 ATCAY,BNIP-H,CLAC	Ataxia cerebellar Cayman type	OMIM:601238	1	OMIM
 ATF6,ATF6A	Achromatopsia 7	OMIM:616517	0.75	OMIM
 ATFB1	Atrial fibrillation familial 1	OMIM:608583	0.375	OMIM
@@ -496,7 +502,8 @@ ATOD5,ATPD5	Dermatitis atopic	OMIM:605844	0.375	OMIM
 ATOD6	Dermatitis atopic	OMIM:605845	0.375	OMIM
 ATOD7	Dermatitis atopic	OMIM:613064	0.375	OMIM
 ATOH7,MATH5,RNANC,BHLHA13	Persistent hyperplastic primary vitreous autosomal recessive	OMIM:221900	0.75	OMIM
-ATP13A2,CLN12,HSA9947,KRPPD,PARK9	Ceroid lipofuscinosis neuronal 12	OMIM:606693	1	OMIM
+ATP13A2,CLN12,HSA9947,KRPPD,PARK9	Kufor Rakeb syndrome	OMIM:606693	1	OMIM
+ATP13A2,CLN12,HSA9947,KRPPD,PARK9	Spastic paraplegia 78 autosomal recessive	OMIM:617225	1	OMIM
 ATP1A2,FHM2,MHP2	Alternating hemiplegia of childhood	OMIM:104290	1	OMIM
 ATP1A2,FHM2,MHP2	Migraine familial basilar	OMIM:602481	1	OMIM
 ATP1A3,AHC2,DYT12,RDP	Alternating hemiplegia of childhood 2	OMIM:614820	1	OMIM
@@ -573,6 +580,7 @@ B4GALNT1,GALGT,GALNACT,GALNAC-T,SPG26	Spastic paraplegia 26 autosomal recessive	
 B4GALT1,B4GAL-T1,CDG2D,GGTB2,GT1,GTB,BETA4GAL-T1	Congenital disorder of glycosylation type IId	OMIM:607091	0.75	OMIM
 B4GALT7,EDSP1,XGALT1,XGPT1	Ehlers Danlos syndrome 	OMIM:130070	1	OMIM
 B6QTL1	Vitamin B6 plasma level QTL 1	OMIM:612957	0.375	OMIM
+B9D1,B9,EPPB9,MKS9,MKSR1	Joubert syndrome 27	OMIM:617120	0.75	OMIM
 B9D2,ICIS-1,MKS10,MKSR2	Meckel syndrome 10	OMIM:614175	0.75	OMIM
 BAAT,BACAT,BAT	Hypercholanemia familial	OMIM:607748	1	OMIM
 BAG3,BAG-3,BIS,CAIR-1,MFM6	Cardiomyopathy dilated 1HH	OMIM:613881	0.75	OMIM
@@ -606,6 +614,7 @@ BCL10,CARMEN,CIPER,CLAP,C-E10,ME10	Lymphoma follicular somatic	OMIM:605027	0.75	
 BCL10,CARMEN,CIPER,CLAP,C-E10,ME10	Lymphoma MALT somatic	OMIM:137245	0.75	OMIM
 BCL10,CARMEN,CIPER,CLAP,C-E10,ME10	Male germ cell tumor somatic 273300	OMIM:603517	0.75	OMIM
 BCL10,CARMEN,CIPER,CLAP,C-E10,ME10	Mesothelioma somatic	OMIM:156240	0.75	OMIM
+BCL11A,BCL11A-L,BCL11A-S,BCL11A-XL,BCL11A-M,CTIP1,EVI9,HBFQTL5,ZNF856	Dias Logan syndrome	OMIM:617101	0.75	OMIM
 BCL2,BCL-2,PPP1R50	Leukemia lymphoma B cell 2	OMIM:151430	1	OMIM
 BCL3,BCL4,D19S37	Leukemia lymphoma B cell 3	OMIM:109560	0.5	OMIM
 BCL6,BCL5,BCL6A,LAZ3,ZBTB27,ZNF51	Lymphoma B cell	OMIM:109565	0.375	OMIM
@@ -637,6 +646,7 @@ BFIS1,BFIC,BFIC1	Seizures benign familial infantile 1	OMIM:601764	0.375	OMIM
 BFIS4,BFIC4	Seizures benign familial infantile 4	OMIM:612627	0.375	OMIM
 BFSP1,CP115,CP94,CTRCT33,LIFL-H	Cataract 33	OMIM:611391	0.75	OMIM
 BFSP2,CP47,CP49,CTRCT12,LIFL-L,PHAKOSIN	Cataract 12 multiple types	OMIM:611597	1	OMIM
+BGN,DSPG1,PG-S1,PGI,SLRR1A	Meester Loeys syndrome	OMIM:300989	1	OMIM
 BGN,DSPG1,PG-S1,PGI,SLRR1A	Spondyloepimetaphyseal dysplasia X linked	OMIM:300106	1	OMIM
 BHLHA9,BHLHF42	Camptosynpolydactyly complex	OMIM:607539	0.75	OMIM
 BHLHA9,BHLHF42	Syndactyly mesoaxial synostotic 	OMIM:609432	0.75	OMIM
@@ -711,6 +721,7 @@ BRF1,BRF,BRF-1,GTF3B,HEL-S-76P,TAF3B2,TAF3C,TAFIII90,TF3B90,TFIIIB90,HBRF	Cerebe
 BRIP1,BACH1,FANCJ,OF	Breast cancer early onset	OMIM:114480	1	OMIM
 BRIP1,BACH1,FANCJ,OF	Fanconi anemia complementation group J	OMIM:609054	1	OMIM
 MPC1,BRP44L,MPYCD,DJ68L15.3	Mitochondrial pyruvate carrier deficiency	OMIM:614741	0.75	OMIM
+BRPF1,BR140	Intellectual developmental disorder 	OMIM:617333	0.75	OMIM
 BRV2	Vertigo benign recurrent 2	OMIM:613106	0.375	OMIM
 BRWD3,BRODL,MRX93	Mental retardation X linked 93	OMIM:300659	0.75	OMIM
 BSCL2,GNG3LG,HMN5,SPG17	Encephalopathy progressive 	OMIM:615924	1	OMIM
@@ -753,8 +764,9 @@ C1QA	C1q deficiency	OMIM:613652	1	OMIM
 C1QB	C1q deficiency	OMIM:613652	1	OMIM
 C1QC,C1Q-C,C1QG	C1q deficiency	OMIM:613652	0.75	OMIM
 C1QTNF5,CTRP5	Retinal degeneration late onset autosomal dominant	OMIM:605670	1	OMIM
-C1R	C1r C1s deficiency combined	OMIM:216950	0.25	OMIM
+C1R	Ehlers Danlos syndrome periodontal type 1	OMIM:130080	1	OMIM
 C1S	C1s deficiency	OMIM:613783	1	OMIM
+C1S	Ehlers Danlos syndrome periodontal type 2	OMIM:617174	1	OMIM
 C21ORF59,C21ORF48,CILD26,FBB18	Ciliary dyskinesia primary 26	OMIM:615500	0.75	OMIM
 C2,ARMD14,CO2	C2 deficiency	OMIM:217000	1	OMIM
 C2,ARMD14,CO2	Macular degeneration age related 14 reduced risk of	OMIM:615489	1	OMIM
@@ -786,6 +798,7 @@ CA5A,CA5,CAV,CAVA	Hyperammonemia due to carbonic anhydrase VA deficiency	OMIM:61
 CA8,CA-VIII,CALS,CAMRQ3,CARP	Cerebellar ataxia and mental retardation 	OMIM:613227	0.75	OMIM
 CABP2,DFNB93	Deafness autosomal recessive 93	OMIM:614899	1	OMIM
 CABP4,CSNB2B	Cone rod synaptic disorder congenital nonprogressive	OMIM:610427	0.75	OMIM
+CACNA1A,APCA,BI,CACNL1A4,CAV2.1,EA2,FHM,HPCA,MHP,MHP1,SCA6	Epileptic encephalopathy early infantile 42	OMIM:617106	1	OMIM
 CACNA1A,APCA,BI,CACNL1A4,CAV2.1,EA2,FHM,HPCA,MHP,MHP1,SCA6	Episodic ataxia type 2	OMIM:108500	1	OMIM
 CACNA1A,APCA,BI,CACNL1A4,CAV2.1,EA2,FHM,HPCA,MHP,MHP1,SCA6	Migraine familial hemiplegic 1	OMIM:141500	1	OMIM
 CACNA1A,APCA,BI,CACNL1A4,CAV2.1,EA2,FHM,HPCA,MHP,MHP1,SCA6	Spinocerebellar ataxia 6	OMIM:183086	1	OMIM
@@ -806,7 +819,7 @@ CACNA2D4,RCD4	Retinal cone dystrophy 4	OMIM:610478	1	OMIM
 CACNB2,CACNLB2,CAVB2,MYSB	Brugada syndrome 4	OMIM:611876	1	OMIM
 CACNB4,CAB4,CACNLB4,EA5,EIG9,EJM,EJM4,EJM6	Epilepsy idiopathic generalized	OMIM:607682	1	OMIM
 CACNB4,CAB4,CACNLB4,EA5,EIG9,EJM,EJM4,EJM6	Episodic ataxia type 5	OMIM:613855	1	OMIM
-CACNG2,MRD10	Mental retardation autosomal dominant 10	OMIM:614256	1	OMIM
+CAD	Epileptic encephalopathy early infantile 50	OMIM:616457	0.75	OMIM
 CALCR,CRT,CT-R,CTR,CTR1	Osteoporosis postmenopausal	OMIM:166710	1	OMIM
 CALM1,CALML2,CAMI,CPVT4,DD132,PHKD,CAM	Long QT syndrome 14	OMIM:616247	1	OMIM
 CALM1,CALML2,CAMI,CPVT4,DD132,PHKD,CAM	Ventricular tachycardia catecholaminergic polymorphic 4	OMIM:614916	1	OMIM
@@ -836,6 +849,7 @@ CASP10,ALPS2,FLICE2,MCH4	Autoimmune lymphoproliferative syndrome type II	OMIM:60
 CASP10,ALPS2,FLICE2,MCH4	Gastric cancer somatic	OMIM:613659	0.75	OMIM
 CASP10,ALPS2,FLICE2,MCH4	Lymphoma non Hodgkin somatic	OMIM:605027	0.75	OMIM
 CASP12,CASP-12,CASP12P1	Sepsis	OMIM:608633	0.75	OMIM
+CASP14	Ichthyosis congenital autosomal recessive 12	OMIM:617320	0.75	OMIM
 CASP8,ALPS2B,CAP4,CASP-8,FLICE,MACH,MCH5	Breast cancer protection against	OMIM:114480	1	OMIM
 CASP8,ALPS2B,CAP4,CASP-8,FLICE,MACH,MCH5	Hepatocellular carcinoma somatic	OMIM:114550	1	OMIM
 CASP8,ALPS2B,CAP4,CASP-8,FLICE,MACH,MCH5	Lung cancer protection against	OMIM:211980	1	OMIM
@@ -915,7 +929,7 @@ CD209,CDSIGN,CLEC4L,DC-SIGN,DC-SIGN1	HIV type 1	OMIM:609423	1	OMIM
 CD209,CDSIGN,CLEC4L,DC-SIGN,DC-SIGN1	Mycobacterium tuberculosis	OMIM:607948	1	OMIM
 CD244,2B4,NAIL,NKR2B4,NMRK,SLAMF4	Rheumatoid arthritis	OMIM:180300	0.75	OMIM
 CD2AP,CMS	Glomerulosclerosis focal segmental 3	OMIM:607832	1	OMIM
-CD320,8D6,8D6A,TCBLR	Methylmalonic aciduria due to transcobalamin receptor defect	OMIM:613646	0.75	OMIM
+CD320,8D6,8D6A,TCBLR	Methylmalonic aciduria transient due to transcobalamin receptor defect	OMIM:613646	0.75	OMIM
 CD36,BDPLT10,CHDS7,FAT,GP3B,GP4,GPIV,PASIV,SCARB3	Coronary heart disease	OMIM:610938	1	OMIM
 CD36,BDPLT10,CHDS7,FAT,GP3B,GP4,GPIV,PASIV,SCARB3	Macrothrombocytopenia	OMIM:173510	0.25	OMIM
 CD36,BDPLT10,CHDS7,FAT,GP3B,GP4,GPIV,PASIV,SCARB3	Malaria cerebral reduced risk of	OMIM:611162	1	OMIM
@@ -939,7 +953,10 @@ CDAN1,CDA1,CDAI,CDAN1A,DLT,PRO1295	Dyserythropoietic anemia congenital type Ia	O
 CDAN3,CDA3,CDAIII	Dyserythropoietic anemia congenital type III	OMIM:105600	0.375	OMIM
 CDC14A,CDC14,HCDC14	Deafness autosomal recessive 105	OMIM:616958	0.75	OMIM
 CDC42,CDC42HS,G25K	Takenouchi Kosaki syndrome	OMIM:616737	0.75	OMIM
-CDC6,CDC18L,HSCDC18,HSCDC6	Meier Gorlin syndrome 5	OMIM:613805	0.75	OMIM
+CDC45,CDC45L,CDC45L2,PORC-PI-1	Meier Gorlin syndrome 7	OMIM:617063	1	OMIM
+CDC73,C1ORF28,FIHP,HPTJT,HRPT1,HRPT2,HYX	Hyperparathyroidism familial primary	OMIM:145000	1	OMIM
+CDC73,C1ORF28,FIHP,HPTJT,HRPT1,HRPT2,HYX	Hyperparathyroidism jaw tumor syndrome	OMIM:145001	1	OMIM
+CDC73,C1ORF28,FIHP,HPTJT,HRPT1,HRPT2,HYX	Parathyroid carcinoma	OMIM:608266	1	OMIM
 CDCA7,JPO1	Immunodeficiency centromeric instability facial anomalies syndrome 3	OMIM:616910	0.75	OMIM
 CDH15,CDH14,CDH3,CDHM,MCAD,MRD3	Mental retardation autosomal dominant 3	OMIM:612580	0.75	OMIM
 CDH1,ARC-1,CD324,CDHE,ECAD,LCAM,UVO	Breast cancer lobular	OMIM:114480	1	OMIM
@@ -952,6 +969,7 @@ CDH23,CDHR23,USH1D	Usher syndrome type 1D	OMIM:601067	1	OMIM
 CDH3,CDHP,HJMD,PCAD	Ectodermal dysplasia ectrodactyly and macular dystrophy	OMIM:225280	1	OMIM
 CDH3,CDHP,HJMD,PCAD	Hypotrichosis congenital 	OMIM:601553	1	OMIM
 CDHR1,CORD15,PCDH21,PRCAD,RP65	Cone rod dystrophy 15	OMIM:613660	1	OMIM
+CDK13,CDC2L,CDC2L5,CHED,HCDK13	Congenital heart defects dysmorphic facial features and intellectual developmental disorder	OMIM:617360	0.75	OMIM
 CDK4,CMM3,PSK-J3	Melanoma cutaneous malignant 3	OMIM:609048	1	OMIM
 CDK5RAP2,C48,CEP215,MCPH3	Microcephaly 3 primary autosomal recessive	OMIM:604804	1	OMIM
 CDKAL1	Diabetes mellitus noninsulin dependent	OMIM:125853	0.75	OMIM
@@ -1000,6 +1018,7 @@ CEP290,3H11AG,BBS14,CT87,JBTS5,LCA10,MKS4,NPHP6,POC3,SLSN6,RD16	Meckel syndrome 
 CEP290,3H11AG,BBS14,CT87,JBTS5,LCA10,MKS4,NPHP6,POC3,SLSN6,RD16	Senior Loken syndrome 6	OMIM:610189	1	OMIM
 CEP41,JBTS15,TSGA14	Joubert syndrome 15	OMIM:614464	0.75	OMIM
 CEP57,MVA2,PIG8,TSP57	Mosaic variegated aneuploidy syndrome 2	OMIM:614114	0.75	OMIM
+CEP78,C9ORF81,IP63	Cone rod dystrophy and hearing loss	OMIM:617236	0.75	OMIM
 CEP83,CCDC41,NY-REN-58	Nephronophthisis 18	OMIM:615862	0.75	OMIM
 CERKL,RP26	Retinitis pigmentosa 26	OMIM:608380	0.75	OMIM
 CERS3,ARCI9,LASS3	Ichthyosis congenital autosomal recessive 9	OMIM:615023	1	OMIM
@@ -1038,6 +1057,7 @@ CHCHD10,C22ORF16,N27C7-4	Myopathy isolated mitochondrial autosomal dominant	OMIM
 CHCHD10,C22ORF16,N27C7-4	Spinal muscular atrophy Jokela type	OMIM:615048	0.75	OMIM
 CHCHD2,C7ORF17	Parkinson disease 22 autosomal dominant	OMIM:616710	0.75	OMIM
 CHD2,EEOC	Epileptic encephalopathy childhood onset	OMIM:615369	0.75	OMIM
+CHD4,MI-2B,MI2-BETA	Sifrim Hitz Weiss syndrome	OMIM:617159	0.75	OMIM
 CHD7,CRG,HH5,IS3,KAL5	CHARGE syndrome	OMIM:214800	1	OMIM
 CHD7,CRG,HH5,IS3,KAL5	Hypogonadotropic hypogonadism 5 	OMIM:612370	1	OMIM
 CHD8,AUTS18,HELSNF1	Autism	OMIM:615032	0.75	OMIM
@@ -1096,18 +1116,20 @@ VSX2,CHX10,HOX10,MCOP2,MCOPCB3,RET1	Microphthalmia 	OMIM:610092	1	OMIM
 CIB2,DFNB48,KIP2,USH1J	Deafness autosomal recessive 48	OMIM:609439	1	OMIM
 CIB2,DFNB48,KIP2,USH1J	Usher syndrome type IJ	OMIM:614869	1	OMIM
 CIHL	Hearing loss cisplatin induced	OMIM:613290	0.25	OMIM
+CIITA,C2TA,CIITAIV,MHC2TA,NLRA	Bare lymphocyte syndrome type II complementation group A	OMIM:209920	0.75	OMIM
+CIITA,C2TA,CIITAIV,MHC2TA,NLRA	Rheumatoid arthritis	OMIM:180300	0.75	OMIM
 CILD4	Ciliary dyskinesia primary 4	OMIM:608646	0.375	OMIM
 CILD8	Ciliary dyskinesia primary 8	OMIM:612274	0.375	OMIM
 CILP,CILP-1,HST18872	Lumbar disc disease	OMIM:603932	0.75	OMIM
 CIMT	Carotid intimal medial thickness	OMIM:608447	0.375	OMIM
 CINN	Cinnamon odor pleasantness of	OMIM:611109	0.375	OMIM
-CIRH1A,CIRHIN,NAIC,TEX292,UTP4	Cirrhosis North American Indian childhood type	OMIM:604901	1	OMIM
 CISD2,ERIS,MINER1,NAF-1,WFS2,ZCD2	Wolfram syndrome 2	OMIM:604928	1	OMIM
 CISH,BACTS2,CIS,CIS-1,G18,SOCS	Bacteremia	OMIM:614383	0.75	OMIM
 CISH,BACTS2,CIS,CIS-1,G18,SOCS	Malaria	OMIM:611162	0.75	OMIM
 CISH,BACTS2,CIS,CIS-1,G18,SOCS	Tuberculosis	OMIM:607948	0.75	OMIM
 CITED2,ASD8,MRG-1,MRG1,P35SRJ,VSD2	Atrial septal defect 8	OMIM:614433	0.75	OMIM
 CITED2,ASD8,MRG-1,MRG1,P35SRJ,VSD2	Ventricular septal defect 2	OMIM:614431	0.75	OMIM
+CIT,CRIK,STK21	Microcephaly 17 primary autosomal recessive	OMIM:617090	0.75	OMIM
 CKAP2L	Filippi syndrome	OMIM:272440	0.75	OMIM
 CKBE	Creatine kinase brain type ectopic expression of	OMIM:123270	0.375	OMIM
 CLCF1,BSF-3,BSF3,CISS2,CLC,NNT-1,NNT1,NR6	Cold induced sweating syndrome 2	OMIM:610313	1	OMIM
@@ -1116,6 +1138,7 @@ CLCN1,CLC1	Myotonia congenita recessive	OMIM:255700	0.75	OMIM
 CLCN1,CLC1	Myotonia levior recessive	OMIM:118425	0.75	OMIM
 CLCN2,CIC-2,CLC2,ECA2,ECA3,EGI11,EGI3,EGMA,EJM6,EJM8,LKPAT,CLC-2	Epilepsy idiopathic generalized	OMIM:607628	1	OMIM
 CLCN2,CIC-2,CLC2,ECA2,ECA3,EGI11,EGI3,EGMA,EJM6,EJM8,LKPAT,CLC-2	Leukoencephalopathy 	OMIM:615651	1	OMIM
+CLCN4,CLC4,CLC-4,CLC-4A	Mental retardation X linked 49 15	OMIM:300114	0.75	OMIM
 CLCN5,CLC5,CLCK2,CLC-5,DENTS,NPHL1,NPHL2,XLRH,XRN,HCIC-K2	Dent disease	OMIM:300009	1	OMIM
 CLCN5,CLC5,CLCK2,CLC-5,DENTS,NPHL1,NPHL2,XLRH,XRN,HCIC-K2	Hypophosphatemic rickets	OMIM:300554	1	OMIM
 CLCN5,CLC5,CLCK2,CLC-5,DENTS,NPHL1,NPHL2,XLRH,XRN,HCIC-K2	Nephrolithiasis type I	OMIM:310468	1	OMIM
@@ -1160,7 +1183,6 @@ CMH21	Cardiomyopathy hypertrophic 21	OMIM:614676	0.375	OMIM
 CMM4	Melanoma cutaneous malignant 4	OMIM:608035	0.375	OMIM
 CMM7	Melanoma cutaneous malignant 7	OMIM:612263	0.375	OMIM
 CMM,CMM1,DNS,FAMMM,MLM	Melanoma cutaneous malignant 1	OMIM:155600	0.375	OMIM
-CMT2G	Charcot Marie Tooth disease axonal type 2G	OMIM:608591	0.375	OMIM
 CMT2H	Charcot Marie Tooth disease axonal type 2H	OMIM:607731	0.375	OMIM
 CMTDIA,CMTDI2	Charcot Marie Tooth disease dominant intermediate A	OMIM:606483	0.375	OMIM
 CMTX2	Charcot Marie Tooth neuropathy X linked recessive 2	OMIM:302801	0.375	OMIM
@@ -1275,7 +1297,6 @@ COL8A2,FECD,FECD1,PPCD,PPCD2	Corneal dystrophy Fuchs endothelial 1	OMIM:136800	1
 COL8A2,FECD,FECD1,PPCD,PPCD2	Corneal dystrophy posterior polymorphous 2	OMIM:609140	1	OMIM
 COL9A1,DJ149L1.1.2,EDM6,MED,STL4	Stickler syndrome type IV	OMIM:614134	1	OMIM
 COL9A2,DJ39G22.4,EDM2,MED,STL5	Epiphyseal dysplasia multiple 2	OMIM:600204	1	OMIM
-COL9A2,DJ39G22.4,EDM2,MED,STL5	Intervertebral disc disease	OMIM:603932	1	OMIM
 COL9A2,DJ39G22.4,EDM2,MED,STL5	Stickler syndrome type V	OMIM:614284	1	OMIM
 COL9A3,DJ885L7.4.1,EDM3,IDD,MED	Epiphyseal dysplasia multiple 3 	OMIM:600969	1	OMIM
 COL9A3,DJ885L7.4.1,EDM3,IDD,MED	Intervertebral disc disease	OMIM:603932	1	OMIM
@@ -1309,6 +1330,7 @@ COX6B1,COX6B,COXG,COXVIB1	Mitochondrial complex IV deficiency	OMIM:220110	0.75	O
 COX7B,APLCC	Linear skin defects 	OMIM:300887	0.75	OMIM
 CPA6,CPAH,ETL5,FEB11	Epilepsy familial temporal lobe 5	OMIM:614417	0.75	OMIM
 CPA6,CPAH,ETL5,FEB11	Febrile seizures familial 11	OMIM:614418	0.75	OMIM
+CPAMD8,K-CAP,VIP	Anterior segement dysgenesis 8	OMIM:617319	0.75	OMIM
 CP,CP-2	Cerebellar ataxia	OMIM:604290	1	OMIM
 CPN1,CPN,SCPN	Carboxypeptidase N deficiency	OMIM:212070	1	OMIM
 CPOX,CPO,CPX,HCP	Coproporphyria	OMIM:121300	0.75	OMIM
@@ -1317,17 +1339,17 @@ CPS1,CPSASE1,PHN	Carbamoylphosphate synthetase I deficiency	OMIM:237300	1	OMIM
 CPS1,CPSASE1,PHN	Pulmonary hypertension neonatal	OMIM:615371	1	OMIM
 CPS1,CPSASE1,PHN	Venoocclusive disease after bone marrow transplantation	OMIM:608307	1	OMIM
 CPT1A,CPT1,CPT1-L,L-CPT1	CPT deficiency hepatic type IA	OMIM:255120	1	OMIM
-CPT2,CPT1,CPTASE,IIAE4	CPT deficiency hepatic type II	OMIM:600649	1	OMIM
+CPT2,CPT1,CPTASE,IIAE4	CPT II deficiency infantile	OMIM:600649	1	OMIM
 CPT2,CPT1,CPTASE,IIAE4	CPT II deficiency lethal neonatal	OMIM:608836	1	OMIM
+CPT2,CPT1,CPTASE,IIAE4	CPT II deficiency myopathic stress induced	OMIM:255110	1	OMIM
 CPT2,CPT1,CPTASE,IIAE4	Encephalopathy acute infection induced 4	OMIM:614212	1	OMIM
-CPT2,CPT1,CPTASE,IIAE4	Myopathy due to CPT II deficiency	OMIM:255110	1	OMIM
 CPVT3	Ventricular tachycardia catecholaminergic polymorphic 3	OMIM:614021	0.375	OMIM
 CR1,C3BR,C4BR,CD35,KN	Blood group Knops system	OMIM:607486	1	OMIM
 CR1,C3BR,C4BR,CD35,KN	CR1 deficiency	OMIM:120620	0.25	OMIM
 CR1,C3BR,C4BR,CD35,KN	Malaria severe resistance to	OMIM:611162	1	OMIM
 CR2,C3DR,CD21,CR,CVID7,SLEB9	Immunodeficiency common variable 7	OMIM:614699	1	OMIM
 CR2,C3DR,CD21,CR,CVID7,SLEB9	Systemic lupus erythematosus	OMIM:610927	1	OMIM
-CRADD,MRT34,RAIDD	Mental retardation autosomal recessive 34	OMIM:614499	0.75	OMIM
+CRADD,MRT34,RAIDD	Mental retardation autosomal recessive 34 	OMIM:614499	0.75	OMIM
 CRB1,LCA8,RP12	Leber congenital amaurosis 8	OMIM:613835	1	OMIM
 CRB1,LCA8,RP12	Pigmented paravenous chorioretinal atrophy	OMIM:172870	1	OMIM
 CRB1,LCA8,RP12	Retinitis pigmentosa 12 autosomal recessive	OMIM:600105	1	OMIM
@@ -1343,7 +1365,7 @@ CRCS7	Colorectal cancer	OMIM:612232	0.375	OMIM
 CRCS8	Colorectal cancer	OMIM:612589	0.375	OMIM
 CRCS9	Colorectal cancer	OMIM:612590	0.375	OMIM
 CREB1,CREB	Histiocytoma angiomatoid fibrous somatic	OMIM:612160	1	OMIM
-CREBBP,CBP,KAT3A,RSTS	Rubinstein Taybi syndrome	OMIM:180849	1	OMIM
+CREBBP,CBP,KAT3A,RSTS	Rubinstein Taybi syndrome 1	OMIM:180849	1	OMIM
 CRELD1,AVSD2,CIRRIN	Atrioventricular septal defect partial 	OMIM:606217	1	OMIM
 IL10RB,CDW210B,CRF2-4,CRFB4,D21S58,D21S66,IL-10R2	Hepatitis B virus	OMIM:610424	1	OMIM
 IL10RB,CDW210B,CRF2-4,CRFB4,D21S58,D21S66,IL-10R2	Inflammatory bowel disease 25 early onset autosomal recessive	OMIM:612567	1	OMIM
@@ -1363,7 +1385,7 @@ CRYBA1,CRYB1,CTRCT10	Cataract 10 multiple types	OMIM:600881	1	OMIM
 CRYBA4,CTRCT23,MCOPCT4	Cataract 23	OMIM:610425	1	OMIM
 CRYBB1,CATCN3,CTRCT17	Cataract 17 multiple types	OMIM:611544	0.75	OMIM
 CRYBB2,CCA2,CRYB2,CRYB2A,CTRCT3,D22S665	Cataract 3 multiple types	OMIM:601547	1	OMIM
-CRYBB3,CATCN2,CRYB3,CTRCT22	Cataract 22 autosomal recessive	OMIM:609741	1	OMIM
+CRYBB3,CATCN2,CRYB3,CTRCT22	Cataract 22	OMIM:609741	1	OMIM
 CRYGB,CRYG2,CTRCT39	Cataract 39 multiple types autosomal dominant	OMIM:615188	1	OMIM
 CRYGC,CCL,CRYG3,CTRCT2	Cataract 2 multiple types	OMIM:604307	1	OMIM
 CRYGD,CACA,CCA3,CCP,CRYG4,CTRCT4,PCC,CRY-G-D	Cataract 4 multiple types	OMIM:115700	1	OMIM
@@ -1376,6 +1398,7 @@ CSF3R,CD114,GCSFR	Neutropenia severe congenital 7 autosomal recessive	OMIM:61701
 CSH1,CS-1,CSA,CSMT,PL,HCS-1,HCS-A	Placental lactogen deficiency	OMIM:150200	0.25	OMIM
 NR4A3,CHN,CSMF,MINOR,NOR1,TEC	Chondrosarcoma extraskeletal myxoid	OMIM:612237	1	OMIM
 CSNK1D,ASPS,CKIDELTA,FASPS2,HCKID	Advanced sleep phase syndrome familial 2	OMIM:615224	1	OMIM
+CSNK2A1,CK2A1,CKII,CSNK2A3	Okur Chung neurodevelopmental syndrome	OMIM:617062	1	OMIM
 CSPP1,CSPP,JBTS21	Joubert syndrome 21	OMIM:615636	0.75	OMIM
 CSRP3,CLP,CMD1M,CMH12,CRP3,LMO4,MLP	Cardiomyopathy hypertrophic 12	OMIM:612124	1	OMIM
 CST3,ARMD11	Cerebral amyloid angiopathy	OMIM:105150	1	OMIM
@@ -1398,6 +1421,7 @@ CTNNA1,CAP102	Macular dystrophy patterned 2	OMIM:608970	1	OMIM
 CTNNA3,ARVD13,VR22	Arrhythmogenic right ventricular dysplasia familial 13	OMIM:615616	0.75	OMIM
 CTNNB1,CTNNB,MRD19,ARMADILLO	Colorectal cancer somatic	OMIM:114500	1	OMIM
 CTNNB1,CTNNB,MRD19,ARMADILLO	Hepatocellular carcinoma somatic	OMIM:114550	1	OMIM
+CTNNB1,CTNNB,MRD19,ARMADILLO	Medulloblastoma somatic	OMIM:155255	1	OMIM
 CTNNB1,CTNNB,MRD19,ARMADILLO	Mental retardation autosomal dominant 19	OMIM:615075	1	OMIM
 CTNNB1,CTNNB,MRD19,ARMADILLO	Ovarian cancer somatic	OMIM:167000	1	OMIM
 CTNNB1,CTNNB,MRD19,ARMADILLO	Pilomatricoma somatic	OMIM:132600	1	OMIM
@@ -1410,7 +1434,6 @@ CTRCT25,CCPSO,CCSSO	Cataract 25	OMIM:605728	0.375	OMIM
 CTRCT27,CCNP	Cataract 27 nuclear progressive	OMIM:607304	0.375	OMIM
 CTRCT28,ARCC1	Cataract 28 age related cortical	OMIM:609026	0.375	OMIM
 CTRCT29	Cataract 29 coralliform	OMIM:115800	0.375	OMIM
-CTRCT34,CATC3	Cataract 34 multiple types	OMIM:612968	0.375	OMIM
 CTRCT35,CATCN1	Cataract 35 congenital nuclear	OMIM:609376	0.375	OMIM
 CTRCT37,CCA5	Cataract 37 autosomal dominant	OMIM:614422	0.375	OMIM
 CCA1,CTRCT7	Cataract 7	OMIM:115660	0.375	OMIM
@@ -1427,6 +1450,7 @@ CUL3,CUL-3,PHA2E	Pseudohypoaldosteronism type IIE	OMIM:614496	0.75	OMIM
 CUL4B,MRXHF2,MRXS15,MRXSC,SFM2	Mental retardation X linked syndromic 15	OMIM:300354	1	OMIM
 CUL7,KIAA0076,DJ20C7.5	3 M syndrome 1	OMIM:273750	0.75	OMIM
 CVMRF	Cubitus valgus 	OMIM:300471	0.375	OMIM
+CWF19L1	Spinocerebellar ataxia autosomal recessive 17	OMIM:616127	0.75	OMIM
 CX3CR1,CCRL1,CMKBRL1,CMKDR1,GPR13,GPRV28,V28	Coronary artery disease resistance to	OMIM:607339	0.75	OMIM
 CX3CR1,CCRL1,CMKBRL1,CMKDR1,GPR13,GPRV28,V28	Macular degeneration age related 12	OMIM:613784	0.75	OMIM
 CX3CR1,CCRL1,CMKBRL1,CMKDR1,GPR13,GPRV28,V28	Rapid progression to AIDS from HIV1 infection	OMIM:609423	0.75	OMIM
@@ -1434,7 +1458,6 @@ CXCL12,IRH,PBSF,SCYB12,SDF1,TLSF,TPAR1	AIDS resistance to	OMIM:609423	0.75	OMIM
 CXCR1,C-C,C-C-CKR-1,CD128,CD181,CDW128A,CKR-1,CMKAR1,IL8R1,IL8RA,IL8RBA	AIDS slow progression to	OMIM:609423	1	OMIM
 CXCR4,CD184,D2S201E,FB22,HM89,HSY3RR,LAP3,LCR1,LESTR,NPY3R,NPYR,NPYRL,NPYY3R,WHIM	Myelokathexis isolated	OMIM:162643	1	OMIM
 CXCR4,CD184,D2S201E,FB22,HM89,HSY3RR,LAP3,LCR1,LESTR,NPY3R,NPYR,NPYRL,NPYY3R,WHIM	WHIM syndrome	OMIM:193670	1	OMIM
-CYB5A,CYB5,MCB5	Methemoglobinemia type IV	OMIM:250790	1	OMIM
 CYB5R3,B5R,DIA1	Methemoglobinemia type I	OMIM:250800	1	OMIM
 CYBA,P22-PHOX	Chronic granulomatous disease autosomal due to deficiency of CYBA	OMIM:233690	1	OMIM
 CYBB,AMCBX2,CGD,GP91-1,GP91-PHOX,GP91PHOX,NOX2,P91-PHOX	Chronic granulomatous disease X linked	OMIM:306400	1	OMIM
@@ -1453,8 +1476,8 @@ CYP11B2,ALDOS,CPN2,CYP11B,CYP11BL,CYPXIB2,P-450C18,P450C18,P450ALDO	Hypoaldoster
 CYP17A1,CPT7,CYP17,P450C17,S17AH	17 20 lyase deficiency isolated	OMIM:202110	1	OMIM
 CYP19A1,ARO,ARO1,CPV1,CYAR,CYP19,CYPXIX,P-450AROM	Aromatase deficiency	OMIM:613546	1	OMIM
 CYP19A1,ARO,ARO1,CPV1,CYAR,CYP19,CYPXIX,P-450AROM	Aromatase excess syndrome	OMIM:139300	1	OMIM
+CYP1B1,CP1B,CYPIB1,GLC3A,P4501B1	Anterior segment dysgenesis 6 multiple subtypes	OMIM:617315	1	OMIM
 CYP1B1,CP1B,CYPIB1,GLC3A,P4501B1	Glaucoma 3A primary open angle congenital juvenile or adult onset	OMIM:231300	1	OMIM
-CYP1B1,CP1B,CYPIB1,GLC3A,P4501B1	Peters anomaly	OMIM:604229	1	OMIM
 CYP21A2,CA21H,CAH1,CPS1,CYP21,CYP21B,P450C21B	Adrenal hyperplasia congenital due to 21 hydroxylase deficiency	OMIM:201910	1	OMIM
 CYP24A1,CP24,CYP24,HCAI,P450-CC24	Hypercalcemia infantile 1	OMIM:143880	1	OMIM
 CYP26B1,CYP26A2,P450RAI-2,P450RAI2,RHFCA	Craniosynostosis 	OMIM:614416	0.75	OMIM
@@ -1527,6 +1550,7 @@ DDX41,ABS	Myeloproliferative lymphoproliferative neoplasms familial	OMIM:616871	
 EIF4A3,DDX48,MUK34,NMP265,NUK34,RCPS,EIF4AIII	Robin sequence 	OMIM:268305	0.75	OMIM
 DDX58,RIG-I,RIGI,RLR-1	Singleton Merten syndrome 2	OMIM:616298	0.75	OMIM
 DDX59,OFD5,ZNHIT5	Orofaciodigital syndrome V	OMIM:174300	0.75	OMIM
+DEAF1,NUDR,SPN,ZMYND5	Dyskinesia seizures and intellectual developmental disorder	OMIM:617171	0.75	OMIM
 DEAF1,NUDR,SPN,ZMYND5	Mental retardation autosomal dominant 24	OMIM:615828	0.75	OMIM
 DEC1,CTS9	Esophageal squamous cell carcinoma	OMIM:133239	0.1875	OMIM
 DEK,D6S231E	Leukemia acute nonlymphocytic	OMIM:125264	0.375	OMIM
@@ -1536,7 +1560,6 @@ DEL11P13,C11DELP13,WAGR	Wilms tumor aniridia genitourinary anomalies and mental 
 DEL11P15P14,C11DELP15P14	Chromosome 11p15 p14 deletion syndrome	OMIM:606528	0.5625	OMIM
 DEL13Q14,C13DELQ14	Chromosome 13q14 deletion syndrome	OMIM:613884	0.5625	OMIM
 DEL14Q11Q22,C14DELQ11Q22	Chromosome 14q11 q22 deletion syndrome	OMIM:613457	0.5625	OMIM
-DEL15Q24,CHR15DELQ24	Chromosome 15q24 deletion syndrome	OMIM:613406	0.5625	OMIM
 DEL15Q25,C15DELQ25	Chromosome 15q25 deletion syndrome	OMIM:614294	0.5625	OMIM
 DEL15Q26QTER,C15DELQ26QTER	Chromosome 15q26 qter deletion syndrome	OMIM:612626	0.5625	OMIM
 DEL17Q12,C17DELQ12	Chromosome 17q12 deletion syndrome	OMIM:614527	0.5625	OMIM
@@ -1561,6 +1584,7 @@ DEL9P,C9DELP	Chromosome 9p deletion syndrome	OMIM:158170	0.5625	OMIM
 DELXP21,CXDELP21	Chromosome Xp21 deletion syndrome	OMIM:300679	0.5625	OMIM
 DELXQ21,CXDELQ21	Choroideremia deafness and mental retardation	OMIM:303110	0.5625	OMIM
 DELYQ11,CYDELQ11,SCO,SPGFY1	Spermatogenic failure Y linked 1	OMIM:400042	0.5625	OMIM
+DENND5A,RAB6IP1	Epileptic encephalopathy early infantile 49	OMIM:617281	0.75	OMIM
 DEPDC5,DEP.5,FFEVF	Epilepsy familial focal 	OMIM:604364	1	OMIM
 DES,CSM1,CSM2,LGMD2R	Cardiomyopathy dilated 1I	OMIM:604765	1	OMIM
 DES,CSM1,CSM2,LGMD2R	Muscular dystrophy limb girdle type 2R	OMIM:615325	1	OMIM
@@ -1615,6 +1639,8 @@ DFNY1	Deafness Y linked 1	OMIM:400043	0.1875	OMIM
 DGCR2,DGS-C,IDD,LAN,SEZ-12	DiGeorge syndrome velocardiofacial syndrome complex 2	OMIM:601362	0.5	OMIM
 DGKE,DAGK5,DAGK6,DGK,NPHS7	Hemolytic uremic syndrome atypical	OMIM:615008	0.75	OMIM
 DGUOK,MTDPS3,DGK	Mitochondrial DNA depletion syndrome 3	OMIM:251880	0.75	OMIM
+DGUOK,MTDPS3,DGK	Portal hypertension noncirrhotic	OMIM:617068	0.75	OMIM
+DGUOK,MTDPS3,DGK	Progressive external ophthalmoplegia 	OMIM:617070	0.75	OMIM
 DHCR24,DCE,NBLA03646,SELADIN1,SELADIN-1	Desmosterolosis	OMIM:602398	1	OMIM
 DHCR7,SLOS	Smith Lemli Opitz syndrome	OMIM:270400	1	OMIM
 DHDDS,CIT,CPT,DS,HDS,RP59	Retinitis pigmentosa 59	OMIM:613861	0.75	OMIM
@@ -1660,22 +1686,25 @@ DMP1,ARHP,ARHR,DMP-1	Hypophosphatemic rickets AR	OMIM:241520	1	OMIM
 DMPK,DM,DM1,DM1PK,DMK,MDPK,MT-PK	Myotonic dystrophy 1	OMIM:160900	1	OMIM
 DNA2,DNA2L,PEOA6,HDNA2	Progressive external ophthalmoplegia 	OMIM:615156	0.75	OMIM
 DNA2,DNA2L,PEOA6,HDNA2	Seckel syndrome 8	OMIM:615807	0.75	OMIM
+DNAAF1,CILD13,LRRC50,ODA7	Ciliary dyskinesia primary 13	OMIM:613193	0.75	OMIM
 DNAAF3,C19ORF51,CILD2,DAB1,PCD,PF22	Ciliary dyskinesia primary 2	OMIM:606763	0.75	OMIM
 DNAH11,CILD7,DNAHBL,DNAHC11,DNHBL,DPL11	Ciliary dyskinesia primary 7 	OMIM:611884	1	OMIM
 DNAH5,CILD3,DNAHC5,HL1,KTGNR,PCD	Ciliary dyskinesia primary 3 	OMIM:608644	1	OMIM
 DNAI1,CILD1,DIC1,ICS1,PCD	Ciliary dyskinesia primary 1 	OMIM:244400	1	OMIM
 DNAI2,CILD9,DIC2	Ciliary dyskinesia primary 9 	OMIM:612444	1	OMIM
+DNAJB13,RSPH16A,TSARG5,TSARG6	Ciliary dyskinesia primary 34	OMIM:617091	0.75	OMIM
 DNAJB2,DSMA5,HSJ-1,HSJ1,HSPF3	Spinal muscular atrophy distal autosomal recessive 5	OMIM:614881	0.75	OMIM
 DNAJB6,DJ4,DNAJ,HHDJ1,HSJ-2,HSJ2,LGMD1D,LGMD1E,MRJ,MSJ-1	Muscular dystrophy limb girdle type 1E	OMIM:603511	0.75	OMIM
+DNAJC12,JDP1	Hyperphenylalaninemia mild non BH4 deficient	OMIM:617384	0.75	OMIM
 DNAJC19,PAM18,TIM14,TIMM14	3 methylglutaconic aciduria type V	OMIM:610198	0.75	OMIM
 DNAJC21,DNAJA5,GS3,JJJ1	Bone marrow failure syndrome 3	OMIM:617052	1	OMIM
 DNAJC5,CLN4,CLN4B,CSP,DNAJC5A,NCL	Ceroid lipofuscinosis neuronal 4 Parry type	OMIM:162350	0.75	OMIM
-DNAJC6,DJC6,PARK19	Parkinson disease 19 juvenile onset	OMIM:615528	0.75	OMIM
+DNAJC6,DJC6,PARK19	Parkinson disease 19a juvenile onset	OMIM:615528	0.75	OMIM
 DNAL1,C14ORF168,CILD16	Ciliary dyskinesia primary 16	OMIM:614017	0.75	OMIM
 DNASE1,DNL1,DRNI	Systemic lupus erythematosus	OMIM:152700	0.75	OMIM
 DNASE1L3,DHP2,DNAS1L3,LSD,SLEB16	Systemic lupus erythematosus 16	OMIM:614420	0.75	OMIM
 DNM1,DNM	Epileptic encephalopathy early infantile 31	OMIM:616346	0.75	OMIM
-DNM1L,DLP1,DRP1,DVLP,DYMPLE,EMPF,HDYNIV	Encephalopahty lethal due to defective mitochondrial peroxisomal fission	OMIM:614388	0.75	OMIM
+DNM1L,DLP1,DRP1,DVLP,DYMPLE,EMPF,HDYNIV	Encephalopahty lethal due to defective mitochondrial peroxisomal fission 1	OMIM:614388	0.75	OMIM
 DNM2,CMT2M,CMTDI1,CMTDIB,DI-CMTB,DYN2,DYNII,LCCS5	Charcot Marie Tooth disease axonal type 2M	OMIM:606482	1	OMIM
 DNM2,CMT2M,CMTDI1,CMTDIB,DI-CMTB,DYN2,DYNII,LCCS5	Lethal congenital contracture syndrome 5	OMIM:615368	1	OMIM
 DNM2,CMT2M,CMTDI1,CMTDIB,DI-CMTB,DYN2,DYNII,LCCS5	Myopathy centronuclear	OMIM:160150	1	OMIM
@@ -1733,7 +1762,7 @@ DTNA,D18S892E,DRP3,DTN,DTN-A,LVNC1	Left ventricular noncompaction 1 	OMIM:604169
 DTNBP1,BLOC1S8,DBND,HPS7,MY031,SDY	Hermansky Pudlak syndrome 7	OMIM:614076	0.75	OMIM
 DUH1,DUH	Dyschromatosis universalis hereditaria 1	OMIM:127500	0.375	OMIM
 DUH2	Dyschromatosis universalis hereditaria 2	OMIM:612715	0.375	OMIM
-DUOX2,LNOX2,NOXEF2,P138-TOX,TDH6,THOX2	Thryoid dyshormonogenesis 6	OMIM:607200	1	OMIM
+DUOX2,LNOX2,NOXEF2,P138-TOX,TDH6,THOX2	Thyroid dyshormonogenesis 6	OMIM:607200	1	OMIM
 DUOXA2,SIMNIPHOM,TDH5	Thyroid dyshormonogenesis 5	OMIM:274900	0.75	OMIM
 DUP17Q12,C17DUPQ12	Chromosome 17q12 duplication syndrome	OMIM:614526	0.5625	OMIM
 DUP18PDEL18Q,DUP81QDEL18P	Chromosome 18 pericentric inversion	OMIM:609334	0.5625	OMIM
@@ -1748,13 +1777,13 @@ DUSP6,HH19,MKP3,PYST1	Hypogonadotropic hypogonadism 19 	OMIM:615269	0.75	OMIM
 DVL1,DVL,DVL1L1,DVL1P1	Robinow syndrome autosomal dominant 2	OMIM:616331	1	OMIM
 DVL3	Robinow syndrome autosomal dominant 3	OMIM:616894	1	OMIM
 DWS,C3DELQ22Q24,DEL3Q22Q24	Dandy Walker syndrome	OMIM:220200	0.5625	OMIM
-SMC1A,CDLS2,DXS423E,SB1.8,SMC1,SMC1L1,SMC1ALPHA,SMCB	Cornelia de Lange syndrome 2	OMIM:300590	0.75	OMIM
 DYM,DMC,SMC	Dyggve Melchior Clausen disease	OMIM:223800	1	OMIM
 DYM,DMC,SMC	Smith McCort dysplasia	OMIM:607326	1	OMIM
 DYNC1H1,DHC1,DHC1A,DNCH1,DNCL,DNECL,DYHC,DNCHC1,HL-3,SMALED1,P22	Charcot Marie Tooth disease axonal type 20	OMIM:614228	1	OMIM
 DYNC1H1,DHC1,DHC1A,DNCH1,DNCL,DNECL,DYHC,DNCHC1,HL-3,SMALED1,P22	Mental retardation autosomal dominant 13	OMIM:614563	1	OMIM
 DYNC1H1,DHC1,DHC1A,DNCH1,DNCL,DNECL,DYHC,DNCHC1,HL-3,SMALED1,P22	Spinal muscular atrophy lower extremity predominant 1 AD	OMIM:158600	1	OMIM
 DYNC2H1,ATD3,DHC1B,DHC2,DNCH2,DYH1B,SRPS2B,SRTD3,HDHC11	Short rib thoracic dysplasia 3 	OMIM:613091	0.75	OMIM
+DYNC2LI1,D2LIC,LIC3	Short rib throacic dysplasia 15 	OMIM:617088	0.75	OMIM
 DYRK1A,DYRK,DYRK1,HP86,MNB,MNBH,MRD7	Mental retardation autosomal dominant 7	OMIM:614104	1	OMIM
 DYRK1B,MIRK	Abdominal obesity metabolic syndrome 3	OMIM:615812	1	OMIM
 DYSF,FER1L1,LGMD2B,MMD1	Miyoshi muscular dystrophy 1	OMIM:254130	1	OMIM
@@ -1778,10 +1807,10 @@ EA3	Episodic ataxia type 3	OMIM:606554	0.375	OMIM
 EA7	Episodic ataxia type 7	OMIM:611907	0.375	OMIM
 EARS2,COXPD12,MSE1	Combined oxidative phosphorylation deficiency 12	OMIM:614924	0.75	OMIM
 LEFTY2,EBAF,LEFTA,LEFTYA,TGFB4	Left right axis malformations	OMIM:601877	1	OMIM
+EBF3,COE3,EBF-3,O/E-2,OE-2	Hypotonia ataxia and delayed development syndrome	OMIM:617330	0.75	OMIM
 EBP,CDPX2,CHO2,CPX,CPXD	Chondrodysplasia punctata X linked dominant	OMIM:302960	0.75	OMIM
 EBP,CDPX2,CHO2,CPX,CPXD	MEND syndrome	OMIM:300960	0.75	OMIM
 ECA1	Epilepsy childhood absence 1	OMIM:600131	0.375	OMIM
-ECE1,ECE	Hirschsprung disease cardiac defects and autonomic dysfunction	OMIM:613870	1	OMIM
 ECE1,ECE	Hypertension essential	OMIM:145500	1	OMIM
 ECEL1,DA5D,DINE,ECEX,XCE	Arthrogryposis distal type 5D	OMIM:615065	0.75	OMIM
 ECHS1,SCEH	Mitochondrial short chain enoyl CoA hydratase 1 deficiency	OMIM:616277	0.75	OMIM
@@ -1835,6 +1864,7 @@ EIF2B2,EIF-2BBETA,EIF2B	Leukoencephalopathy 	OMIM:603896	0.75	OMIM
 EIF2B3,EIF-2B,EIF2BGAMMA	Leukoencephalopathy 	OMIM:603896	0.75	OMIM
 EIF2B4,EIF-2B,EIF2B,EIF2BDELTA	Leukoencephaly 	OMIM:603896	0.75	OMIM
 EIF2B5,CACH,CLE,EIF-2B,EIF2BEPSILON,LVWM	Leukoencephalopathy 	OMIM:603896	1	OMIM
+EIF2S3,EIF2,EIF2G,EIF2GAMMA,EIF-2GA	Mental retardation X linked syndromic Borck type	OMIM:300987	0.75	OMIM
 EIF4E,AUTS19,CBP,EIF4E1,EIF4EL1,EIF4F	Autism	OMIM:615091	1	OMIM
 EIF4G1,EIF-4G1,EIF4F,EIF4G,EIF4GI,P220,PARK18	Parkinson disease 18	OMIM:614251	1	OMIM
 EGI,EIG,EIG1	Epilepsy idiopathic generalized	OMIM:600669	0.375	OMIM
@@ -1852,15 +1882,18 @@ ELAC2,COXPD17,ELC2,HPC2	Prostate cancer hereditary 2	OMIM:614731	1	OMIM
 ELANE,ELA2,GE,HLE,HNE,NE,PMN-E,SCN1	Neutropenia cyclic	OMIM:162800	1	OMIM
 ELANE,ELA2,GE,HLE,HNE,NE,PMN-E,SCN1	Neutropenia severe congenital 1 autosomal dominant	OMIM:202700	1	OMIM
 ELAVL4,HUD,PNEM	Neuropathy paraneoplastic sensory	OMIM:168360	0.25	OMIM
+ELMO2,CED-12,CED12,ELMO-2	Vascular malformation primary intraosseous	OMIM:606893	0.75	OMIM
 ELN,SVAS,WBS,WS	Cutis laxa AD	OMIM:123700	1	OMIM
 ELN,SVAS,WBS,WS	Supravalvar aortic stenosis	OMIM:185500	1	OMIM
 ELOVL4,ADMD,CT118,ISQMR,STGD2,STGD3	Ichthyosis spastic quadriplegia and mental retardation	OMIM:614457	0.75	OMIM
 ELOVL4,ADMD,CT118,ISQMR,STGD2,STGD3	Spinocerebellar ataxia 34	OMIM:133190	0.75	OMIM
 ELOVL4,ADMD,CT118,ISQMR,STGD2,STGD3	Stargardt disease 3	OMIM:600110	0.75	OMIM
 ELOVL5,HELO1,DJ483K16.1	Spinocerebellar ataxia 38	OMIM:615957	0.75	OMIM
+ELP2,SHINC-2,STATIP1,STIP	Mental retardation autosomal recessive 58	OMIM:617270	0.75	OMIM
 EMC1,KIAA0090	Cerebellar atrophy visual impairment and psychomotor retardation	OMIM:616875	0.75	OMIM
 EMD,EDMD,LEMD5,STA	Emery Dreifuss muscular dystrophy 1 X linked	OMIM:310300	1	OMIM
 EMG1,C2F,GRCC2F,NEP1	Bowen Conradi syndrome	OMIM:211180	0.75	OMIM
+EML1,ELP79,EMAP,EMAPL,HUEMAP	Band heterotopia	OMIM:600348	0.75	OMIM
 EMP2,XMP	Nephrotic syndrome type 10	OMIM:615861	0.75	OMIM
 EMWX	Episodic muscle weakness X linked	OMIM:300211	0.375	OMIM
 EMX2	Schizencephaly	OMIM:269160	0.75	OMIM
@@ -1892,6 +1925,7 @@ EPCAM,DIAR5,EGP-2,EGP314,EGP40,ESA,HNPCC8,KS1/4,KSA,M4S1,MIC18,MK-1,TACSTD1,TROP
 EPG5,HEEW1,KIAA1632,VICIS,HEPG5	Vici syndrome	OMIM:242840	1	OMIM
 EPHA2,ARCC2,CTPA,CTPP1,CTRCT6,ECK	Cataract 6 multiple types	OMIM:116600	1	OMIM
 EPHB2,CAPB,DRT,EK5,EPHT3,ERK,HEK5,PCBC,TYRO5	Prostate cancer brain cancer	OMIM:603688	1	OMIM
+EPHB4,HTK,MYK1,TYRO11	Hydrops fetalis nonimmune and or atrial septal defect	OMIM:617300	0.75	OMIM
 EPHX1,EPHX,EPOX,HYL1,MEH	Diphenylhydantoin toxicity	OMIM:132810	0.25	OMIM
 EPHX1,EPHX,EPOX,HYL1,MEH	Hypercholanemia familial	OMIM:607748	1	OMIM
 EPHX1,EPHX,EPOX,HYL1,MEH	Preeclampsia	OMIM:189800	1	OMIM
@@ -1929,6 +1963,7 @@ ERCC6,ARMD5,CKN2,COFS,COFS1,CSB,RAD26,UVSS1	UV sensitive syndrome 1	OMIM:600630	
 ERCC6L2,C9ORF102,RAD26L,SR278	Bone marrow failure syndrome 2	OMIM:615715	0.75	OMIM
 ERCC8,CKN1,CSA,UVSS2	Cockayne syndrome type A	OMIM:216400	1	OMIM
 ERCC8,CKN1,CSA,UVSS2	UV sensitive syndrome 2	OMIM:614621	1	OMIM
+ERF,CRS4,PE-2,PE2	Chitayat syndrome	OMIM:617180	1	OMIM
 ERF,CRS4,PE-2,PE2	Craniosynostosis 4	OMIM:600775	1	OMIM
 ERLIN1,C10ORF69,ERLIN-1,KE04,KEO4,SPFH1,SPG62	Spastic paraplegia 62	OMIM:615681	0.75	OMIM
 ERLIN2,C8ORF2,ERLIN-2,NET32,SPFH2,SPG18	Spastic paraplegia 18 autosomal recessive	OMIM:611225	0.75	OMIM
@@ -1967,8 +2002,8 @@ EXT1,EXT,LGCR,LGS,TRPS2,TTV	Exostoses multiple type 1	OMIM:133700	1	OMIM
 EXT2,SOTV	Exostoses multiple type 2	OMIM:133701	1	OMIM
 EXT2,SOTV	Seizures scoliosis and macrocephaly syndrome	OMIM:616682	1	OMIM
 EXT3,EXT2	Exostoses multiple type 3	OMIM:600209	0.375	OMIM
-EYA1,BOP,BOR,BOS1,OFC1	Anterior segment anomalies 	OMIM:113650	1	OMIM
-EYA1,BOP,BOR,BOS1,OFC1	Branchiootic syndrome 1	OMIM:602588	1	OMIM
+EYA1,BOP,BOR,BOS1,OFC1	Anterior segment anomalies 	OMIM:602588	1	OMIM
+EYA1,BOP,BOR,BOS1,OFC1	Branchiootorenal syndrome 1 	OMIM:113650	1	OMIM
 EYA1,BOP,BOR,BOS1,OFC1	Otofaciocervical syndrome	OMIM:166780	1	OMIM
 EYA4,CMD1J,DFNA10	Cardiomyopathy dilated 1J	OMIM:605362	1	OMIM
 EYA4,CMD1J,DFNA10	Deafness autosomal dominant 10	OMIM:601316	1	OMIM
@@ -2036,7 +2071,6 @@ FBLN5,ADCL2,ARCL1A,ARMD3,DANCE,EVEC,FIBL-5,UP50	Cutis laxa autosomal dominant 2	
 FBLN5,ADCL2,ARCL1A,ARMD3,DANCE,EVEC,FIBL-5,UP50	Cutis laxa autosomal recessive type IA	OMIM:219100	1	OMIM
 FBLN5,ADCL2,ARCL1A,ARMD3,DANCE,EVEC,FIBL-5,UP50	Macular degeneration age related 3	OMIM:608895	1	OMIM
 FBN1,ACMICD,ECTOL1,FBN,GPHYSD2,MASS,MFS1,OCTD,SGS,SSKS,WMS,WMS2	Acromicric dysplasia	OMIM:102370	1	OMIM
-FBN1,ACMICD,ECTOL1,FBN,GPHYSD2,MASS,MFS1,OCTD,SGS,SSKS,WMS,WMS2	Aortic aneurysm ascending and dissection	OMIM:134797	1	OMIM
 FBN1,ACMICD,ECTOL1,FBN,GPHYSD2,MASS,MFS1,OCTD,SGS,SSKS,WMS,WMS2	Ectopia lentis familial	OMIM:129600	1	OMIM
 FBN1,ACMICD,ECTOL1,FBN,GPHYSD2,MASS,MFS1,OCTD,SGS,SSKS,WMS,WMS2	Geleophysic dysplasia 2	OMIM:614185	1	OMIM
 FBN1,ACMICD,ECTOL1,FBN,GPHYSD2,MASS,MFS1,OCTD,SGS,SSKS,WMS,WMS2	Marfan lipodystrophy syndrome	OMIM:616914	1	OMIM
@@ -2145,6 +2179,7 @@ FHL1,FHL-1,FHL1A,FHL1B,FLH1A,KYOT,SLIM,SLIM-1,SLIM1,SLIMMER,XMPMA	Emery Dreifuss
 FHL1,FHL-1,FHL1A,FHL1B,FLH1A,KYOT,SLIM,SLIM-1,SLIM1,SLIMMER,XMPMA	Reducing body myopathy X linked 1a severe infantile or early childhood onset	OMIM:300717	1	OMIM
 FHL1,FHL-1,FHL1A,FHL1B,FLH1A,KYOT,SLIM,SLIM-1,SLIM1,SLIMMER,XMPMA	Reducing body myopathy X linked 1b 	OMIM:300718	1	OMIM
 FHL1,FHL-1,FHL1A,FHL1B,FLH1A,KYOT,SLIM,SLIM-1,SLIM1,SLIMMER,XMPMA	Scapuloperoneal myopathy X linked dominant	OMIM:300695	1	OMIM
+FIBP,FGFIBP,FIBP-1	Thauvin Robinet Faivre syndrome	OMIM:617107	0.75	OMIM
 FIG4,ALS11,CMT4J,KIAA0274,SAC3,YVS,DJ249I4.1	Amyotrophic lateral sclerosis 11	OMIM:612577	0.75	OMIM
 FIG4,ALS11,CMT4J,KIAA0274,SAC3,YVS,DJ249I4.1	Charcot Marie Tooth disease type 4J	OMIM:611228	0.75	OMIM
 FIG4,ALS11,CMT4J,KIAA0274,SAC3,YVS,DJ249I4.1	Polymicrogyria bilateral temporooccipital	OMIM:612691	0.75	OMIM
@@ -2173,9 +2208,8 @@ FLG,ATOD2	Ichthyosis vulgaris	OMIM:146700	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Cardiac valvular dysplasia X linked	OMIM:314400	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Congenital short bowel syndrome	OMIM:300048	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	FG syndrome 2	OMIM:300321	1	OMIM
-FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Frontometaphyseal dysplasia	OMIM:305620	1	OMIM
+FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Frontometaphyseal dysplasia 1	OMIM:305620	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Heterotopia periventricular	OMIM:300049	1	OMIM
-FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Heterotopia periventricular ED variant	OMIM:300537	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Melnick Needles syndrome	OMIM:309350	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Otopalatodigital syndrome type I	OMIM:311300	1	OMIM
 FLNA,ABP-280,ABPX,CSBS,CVD1,FLN,FLN-A,FLN1,FMD,MNS,NHBP,OPD,OPD1,OPD2,XLVD,XMVD	Otopalatodigital syndrome type II	OMIM:304120	1	OMIM
@@ -2204,14 +2238,15 @@ FMR1,FMRP,FRAXA,POF,POF1	Premature ovarian failure 1	OMIM:311360	1	OMIM
 FN1,CIG,ED-B,FINC,FN,FNZ,GFND,GFND2,LETS,MSF	Glomerulopathy 	OMIM:601894	1	OMIM
 FN1,CIG,ED-B,FINC,FN,FNZ,GFND,GFND2,LETS,MSF	Plasma fibronectin deficiency	OMIM:614101	0.25	OMIM
 FOLR1,FBP,FOLR	Neurodegeneration due to cerebral folate transport deficiency	OMIM:613068	1	OMIM
+FOXC1,ARA,FKHL7,FREAC-3,FREAC3,IGDA,IHG1,IRID1,RIEG3	Anterior segment dysgenesis 3 multiple subtypes	OMIM:601631	1	OMIM
 FOXC1,ARA,FKHL7,FREAC-3,FREAC3,IGDA,IHG1,IRID1,RIEG3	Axenfeld Rieger syndrome type 3	OMIM:602482	1	OMIM
-FOXC1,ARA,FKHL7,FREAC-3,FREAC3,IGDA,IHG1,IRID1,RIEG3	Iridogoniodysgenesis type 1	OMIM:601631	1	OMIM
 FOXC2,FKHL14,LD,MFH-1,MFH1	Lymphedema distichiasis syndrome	OMIM:153400	1	OMIM
 FOXD3,AIS1,GENESIS,HFH2,VAMAS2	Autoimmune disease	OMIM:607836	1	OMIM
 FOXE1,FKHL15,FOXE2,HFKH4,HFKL5,TITF2,TTF-2,TTF2	Bamforth Lazarus syndrome	OMIM:241850	1	OMIM
 FOXE1,FKHL15,FOXE2,HFKH4,HFKL5,TITF2,TTF-2,TTF2	Thyroid cancer nonmedullary 4	OMIM:616534	1	OMIM
-FOXE3,FKHL12,FREAC8	Anterior segment mesenchymal dysgenesis	OMIM:107250	0.75	OMIM
-FOXE3,FKHL12,FREAC8	Aphakia congenital primary	OMIM:610256	0.75	OMIM
+FOXE3,FKHL12,FREAC8	Anterior segment dysgenesis 2 multiple subtypes	OMIM:610256	0.75	OMIM
+FOXE3,FKHL12,FREAC8	Aortic aneurysm familial thoracic 11	OMIM:617349	0.75	OMIM
+FOXE3,FKHL12,FREAC8	Cataract 34 multiple types	OMIM:612968	0.75	OMIM
 FOXF1,ACDMPV,FKHL5,FREAC1	Alveolar capillary dysplasia 	OMIM:265380	0.75	OMIM
 FOXG1,BF1,BF2,FHKL3,FKH2,FKHL1,FKHL2,FKHL3,FKHL4,FOXG1A,FOXG1B,FOXG1C,HBF-1,HBF-2,HBF-3,HBF-G2,HBF2,HFK1,HFK2,HFK3,KHL2,QIN	Rett syndrome congenital variant	OMIM:613454	1	OMIM
 FOXI1,FKH10,FKHL10,FREAC-6,FREAC6,HFH-3,HFH3	Enlarged vestibular aqueduct	OMIM:600791	1	OMIM
@@ -2233,6 +2268,7 @@ FREM1,BNAR,C9ORF143,C9ORF145,C9ORF154,MOTA,TILRR,TRIGNO2	Manitoba oculotrichoana
 FREM1,BNAR,C9ORF143,C9ORF145,C9ORF154,MOTA,TILRR,TRIGNO2	Trigonocephaly 2	OMIM:614485	0.75	OMIM
 FREM2	Fraser syndrome	OMIM:219000	0.75	OMIM
 FRMD7,NYS,NYS1,XIPAN	Nystagmus 1 congenital X linked	OMIM:310700	0.75	OMIM
+FRMPD4,PDZD10,PDZK10	Mental retardation X linked 104	OMIM:300983	0.75	OMIM
 FRRS1L,C9ORF4,CG-6,CG6	Epileptic encephalopathy early infantile 37	OMIM:616981	1	OMIM
 FRTS1,FRTS,RFS	Fanconi renotubular syndrome 1	OMIM:134600	0.375	OMIM
 FRZB,FRE,FRITZ,FRP-3,FRZB-1,FRZB-PEN,FRZB1,FZRB,OS1,SFRP3,SRFP3,HFIZ	Osteoarthritis	OMIM:165720	0.75	OMIM
@@ -2247,7 +2283,7 @@ FTL,LFTD,NBIA3	L ferritin deficiency dominant and recessive	OMIM:615604	1	OMIM
 FTL,LFTD,NBIA3	Neurodegeneration 	OMIM:606159	1	OMIM
 FTO,ALKBH9	Growth retardation developmental delay facial dysmorphism	OMIM:612938	0.75	OMIM
 FTO,ALKBH9	Obesity	OMIM:612460	0.75	OMIM
-FTSJ1,CDLIV,MRX44,MRX9,SPB1,TRMT7	Mental retardation X linked 9	OMIM:309549	1	OMIM
+FTSJ1,CDLIV,MRX44,MRX9,SPB1,TRMT7	Mental retardation X linked 9 44	OMIM:309549	1	OMIM
 FUCA1,FUCA	Fucosidosis	OMIM:230000	1	OMIM
 FUS,ALS6,ETM4,FUS1,HNRNPP2,POMP75,TLS	Amyotrophic lateral sclerosis 6 	OMIM:608030	1	OMIM
 FUS,ALS6,ETM4,FUS1,HNRNPP2,POMP75,TLS	Tremor hereditary essential 4	OMIM:614782	1	OMIM
@@ -2273,7 +2309,9 @@ GAA,LYAG	Glycogen storage disease II	OMIM:232300	1	OMIM
 GABRA1,ECA4,EJM,EJM5	Epilepsy childhood absence	OMIM:611136	1	OMIM
 GABRA1,ECA4,EJM,EJM5	Epileptic encephalopathy early infantile 19	OMIM:615744	1	OMIM
 GABRA2	Alcohol dependence	OMIM:103780	0.75	OMIM
+GABRB1	Epileptic encephalopathy early infantile 45	OMIM:617153	0.75	OMIM
 GABRB3,ECA5	Epilepsy childhood absence	OMIM:612269	1	OMIM
+GABRB3,ECA5	Epileptic encephalopathy early infantile 43	OMIM:617113	1	OMIM
 GABRD,EIG10,EJM7,GEFSP5	Epilepsy generalized 	OMIM:613060	1	OMIM
 GABRG2,CAE2,ECA2,GEFSP3	Epilepsy childhood absence	OMIM:607681	1	OMIM
 GABRG2,CAE2,ECA2,GEFSP3	Epilepsy generalized 	OMIM:611277	1	OMIM
@@ -2337,6 +2375,7 @@ GCKR,FGQTL5,GKRP	Fasting plasma glucose level QTL 5	OMIM:613463	1	OMIM
 GCLC,GCL,GCS,GLCL,GLCLC	Hemolytic anemia due to gamma glutamylcysteine synthetase deficiency	OMIM:230450	1	OMIM
 GCLC,GCL,GCS,GLCL,GLCLC	Myocardial infarction	OMIM:608446	1	OMIM
 GCLM,GLCLR	Myocardial infarction	OMIM:608446	1	OMIM
+GCM2,GCMB,HGCMB	Hyperparathyroidism 4	OMIM:617343	0.75	OMIM
 GCM2,GCMB,HGCMB	Hypoparathyroidism familial isolated	OMIM:146200	0.75	OMIM
 GCNT2,CCAT,CTRCT13,GCNT2C,GCNT5,IGNT,II,NACGT1,NAGCT1,ULG3,BA360O19.2,BA421M1.1	Adult i phenotype 	OMIM:110800	1	OMIM
 GCNT2,CCAT,CTRCT13,GCNT2C,GCNT5,IGNT,II,NACGT1,NAGCT1,ULG3,BA360O19.2,BA421M1.1	Cataract 13 	OMIM:116700	1	OMIM
@@ -2380,7 +2419,6 @@ GFAP	Alexander disease	OMIM:203450	1	OMIM
 GFER,ALR,ERV1,HERV1,HPO,HPO1,HPO2,HSS	Myopathy mitochondrial progressive 	OMIM:613076	0.75	OMIM
 GFI1B,BDPLT17	Bleeding disorder platelet type 17	OMIM:187900	0.75	OMIM
 GFI1,GFI-1,GFI1A,SCN2,ZNF163	Neutropenia nonimmune chronic idiopathic of adults	OMIM:607847	1	OMIM
-GFI1,GFI-1,GFI1A,SCN2,ZNF163	Neutropenia severe congenital 2 autosomal dominant	OMIM:613107	1	OMIM
 GFM1,COXPD1,EFG,EFG1,EFGM,EGF1,GFM,HEFG1	Combined oxidative phosphorylation deficiency 1	OMIM:609060	1	OMIM
 GFND1	Glomerulopathy 	OMIM:137950	0.375	OMIM
 GFPT1,CMSTA1,GFA,GFAT,GFAT 1,GFAT1,GFAT1M,GFPT,GFPT1L,MSLG	Myasthenia congenital 12 	OMIM:610542	1	OMIM
@@ -2458,6 +2496,7 @@ GLC3B	Glaucoma 3 primary infantile B	OMIM:600975	0.375	OMIM
 GLC3C	Glaucoma 3 primary congenital C	OMIM:613085	0.375	OMIM
 GLCCI1,FAM117C,GCTR,GIG18,TSSN1	Glucocorticoid therapy response to	OMIM:614400	0.75	OMIM
 GLDC,GCE,GCSP,HYGN1	Glycine encephalopathy	OMIM:605899	1	OMIM
+GLDN,CLOM,COLM,CRG-L2,CRGL2,UNC-112	Lethal congenital contracture syndrome 11	OMIM:617194	0.75	OMIM
 GLE1,GLE1L,LCCS,LCCS1,HGLE1	Arthrogryposis lethal 	OMIM:611890	1	OMIM
 GLE1,GLE1L,LCCS,LCCS1,HGLE1	Lethal congenital contracture syndrome 1	OMIM:253310	1	OMIM
 GLI2,HPE9,THP1,THP2	Culler Jones syndrome	OMIM:615849	1	OMIM
@@ -2514,6 +2553,8 @@ GNB1	Mental retardation autosomal dominant 42	OMIM:616973	1	OMIM
 GNB3	Hypertension essential	OMIM:145500	1	OMIM
 GNB3	Night blindness congenital stationary type 1H	OMIM:617024	1	OMIM
 GNB4,CMTD1F	Charcot Marie Tooth disease dominant intermediate F	OMIM:615185	0.75	OMIM
+GNB5,GB5	Intellectual developmental disorder 	OMIM:617173	0.75	OMIM
+GNB5,GB5	Language delay and ADHD cognitive impairment 	OMIM:617182	0.75	OMIM
 GNE,DMRV,GLCNE,IBM2,NM,UAE1	Nonaka myopathy	OMIM:605820	1	OMIM
 GNE,DMRV,GLCNE,IBM2,NM,UAE1	Sialuria	OMIM:269921	1	OMIM
 GNMT	Glycine N methyltransferase deficiency	OMIM:606664	0.75	OMIM
@@ -2544,19 +2585,19 @@ GPHN,GEPH,GPH,GPHRYN,HKPX1,MOCODC	Molybdenum cofactor deficiency C	OMIM:615501	1
 GPIHBP1,GPI-HBP1	Hyperlipoproteinemia type 1D	OMIM:615947	0.75	OMIM
 GPI,AMF,GNPI,NLK,PGI,PHI,SA-36,SA36	Hemolytic anemia nonspherocytic due to glucose phosphate isomerase deficiency	OMIM:613470	1	OMIM
 GPR101,GPCR6	Pituitary adenoma growth hormone secreting 2	OMIM:300943	0.75	OMIM
-GPR126,APG1,DREG,PS1TP2,VIGR	Lethal congenital contracture syndrome 9	OMIM:616503	1	OMIM
 GPR143,NYS6,OA1	Nystagmus 6 congenital X linked	OMIM:300814	1	OMIM
 GPR143,NYS6,OA1	Ocular albinism type I Nettleship Falls type	OMIM:300500	1	OMIM
 GPR179,CSNB1E,GPR158L,GPR158L1	Night blindness congenital stationary 1E autosomal recessive	OMIM:614565	0.75	OMIM
 GABBR2,GABABR2,GPR51,GPRC3B,HG20,HRIHFB2099	Nicotine dependence protection against	OMIM:188890	1	OMIM
-GPR56,BFPP,TM7LN4,TM7XN1	Polymicrogyria bilateral frontoparietal	OMIM:606854	1	OMIM
-GPR56,BFPP,TM7LN4,TM7XN1	Polymicrogyria bilateral perisylvian	OMIM:615752	1	OMIM
+GPR68,GPR12A,OGR1	Amelogenesis imperfecta hypomaturation type IIA6	OMIM:617217	0.75	OMIM
 GPSM2,CMCS,DFNB82,LGN,PINS	Chudley McCullough syndrome	OMIM:604213	0.75	OMIM
+GPT2,ALT2	Mental retardation autosomal recessive 49	OMIM:616281	0.75	OMIM
 GPX1,GPXD,GSHPX1	Hemolytic anemia due to glutathione peroxidase deficiency	OMIM:614164	0.25	OMIM
 GPX4,GPX-4,GSHPX-4,MCSP,PHGPX,SNGPX,SNPHGPX	Spondylometaphyseal dysplasia Sedaghatian type	OMIM:250220	1	OMIM
 GRD1	Graves disease	OMIM:275000	0.375	OMIM
 GRD2	Graves disease	OMIM:603388	0.5	OMIM
 GRDX,GD3	Graves disease	OMIM:300351	0.375	OMIM
+GREM2,CKTSF1B2,DAND3,PRDC	Tooth agenesis selective 9	OMIM:617275	0.75	OMIM
 GRHL2,BOM,DFNA28,TFCP2L3	Deafness autosomal dominant 28	OMIM:608641	0.75	OMIM
 GRHL2,BOM,DFNA28,TFCP2L3	Ectodermal dysplasia short stature syndrome	OMIM:616029	0.75	OMIM
 GRHL3,SOM,TFCP2L4,VWS2	Van der Woude syndrome 2	OMIM:606713	1	OMIM
@@ -2568,6 +2609,7 @@ GRIN1,GLUN1,MRD8,NMDA1,NMDAR1,NR1	Mental retardation autosomal dominant 8	OMIM:6
 GRIN2A,EPND,FESD,GLUN2A,LKS,NMDAR2A,NR2A	Epilepsy focal 	OMIM:245570	0.75	OMIM
 GRIN2B,GLUN2B,MRD6,NMDAR2B,NR2B,HNR3	Epileptic encephalopathy early infantile 27	OMIM:616139	0.75	OMIM
 GRIN2B,GLUN2B,MRD6,NMDAR2B,NR2B,HNR3	Mental retardation autosomal dominant 6	OMIM:613970	0.75	OMIM
+GRIN2D,EB11,GLUN2D,NMDAR2D,NR2D	Epileptic encephalopathy early infantile 46	OMIM:617162	0.75	OMIM
 GRIP1,GRIP	Fraser syndrome	OMIM:219000	0.75	OMIM
 GRK1,GPRK1,RHOK,RK	Oguchi disease 2	OMIM:613411	0.75	OMIM
 GRM1,GPRC1A,MGLU1,MGLUR1,SCAR13	Spinocerebellar ataxia autosomal recessive 13	OMIM:614831	1	OMIM
@@ -2663,7 +2705,6 @@ HCN1,BCNG-1,BCNG1,HAC-2	Epileptic encephalopathy early infantile 24	OMIM:615871	
 HCN4,SSS2	Brugada syndrome 8	OMIM:613123	0.75	OMIM
 HCN4,SSS2	Sick sinus syndrome 2	OMIM:163800	0.75	OMIM
 HDAC8,CDLS5,HD8,HDACL1,MRXS6,RPD3,WTS	Cornelia de Lange syndrome 5	OMIM:300882	1	OMIM
-HDAC8,CDLS5,HD8,HDACL1,MRXS6,RPD3,WTS	Wilson Turner syndrome	OMIM:309585	1	OMIM
 HDC	Gilles de la Tourette syndrome	OMIM:137580	1	OMIM
 HDL3,HLN2	Huntington disease like 3	OMIM:604802	0.375	OMIM
 HDLC3	High density lipoprotein cholesterol low serum 3	OMIM:607687	0.375	OMIM
@@ -2674,6 +2715,7 @@ HDLCQ4	High density lipoprotein cholesterol level QTL 4	OMIM:610239	0.375	OMIM
 HDLCQ5	High density lipoprotein cholesterol level QTL 5	OMIM:610761	0.375	OMIM
 HDPA	Hodgkin disease	OMIM:300221	0.375	OMIM
 HEATR2,CILD18	Ciliary dyskinesia primary 18	OMIM:614874	0.75	OMIM
+HECW2,NEDL2	Neurodevelopmental disorder 	OMIM:617268	0.75	OMIM
 HELLS,LSH,PASG,SMARCA6	Immunodeficiency centromeric instability facial anomalies syndrome 4	OMIM:616911	0.75	OMIM
 HEPACAM,GLIALCAM,MLC2A,MLC2B	Megalencephalic leukoencephalopathy 	OMIM:613925	0.75	OMIM
 HEPACAM,GLIALCAM,MLC2A,MLC2B	Megalencephalic leukoencephalopathy 	OMIM:613926	0.75	OMIM
@@ -2741,6 +2783,7 @@ HNP1	Hypertensive nephropathy	OMIM:608026	0.375	OMIM
 HNRNPA1,ALS19,ALS20,HNRPA1,HNRPA1L3,IBMPFD3,HNRNP A1,HNRNP-A1	Amyotrophic lateral sclerosis 20	OMIM:615426	0.75	OMIM
 HNRNPDL,HNRNP,HNRPDL,JKTBP,JKTBP2,LAAUF1	Muscular dystrophy limb girdle type 1G	OMIM:609115	0.75	OMIM
 HNRNPK,CSBP,HNRPK,TUNP	Au Kline syndrome	OMIM:616580	1	OMIM
+HNRNPH2,FTP3,HNRPH',HNRPH2,HNRNPH'	Mental retardation X linked syndromic Bain type	OMIM:300986	0.75	OMIM
 HOGA1,C10ORF65,DHDPS2,DHDPSL,HP3,NPL2	Hyperoxaluria primary type III	OMIM:613616	0.75	OMIM
 HOXA11,HOX1,HOX1I	Radioulnar synostosis 	OMIM:605432	1	OMIM
 HOXA13,HOX1,HOX1J	Guttmacher syndrome	OMIM:176305	1	OMIM
@@ -2799,9 +2842,6 @@ HR,ALUNC,AU,HSA277165,MUHH,MUHH1	Hypotrichosis 4	OMIM:146550	1	OMIM
 HRG,HPRG,HRGP,THPH11	Thrombophilia due to elevated HRG	OMIM:613116	0.25	OMIM
 HRG,HPRG,HRGP,THPH11	Thrombophilia due to HRG deficiency	OMIM:613116	1	OMIM
 HRM2	Hair curly	OMIM:139450	0.375	OMIM
-CDC73,C1ORF28,FIHP,HPTJT,HRPT1,HRPT2,HYX	Hyperparathyroidism familial primary	OMIM:145000	1	OMIM
-CDC73,C1ORF28,FIHP,HPTJT,HRPT1,HRPT2,HYX	Hyperparathyroidism jaw tumor syndrome	OMIM:145001	1	OMIM
-CDC73,C1ORF28,FIHP,HPTJT,HRPT1,HRPT2,HYX	Parathyroid carcinoma	OMIM:608266	1	OMIM
 HRPT3	Hyperparathyroidism 3	OMIM:610071	0.375	OMIM
 HS6ST1,HH15,HS6ST	Hypogonadotropic hypogonadism 15 	OMIM:614880	0.75	OMIM
 HSCR5	Hirschsprung disease	OMIM:600156	0.375	OMIM
@@ -2843,6 +2883,7 @@ HTR2A,5-HT2A,HTR2	Schizophrenia	OMIM:181500	1	OMIM
 HTRA1,ARMD7,CARASIL,HTRA,L56,ORF480,PRSS11	CARASIL syndrome	OMIM:600142	0.75	OMIM
 HTRA1,ARMD7,CARASIL,HTRA,L56,ORF480,PRSS11	Cerebral arteriopathy autosomal dominant 	OMIM:616779	0.75	OMIM
 HTRA1,ARMD7,CARASIL,HTRA,L56,ORF480,PRSS11	Macular degeneration age related 7	OMIM:610149	0.75	OMIM
+HTRA2,OMI,PARK13,PRSS25	3 methylglutaconic aciduria type VIII	OMIM:617248	1	OMIM
 HTRA2,OMI,PARK13,PRSS25	Parkinson disease 13	OMIM:610297	1	OMIM
 HTT,HD,IT15	Huntington disease	OMIM:143100	1	OMIM
 HUWE1,ARF-BP1,HECTH9,HSPC272,IB772,LASU1,MULE,URE-B1,UREB1	Mental retardation X linked syndromic Turner type	OMIM:300706	0.75	OMIM
@@ -2862,6 +2903,7 @@ HYT5	Hypertension essential	OMIM:145500	0.375	OMIM
 HYT6	Hypertension essential	OMIM:145500	0.375	OMIM
 HYT7	Hypertension essential	OMIM:610948	0.375	OMIM
 HYT8	Hypertension essential	OMIM:611014	0.375	OMIM
+IARS,IARS1,ILERS,ILRS,IRS,PRO0785	Growth retardation intellectual developmental disorder hypotonia and hepatopathy	OMIM:617093	0.75	OMIM
 IBA57,C1ORF69,MMDS3	Spastic paraplegia 74 autosomal recessive	OMIM:616451	0.75	OMIM
 IBD11	Inflammatory bowel disease 11	OMIM:191390	0.375	OMIM
 IBD12	Inflammatory bowel disease 12	OMIM:612241	0.375	OMIM
@@ -2937,6 +2979,7 @@ IFT140,MZSDS,SRTD9,WDTC2,C305C8.4,C380F5.1,GS114	Short rib thoracic dysplasia 9 
 IFT172,NPHP17,SLB,SRTD10,OSM-1,WIM	Retinitis pigmentosa 71	OMIM:616394	0.75	OMIM
 IFT172,NPHP17,SLB,SRTD10,OSM-1,WIM	Short rib thoracic dysplasia 10 	OMIM:615630	0.75	OMIM
 IFT43,C14ORF179,CED3	Cranioectodermal dysplasia 3	OMIM:614099	0.75	OMIM
+IFT52,C20ORF9,CGI-53,NGD2,NGD5,DJ1028D15.1	Short rib thoracic dysplasia 16 	OMIM:617102	1	OMIM
 IFT80,ATD2,SRTD2,WDR56	Short rib thoracic dysplasia 2 	OMIM:611263	1	OMIM
 IGAD1	Immunoglobulin A deficiency	OMIM:137100	0.375	OMIM
 IGAN1,IGAN	IgA nephropathy	OMIM:161950	0.375	OMIM
@@ -2982,6 +3025,7 @@ IL12B,CLMF,CLMF2,IL-12B,NKSF,NKSF2	Immunodeficiency 29 mycobacteriosis	OMIM:6148
 IL12RB1,CD212,IL-12R-BETA1,IL12RB	Immunodeficiency 30	OMIM:614891	0.75	OMIM
 IL13,IL-13,P600	Allergic rhinitis	OMIM:607154	1	OMIM
 IL13,IL-13,P600	Asthma	OMIM:600807	1	OMIM
+IL17RA,CANDF5,CD217,CDW217,IL-17RA,IL17R,HIL-17R	Immunodeficiency 51	OMIM:613953	0.75	OMIM
 IL17RC,IL17-RL,IL17RL	Candidiasis familial 9	OMIM:616445	0.75	OMIM
 IL17RD,HH18,IL-17RD,IL17RLM,SEF	Hypogonadotropic hypogonadism 18 	OMIM:615267	0.75	OMIM
 IL1B,IL-1,IL1-BETA,IL1F2	Gastric cancer risk after H pylori infection	OMIM:137215	1	OMIM
@@ -3011,6 +3055,7 @@ IL6R,CD126,IL-6R-1,IL-6RA,IL6Q,IL6RA,IL6RQ,GP80	Interleukin 6 receptor soluble s
 IL6R,CD126,IL-6R-1,IL-6RA,IL6Q,IL6RA,IL6RQ,GP80	Interleukin 6 serum level of QTL	OMIM:614752	1	OMIM
 IL7R,CD127,CDW127,IL-7R-ALPHA,IL7RA,ILRA	Severe combined immunodeficiency T cell negative B cell natural killer cell positive type	OMIM:608971	1	OMIM
 ILDR1,DFNB42,ILDR1ALPHA,ILDR1ALPHA',ILDR1BETA	Deafness autosomal recessive 42	OMIM:609646	0.75	OMIM
+IMPA1,IMP,IMPA	Mental retardation autosomal recessive 59	OMIM:617323	0.75	OMIM
 IMPAD1,GPAPP,IMP 3,IMP-3,IMPA3	Chondrodysplasia 	OMIM:614078	0.75	OMIM
 IMPDH1,IMPD,IMPD1,LCA11,RP10,SWSS2608	Leber congenital amaurosis 11	OMIM:613837	1	OMIM
 IMPDH1,IMPD,IMPD1,LCA11,RP10,SWSS2608	Retinitis pigmentosa 10	OMIM:180105	1	OMIM
@@ -3038,9 +3083,6 @@ INTLQ1	Intelligence QTL1	OMIM:603783	0.375	OMIM
 INTLQ2	Intelligence QTL3	OMIM:610295	0.375	OMIM
 INTLQ3	Intelligence QTL3	OMIM:610294	0.375	OMIM
 INVS,INV,NPH2,NPHP2	Nephronophthisis 2 infantile	OMIM:602088	1	OMIM
-PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	Diabetes mellitus type II	OMIM:125853	0.75	OMIM
-PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	MODY type IV	OMIM:606392	0.75	OMIM
-PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	Pancreatic agenesis 1	OMIM:260370	0.75	OMIM
 IQCB1,NPHP5,PIQ,SLSN5	Senior Loken syndrome 5	OMIM:609254	0.75	OMIM
 IQSEC2,BRAG1,MRX1	Mental retardation X linked 1 78	OMIM:309530	0.75	OMIM
 IRAK3,ASRT5,IRAKM	Asthma	OMIM:611064	1	OMIM
@@ -3058,7 +3100,7 @@ IRF6,LPS,OFC6,PIT,PPS,PPS1,VWS,VWS1	Popliteal pterygium syndrome 1	OMIM:119500	1
 IRF6,LPS,OFC6,PIT,PPS,PPS1,VWS,VWS1	van der Woude syndrome	OMIM:119300	1	OMIM
 IRF8,H-ICSBP,ICSBP,ICSBP1,IRF-8	Immunodeficiency 32A mycobacteriosis autosomal dominant	OMIM:614893	0.75	OMIM
 IRF8,H-ICSBP,ICSBP,ICSBP1,IRF-8	Immunodeficiency 32B monocyte and dendritic cell deficiency autosomal recessive	OMIM:614894	0.75	OMIM
-IRGM,IFI1,IRGM1,LRG-47,LRG47	Inflammatory bowel disease 19	OMIM:612279	0.75	OMIM
+IRGM,IFI1,IRGM1,LRG-47,LRG47	Inflammatory bowel disease 19	OMIM:612278	0.75	OMIM
 IRGM,IFI1,IRGM1,LRG-47,LRG47	Mycobacterium tuberculosis protection against	OMIM:607948	0.75	OMIM
 IRS1,HIRS-1	Coronary artery disease	OMIM:147545	0.75	OMIM
 IRS1,HIRS-1	Diabetes mellitus noninsulin dependent	OMIM:125853	0.75	OMIM
@@ -3107,7 +3149,7 @@ ITPR3,IP3R,IP3R3	Diabetes type 1	OMIM:222100	0.5	OMIM
 ITS	Insulinoma	OMIM:606960	0.1875	OMIM
 IVD,ACAD2	Isovaleric acidemia	OMIM:243500	0.75	OMIM
 IYD,C6ORF71,DEHAL1,TDH4,DJ422F24.1	Thyroid dyshormonogenesis 4	OMIM:274800	0.75	OMIM
-JAG1,AGS,AHD,AWS,CD339,HJ1,JAGL1	Alagille syndrome	OMIM:118450	1	OMIM
+JAG1,AGS,AHD,AWS,CD339,HJ1,JAGL1	Alagille syndrome 1	OMIM:118450	1	OMIM
 JAG1,AGS,AHD,AWS,CD339,HJ1,JAGL1	Deafness congenital heart defects and posterior embryotoxon	OMIM:601920	1	OMIM
 JAG1,AGS,AHD,AWS,CD339,HJ1,JAGL1	Tetralogy of Fallot	OMIM:187500	1	OMIM
 JAGN1,GL009	Neutropenia severe congenital 6 autosomal recessive	OMIM:616022	0.75	OMIM
@@ -3158,9 +3200,9 @@ KCNH2,ERG1,HERG,HERG1,KV11.1,LQT2,SQT1	Long QT syndrome 2	OMIM:613688	1	OMIM
 KCNH2,ERG1,HERG,HERG1,KV11.1,LQT2,SQT1	Short QT syndrome 1	OMIM:609620	1	OMIM
 KCNJ10,BIRK-10,KCNJ13-PEN,KIR1.2,KIR4.1,SESAME	Enlarged vestibular aqueduct digenic	OMIM:600791	1	OMIM
 KCNJ10,BIRK-10,KCNJ13-PEN,KIR1.2,KIR4.1,SESAME	SESAME syndrome	OMIM:612780	1	OMIM
-KCNJ11,BIR,HHF2,IKATP,KIR6.2,PHHI,TNDM3	Diabetes mellitus permanent neonatal 	OMIM:606176	1	OMIM
 KCNJ11,BIR,HHF2,IKATP,KIR6.2,PHHI,TNDM3	Diabetes mellitus transient neonatal 3	OMIM:610582	1	OMIM
 KCNJ11,BIR,HHF2,IKATP,KIR6.2,PHHI,TNDM3	Diabetes mellitus type 2	OMIM:125853	1	OMIM
+KCNJ11,BIR,HHF2,IKATP,KIR6.2,PHHI,TNDM3	Diabetes permanent neonatal 	OMIM:606176	1	OMIM
 KCNJ11,BIR,HHF2,IKATP,KIR6.2,PHHI,TNDM3	Hyperinsulinemic hypoglycemia familial 2	OMIM:601820	1	OMIM
 KCNJ11,BIR,HHF2,IKATP,KIR6.2,PHHI,TNDM3	Maturity onset diabetes of the young type 13	OMIM:616329	1	OMIM
 KCNJ13,KIR1.4,KIR7.1,LCA16,SVD	Leber congenital amaurosis 16	OMIM:614186	1	OMIM
@@ -3209,6 +3251,7 @@ KIAA0586,TALPID3	Joubert syndrome 23	OMIM:616490	0.75	OMIM
 KIAA0586,TALPID3	Short rib thoracic dysplasia 14 	OMIM:616546	0.75	OMIM
 KIAA1279,KBP,TTC20	Goldberg Shprintzen megacolon syndrome	OMIM:609460	0.75	OMIM
 KIAA2022,MRX98,XPN	Mental retardation X linked 98	OMIM:300912	0.75	OMIM
+KIDINS220,ARMS	Spastic paraplegia intellectual disability nystagmus and obesity	OMIM:617296	0.75	OMIM
 KIF11,EG5,HKSP,KNSL1,MCLMR,TRIP5	Microcephaly 	OMIM:152950	0.75	OMIM
 KIF1A,ATSV,C2ORF20,HSN2C,MRD9,SPG30,UNC104	Mental retardation autosomal dominant 9	OMIM:614255	0.75	OMIM
 KIF1A,ATSV,C2ORF20,HSN2C,MRD9,SPG30,UNC104	Neuropathy hereditary sensory type IIC	OMIM:614213	0.75	OMIM
@@ -3219,6 +3262,7 @@ KIF1C,LTXS1,SATX2,SAX2,SPAX2,SPG58	Spastic ataxia 2 autosomal recessive	OMIM:611
 KIF21A,CFEOM1,FEOM1,FEOM3A	Fibrosis of extraocular muscles congenital 1	OMIM:135700	1	OMIM
 KIF22,A-328A3.2,KID,KNSL4,OBP,OBP-1,OBP-2,SEMDJL2	Spondyloepimetaphyseal dysplasia 	OMIM:603546	1	OMIM
 KIF2A,CDCBM3,HK2,KIF2	Cortical dysplasia complex 	OMIM:615411	0.75	OMIM
+KIF5A,D12S1889,MY050,NKHC,SPG10	Myoclonus intractable neonatal	OMIM:617235	1	OMIM
 KIF5A,D12S1889,MY050,NKHC,SPG10	Spastic paraplegia 10 autosomal dominant	OMIM:604187	1	OMIM
 KIF5C,CDCBM2,KINN,NKHC,NKHC-2,NKHC2	Cortical dysplasia complex 	OMIM:615282	0.75	OMIM
 KIF7,ACLS,HLS2,JBTS12,UNQ340	Acrocallosal syndrome	OMIM:200990	0.75	OMIM
@@ -3247,6 +3291,8 @@ KLF6,BCD1,CBA1,COPEB,CPBP,GBF,PAC1,ST12,ZF9	Gastric cancer somatic	OMIM:613659	1
 KLF6,BCD1,CBA1,COPEB,CPBP,GBF,PAC1,ST12,ZF9	Prostate cancer somatic	OMIM:176807	1	OMIM
 KLHDC8B	Hodgkin lymphoma	OMIM:236000	0.75	OMIM
 KLHL10,SPGF11	Spermatogenic failure 11	OMIM:615081	0.75	OMIM
+KLHL15,HEL-S-305	Mental retardation X linked 103	OMIM:300982	1	OMIM
+KLHL24,DRE1,KRIP6	Epidermolysis bullosa simplex generalized 	OMIM:617294	0.75	OMIM
 KLHL3,PHA2D	Pseudohypoaldosteronism type IID	OMIM:614495	0.75	OMIM
 KLHL40,KBTBD5,NEM8,SRYP,SYRP	Nemaline myopathy 8 autosomal recessive	OMIM:615348	0.75	OMIM
 KLHL41,KBTBD10,KRP1,SARCOSIN	Nemaline myopathy 9	OMIM:615731	0.75	OMIM
@@ -3260,6 +3306,7 @@ KL	Tumoral calcinosis hyperphosphatemic	OMIM:211900	0.75	OMIM
 KLLN,CWS4,KILLIN	Cowden syndrome 4	OMIM:615107	0.75	OMIM
 KMT2A,ALL-1,CXXC7,HRX,HTRX1,MLL,MLL/GAS7,MLL1,MLL1A,TET1-MLL,TRX1,WDSTS	Leukemia myeloid lymphoid or mixed lineage	OMIM:159555	0.5	OMIM
 KMT2A,ALL-1,CXXC7,HRX,HTRX1,MLL,MLL/GAS7,MLL1,MLL1A,TET1-MLL,TRX1,WDSTS	Wiedemann Steiner syndrome	OMIM:605130	1	OMIM
+KMT2B,HRX2,MLL1B,MLL2,MLL4,TRX2,WBP7	Dystonia 28 childhood onset	OMIM:617284	1	OMIM
 KMT2D,AAD10,ALR,CAGL114,KABUK1,KMS,MLL2,MLL4,TNRC21	Kabuki syndrome 1	OMIM:147920	0.75	OMIM
 KNG1,BDK,BK,KNG	High molecular weight kininogen deficiency	OMIM:228960	1	OMIM
 KONDS	Kondoh syndrome	OMIM:606242	0.375	OMIM
@@ -3329,6 +3376,7 @@ KTCN8	Keratoconus 8	OMIM:614628	0.375	OMIM
 DNAAF2,C14ORF104,CILD10,KTU,PF13	Ciliary dyskinesia primary 10	OMIM:612518	0.75	OMIM
 KTWS,KTS	Klippel Trenaunay Weber syndrome	OMIM:149000	0.375	OMIM
 KWE	Keratolytic winter erythema	OMIM:148370	0.375	OMIM
+KY	Myopathy myofibrillar 7	OMIM:617114	0.75	OMIM
 KYPSC1	Kyphoscoliosis 1	OMIM:610170	0.375	OMIM
 L1CAM,CAML1,CD171,HSAS,HSAS1,MASA,MIC5,N-CAM-L1,N-CAML1,NCAM-L1,S10,SPG1	Corpus callosum partial agenesis of	OMIM:304100	1	OMIM
 L1CAM,CAML1,CD171,HSAS,HSAS1,MASA,MIC5,N-CAM-L1,N-CAML1,NCAM-L1,S10,SPG1	CRASH syndrome	OMIM:303350	1	OMIM
@@ -3358,6 +3406,7 @@ LARGE,MDC1D,MDDGA6,MDDGB6	Muscular dystrophy dystroglycanopathy type B 6	OMIM:60
 LARP7,ALAZS,PIP7S	Alazami syndrome	OMIM:615071	0.75	OMIM
 LARS2,LEURS,PRLTS4	Hydrops lactic acidosis and sideroblastic anemia	OMIM:617021	0.75	OMIM
 LARS2,LEURS,PRLTS4	Perrault syndrome 4	OMIM:615300	0.75	OMIM
+LAS1L,LAS1-LIKE,DJ475B7.2	Wilson Turner syndrome	OMIM:309585	0.75	OMIM
 LBMQTL1	Lean body mass QTL 1	OMIM:612729	0.375	OMIM
 EVC2,LBN	Ellis van Creveld syndrome	OMIM:225500	1	OMIM
 EVC2,LBN	Weyers acrofacial dysostosis	OMIM:193530	1	OMIM
@@ -3451,6 +3500,7 @@ LNCR5	Lung cancer	OMIM:614210	0.375	OMIM
 LOAS	Leber optic atrophy	OMIM:308905	0.375	OMIM
 LONP1,LON,LONP,LONHS,PIM1,PRSS15,HLON	CODAS syndrome	OMIM:600373	0.75	OMIM
 LOR	Vohwinkel syndrome 	OMIM:604117	1	OMIM
+LOX	Aortic aneurysm familial thoracic 10	OMIM:617168	1	OMIM
 LOXHD1,DFNB77,LH2D1	Deafness autosomal recessive 77	OMIM:613079	0.75	OMIM
 LOXL1,LOL,LOXL	Exfoliation syndrome	OMIM:177650	1	OMIM
 LPA,AK38,APOA,LP	Coronary artery disease	OMIM:152200	0.25	OMIM
@@ -3486,7 +3536,6 @@ LRP6,ADCAD2	Tooth agenesis selective 7	OMIM:616724	1	OMIM
 LRP8,APOER2,HSZ75190,LRP-8,MCI1	Myocardial infarction	OMIM:608446	1	OMIM
 LRPAP1,A2MRAP,A2RAP,HBP44,MRAP,MYP23,RAP,ALPHA-2-MRAP	Myopia 23 autosomal recessive	OMIM:615431	1	OMIM
 LRPPRC,CLONE-23970,GP130,LRP130,LSFC	Leigh syndrome French Canadian type	OMIM:220111	1	OMIM
-DNAAF1,CILD13,LRRC50,ODA7	Ciliary dyskinesia primary 13	OMIM:613193	0.75	OMIM
 LRRC6,CILD19,LRTP,TSLRP	Ciliary dyskinesia primary 19	OMIM:614935	0.75	OMIM
 LRRK2,AURA17,DARDARIN,PARK8,RIPK7,ROCO2	Parkinson disease 8	OMIM:607060	1	OMIM
 LRSAM1,CMT2P,RIFLE,TAL	Charcot Marie Toothe disease axonal type 2P	OMIM:614436	0.75	OMIM
@@ -3546,8 +3595,11 @@ MAOA,MAO-A	Antisocial behavior	OMIM:300615	1	OMIM
 MAP2K1,CFC3,MAPKK1,MEK1,MKK1,PRKMK1	Cardiofaciocutaneous syndrome 3	OMIM:615279	1	OMIM
 MAP2K2,CFC4,MAPKK2,MEK2,MKK2,PRKMK2	Cardiofaciocutaneous syndrome 4	OMIM:615280	0.75	OMIM
 MAP3K1,MAPKKK1,MEKK,MEKK 1,MEKK1,SRXY6	46XY sex reversal 6	OMIM:613762	0.75	OMIM
+MAP3K7,MEKK7,TAK1,TGF1A	Cardiospondylocarpofacial syndrome	OMIM:157800	0.75	OMIM
+MAP3K7,MEKK7,TAK1,TGF1A	Frontometaphyseal dysplasia 2	OMIM:617137	0.75	OMIM
 MAP3K8,COT,EST,ESTF,MEKK8,TPL2,TPL-2,C-COT	Lung cancer somatic	OMIM:211980	1	OMIM
 MAPK8IP1,IB1,JIP-1,JIP1,PRKM8IP	Diabetes mellitus noninsulin dependent	OMIM:125853	0.75	OMIM
+MAPKBP1,JNKBP-1	Nephronophthisis 20	OMIM:617271	0.75	OMIM
 MAPRE2,EB1,EB2,RP1	Symmetric circumferential skin creases congenital 2	OMIM:616734	1	OMIM
 MAPT,DDPAC,FTDP-17,MAPTL,MSTD,MTBT1,MTBT2,PPND,TAU	Dementia frontotemporal 	OMIM:600274	1	OMIM
 MAPT,DDPAC,FTDP-17,MAPTL,MSTD,MTBT1,MTBT2,PPND,TAU	Parkinson disease	OMIM:168600	1	OMIM
@@ -3570,6 +3622,7 @@ MAX,BHLHD4	Pheochromocytoma	OMIM:171300	0.75	OMIM
 MBD5,MRD1	Mental retardation autosomal dominant 1	OMIM:156200	0.75	OMIM
 MBL2,COLEC1,HSMBPC,MBL,MBL2D,MBP,MBP-C,MBP1,MBPD	Chronic infections due to MBL deficiency	OMIM:614372	1	OMIM
 MBNP	Membranous nephropathy	OMIM:614692	0.25	OMIM
+MBOAT7,BB1,LENG4,LPIAT,LRC4,MBOA7,OACT7,HMBOA-7	Mental retardation autosomal recessive 57	OMIM:617188	0.75	OMIM
 MBTPS2,BRESEK,IFAP,KFSD,KFSDX,S2P	IFAP syndrome 	OMIM:308205	0.75	OMIM
 MBTPS2,BRESEK,IFAP,KFSD,KFSDX,S2P	Keratosis follicularis spinulosa decalvans X linked	OMIM:308800	0.75	OMIM
 MBTPS2,BRESEK,IFAP,KFSD,KFSDX,S2P	Olmsted syndrome X linked	OMIM:300918	0.75	OMIM
@@ -3606,6 +3659,7 @@ MDCMP	Muscular dystrophy congenital merosin positive	OMIM:609456	0.375	OMIM
 MDD1	Major depressive disorder 1	OMIM:608516	0.375	OMIM
 MDD2	Major depressive disorder 2	OMIM:608516	0.375	OMIM
 CYMD,DCMD,MDDC	Macular dystrophy dominant cystoid	OMIM:153880	0.375	OMIM
+MDH2,M-MDH,MDH,MGC:3559,MOR1	Epileptic encephalopathy early infantile 51	OMIM:617339	1	OMIM
 MDM2,ACTFS,HDMX,HDM2	Accelerated tumor formation	OMIM:614401	1	OMIM
 MDNS	Mammary digital nail syndrome	OMIM:613689	0.375	OMIM
 MDRV,NIPA2	Muscular dystrophy 	OMIM:601846	0.375	OMIM
@@ -3616,6 +3670,7 @@ MECP2,AUTSX3,MRX16,MRX79,MRXS13,MRXSL,PPMX,RS,RTS,RTT	Encephalopathy neonatal se
 MECP2,AUTSX3,MRX16,MRX79,MRXS13,MRXSL,PPMX,RS,RTS,RTT	Mental retardation X linked syndromic 13	OMIM:300055	1	OMIM
 MECP2,AUTSX3,MRX16,MRX79,MRXS13,MRXSL,PPMX,RS,RTS,RTT	Mental retardation X linked syndromic Lubs type	OMIM:300260	1	OMIM
 MECP2,AUTSX3,MRX16,MRX79,MRXS13,MRXSL,PPMX,RS,RTS,RTT	Rett syndrome	OMIM:312750	1	OMIM
+MECR,CGI-63,FASN2B,NRBF1	Dystonia childhood onset 	OMIM:617282	0.75	OMIM
 MED12,ARC240,CAGH45,FGS1,HOPA,MED12S,OHDOX,OKS,OPA1,TNRC11,TRAP230	Lujan Fryns syndrome	OMIM:309520	1	OMIM
 MED12,ARC240,CAGH45,FGS1,HOPA,MED12S,OHDOX,OKS,OPA1,TNRC11,TRAP230	Ohdo syndrome X linked	OMIM:300895	1	OMIM
 MED12,ARC240,CAGH45,FGS1,HOPA,MED12S,OHDOX,OKS,OPA1,TNRC11,TRAP230	Opitz Kaveggia syndrome	OMIM:305450	1	OMIM
@@ -3649,8 +3704,10 @@ MET,AUTS9,HGFR,RCCP2,C-MET	Osteofibrous dysplasia	OMIM:607278	1	OMIM
 MET,AUTS9,HGFR,RCCP2,C-MET	Renal cell carcinoma papillary 1 familial and somatic	OMIM:605074	1	OMIM
 METTL23,C17ORF95	Mental retardation autosomal recessive 44	OMIM:615942	0.75	OMIM
 MFAP5,MAGP2,MP25	Aortic aneurysm familial thoracic 9	OMIM:616166	0.75	OMIM
+MFF,C2ORF33,GL004	Encephalopathy due to defective mitochondrial and peroxisomal fission 2	OMIM:617086	0.75	OMIM
 MFHAS1,LRRC65,MASL1	Malignant fibrous histiocytoma	OMIM:605352	0.375	OMIM
-MFN2,CMT2A,CMT2A2,CPRP1,HSG,MARF	Charcot Marie Tooth disease type 2A2	OMIM:609260	1	OMIM
+MFN2,CMT2A,CMT2A2,CPRP1,HSG,MARF	Charcot Marie Tooth disease axonal type 2A2A	OMIM:609260	1	OMIM
+MFN2,CMT2A,CMT2A2,CPRP1,HSG,MARF	Charcot Marie Tooth disease axonal type 2A2B	OMIM:617087	1	OMIM
 MFN2,CMT2A,CMT2A2,CPRP1,HSG,MARF	Hereditary motor and sensory neuropathy VIA	OMIM:601152	1	OMIM
 MFRP,MCOP5,NNO2,RD6	Microphthalmia isolated 5	OMIM:611040	0.75	OMIM
 MFRP,MCOP5,NNO2,RD6	Nanophthalmos 2	OMIM:609549	0.75	OMIM
@@ -3673,8 +3730,6 @@ MGR7	Migraine 	OMIM:609179	0.375	OMIM
 MGR8	Migraine	OMIM:609570	0.375	OMIM
 MGR9	Migraine 	OMIM:609670	0.375	OMIM
 MGS	Mungan syndrome	OMIM:611376	0.375	OMIM
-CIITA,C2TA,CIITAIV,MHC2TA,NLRA	Bare lymphocyte syndrome type II complementation group A	OMIM:209920	0.75	OMIM
-CIITA,C2TA,CIITAIV,MHC2TA,NLRA	Rheumatoid arthritis	OMIM:180300	0.75	OMIM
 MHS2	Malignant hyperthermia	OMIM:154275	0.375	OMIM
 MHS3	Malignant hyperthermia	OMIM:154276	0.375	OMIM
 MHS4	Malignant hyperthermia	OMIM:600467	0.375	OMIM
@@ -3688,10 +3743,12 @@ MID1,BBBG1,FXY,GBBB1,MIDIN,OGS1,OS,OSX,RNF59,TRIM18,XPRF,ZNFXY	Opitz GBBB syndro
 MIF,GIF,GLIF,MMIF	Rheumatoid arthritis systemic juvenile	OMIM:604302	1	OMIM
 MINPP1,HIPER1,MINPP2,MIPP	Thyroid carcinoma follicular	OMIM:188470	0.75	OMIM
 MIP,AQP0,CTRCT15,LIM1,MIP26,MP26	Cataract 15 multiple types	OMIM:615274	1	OMIM
+MIPEP,HMIP,MIP	Combined oxidative phosphorylation deficiency 31	OMIM:617228	0.75	OMIM
 MIR17HG,C13ORF25,FGLDS2,LINC00048,MIHG1,MIRH1,MIRHG1,NCRNA00048,MIR-17-92	Feingold syndrome 2	OMIM:614326	0.75	OMIM
 MIR184,EDICT,MIRN184,MIR-184	EDICT syndrome	OMIM:614303	0.75	OMIM
 MIR2861,BMND15,MIRN2861	Bone mineral density QTL 15	OMIM:613418	0.75	OMIM
 MIR96,DFNA50,MIRN96,HSA-MIR-96,MIR-96,MIRNA96	Deafness autosomal dominant 50	OMIM:613074	0.75	OMIM
+MITF,CMM8,MI,WS2,WS2A,BHLHE32	COMMAD syndrome	OMIM:617306	1	OMIM
 MITF,CMM8,MI,WS2,WS2A,BHLHE32	Melanoma cutaneous malignant	OMIM:614456	1	OMIM
 MITF,CMM8,MI,WS2,WS2A,BHLHE32	Tietz albinism deafness syndrome	OMIM:103500	1	OMIM
 MITF,CMM8,MI,WS2,WS2A,BHLHE32	Waardenburg syndrome ocular albinism digenic	OMIM:103470	1	OMIM
@@ -3701,6 +3758,7 @@ MKKS,BBS6,HMCS,KMS,MKS	McKusick Kaufman syndrome	OMIM:236700	1	OMIM
 MKL1,BSAC,MAL,MRTF-A	Megakaryoblastic leukemia acute	OMIM:606078	0.75	OMIM
 MKRN3,CPPB2,D15S9,RNF63,ZFP127,ZNF127	Precocious puberty central 2	OMIM:615346	0.75	OMIM
 MKS1,BBS13,MES,MKS,POC12	Bardet Biedl syndrome 13	OMIM:615990	1	OMIM
+MKS1,BBS13,MES,MKS,POC12	Joubert syndrome 28	OMIM:617121	1	OMIM
 MKS1,BBS13,MES,MKS,POC12	Meckel syndrome 1	OMIM:249000	1	OMIM
 MLC1,LVM,MLC,VL	Megalencephalic leukoencephalopathy 	OMIM:604004	1	OMIM
 MLF1	Leukemia acute myeloid	OMIM:601626	0.1875	OMIM
@@ -3719,6 +3777,7 @@ MMACHC,CBLC	Methylmalonic aciduria and homocystinuria cblC type	OMIM:277400	1	OM
 MMD2	Miyoshi muscular dystrophy 2	OMIM:613318	0.375	OMIM
 MMDK,MDK	Mesomelic dysplasia Kantaputra type	OMIM:156232	0.375	OMIM
 MME,CALLA,CD10,NEP,SFE	Charcot Marie Tooth disease axonal type 2T	OMIM:617017	1	OMIM
+MME,CALLA,CD10,NEP,SFE	Spinocerebellar ataxia 43	OMIM:617018	1	OMIM
 MMP13,CLG3,MANDP1,MMP-13	Metaphyseal anadysplasia 1	OMIM:602111	1	OMIM
 MMP13,CLG3,MANDP1,MMP-13	Metaphyseal dysplasia Spahr type	OMIM:250400	1	OMIM
 MMP19,MMP18,RASI-1	Cavitary optic disc anomalies	OMIM:611543	0.75	OMIM
@@ -3789,24 +3848,21 @@ MRT28	Mental retardation autosomal recessive 28	OMIM:614347	0.375	OMIM
 MRT29	Mental retardation autosomal recessive 29	OMIM:614333	0.375	OMIM
 MRT30	Mental retardation autosomal recessive 30	OMIM:614342	0.375	OMIM
 MRT31	Mental retardation autosomal recessive 31	OMIM:614329	0.375	OMIM
-MRT32	Mental retardation autosomal recessive 32	OMIM:614339	0.375	OMIM
 MRT33	Mental retardation autosomal recessive 33	OMIM:614341	0.375	OMIM
 MRT35	Mental retardation autosomal recessive 35	OMIM:615162	0.375	OMIM
 MRT4	Mental retardation autosomal recessive 4	OMIM:611107	0.375	OMIM
-MRT8	Mental retardation autosomal recessive 8	OMIM:611094	0.375	OMIM
 MRT9,MRT26	Mental retardation autosomal recessive 9 26	OMIM:611095	0.375	OMIM
 MRX14	Mental retardation X linked 14	OMIM:300062	0.375	OMIM
 MRX20	Mental retardation X linked 20	OMIM:300047	0.375	OMIM
 MRX23	Mental retardation X linked 23	OMIM:300046	0.375	OMIM
 MRX2	Mental retardation X linked 2	OMIM:300428	0.375	OMIM
 MRX42	Mental retardation X linked 42	OMIM:300372	0.375	OMIM
-MRX49	Mental retardation X linked 49	OMIM:300114	0.5	OMIM
+ZNF81,HFZ20,MRX45,DJ54B20.6	Mental retardation X linked 45	OMIM:300498	0.375	OMIM
 MRX50	Mental retardation X linked 50	OMIM:300115	0.375	OMIM
 MRX52	Mental retardation X linked 52	OMIM:300504	0.375	OMIM
 MRX53	Mental retardation X linked 53	OMIM:300324	0.375	OMIM
 MRX73	Mental retardation X linked 73	OMIM:300355	0.375	OMIM
 MRX77	Mental retardation X linked 77	OMIM:300454	0.375	OMIM
-MRX78	Mental retardation X linked 78	OMIM:300551	0.375	OMIM
 MRX81	Mental retardation X linked 81	OMIM:300433	0.375	OMIM
 MRX82	Mental retardation X linked 82	OMIM:300518	0.375	OMIM
 MRX84	Mental retardation X linked 84	OMIM:300505	0.375	OMIM
@@ -3830,18 +3886,21 @@ MSH2,COCA1,FCC1,HNPCC,HNPCC1,LCFS2	Colorectal cancer hereditary nonpolyposis typ
 MSH2,COCA1,FCC1,HNPCC,HNPCC1,LCFS2	Mismatch repair cancer syndrome	OMIM:276300	1	OMIM
 MSH2,COCA1,FCC1,HNPCC,HNPCC1,LCFS2	Muir Torre syndrome	OMIM:158320	1	OMIM
 MSH3,DUP,MRP1	Endometrial carcinoma somatic	OMIM:608089	0.75	OMIM
+MSH3,DUP,MRP1	Familial adenomatous polyposis 4	OMIM:617100	0.75	OMIM
 MSH6,GTBP,GTMBP,HNPCC5,HSAP,P160	Colorectal cancer hereditary nonpolyposis type 5	OMIM:614350	1	OMIM
 MSH6,GTBP,GTMBP,HNPCC5,HSAP,P160	Endometrial cancer familial	OMIM:608089	1	OMIM
 MSH6,GTBP,GTMBP,HNPCC5,HSAP,P160	Mismatch repair cancer syndrome	OMIM:276300	1	OMIM
 MSMB,HPC13,IGBF,MSP,MSPB,PN44,PRPS,PSP,PSP-94,PSP57,PSP94	Prostate cancer hereditary 13	OMIM:611928	1	OMIM
 MSMO1,DESP4,ERG25,SC4MOL	Microcephaly congenital cataract and psoriasiform dermatitis	OMIM:616834	0.75	OMIM
+MSN,HEL70	Immunodeficiency 50	OMIM:300988	0.75	OMIM
 MSR1,CD204,SCARA1,SR-A,SRA,PHSR1,PHSR2	Barrett esophagus esophageal adenocarcinoma	OMIM:614266	1	OMIM
 MSR1,CD204,SCARA1,SR-A,SRA,PHSR1,PHSR2	Prostate cancer hereditary	OMIM:176807	1	OMIM
 MSRB3,DFNB74	Deafness autosomal recessive 74	OMIM:613718	0.75	OMIM
+MST1R,CD136,CDW136,PTK8,RON	Nasopharyngeal carcinoma	OMIM:617075	0.75	OMIM
 MSX1,ECTD3,HOX7,HYD1,STHAG1	Ectodermal dysplasia 3 Witkop type	OMIM:189500	1	OMIM
 MSX1,ECTD3,HOX7,HYD1,STHAG1	Orofacial cleft 5	OMIM:608874	1	OMIM
 MSX1,ECTD3,HOX7,HYD1,STHAG1	Tooth agenesis selective 1 	OMIM:106600	1	OMIM
-MSX2,CRS2,FPP,HOX8,MSH,PFM,PFM1	Craniosynostosis type 2	OMIM:604757	1	OMIM
+MSX2,CRS2,FPP,HOX8,MSH,PFM,PFM1	Craniosynostosis 2	OMIM:604757	1	OMIM
 MSX2,CRS2,FPP,HOX8,MSH,PFM,PFM1	Parietal foramina 1	OMIM:168500	1	OMIM
 MSX2,CRS2,FPP,HOX8,MSH,PFM,PFM1	Parietal foramina 	OMIM:168550	1	OMIM
 MTAP,BDMF,DMSFH,DMSMFH,HEL-249,LGMBF,MSAP,C86FUS	Diaphyseal medullary stenosis 	OMIM:112250	1	OMIM
@@ -3864,7 +3923,6 @@ MTNR1B,FGQTL2,MEL-1B-R,MT2	Diabetes mellitus type 2	OMIM:125853	0.75	OMIM
 MTO1,COXPD10	Combined oxidative phosphorylation deficiency 10	OMIM:614702	0.75	OMIM
 MTOR,FRAP,FRAP1,FRAP2,RAFT1,RAPT1	Smith Kingsmore syndrome	OMIM:616638	0.75	OMIM
 MT1B,MT1,MT1Q,MTP	Abetalipoproteinemia	OMIM:200100	0.75	OMIM
-MTPAP,PAPD1,SPAX4	Ataxia spastic 4	OMIM:613672	0.75	OMIM
 MT1B,MT1,MT1Q,MTP	Metabolic syndrome protection against	OMIM:605552	0.75	OMIM
 MTR,HMAG,MS,CBLG	Homocystinuria megaloblastic anemia cblG complementation type	OMIM:250940	1	OMIM
 MTR,HMAG,MS,CBLG	Neural tube defects folate sensitive	OMIM:601634	1	OMIM
@@ -3894,7 +3952,7 @@ MYBPC3,CMD1MM,CMH4,FHC,LVNC10,MYBP-C	Cardiomyopathy dilated 1MM	OMIM:615396	1	OM
 MYBPC3,CMD1MM,CMH4,FHC,LVNC10,MYBP-C	Cardiomyopathy hypertrophic 4	OMIM:115197	1	OMIM
 MYB,CMYB,C-MYB,C-MYB_CDS,EFG	T cell acute lymphoblastic leukemia	OMIM:189990	1	OMIM
 MYC,MRTL,MYCC,BHLHE39,C-MYC	Burkitt lymphoma	OMIM:113970	1	OMIM
-MYCN,MODED,MYCNOT,N-MYC,NMYC,ODED,BHLHE37	Feingold syndrome	OMIM:164280	1	OMIM
+MYCN,MODED,MYCNOT,N-MYC,NMYC,ODED,BHLHE37	Feingold syndrome 1	OMIM:164280	1	OMIM
 MYD88,MYD88D	Macroglobulinemia Waldenstrom somatic	OMIM:153600	0.75	OMIM
 MYD88,MYD88D	Pyogenic bacterial infections recurrent due to MYD88 deficiency	OMIM:612260	0.75	OMIM
 MYF6,CNM3,MRF4,BHLHC4,MYF-6	Myopathy centronuclear 3	OMIM:614408	1	OMIM
@@ -3911,7 +3969,7 @@ MYH6,ASD3,CMD1EE,CMH14,MYHC,MYHCA,SSS3,ALPHA-MHC	Cardiomyopathy hypertrophic 14	
 MYH6,ASD3,CMD1EE,CMH14,MYHC,MYHCA,SSS3,ALPHA-MHC	Sick sinus syndrome 3	OMIM:614090	1	OMIM
 MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Cardiomyopathy dilated 1S	OMIM:613426	1	OMIM
 MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Cardiomyopathy hypertrophic 1	OMIM:192600	1	OMIM
-MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Liang distal myopathy	OMIM:160500	1	OMIM
+MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Laing distal myopathy	OMIM:160500	1	OMIM
 MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Myopathy myosin storage autosomal dominant	OMIM:608358	1	OMIM
 MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Myopathy myosin storage autosomal recessive	OMIM:255160	1	OMIM
 MYH7,CMD1S,CMH1,MPD1,MYHCB,SPMD,SPMM	Scapuloperoneal syndrome myopathic type	OMIM:181430	1	OMIM
@@ -3966,6 +4024,7 @@ MYP7	Myopia 7	OMIM:609256	0.375	OMIM
 MYP8	Myopia 8	OMIM:609257	0.375	OMIM
 MYP9	Myopia 9	OMIM:609258	0.375	OMIM
 MYPN,CMD1DD,CMH22,MYOP,RCM4	Cardiomyopathy dilated 1KK	OMIM:615248	0.75	OMIM
+MYPN,CMD1DD,CMH22,MYOP,RCM4	Nemaline myopathy 11 autosomal recessive	OMIM:617336	0.75	OMIM
 MYT1L,NZF1,ZC2HC4B	Mental retardation autosomal dominant 39	OMIM:616521	0.75	OMIM
 NAA10,ARD1,ARD1A,ARD1P,DXS707,MCOPS1,NATD,TE2	Microphthalmia syndromic 1	OMIM:309800	0.75	OMIM
 NAA10,ARD1,ARD1A,ARD1P,DXS707,MCOPS1,NATD,TE2	Ogden syndrome	OMIM:300855	0.75	OMIM
@@ -3976,11 +4035,12 @@ NAGA,D22S674,GALB	Schindler disease type I	OMIM:609241	1	OMIM
 NAGLU,MPS-IIIB,MPS3B,NAG,UFHSD	Charcot Marie Tooth disease axonal type 2V	OMIM:616491	1	OMIM
 NAGLU,MPS-IIIB,MPS3B,NAG,UFHSD	Mucopolysaccharidosis type IIIB	OMIM:252920	1	OMIM
 NAGS,AGAS,ARGA	N acetylglutamate synthase deficiency	OMIM:237310	1	OMIM
+CIRH1A,CIRHIN,NAIC,TEX292,UTP4	North American Indian childhood cirrhosis	OMIM:604901	0.375	OMIM
 NALCN,CANION,INNFD,VGCNL1,BA430M15.1	Congenital contractures of the limbs and face hypotonia and developmental delay	OMIM:616266	0.75	OMIM
 NALCN,CANION,INNFD,VGCNL1,BA430M15.1	Hypotonia infantile 	OMIM:615419	0.75	OMIM
 NLRP7,CLR19.4,HYDM,NALP7,NOD12,PAN7,PYPAF3	Hydatidiform mole recurrent 1	OMIM:231090	1	OMIM
 NANOS1,NOS1,SPGF12	Spermatogenic failure 12	OMIM:615413	0.75	OMIM
-NANS,HEL-S-100,SAS	Spondyloepimetaphyseal dysplasia Genevieve type	OMIM:610442	0.75	OMIM
+NANS,HEL-S-100,SAS	Spondyloepimetaphyseal dysplasia Camera Genevieve type	OMIM:610442	0.75	OMIM
 NARS2,SLM5,ASNRS	Combined oxidative phosphorylation deficiency 24	OMIM:616239	0.75	OMIM
 NAT2,AAC2,NAT-2,PNAT	Acetylation slow	OMIM:243400	1	OMIM
 NBAS,NAG,SOPH	Infantile liver failure syndrome 2	OMIM:616483	0.75	OMIM
@@ -4004,6 +4064,7 @@ NDP,EVR2,FEVR,ND	Exudative vitreoretinopathy 2 X linked	OMIM:305390	1	OMIM
 NDP,EVR2,FEVR,ND	Norrie disease	OMIM:310600	1	OMIM
 NDRG1,CAP43,CMT4D,DRG-1,DRG1,GC4,HMSNL,NDR1,NMSL,PROXY1,RIT42,RTP,TARG1,TDD5	Charcot Marie Tooth disease type 4D	OMIM:601455	0.75	OMIM
 NDST1,HSST,NST1	Mental retardation autosomal recessive 46	OMIM:616116	1	OMIM
+NDUFA10,CI-42KD,CI-42K	Leigh syndrome	OMIM:256000	0.75	OMIM
 NDUFA11,B14.7,CI-B14.7	Mitochondrial complex I deficiency	OMIM:252010	0.75	OMIM
 NDUFA12,B17.2,DAP13	Leigh syndrome due to mitochondrial complex 1 deficiency	OMIM:256000	0.75	OMIM
 NDUFA13,B16.6,CDA016,GRIM-19,GRIM19	Thyroid carcinoma Hurthle cell	OMIM:607464	0.75	OMIM
@@ -4018,6 +4079,7 @@ NDUFAF4,C6ORF66,HRPAP20,MY013,BA22L21.1	Mitochondrial complex I deficiency	OMIM:
 NDUFAF5,C20ORF7,BA526K24.2,DJ842G6.1	Mitochondrial complex 1 deficiency	OMIM:252010	0.75	OMIM
 NDUFAF6,C8ORF38	Leigh syndrome due to mitochondrial complex I deficiency	OMIM:256000	0.75	OMIM
 NDUFB11,CI-ESSS,ESSS,NP17.3,NP15,P17.3	Linear skin defects 	OMIM:300952	0.75	OMIM
+NDUFB11,CI-ESSS,ESSS,NP17.3,NP15,P17.3	Mitochondrial complex I deficiency	OMIM:252010	0.75	OMIM
 NDUFB3,B12,CI-B12	Mitochondrial complex I deficiency	OMIM:252010	0.75	OMIM
 NDUFS1,CI-75KD,CI-75K,PRO1304	Mitochondrial complex I deficiency	OMIM:252010	0.75	OMIM
 NDUFS2,CI-49	Mitochondrial complex I deficiency	OMIM:252010	0.75	OMIM
@@ -4031,6 +4093,7 @@ NDUFS8,CI-23K,CI23KD,TYKY	Leigh syndrome due to mitochondrial complex I deficien
 NDUFV1,CI-51K,CI51KD,UQOR1	Mitochondrial complex I deficiency	OMIM:252010	0.75	OMIM
 NDUFV2,CI-24K	Mitochondrial complex I deficiency	OMIM:252010	1	OMIM
 NEB,NEB177D,NEM2	Nemaline myopathy 2 autosomal recessive	OMIM:256030	1	OMIM
+NEDD4L,NEDD4-2,NEDD4.2,RSP5,HNEDD4-2	Periventricular nodular heterotopia 7	OMIM:617201	1	OMIM
 NEDE	Nephropathy progressive 	OMIM:609469	0.375	OMIM
 NEFH,NFH	Charcot Marie Tooth disease axonal type 2CC	OMIM:616924	1	OMIM
 NEFL,CMT1F,CMT2E,NF-L,NF68,NFL	Charcot Marie Tooth disease type 1F	OMIM:607734	1	OMIM
@@ -4081,7 +4144,8 @@ NLGN4X,ASPGX2,AUTSX2,HLNX,HNL4X,NLGN4	Autism	OMIM:300495	0.75	OMIM
 NLRC4,CARD12,CLAN,CLAN1,CLANA,CLANB,CLANC,CLAND,CLR2.1,IPAF	Autoinflammation 	OMIM:616050	0.75	OMIM
 NLRC4,CARD12,CLAN,CLAN1,CLANA,CLANB,CLANC,CLAND,CLR2.1,IPAF	Familial cold autoinflammatory syndrome 4	OMIM:616115	0.75	OMIM
 NLRP12,CLR19.3,FCAS2,NALP12,PAN6,PYPAF7,RNO,RNO2	Familial cold autoinflammatory syndrome 2	OMIM:611762	1	OMIM
-NLRP1,CARD7,CIDED,CLR17.1,DEFCAP,DEFCAP-L/S,NAC,NALP1,PP1044,SLEV1,VAMAS1	Corneal intraepithelial dyskeratosis and ectodermal dysplasia	OMIM:615225	1	OMIM
+NLRP1,CARD7,CIDED,CLR17.1,DEFCAP,DEFCAP-L/S,NAC,NALP1,PP1044,SLEV1,VAMAS1	Autoinflammation 	OMIM:617388	1	OMIM
+NLRP1,CARD7,CIDED,CLR17.1,DEFCAP,DEFCAP-L/S,NAC,NALP1,PP1044,SLEV1,VAMAS1	Palmoplantar carcinoma multiple self healing	OMIM:615255	1	OMIM
 NLRP1,CARD7,CIDED,CLR17.1,DEFCAP,DEFCAP-L/S,NAC,NALP1,PP1044,SLEV1,VAMAS1	Vitiligo associated multiple autoimmune disease	OMIM:606579	1	OMIM
 NLRP3,AGTAVPRL,AII,AVP,C1ORF7,CIAS1,CLR1.1,FCAS,FCU,MWS,NALP3,PYPAF1	CINCA syndrome	OMIM:607115	1	OMIM
 NLRP3,AGTAVPRL,AII,AVP,C1ORF7,CIAS1,CLR1.1,FCAS,FCU,MWS,NALP3,PYPAF1	Familial cold induced inflammatory syndrome 1	OMIM:120100	1	OMIM
@@ -4093,12 +4157,12 @@ NMNAT1,LCA9,NMNAT,PNAT1	Leber congenital amaurosis 9	OMIM:608553	1	OMIM
 NNMT	Homocysteine plasma level	OMIM:600008	0.5	OMIM
 NNO1	Nanophthalmos 1	OMIM:600165	0.375	OMIM
 NNO3	Nanophthalmos 3	OMIM:611897	0.375	OMIM
-NNT,GCCD4	Glucocorticoid deficiency 4	OMIM:614736	0.75	OMIM
+NNT,GCCD4	Glucocorticoid deficiency 4 	OMIM:614736	0.75	OMIM
 NOBOX,OG-2,OG2,OG2X,POF5,TCAG_12042	Premature ovarian failure 5	OMIM:611548	1	OMIM
 NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Blau syndrome	OMIM:186580	1	OMIM
-NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Inflammatory bowel disease 1	OMIM:266600	1	OMIM
-NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Psoriatic arthritis	OMIM:607507	1	OMIM
-NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Sarcoidosis early onset	OMIM:609464	1	OMIM
+NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Inflammatory bowel disease 1 Crohn disease	OMIM:266600	1	OMIM
+NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Psoriatic arthritis	OMIM:607507	0.5	OMIM
+NOD2,ACUG,BLAU,CARD15,CD,CLR16.3,IBD1,NLRC2,NOD2B,PSORAS1	Yao syndrome	OMIM:617321	1	OMIM
 NODAL,HTX5	Heterotaxy visceral 5	OMIM:270100	0.75	OMIM
 NOG,SYM1,SYNS1	Brachydactyly type B2	OMIM:611377	1	OMIM
 NOG,SYM1,SYNS1	Multiple synostoses syndrome 1	OMIM:186500	1	OMIM
@@ -4144,6 +4208,8 @@ NPPA,ANF,ANP,ATFB6,CDD-ANF,PND	Atrial standstill 2	OMIM:615745	1	OMIM
 NPR2,AMDM,ANPRB,ANPB,GUC2B,GUCY2B,NPRB,NPRBI	Acromesomelic dysplasia Maroteaux type	OMIM:602875	0.75	OMIM
 NPR2,AMDM,ANPRB,ANPB,GUC2B,GUCY2B,NPRB,NPRBI	Epiphyseal chondrodysplasia Miura type	OMIM:615923	0.75	OMIM
 NPR2,AMDM,ANPRB,ANPB,GUC2B,GUCY2B,NPRB,NPRBI	Short stature 	OMIM:616255	0.75	OMIM
+NPRL2,NPR2,NPR2L,TUSC4	Epilepsy familial focal 	OMIM:617116	0.75	OMIM
+NPRL3,C16ORF35,CGTHBA,HS-40,MARE,NPR3,RMD11	Epilepsy familial focal 	OMIM:617118	0.75	OMIM
 NPSR1,ASRT2,GPR154,GPRA,NPSR,PGR14,VRR1	Asthma	OMIM:608584	0.75	OMIM
 NQO1,DHQU,DIA4,DTD,NMOR1,NMORI,QR1	Benzene toxicity	OMIM:125860	1	OMIM
 NQO2,DHQV,DIA6,NMOR2,QR2	Breast cancer	OMIM:114480	0.25	OMIM
@@ -4184,6 +4250,8 @@ NSD1,ARA267,KMT3B,SOTOS,SOTOS1,STO	Leukemia acute myeloid	OMIM:601626	0.25	OMIM
 NSD1,ARA267,KMT3B,SOTOS,SOTOS1,STO	Sotos syndrome 1	OMIM:117550	1	OMIM
 NSDHL,H105E3,SDR31E1,XAP104	CHILD syndrome	OMIM:308050	0.75	OMIM
 NSDHL,H105E3,SDR31E1,XAP104	CK syndrome	OMIM:300831	0.75	OMIM
+NSMCE2,C8ORF36,MMS21,NSE2,ZMIZ7	Seckel syndrome 10	OMIM:617253	0.75	OMIM
+NDNL2,HCA4,MAGEG1,MAGEL3,NSE3,NSMCE3	Lung disease immunodeficiency and chromosome breakage syndrome	OMIM:617241	0.75	OMIM
 NSMF,HH9,NELF	Hypogonadotropic hypogonadism 9 	OMIM:614838	1	OMIM
 NSUN2,MISU,MRT5,SAKI,TRM4	Mental retardation autosomal recessive 5	OMIM:611091	0.75	OMIM
 NT5C2,GMP,NT5B,PNT5,SPG45,SPG65,CN-II	Spastic paraplegia 45 autosomal recessive	OMIM:613162	0.75	OMIM
@@ -4284,6 +4352,7 @@ OTSC4	Otosclerosis 4	OMIM:611571	0.375	OMIM
 OTSC5	Otosclerosis 5	OMIM:608787	0.375	OMIM
 OTSC7	Otosclerosis 7	OMIM:611572	0.375	OMIM
 OTSC8	Otosclerosis 8	OMIM:612096	0.375	OMIM
+OTULIN,FAM105B,GUM	Autoinflammation panniculitis and dermatosis syndrome	OMIM:617099	0.75	OMIM
 OTX2,CPHD6,MCOPS5	Microphthalmia syndromic 5	OMIM:610125	1	OMIM
 OTX2,CPHD6,MCOPS5	Pituitary hormone deficiency combined 6	OMIM:613986	1	OMIM
 OVCAS1	Ovarian cancer	OMIM:607893	0.375	OMIM
@@ -4294,10 +4363,13 @@ P2RX2,DFNA41,P2X2	Deafness autosomal dominant 41	OMIM:608224	1	OMIM
 P2RY12,ADPG-R,BDPLT8,HORK3,P2T(AC),P2Y(12)R,P2Y(AC),P2Y(ADP),P2Y(CYC),P2Y12,SP1999	Bleeding disorder platelet type 8	OMIM:609821	0.75	OMIM
 LEPRE1,GROS1,OI8,P3H1	Osteogenesis imperfecta type VIII	OMIM:610915	1	OMIM
 LEPREL1,MCVD,MLAT4,P3H2	Myopia high 	OMIM:614292	0.75	OMIM
+P4HA2	Myopia 25 autosomal dominant	OMIM:617238	0.75	OMIM
 P4HB,DSI,ERBA2L,GIT,P4HBETA,PDI,PDIA1,PHDB,PO4DB,PO4HB,PROHB	Cole Carpenter syndrome 1	OMIM:112240	1	OMIM
 PABPN1,OPMD,PAB2,PABII,PABP-2,PABP2	Oculopharyngeal muscular dystrophy	OMIM:164300	1	OMIM
-PACS1,MRD17	Schuss Hoeijmakers sydnrome	OMIM:615009	0.75	OMIM
+PACS1,MRD17	Schuurs Hoeijmakers syndrome	OMIM:615009	0.75	OMIM
+PADI3,PAD3,PDI3	Uncombable hair syndrome	OMIM:191480	0.75	OMIM
 PADI4,PAD,PAD4,PADI5,PDI4,PDI5	Rheumatoid arthritis	OMIM:180300	1	OMIM
+PADI6,HPADVI	Preimplantation embryonic lethality 2	OMIM:617234	1	OMIM
 PAFAH1B1,LIS1,LIS2,MDCR,MDS,PAFAH	Lissencephaly 1	OMIM:607432	1	OMIM
 PAH,PH,PKU,PKU1	Hyperphenylalaninemia non PKU mild	OMIM:261600	1	OMIM
 SERPINE1,PAI,PAI-1,PAI1,PLANH1	Plasminogen activator inhibitor 1 deficiency	OMIM:613329	1	OMIM
@@ -4337,12 +4409,12 @@ PAX4,KPD,MODY9	Diabetes mellitus type 2	OMIM:125853	1	OMIM
 PAX4,KPD,MODY9	Maturity onset diabetes of the young type IX	OMIM:612225	1	OMIM
 PAX5,ALL3,BSAP	Leukemia acute lymphoblastic	OMIM:615545	1	OMIM
 PAX6,AN,AN2,D11S812E,MGDA,WAGR	Aniridia	OMIM:106210	1	OMIM
+PAX6,AN,AN2,D11S812E,MGDA,WAGR	Anterior segment dysgenesis 5 multiple subtypes	OMIM:604229	1	OMIM
 PAX6,AN,AN2,D11S812E,MGDA,WAGR	Coloboma ocular	OMIM:120200	1	OMIM
 PAX6,AN,AN2,D11S812E,MGDA,WAGR	Coloboma of optic nerve	OMIM:120430	1	OMIM
 PAX6,AN,AN2,D11S812E,MGDA,WAGR	Foveal hypoplasia 1	OMIM:136520	1	OMIM
 PAX6,AN,AN2,D11S812E,MGDA,WAGR	Keratitis	OMIM:148190	1	OMIM
 PAX6,AN,AN2,D11S812E,MGDA,WAGR	Optic nerve hypoplasia	OMIM:165550	1	OMIM
-PAX6,AN,AN2,D11S812E,MGDA,WAGR	Peters anomaly	OMIM:604229	1	OMIM
 PAX7,HUP1,PAX7B,RMS2	Rhabdomyosarcoma 2 alveolar	OMIM:268220	1	OMIM
 PAX8	Hypothyroidism congenital due to thyroid dysgenesis or hypoplasia	OMIM:218700	1	OMIM
 PAX9,STHAG3	Tooth agenesis selective 3	OMIM:604625	0.75	OMIM
@@ -4408,6 +4480,9 @@ PDON2,LAP,PDLA	Periodontitis aggressive 2	OMIM:608526	0.375	OMIM
 PDP1,PDH,PDP,PDPC,PPM2C	Pyruvate dehydrogenase phosphatase deficiency	OMIM:608782	0.75	OMIM
 PDSS1,COQ1,COQ10D2,DPS,SPS,TPRT,TPT,TPT 1,HDPS1	Coenzyme Q10 deficiency primary 2	OMIM:614651	0.75	OMIM
 PDSS2,C6ORF210,COQ10D3,DLP1,BA59I9.3,HDLP1	Coenzyme Q10 deficiency primary 3	OMIM:614652	1	OMIM
+PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	Diabetes mellitus type II	OMIM:125853	0.75	OMIM
+PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	MODY type IV	OMIM:606392	0.75	OMIM
+PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	Pancreatic agenesis 1	OMIM:260370	0.75	OMIM
 PDX1,GSF,IDX-1,IPF1,IUF1,MODY4,PDX-1,STF-1	Lacticacidemia due to PDX1 deficiency	OMIM:245349	1	OMIM
 PDYN,ADCA,PENKB,SCA23	Spinocerebellar ataxia 23	OMIM:610245	1	OMIM
 PDZD7,PDZK7	Retinal disease in Usher syndrome type IIA modifier of	OMIM:276901	0.75	OMIM
@@ -4420,7 +4495,6 @@ PER2,FASPS,FASPS1	Advanced sleep phase syndrome familial 1	OMIM:604348	0.75	OMIM
 PET100,C19ORF79	Mitochondrial complex IV deficiency	OMIM:220110	0.75	OMIM
 PEX10,NALD,PBD6A,PBD6B,RNF69	Peroxisome biogenesis disorder 6A	OMIM:614870	1	OMIM
 PEX10,NALD,PBD6A,PBD6B,RNF69	Peroxisome biogenesis disorder 6B	OMIM:614871	1	OMIM
-PEX11B,PEX11-BETA,PEX14B	Peroxisome biogenesis disorder 14B	OMIM:614920	0.75	OMIM
 PEX12,PAF-3,PBD3A	Peroxisome biogenesis disorder 3A	OMIM:614859	0.75	OMIM
 PEX12,PAF-3,PBD3A	Peroxisome biogenesis disorder 3B	OMIM:266510	0.75	OMIM
 PEX13,NALD,PBD11A,PBD11B,ZWS	Peroxisome biogenesis disorder 11A	OMIM:614883	0.75	OMIM
@@ -4437,6 +4511,7 @@ PEX26,PBD7A,PBD7B,PEX26M1T,PEX26PM1T	Peroxisome biogenesis disorder 7B	OMIM:6148
 PEX2,PAF1,PBD5A,PBD5B,PMP3,PMP35,PXMP3,RNF72,ZWS3	Peroxisome biogenesis disorder 5A	OMIM:614866	1	OMIM
 PEX2,PAF1,PBD5A,PBD5B,PMP3,PMP35,PXMP3,RNF72,ZWS3	Peroxisome biogenesis disorder 5B	OMIM:614867	1	OMIM
 PEX3,PBD10A,TRG18	Peroxisome biogenesis disorder 10A	OMIM:614882	1	OMIM
+PEX3,PBD10A,TRG18	Peroxisome biogenesis disorder 10B	OMIM:617370	1	OMIM
 PEX5,PBD2A,PBD2B,PTS1-BP,PTS1R,PXR1	Peroxisome biogenesis disorder 2A	OMIM:214110	1	OMIM
 PEX5,PBD2A,PBD2B,PTS1-BP,PTS1R,PXR1	Peroxisome biogenesis disorder 2B	OMIM:202370	1	OMIM
 PEX5,PBD2A,PBD2B,PTS1-BP,PTS1R,PXR1	Rhizomelic chondrodysplasia punctata type 5	OMIM:616716	1	OMIM
@@ -4484,6 +4559,7 @@ PIEZO1,DHS,FAM38A,MIB	Dehydrated hereditary stomatocytosis 	OMIM:194380	0.75	OMI
 PIEZO1,DHS,FAM38A,MIB	Lymphedema hereditary III	OMIM:616843	0.75	OMIM
 PIEZO2,C18ORF30,C18ORF58,DA5,FAM38B,FAM38B2,HST748,HST771	Arthrogryposis distal type 3	OMIM:114300	0.75	OMIM
 PIEZO2,C18ORF30,C18ORF58,DA5,FAM38B,FAM38B2,HST748,HST771	Arthrogryposis distal type 5	OMIM:108145	0.75	OMIM
+PIEZO2,C18ORF30,C18ORF58,DA5,FAM38B,FAM38B2,HST748,HST771	Arthrogryposis distal 	OMIM:617146	0.75	OMIM
 PIEZO2,C18ORF30,C18ORF58,DA5,FAM38B,FAM38B2,HST748,HST771	Marden Walker syndrome	OMIM:248700	0.75	OMIM
 PIGA,GPI3,MCAHS2,PIG-A	Multiple congenital anomalies hypotonia seizures syndrome 2	OMIM:300868	0.75	OMIM
 PIGA,GPI3,MCAHS2,PIG-A	Paroxysmal nocturnal hemoglobinuria somatic	OMIM:300818	0.75	OMIM
@@ -4495,6 +4571,7 @@ PIGO,HPMRS2	Hyperphosphatasia 	OMIM:614749	0.75	OMIM
 PIGT,MCAHS3,NDAP,PNH2	Multiple congenital anomalies hypotonia seizures syndrome 3	OMIM:615398	0.75	OMIM
 PIGV,GPI-MT-II,HPMRS1,PIG-V	Hyperphosphatasia 	OMIM:239300	0.75	OMIM
 PIGY,PIG-Y	Hyperphosphatasia 	OMIM:616809	0.75	OMIM
+PIH1D3,CXORF41,NYSAR97	Ciliary dyskinesia primary 36 X linked	OMIM:300991	0.75	OMIM
 PIK3CA,CLOVE,CWS5,MCAP,MCM,MCMTC,PI3K,P110-ALPHA	Breast cancer somatic	OMIM:114480	0.75	OMIM
 PIK3CA,CLOVE,CWS5,MCAP,MCM,MCMTC,PI3K,P110-ALPHA	CLOVE syndrome somatic	OMIM:612918	0.75	OMIM
 PIK3CA,CLOVE,CWS5,MCAP,MCM,MCMTC,PI3K,P110-ALPHA	Colorectal cancer somatic	OMIM:114500	0.75	OMIM
@@ -4517,13 +4594,13 @@ PIP5K1C,LCCS3,PIP5K-GAMMA,PIP5KGAMMA,PIPKIG_V4	Lethal congenital contractural sy
 PITPNM3,ACKR6,CORD5,NIR1,RDGBA3	Cone rod dystrophy 5	OMIM:600977	1	OMIM
 PITX1,BFT,CCF,LBNBG,POTX,PTX1	Clubfoot congenital 	OMIM:119800	0.75	OMIM
 PITX1,BFT,CCF,LBNBG,POTX,PTX1	Liebenberg syndrome	OMIM:186550	0.5625	OMIM
+PITX2,ARP1,BRX1,IDG2,IGDS,IGDS2,IHG2,IRID2,OTLX2,PTX2,RGS,RIEG,RIEG1,RS	Anterior segment dysgenesis 4	OMIM:137600	1	OMIM
 PITX2,ARP1,BRX1,IDG2,IGDS,IGDS2,IHG2,IRID2,OTLX2,PTX2,RGS,RIEG,RIEG1,RS	Axenfeld Rieger syndrome type 1	OMIM:180500	1	OMIM
-PITX2,ARP1,BRX1,IDG2,IGDS,IGDS2,IHG2,IRID2,OTLX2,PTX2,RGS,RIEG,RIEG1,RS	Iridogoniodysgenesis type 2	OMIM:137600	1	OMIM
-PITX2,ARP1,BRX1,IDG2,IGDS,IGDS2,IHG2,IRID2,OTLX2,PTX2,RGS,RIEG,RIEG1,RS	Peters anomaly	OMIM:604229	1	OMIM
 PITX2,ARP1,BRX1,IDG2,IGDS,IGDS2,IHG2,IRID2,OTLX2,PTX2,RGS,RIEG,RIEG1,RS	Ring dermoid of cornea	OMIM:180550	1	OMIM
-PITX3,ASMD,CTPP4,CTRCT11,PTX3	Anterior segment mesenchymal dysgenesis	OMIM:107250	1	OMIM
+PITX3,ASMD,CTPP4,CTRCT11,PTX3	Anterior segment dysgenesis 1 multiple subtypes	OMIM:107250	1	OMIM
 PITX3,ASMD,CTPP4,CTRCT11,PTX3	Cataract 11 multiple types	OMIM:610623	1	OMIM
 DFNB59,PJVK	Deafness autosomal recessive 59	OMIM:610220	0.75	OMIM
+PKD1L1,PRO19563	Heterotaxy visceral 8 autosomal	OMIM:617205	0.75	OMIM
 PKD1,PBP,PC-1,TRPP1	Polycystic kidney disease adult type I	OMIM:173900	1	OMIM
 PKD2,APKD2,PC2,PKD4,PC-2,TRPP2	Polycystic kidney disease 2	OMIM:613095	1	OMIM
 PKDTS	Polycystic kidney disease infantile severe 	OMIM:600273	0.75	OMIM
@@ -4608,6 +4685,7 @@ POC1A,PIX2,SOFT,WDR51A	Short stature onychodysplasia facial dysmorphism and hypo
 POC1B,PIX1,TUWD12,WDR51B	Cone rod dystrophy 20	OMIM:615973	0.75	OMIM
 POFUT1,DDD2,FUT12,O-FUT,O-FUC-T,O-FUCT-1,OFUCT1	Dowling Degos disease 2	OMIM:615327	0.75	OMIM
 POGLUT1,C3ORF9,CLP46,KDELCL1,KTELC1,MDSRP,RUMI,HCLP46	Dowling Degos disease 4	OMIM:615696	0.75	OMIM
+POGLUT1,C3ORF9,CLP46,KDELCL1,KTELC1,MDSRP,RUMI,HCLP46	Muscular dystrophy limb girdle type 2Z	OMIM:617232	0.75	OMIM
 POGZ,ZNF280E,ZNF635,ZNF635M	White Sutton syndrome	OMIM:616364	0.75	OMIM
 POLA1,NSX,POLA,P180	Pigmentary disorder reticulate 	OMIM:301220	1	OMIM
 POLD1,CDC2,CRCS10,MDPL,POLD	Colorectal cancer	OMIM:612591	1	OMIM
@@ -4632,6 +4710,7 @@ POMC,ACTH,CLIP,LPH,MSH,NPP,POC	Obesity early onset	OMIM:601665	1	OMIM
 POMGNT1,GNTI.2,GNT I.2,LGMD2O,MEB,MGAT1.2,GNT-I.2	Muscular dystrophy dystroglycanopathy type A 3	OMIM:253280	1	OMIM
 POMGNT1,GNTI.2,GNT I.2,LGMD2O,MEB,MGAT1.2,GNT-I.2	Muscular dystrophy dystroglycanopathy type B 3	OMIM:613151	1	OMIM
 POMGNT1,GNTI.2,GNT I.2,LGMD2O,MEB,MGAT1.2,GNT-I.2	Muscular dystrophy dystroglycanopathy type C 3	OMIM:613157	1	OMIM
+POMGNT1,GNTI.2,GNT I.2,LGMD2O,MEB,MGAT1.2,GNT-I.2	Retinitis pigmentosa 76	OMIM:617123	1	OMIM
 POMGNT2,AGO61,C3ORF39,GTDC2,MDDGA8	Muscular dystrophy dystroglycanopathy congenital 	OMIM:614830	0.75	OMIM
 POMK,MDDGA12,SGK196	Muscular dystrophy dystroglycanopathy type A 12	OMIM:615249	0.75	OMIM
 POMK,MDDGA12,SGK196	Muscular dystrophy dystroglycanopathy type C 12	OMIM:616094	0.75	OMIM
@@ -4658,6 +4737,8 @@ POU1F1,CPHD1,GHF-1,PIT1,POU1F1A,PIT-1	Pituitary hormone deficiency combined 1	OM
 POU3F4,BRAIN-4,BRN-4,BRN4,DFN3,DFNX2,OCT-9,OTF-9,OTF9	Deafness X linked 2	OMIM:304400	0.75	OMIM
 POU4F3,BRN3C,DFNA15	Deafness autosomal dominant 15	OMIM:602459	1	OMIM
 POU6F2,RPF-1,WT5,WTSL	Wilms tumor	OMIM:601583	1	OMIM
+PPA2,SID6-306	Sudden cardiac failure alcohol induced	OMIM:617223	0.75	OMIM
+PPA2,SID6-306	Sudden cardiac failure infantile	OMIM:617222	0.75	OMIM
 PPARA,NR1C1,PPAR,PPARALPHA,HPPAR	Hyperapobetalipoproteinemia	OMIM:170998	0.75	OMIM
 PPARGC1B,ERRL1,PERC,PGC-1(BETA),PGC1B	Obesity variation in	OMIM:601665	0.75	OMIM
 PPARG,CIMT1,GLM1,NR1C3,PPARG1,PPARG2,PPARGAMMA	Carotid intimal medial thickness 1	OMIM:609338	1	OMIM
@@ -4706,6 +4787,7 @@ PRKCD,CVID9,MAY1,PKCD,NPKC-DELTA	Autoimmune lymphoproliferative syndrome type II
 PRKCG,PKC-GAMMA,PKCC,PKCG,SCA14	Spinocerebellar ataxia 14	OMIM:605361	1	OMIM
 PRKCH,PKC-L,PKCL,PRKCL,NPKC-ETA	Cerebral infarction	OMIM:601367	1	OMIM
 PRKCSH,AGE-R2,G19P1,PCLD,PKCSH,PLD1	Polycystic liver disease 1	OMIM:174050	1	OMIM
+PRKD1,PKC-MU,PKCM,PKD,PRKCM	Congenital heart defects and ectodermal dysplasia	OMIM:617364	1	OMIM
 PRKDC,DNA-PKCS,DNAPK,DNPK1,HYRC,HYRC1,XRCC7,P350	Immunodeficiency 26 	OMIM:615966	1	OMIM
 PRKG1,1,AAT8,PKG,PRKG1B,PRKGR1B,CGK,CGK 1,CGK1,CGKI,CGKI-BETA,CGKI-ALPHA	Aortic aneurysm familial thoracic 8	OMIM:615436	0.75	OMIM
 PARK2,AR-JP,LPRS2,PDJ,PRKN	Adenocarcinoma of lung somatic	OMIM:211980	1	OMIM
@@ -4715,6 +4797,7 @@ PARK2,AR-JP,LPRS2,PDJ,PRKN	Parkinson disease juvenile type 2	OMIM:600116	1	OMIM
 PRKRA,DYT16,PACT,RAX	Dystonia 16	OMIM:612067	1	OMIM
 PRLR,HPRL,MFAB,HPRLRI	Hyperprolactinemia	OMIM:615555	0.75	OMIM
 PRLR,HPRL,MFAB,HPRLRI	Multiple fibroadenomas of the breast	OMIM:615554	0.75	OMIM
+PRMT7	Short stature brachydactyly intellectual developmental disability and seizures	OMIM:617157	0.75	OMIM
 PRNP,ASCR,ALTPRP,CD230,CJD,GSS,KURU,PRIP,PRP,PRP27-30,PRP33-35C,PRPC,P27-30	Cerebral amyloid angiopathy PRNP related	OMIM:137440	1	OMIM
 PRNP,ASCR,ALTPRP,CD230,CJD,GSS,KURU,PRIP,PRP,PRP27-30,PRP33-35C,PRPC,P27-30	Creutzfeldt Jakob disease	OMIM:123400	1	OMIM
 PRNP,ASCR,ALTPRP,CD230,CJD,GSS,KURU,PRIP,PRP,PRP27-30,PRP33-35C,PRPC,P27-30	Huntington disease like 1	OMIM:603218	1	OMIM
@@ -4734,6 +4817,7 @@ PROM1,AC133,CD133,CORD12,MCDR2,PROML1,RP41,STGD4	Stargardt disease 4	OMIM:603786
 PROP1,CPHD2,PROP-1	Pituitary hormone deficiency combined 2	OMIM:262600	0.75	OMIM
 PROS1,PROS,PS21,PS22,PS23,PS24,PS25,PSA,THPH5,THPH6	Thrombophilia due to protein S deficiency autosomal dominant	OMIM:612336	1	OMIM
 PROS1,PROS,PS21,PS22,PS23,PS24,PS25,PSA,THPH5,THPH6	Thrombophilia due to protein S deficiency autosomal recessive	OMIM:614514	1	OMIM
+PROSC	Epilepsy early onset vitamin B6 dependent	OMIM:617290	0.75	OMIM
 PROZ,PZ	Protein Z deficiency	OMIM:614024	0.75	OMIM
 PRPF31,NY-BR-99,PRP31,RP11,SNRNP61	Retinitis pigmentosa 11	OMIM:600138	0.75	OMIM
 PRPF3,HPRP3,HPRP3P,PRP3,PRP3P,RP18,SNRNP90	Retinitis pigmentosa 18	OMIM:601414	1	OMIM
@@ -4802,7 +4886,7 @@ PTCH1,BCNS,HPE7,NBCCS,PTC,PTC1,PTCH,PTCH11	Basal cell nevus syndrome	OMIM:109400
 PTCH1,BCNS,HPE7,NBCCS,PTC,PTC1,PTCH,PTCH11	Holoprosencephaly 7	OMIM:610828	1	OMIM
 PTCH2,PTC2	Basal cell carcinoma somatic	OMIM:605462	0.75	OMIM
 PTCH2,PTC2	Basal cell nevus syndrome	OMIM:109400	0.75	OMIM
-PTCH2,PTC2	Medulloblastoma	OMIM:155255	0.75	OMIM
+PTCH2,PTC2	Medulloblastoma somatic	OMIM:155255	0.75	OMIM
 PTCHD1	Autism	OMIM:300830	0.75	OMIM
 PTCPRN,PRN1	Thyroid carcinoma papillary 	OMIM:605642	0.375	OMIM
 PTDSS1,LMHD,PSS1,PSSA	Lenz Majewski hyperostotic dwarfism	OMIM:151050	1	OMIM
@@ -4862,12 +4946,13 @@ PVNH5	Periventricular nodular heterotopia 5	OMIM:612881	0.5625	OMIM
 PVOP1	Pelvic organ prolapse	OMIM:176780	0.375	OMIM
 PVOP2	Pelvic organ prolapse	OMIM:613088	0.375	OMIM
 PVRL4,EDSS1,LNIR,PRR4,NECTIN-4	Ectodermal dysplasia syndactyly syndrome 1	OMIM:613573	0.75	OMIM
-PXDN,D2S448,D2S448E,MG50,PRG2,PXN,VPO	Corneal opacification and other ocular anomalies	OMIM:269400	1	OMIM
+PXDN,D2S448,D2S448E,MG50,PRG2,PXN,VPO	Anterior segment dysgenesis 7 	OMIM:269400	1	OMIM
 PYCR1,ARCL2B,ARCL3B,P5C,P5CR,PIG45,PP222,PRO3,PYCR	Cutis laxa autosomal recessive type IIB	OMIM:612940	0.75	OMIM
 PYCR1,ARCL2B,ARCL3B,P5C,P5CR,PIG45,PP222,PRO3,PYCR	Cutis laxa autosomal recessive type IIIB	OMIM:614438	0.75	OMIM
 PYCR2,P5CR2	Leukodystrophy hypomyelinating 10	OMIM:616420	0.75	OMIM
 PYGL,GSD6	Glycogen storage disease VI	OMIM:232700	1	OMIM
 PYGM	McArdle disease	OMIM:232600	1	OMIM
+PYROXD1	Myopathy myofibrillar 8	OMIM:617258	0.75	OMIM
 QARS,GLNRS,PRO2195	Microcephaly progressive seizures and cerebral and cerebellar atrophy	OMIM:615760	0.75	OMIM
 QDPR,DHPR,PKU2,SDR33C1	Hyperphenylalaninemia BH4 deficient C	OMIM:261630	1	OMIM
 QTV	QT interval variation in	OMIM:610141	0.375	OMIM
@@ -4886,6 +4971,7 @@ RAC2,EN-7,GX,HSPC022,P21-RAC2	Neutrophil immunodeficiency syndrome	OMIM:608203	1
 RAD21,CDLS4,HR21,HRAD21,MCD1,NXP1,SCC1,HHR21	Cornelia de Lange syndrome 4	OMIM:614701	1	OMIM
 RAD50,NBSLD,RAD502,HRAD50	Nijmegen breakage syndrome like disorder	OMIM:613078	0.75	OMIM
 RAD51,BRCC5,HRAD51,HSRAD51,HST16930,MRMV2,RAD51A,RECA	Breast cancer	OMIM:114480	1	OMIM
+RAD51,BRCC5,HRAD51,HSRAD51,HST16930,MRMV2,RAD51A,RECA	Fanconi anemia complementation group R	OMIM:617244	1	OMIM
 RAD51,BRCC5,HRAD51,HSRAD51,HST16930,MRMV2,RAD51A,RECA	Mirror movements 2	OMIM:614508	1	OMIM
 RAD51C,BROVCA3,FANCO,R51H3,RAD51L2	Breast ovarian cancer familial	OMIM:613399	0.75	OMIM
 RAD51C,BROVCA3,FANCO,R51H3,RAD51L2	Fanconi anemia complementation group O	OMIM:613390	0.75	OMIM
@@ -4936,8 +5022,7 @@ RBM8A,BOV-1A,BOV-1B,BOV-1C,C1DELQ21.1,DEL1Q21.1,MDS014,RBM8,RBM8B,TAR,Y14,ZNRP,Z
 RBP4,RDCCAS	Microphthalmia isolated 	OMIM:616428	1	OMIM
 RBP4,RDCCAS	Retinal dystrophy iris coloboma and comedogenic acne syndrome	OMIM:615147	1	OMIM
 RBPJ,AOS3,CBF1,IGKJRB,IGKJRB1,KBF2,RBP-J,RBPJK,RBPSUH,SUH,CSL	Adams Oliver syndrome 3	OMIM:614814	0.75	OMIM
-RCBTB1,CLLD7,CLLL7,GLP	Alcohol dependence	OMIM:103780	0.75	OMIM
-RCBTB1,CLLD7,CLLL7,GLP	Beta glycopyranoside tasting	OMIM:607867	0.75	OMIM
+RCBTB1,CLLD7,CLLL7,GLP	Retinal dystrophy 	OMIM:617175	0.75	OMIM
 RCM2	Cardiomyopathy familial restrictive 2	OMIM:609578	0.375	OMIM
 RD3,C1ORF36,LCA12	Leber congenital amaurosis 12	OMIM:610612	0.75	OMIM
 RDH12,LCA13,LCA3,RP53,SDR7C2	Leber congenital amaurosis 13	OMIM:612712	1	OMIM
@@ -4951,6 +5036,7 @@ RECQL4,RECQ4	Rothmund Thomson syndrome	OMIM:268400	0.75	OMIM
 REEP1,C2ORF23,HMN5B,SPG31	Neuronopathy distal hereditary motor type VB	OMIM:614751	0.75	OMIM
 REEP1,C2ORF23,HMN5B,SPG31	Spastic paraplegia 31 autosomal dominant	OMIM:610250	0.75	OMIM
 REEP2,C5ORF19,SGC32445,SPG72	Spastic paraplegia 72 autosomal dominant	OMIM:615625	0.75	OMIM
+REEP6,C19ORF32,DP1L1,TB2L1	Retinitis pigmentosa 77	OMIM:617304	0.75	OMIM
 RELN,LIS2,PRO1598,RL	Epilepsy familial temporal lobe 7	OMIM:616436	1	OMIM
 RELN,LIS2,PRO1598,RL	Lissencephaly 2	OMIM:257320	1	OMIM
 REN,HNFJ2	Hyperproreninemia	OMIM:179820	1	OMIM
@@ -5015,6 +5101,7 @@ RNASEH2C,AGS3,AYP1	Aicardi Goutieres syndrome 3	OMIM:610329	0.75	OMIM
 RNASEL,PRCA1,RNS4	Prostate cancer 1	OMIM:601518	1	OMIM
 RNASET2,RNASE6PL,BA514O12.3	Leukoencephalopathy cystic 	OMIM:612951	0.75	OMIM
 RNF125,TRAC-1,TRAC1	Tenorio syndrome	OMIM:616260	0.75	OMIM
+RLIM,NY-REN-43,RNF12	Mental retardation X linked 61	OMIM:300978	0.75	OMIM
 RNF135,MMFD,REUL,RIPLET	Macrocephaly macrosomia facial dysmorphism syndrome	OMIM:614192	0.75	OMIM
 RNF139,HRCA1,RCA1,TRC8	Renal cell carcinoma	OMIM:144700	0.75	OMIM
 RNF168,HRNF168	RIDDLE syndrome	OMIM:611943	0.75	OMIM
@@ -5022,6 +5109,7 @@ RNF170,ADSA,SNAX1	Ataxia sensory 1 autosomal dominant	OMIM:608984	0.75	OMIM
 RNF212,ZHP3	Recombination rate QTL 1	OMIM:612042	0.75	OMIM
 RNF213,ALO17,C17ORF27,KIAA1618,MYMY2,MYSTR,NET57	Moyamoya disease 2	OMIM:607151	0.75	OMIM
 RNF216,CAHH,TRIAD3,U7I1,UBCE7IP1,ZIN	Cerebellar ataxia and hypogonadotropic hypogonadism	OMIM:212840	0.75	OMIM
+RNF43,RNF124,URCC	Sessile serrated polyposis cancer syndrome	OMIM:617108	0.75	OMIM
 RNF6	Esophageal carcinoma somatic	OMIM:133239	1	OMIM
 RNU4ATAC,MOPD1,RNU4ATAC1,TALS,U4ATAC	Microcephalic osteodysplastic primordial dwarfism type I	OMIM:210710	0.75	OMIM
 RNU4ATAC,MOPD1,RNU4ATAC1,TALS,U4ATAC	Roifman syndrome	OMIM:616651	0.75	OMIM
@@ -5139,12 +5227,13 @@ SCLL	Chromosome 8p11 myeloproliferative syndrome	OMIM:613523	0.5625	OMIM
 SCN10A,FEPS2,NAV1.8,PN3,SNS,HPN3	Episodic pain syndrome familial 2	OMIM:615551	1	OMIM
 SCN11A,FEPS3,HSAN7,NAV1.9,NAN,PN5,SCN12A,SNS-2	Episodic pain syndrome familial 3	OMIM:615552	1	OMIM
 SCN11A,FEPS3,HSAN7,NAV1.9,NAN,PN5,SCN12A,SNS-2	Neuropathy hereditary sensory and autonomic type VII	OMIM:615548	1	OMIM
-SCN1A,EIEE6,FEB3,FEB3A,FHM3,GEFSP2,HBSCI,NAC1,NAV1.1,SCN1,SMEI	Dravet syndrome	OMIM:607208	1	OMIM
 SCN1A,EIEE6,FEB3,FEB3A,FHM3,GEFSP2,HBSCI,NAC1,NAV1.1,SCN1,SMEI	Epilepsy generalized 	OMIM:604403	1	OMIM
+SCN1A,EIEE6,FEB3,FEB3A,FHM3,GEFSP2,HBSCI,NAC1,NAV1.1,SCN1,SMEI	Epileptic encephalopathy early infantile 6	OMIM:607208	1	OMIM
 SCN1A,EIEE6,FEB3,FEB3A,FHM3,GEFSP2,HBSCI,NAC1,NAV1.1,SCN1,SMEI	Migraine familial hemiplegic 3	OMIM:609634	1	OMIM
 SCN1B,ATFB13,BRGDA5,GEFSP1	Atrial fibrillation familial 13	OMIM:615377	1	OMIM
 SCN1B,ATFB13,BRGDA5,GEFSP1	Brugada syndrome 5	OMIM:612838	1	OMIM
 SCN1B,ATFB13,BRGDA5,GEFSP1	Epilepsy generalized 	OMIM:604233	1	OMIM
+SCN1B,ATFB13,BRGDA5,GEFSP1	Epileptic encephalopathy early infantile 52	OMIM:617350	1	OMIM
 SCN2A,BFIC3,BFIS3,BFNIS,EIEE11,HBA,HBSCI,HBSCII,NAC2,NA(V)1.2,NAV1.2,SCN2A1,SCN2A2	Epileptic encephalopathy early infantile 11	OMIM:613721	1	OMIM
 SCN2A,BFIC3,BFIS3,BFNIS,EIEE11,HBA,HBSCI,HBSCII,NAC2,NA(V)1.2,NAV1.2,SCN2A1,SCN2A2	Seizures benign familial infantile 3	OMIM:607745	1	OMIM
 SCN2B,ATFB14	Atrial fibrillation familial 14	OMIM:615378	1	OMIM
@@ -5164,6 +5253,7 @@ SCN5A,CDCD2,CMD1E,CMPD2,HB1,HB2,HBBD,HH1,ICCD,IVF,LQT3,NAV1.5,PFHB1,SSS1,VF1	Sic
 SCN5A,CDCD2,CMD1E,CMPD2,HB1,HB2,HBBD,HH1,ICCD,IVF,LQT3,NAV1.5,PFHB1,SSS1,VF1	Sudden infant death syndrome	OMIM:272120	1	OMIM
 SCN5A,CDCD2,CMD1E,CMPD2,HB1,HB2,HBBD,HH1,ICCD,IVF,LQT3,NAV1.5,PFHB1,SSS1,VF1	Ventricular fibrillation familial 1	OMIM:603829	1	OMIM
 SCN8A,CERIII,CIAT,EIEE13,MED,NACH6,NAV1.6,PN4	Epileptic encephalopathy early infantile 13	OMIM:614558	0.75	OMIM
+SCN8A,CERIII,CIAT,EIEE13,MED,NACH6,NAV1.6,PN4	Seizures benign familial infantile 5	OMIM:617080	0.75	OMIM
 SCN9A,ETHA,FEB3B,GEFSP7,NE-NA,NENA,NAV1.7,PN1,SFNP	Dravet syndrome modifier of	OMIM:607208	1	OMIM
 SCN9A,ETHA,FEB3B,GEFSP7,NE-NA,NENA,NAV1.7,PN1,SFNP	Epilepsy generalized 	OMIM:613863	1	OMIM
 SCN9A,ETHA,FEB3B,GEFSP7,NE-NA,NENA,NAV1.7,PN1,SFNP	Erythermalgia primary	OMIM:133020	1	OMIM
@@ -5230,8 +5320,6 @@ SEMA3A,COLL1,HH16,HSEMA-I,HSEMA-III,SEMA1,SEMAD,SEMAIII,SEMAL,SEMD,COLL-1	Hypogo
 SEMA4A,CORD10,RP35,SEMAB,SEMB	Cone rod dystrophy 10	OMIM:610283	0.75	OMIM
 SEMA4A,CORD10,RP35,SEMAB,SEMB	Retinitis pigmentosa 35	OMIM:610282	0.75	OMIM
 SEMA7A,CD108,CDW108,H-SEMA-K1,H-SEMA-L,JMH,SEMAK1,SEMAL	Blood group John Milton Hagen system	OMIM:614745	1	OMIM
-SEPN1,CFTD,MDRS1,RSMD1,RSS,SELN	Muscular dystrophy rigid spine 1	OMIM:602771	1	OMIM
-SEPN1,CFTD,MDRS1,RSMD1,RSS,SELN	Myopathy congenital 	OMIM:255310	1	OMIM
 SEPSECS,LP,PCH2D,SLA,SLA/LP	Pontocerebellar hypoplasia type 2D	OMIM:613811	0.75	OMIM
 SEPT12,SPGF10	Spermatogenic failure 10	OMIM:614822	0.75	OMIM
 SEPT9,AF17Q25,MSF,MSF1,NAPB,PNUTL4,SINT1,SEPTD1	Amyotrophy hereditary neuralgic	OMIM:162100	1	OMIM
@@ -5241,6 +5329,7 @@ SERPINA1,A1A,A1AT,AAT,PI,PI1,PRO2275,ALPHA1AT	Emphysema cirrhosis due to AAT def
 SERPINA1,A1A,A1AT,AAT,PI,PI1,PRO2275,ALPHA1AT	Pulmonary disease chronic obstructive	OMIM:606963	0.25	OMIM
 SERPINA3,AACT,ACT,GIG25	Alpha 1 antichymotrypsin deficiency	OMIM:107280	1	OMIM
 SERPINB7,MEGSIN,PPKN,TP55	Palmoplantar keratoderma Nagashima type	OMIM:615598	0.75	OMIM
+SERPINB8,CAP2,PI8	Peeling skin syndrome 5	OMIM:617115	0.75	OMIM
 SERPINC1,AT3,AT3D,ATIII,THPH7	Thrombophilia due to antithrombin III deficiency	OMIM:613118	1	OMIM
 SERPINF1,EPC-1,OI12,OI6,PEDF	Osteogenesis imperfecta type VI	OMIM:613982	1	OMIM
 SERPINH1,ASTP3,CBP1,CBP2,HSP47,OI10,PPROM,RA-A47,SERPINH2,GP46	Osteogenesis imperfecta type X	OMIM:613848	0.75	OMIM
@@ -5299,12 +5388,14 @@ SHOX,GCFX,PHOG,SHOXY,SS	Short stature idiopathic familial	OMIM:300582	1	OMIM
 SHOX,GCFX,PHOG,SHOXY,SS	Langer mesomelic dysplasia	OMIM:249700	0.75	OMIM
 SHOX,GCFX,PHOG,SHOXY,SS	Leri Weill dyschondrosteosis	OMIM:127300	0.75	OMIM
 SHOX,GCFX,PHOG,SHOXY,SS	Short stature idiopathic familial	OMIM:300582	0.75	OMIM
+SHPK,CARKL,SHK	Sedoheptulokinase deficiency	OMIM:617213	0.75	OMIM
 SIAE,AIS6,CSE-C,CSEC,LSE,YSG2	Autoimmune disease	OMIM:613551	0.75	OMIM
-ST3GAL5,SATI,SIAT9,SIATGM3S,ST3GALV	Amish infantile epilepsy syndrome	OMIM:609056	1	OMIM
+ST3GAL5,SATI,SIAT9,SIATGM3S,ST3GALV	Salt and pepper developmental regression syndrome	OMIM:609056	1	OMIM
 SIGMAR1,ALS16,OPRS1,SIG-1R,SR-BP,SR-BP1,SRBP,HSIGMAR1,SIGMA1R	Spinal muscular atrophy distal autosomal recessive 2	OMIM:605726	0.75	OMIM
 SIK1,MSK,SIK,SNF1LK	Epileptic encephalopathy early infantile 30	OMIM:616341	0.75	OMIM
 SIL1,BAP,MSS,ULG5	Marinesco Sjogren syndrome	OMIM:248800	1	OMIM
 SIM1,BHLHE14	Obesity severe	OMIM:601665	1	OMIM
+SIN3A	Witteveen Kolk syndrome	OMIM:613406	0.75	OMIM
 SI	Sucrase isomaltase deficiency congenital	OMIM:222900	1	OMIM
 SIX1,BOS3,DFNA23,TIP39	Branchiootic syndrome 3	OMIM:608389	1	OMIM
 SIX1,BOS3,DFNA23,TIP39	Deafness autosomal dominant 23	OMIM:605192	1	OMIM
@@ -5333,10 +5424,12 @@ SLC17A5,AST,ISSD,NSD,SD,SIALIN,SIASD,SLD	Salla disease	OMIM:604369	1	OMIM
 SLC17A5,AST,ISSD,NSD,SD,SIALIN,SIASD,SLD	Sialic acid storage disorder infantile	OMIM:269920	1	OMIM
 SLC17A8,DFNA25,VGLUT3	Deafness autosomal dominant 25	OMIM:605583	1	OMIM
 SLC17A9,C20ORF59,VNUT	Porokeratosis 8 disseminated superficial actinic type	OMIM:616063	0.75	OMIM
+SLC18A3,VACHT	Myasthenic syndrome congenital 21 presynaptic	OMIM:617239	0.75	OMIM
 SLC19A2,TC1,THMD1,THT1,THTR1,TRMA	Thiamine responsive megaloblastic anemia syndrome	OMIM:249270	1	OMIM
 SLC19A3,BBGD,THMD2,THTR2	Thiamine metabolism dysfunction syndrome 2	OMIM:607483	1	OMIM
 SLC1A1,EAAC1,EAAT3,SCZD18	Dicarboxylic aminoaciduria	OMIM:222730	0.75	OMIM
 SLC1A1,EAAC1,EAAT3,SCZD18	Schizophrenia	OMIM:615232	0.75	OMIM
+SLC1A2,EAAT2,GLT-1	Epileptic encephalopathy early infantile 41	OMIM:617105	1	OMIM
 SLC1A3,EA6,EAAT1,GLAST,GLAST1	Episodic ataxia type 6	OMIM:612656	1	OMIM
 SLC1A4,ASCT1,SATT	Spastic tetraplegia thin corpus callosum and progressive microcephaly	OMIM:616657	0.75	OMIM
 SLC20A2,GLVR-2,GLVR2,IBGC1,IBGC3,MLVAR,PIT-2,PIT2,RAM1	Basal ganglia calcification idiopathic 1	OMIM:213600	1	OMIM
@@ -5363,7 +5456,8 @@ SLC25A26,SAMC	Combined oxidative phosphorylation deficiency 28	OMIM:616794	0.75	
 SLC25A38	Anemia sideroblastic 2 pyridoxine refractory	OMIM:205950	0.75	OMIM
 SLC25A3,PHC,PTP	Mitochondrial phosphate carrier deficiency	OMIM:610773	1	OMIM
 SLC25A46	Neuropathy hereditary motor and sensory type VIB	OMIM:616505	0.75	OMIM
-SLC25A4,1,AAC1,ANT,ANT 1,ANT1,MTDPS12,PEO2,PEO3,T1	Mitochondrial DNA depletion syndrome 12	OMIM:615418	1	OMIM
+SLC25A4,1,AAC1,ANT,ANT 1,ANT1,MTDPS12,PEO2,PEO3,T1	Mitochondrial DNA depletion syndrome 12A AD	OMIM:617184	1	OMIM
+SLC25A4,1,AAC1,ANT,ANT 1,ANT1,MTDPS12,PEO2,PEO3,T1	Mitochondrial DNA depletion syndrome 12B AR	OMIM:615418	1	OMIM
 SLC25A4,1,AAC1,ANT,ANT 1,ANT1,MTDPS12,PEO2,PEO3,T1	Progressive external ophthalmoplegia 	OMIM:609283	1	OMIM
 SLC26A2,D5S1708,DTD,DTDST,EDM4,MST153,MSTP157	Achondrogenesis Ib	OMIM:600972	1	OMIM
 SLC26A2,D5S1708,DTD,DTDST,EDM4,MST153,MSTP157	Atelosteogenesis II	OMIM:256050	1	OMIM
@@ -5434,6 +5528,7 @@ SLC52A3,BVVLS,BVVLS1,C20ORF54,RFT2,RFVT3,BA371L19.1,HRFT2	Fazio Londe disease	OM
 SLC5A1,D22S675,NAGT,SGLT1	Glucose galactose malabsorption	OMIM:606824	1	OMIM
 SLC5A2,SGLT2	Renal glucosuria	OMIM:233100	0.75	OMIM
 SLC5A5,NIS,TDH1	Thyroid dyshormonogenesis 1	OMIM:274400	0.75	OMIM
+SLC5A7,CHT,CHT1,HMN7A,HCHT	Myasthenic syndrome congenital 20 presynaptic	OMIM:617143	0.75	OMIM
 SLC5A7,CHT,CHT1,HMN7A,HCHT	Neuronopathy distal hereditary motor type VIIA	OMIM:158580	0.75	OMIM
 SLC6A14,BMIQ11	Obesity	OMIM:300306	1	OMIM
 SLC6A17,NTT4	Mental retardation autosomal recessive 48	OMIM:616269	0.75	OMIM
@@ -5450,6 +5545,7 @@ SLC6A4,5-HTT,5-HTTLPR,5HTT,HTT,OCD1,SERT,SERT1,HSERT	Anxiety related personality
 SLC6A4,5-HTT,5-HTTLPR,5HTT,HTT,OCD1,SERT,SERT1,HSERT	Obsessive compulsive disorder	OMIM:164230	1	OMIM
 SLC6A5,GLYT-2,GLYT2,HKPX3,NET1	Hyperekplexia 3	OMIM:614618	1	OMIM
 SLC6A8,CCDS1,CRT,CRTR,CT1	Cerebral creatine deficiency syndrome 1	OMIM:300352	1	OMIM
+SLC6A9,GLYT1	Glycine encephalopathy 	OMIM:617301	1	OMIM
 SLC7A14,RP68	Retinitis pigmentosa 68	OMIM:615725	0.75	OMIM
 SLC7A7,LAT3,LPI,MOP-2,Y+LAT1,Y+LAT-1	Lysinuric protein intolerance	OMIM:222700	1	OMIM
 SLC7A9,BAT1,CSNU3	Cystinuria	OMIM:220100	1	OMIM
@@ -5497,6 +5593,7 @@ SMARCA2,BAF190,BRM,NCBRS,SNF2,SNF2L2,SNF2LA,SWI2,STH1P,HBRM,HSNF2A	Nicolaides Ba
 SMARCA4,BAF190,BAF190A,BRG1,MRD16,RTPS2,SNF2,SNF2L4,SNF2LB,SWI2,HSNF2B	Coffin Siris syndrome 4	OMIM:614609	0.75	OMIM
 SMARCA4,BAF190,BAF190A,BRG1,MRD16,RTPS2,SNF2,SNF2L4,SNF2LB,SWI2,HSNF2B	Rhabdoid tumor predisposition syndrome 2	OMIM:613325	0.75	OMIM
 SMARCAD1,ADERM,ETL1,HEL1	Adermatoglyphia	OMIM:136000	0.75	OMIM
+SMARCAD1,ADERM,ETL1,HEL1	Basan syndrome	OMIM:129200	0.75	OMIM
 SMARCAL1,HARP,HHARP	Schimke immunoosseous dysplasia	OMIM:242900	0.75	OMIM
 SMARCB1,BAF47,INI1,MRD15,RDT,RTPS1,SNF5,SNF5L1,SWNTS1,SFH1P,SNR1,HSNFS	Coffin Siris syndrome 3	OMIM:614608	1	OMIM
 SMARCB1,BAF47,INI1,MRD15,RDT,RTPS1,SNF5,SNF5L1,SWNTS1,SFH1P,SNR1,HSNFS	Rhabdoid predisposition syndrome 1	OMIM:609322	1	OMIM
@@ -5504,7 +5601,9 @@ SMARCB1,BAF47,INI1,MRD15,RDT,RTPS1,SNF5,SNF5L1,SWNTS1,SFH1P,SNR1,HSNFS	Schwannom
 SMARCE1,BAF57	Coffin Siris syndrome 5	OMIM:616938	0.75	OMIM
 SMARCE1,BAF57	Meningioma familial	OMIM:607174	0.75	OMIM
 SMAR	Spinal muscular atrophy chronic distal autosomal recessive	OMIM:607088	0.375	OMIM
+SMC1A,CDLS2,DXS423E,SB1.8,SMC1,SMC1L1,SMC1ALPHA,SMCB	Cornelia de Lange syndrome 2	OMIM:300590	0.75	OMIM
 SMC3,BAM,BMH,CDLS3,CSPG6,HCAP,SMC3L1	Cornelia de Lange syndrome 3	OMIM:610759	0.75	OMIM
+SMCHD1	Bosma arhinia microphthalmia syndrome	OMIM:603457	0.75	OMIM
 SMCHD1	Fascioscapulohumeral muscular dystrophy 2 digenic	OMIM:158901	0.75	OMIM
 SMIM1,VEL	Blood group Vel system	OMIM:615264	0.75	OMIM
 SMN1,BCD541,GEMIN1,SMA,SMA1,SMA2,SMA3,SMA4,SMA@,SMN,SMNT,T-BCD541,TDRD16A	Spinal muscular atrophy 1	OMIM:253300	1	OMIM
@@ -5528,6 +5627,7 @@ SNCA,NACP,PARK1,PARK4,PD1	Parkinson disease 1	OMIM:168601	1	OMIM
 SNCA,NACP,PARK1,PARK4,PD1	Parkinson disease 4	OMIM:605543	1	OMIM
 SNCB	Dementia Lewy body	OMIM:127750	0.75	OMIM
 SNIP1,PMRED	Psychomotor retardation epilepsy and craniofacial dysmorphism	OMIM:614501	0.75	OMIM
+SNORD118,U8	Leukoencephalopathy brain calcifications and cysts	OMIM:614561	0.75	OMIM
 SNRNP200,ASCC3L1,BRR2,HELIC2,RP33,U5-200KD	Retinitis pigmentosa 33	OMIM:610359	0.75	OMIM
 SNRPB,COD,SNRPB1,SM-B/B',SMB/B',SMB/SMB',SNRNP-B	Cerebrocostomandibular syndrome	OMIM:117650	0.75	OMIM
 SNRPE,B-RAF,HYPT11,SME,SM-E	Hypotrichosis 11	OMIM:615059	1	OMIM
@@ -5539,6 +5639,7 @@ SOBP,JXC1,MRAMS	Mental retardation anterior maxillary protrusion and strabismus	
 SOD1,ALS,ALS1,HEL-S-44,IPOA,SOD,HSOD1,HOMODIMER	Amyotrophic lateral sclerosis 1	OMIM:105400	1	OMIM
 SOD2,IPOB,MNSOD,MVCD6	Microvascular complications of diabetes 6	OMIM:612634	1	OMIM
 SOD3,EC-SOD	Superoxide dismutase elevated extracellular	OMIM:185490	1	OMIM
+SON,BASS1,C21ORF50,DBP-5,NREBP,SON3	ZTTK syndrome	OMIM:617140	0.75	OMIM
 SORT1,GP95,LDLCQ6,NT3	Low density lipoprotein cholesterol level QTL6	OMIM:613589	0.75	OMIM
 SOS1,GF1,GGF1,GINGF,HGF,NS4	Noonan syndrome 4	OMIM:610733	1	OMIM
 SOS2	Noonan syndrome 9	OMIM:616559	0.75	OMIM
@@ -5608,6 +5709,8 @@ SPTB,EL3,HS2,HSPTB1,SPH2	Spherocytosis type 2	OMIM:616649	1	OMIM
 SPTLC1,HSAN1,HSN1,LBC1,LCB1,SPT1,SPTI	Neuropathy hereditary sensory and autonomic type IA	OMIM:162400	0.75	OMIM
 SPTLC2,HSN1C,LCB2,LCB2A,NSAN1C,SPT2,HLCB2A	Neuropathy hereditary sensory and autonomic type IC	OMIM:613640	0.75	OMIM
 SQSTM1,A170,OSIL,PDB3,ZIP3,P60,P62,P62B	Frontotemporal dementia and or amyotrophic lateral sclerosis 3	OMIM:616437	1	OMIM
+SQSTM1,A170,OSIL,PDB3,ZIP3,P60,P62,P62B	Myopathy distal 	OMIM:617158	1	OMIM
+SQSTM1,A170,OSIL,PDB3,ZIP3,P60,P62,P62B	Neurodegeneration 	OMIM:617145	1	OMIM
 SQSTM1,A170,OSIL,PDB3,ZIP3,P60,P62,P62B	Paget disease of bone 3	OMIM:167250	1	OMIM
 SQTL1	Smoking as a quantitative trait locus 1	OMIM:611003	0.375	OMIM
 SQTL2	Smoking as a quantitative trait locus 2	OMIM:611004	0.375	OMIM
@@ -5627,6 +5730,7 @@ SRY,SRXX1,SRXY1,TDF,TDY	46XY sex reversal 1	OMIM:400044	1	OMIM
 SS18,SSXT,SYT	Sarcoma synovial	OMIM:600192	0.25	OMIM
 SS3	Sarcoidosis	OMIM:612388	0.375	OMIM
 SSD	Speech sound disorder	OMIM:608445	0.375	OMIM
+SSR4,TRAPD	Congenital disorder of glycosylation type Iy	OMIM:300934	0.75	OMIM
 SSTR5,SS-5-R	Somatostatin analog resistance to	OMIM:182455	1	OMIM
 KLF6,BCD1,CBA1,COPEB,CPBP,GBF,PAC1,ST12,ZF9	Prostate adenocarcinoma	OMIM:601188	0.375	OMIM
 ST14,HAI,MT-SP1,MTSP1,PRSS14,SNC19,TADG15,TMPRSS14	Ichthyosis congenital autosomal recessive 11	OMIM:602400	1	OMIM
@@ -5657,6 +5761,7 @@ STK11,LKB1,PJS,HLKB1	Pancreatic cancer	OMIM:260350	1	OMIM
 STK11,LKB1,PJS,HLKB1	Peutz Jeghers syndrome	OMIM:175200	1	OMIM
 STK11,LKB1,PJS,HLKB1	Testicular tumor somatic	OMIM:273300	1	OMIM
 STK4,KRS2,MST1,TIIAC,YSK3	T cell immunodeficiency recurrent infections autoimmunity and cardiac malformations	OMIM:614868	1	OMIM
+STON1,SALF,SBLF,STN1,STNB1	Cerebroretinal microangiopathy 	OMIM:617341	0.75	OMIM
 STOX1,C10ORF24,PEE4	Preeclampsia eclampsia 4	OMIM:609404	0.75	OMIM
 STQTL10	Stature QTL 10	OMIM:612221	0.375	OMIM
 STQTL11	Stature QTL 11	OMIM:612223	0.375	OMIM
@@ -5702,6 +5807,7 @@ SUFU,PRO1280,SUFUH,SUFUXL	Meningioma familial	OMIM:607174	1	OMIM
 SUMF1,AAPA3037,FGE	Multiple sulfatase deficiency	OMIM:272200	0.75	OMIM
 SUMO1,DAP1,GMP1,OFC10,PIC1,SENP2,SMT3,SMT3C,SMT3H3,UBL1	Orofacial cleft 10	OMIM:613705	1	OMIM
 SUMO4,IDDM5,SMT3H4,SUMO-4,DJ281H8.4	Diabetes mellitus insulin dependent 5	OMIM:600320	1	OMIM
+SUN5,SPAG4L,TSARG4,DJ726C3.1	Spermatogenic failure 16	OMIM:617187	0.75	OMIM
 SUOX	Sulfite oxidase deficiency	OMIM:272300	0.75	OMIM
 SURF1	Charcot Marie Tooth disease type 4K	OMIM:616684	1	OMIM
 SURF1	Leigh syndrome due to COX IV deficiency	OMIM:256000	1	OMIM
@@ -5716,6 +5822,7 @@ SYNE1,8B,ARCA1,C6ORF98,CPG2,EDMD4,MYNE1,NESP1,SCAR8,DJ45H2.2	Spinocerebellar ata
 SYNE2,EDMD5,NUA,NUANCE,NESP2,NESPRIN-2,SYNE-2,TROPH	Emery Dreifuss muscular dystrophy 5 autosomal dominant	OMIM:612999	0.75	OMIM
 SYNE4,C19ORF46,DFNB76,NESP4	Deafness autosomal recessive 76	OMIM:615540	0.75	OMIM
 SYNGAP1,MRD5,RASA1,RASA5,SYNGAP	Mental retardation autosomal dominant 5	OMIM:612621	1	OMIM
+SYNJ1,INPP5G,PARK20	Epileptic encephalopathy early infantile 53	OMIM:617389	0.75	OMIM
 SYNJ1,INPP5G,PARK20	Parkinson disease 20 early onset	OMIM:615530	0.75	OMIM
 SYNSTH	Synesthesia	OMIM:612759	0.375	OMIM
 SYP,MRX96,MRXSYP	Mental retardation X linked 96	OMIM:300802	0.75	OMIM
@@ -5731,6 +5838,7 @@ TAF15,NPL3,RBP56,TAF2N,TAFII68	Chondrosarcoma extraskeletal myxoid	OMIM:612237	0
 TAF1,BA2R,CCG1,CCGS,DYT3,DYT3/TAF1,KAT4,N-TAF1,NSCL2,OF,P250,TAF(II)250,TAF2A,TAFII-250,TAFII250,XDP	Dystonia Parkinsonism X linked	OMIM:314250	1	OMIM
 TAF1,BA2R,CCG1,CCGS,DYT3,DYT3/TAF1,KAT4,N-TAF1,NSCL2,OF,P250,TAF(II)250,TAF2A,TAFII-250,TAFII250,XDP	Mental retardation X linked syndromic 33	OMIM:300966	1	OMIM
 TAF2,CIF150,MRT40,TAF2B,TAFII150	Mental retardation autosomal recessive 40	OMIM:615599	0.75	OMIM
+TAF6,MGC:8964,TAF(II)70,TAF(II)80,TAF2E,TAFII-70,TAFII-80,TAFII70,TAFII80,TAFII85	Alazami Yuan syndrome	OMIM:617126	0.75	OMIM
 TAL1,SCL,TCL5,BHLHA17,TAL-1	Leukemia T cell acute lymphocytic somatic	OMIM:613065	1	OMIM
 TAL2	Leukemia T cell acute lymphocytic somatic	OMIM:613065	0.75	OMIM
 TALDO1,TAL,TAL-H,TALDOR,TALH	Transaldolase deficiency	OMIM:606003	0.75	OMIM
@@ -5744,6 +5852,7 @@ TAPT1,CMVFR	Osteochondrodysplasia complex lethal Symoens Barnes Gistelinck type	
 TAPVR1,APVR,TAPVR	Total anomalous pulmonary venous return	OMIM:106700	0.5	OMIM
 TARDBP,ALS10,TDP-43	Amyotrophic lateral sclerosis 10 	OMIM:612069	1	OMIM
 TAS2R16,T2R16	Alcohol dependence	OMIM:103780	1	OMIM
+TAS2R16,T2R16	Beta glycopyranoside tasting	OMIM:604867	1	OMIM
 TAS2R38,PTC,T2R38,T2R61	Phenylthiocarbamide tasting	OMIM:171200	1	OMIM
 TAT	Tyrosinemia type II	OMIM:276600	1	OMIM
 TAZ,BTHS,CMD3A,EFE,EFE2,G4.5,LVNCX,TAZ1	Barth syndrome	OMIM:302060	1	OMIM
@@ -5755,10 +5864,12 @@ TBC1D24,DFNB86,DOORS,EIEE16,FIME,TLDC6	Epileptic encephalopathy early infantile 
 TBC1D24,DFNB86,DOORS,EIEE16,FIME,TLDC6	Myoclonic epilepsy infantile familial	OMIM:605021	0.75	OMIM
 TBC1D4,AS160	Diabetes mellitus noninsulin dependent 5	OMIM:616087	0.75	OMIM
 TBC1D7,MGCPH,PIG51,TBC7	Macrocephaly megalencephaly syndrome autosomal recessive	OMIM:248000	0.75	OMIM
+TBCD,SSD-1,TFCD	Encephalopathy progressive early onset 	OMIM:617193	1	OMIM
+TBCE,HRD,KCS,KCS1,PAC2	Encephalopathy progressive 	OMIM:617207	1	OMIM
 TBCE,HRD,KCS,KCS1,PAC2	Hypoparathyroidism retardation dysmorphism syndrome	OMIM:241410	1	OMIM
 TBCE,HRD,KCS,KCS1,PAC2	Kenny Caffey syndrome type 1	OMIM:244460	1	OMIM
 TBCK,TBCKL	Hypotonia infantile 	OMIM:616900	0.75	OMIM
-SERPINA7,TBG	Thyroxine binding globulin deficiency	OMIM:314200	1	OMIM
+SERPINA7,TBG	Thyroxine binding globulin QTL	OMIM:300932	1	OMIM
 TBK1,NAK,T2K	Frontotemporal dementia and or amyotrophic lateral sclerosis 4	OMIM:616439	0.75	OMIM
 TBL1XR1,C21,DC42,IRA1,TBLR1	Mental retardation autosomal dominant 41	OMIM:616944	0.75	OMIM
 TBL1XR1,C21,DC42,IRA1,TBLR1	Pierpont syndrome	OMIM:602342	0.75	OMIM
@@ -5806,10 +5917,12 @@ TDRD7,CATC4,CTRCT36,PCTAIRE2BP,TRAP	Cataract 36	OMIM:613887	1	OMIM
 TEAD1,AA,NTEF-1,REF1,TCF-13,TCF13,TEAD-1,TEF-1	Sveinsson chorioretinal atrophy	OMIM:108985	1	OMIM
 TECPR2,KIAA0329,SPG49	Spastic paraplegia 49 autosomal recessive	OMIM:615031	0.75	OMIM
 TECR,GPSN2,MRT14,SC2,TER	Mental retardation autosomal recessive 14	OMIM:614020	0.75	OMIM
+TECRL,GPSN2L,SRD5A2L2,TERL	Ventricular tachycardia catecholaminergic polymorphic 3	OMIM:614021	0.75	OMIM
 TCTN1,JBTS13,TECT1	Joubert syndrome 13	OMIM:614173	0.75	OMIM
 TECTA,DFNA12,DFNA8,DFNB21	Deafness autosomal dominant 8 12	OMIM:601543	1	OMIM
 TECTA,DFNA12,DFNA8,DFNB21	Deafness autosomal recessive 21	OMIM:603629	1	OMIM
 TEC	Transient erythroblastopenia of childhood	OMIM:227050	0.375	OMIM
+TEK,CD202B,TIE-2,TIE2,VMCM,VMCM1	Glaucoma 3 primary congenital E	OMIM:617272	1	OMIM
 TEK,CD202B,TIE-2,TIE2,VMCM,VMCM1	Venous malformations multiple cutaneous and mucosal	OMIM:600195	1	OMIM
 TELM	Telomere length mean leukocyte	OMIM:609113	0.375	OMIM
 TELO2,CLK2,TEL2	You Hoover Fong syndrome	OMIM:616954	0.75	OMIM
@@ -5854,7 +5967,7 @@ TGFBR1,AAT5,ACVRLK4,ALK-5,ALK5,ESS1,LDS1A,LDS2A,MSSE,SKR4,TGFR-1	Multiple self h
 TGFBR2,AAT3,FAA3,LDS1B,LDS2B,MFS2,RIIC,TAAD2,TGFR-2,TGFBETA-RII	Colorectal cancer hereditary nonpolyposis type 6	OMIM:614331	1	OMIM
 TGFBR2,AAT3,FAA3,LDS1B,LDS2B,MFS2,RIIC,TAAD2,TGFR-2,TGFBETA-RII	Esophageal cancer somatic	OMIM:133239	1	OMIM
 TGFBR2,AAT3,FAA3,LDS1B,LDS2B,MFS2,RIIC,TAAD2,TGFR-2,TGFBETA-RII	Loeys Dietz syndrome 2	OMIM:610168	1	OMIM
-IL10,CSIF,GVHDS,IL-10,IL10A,TGIF	Holoprosencephaly 4	OMIM:142946	1	OMIM
+TGIF1,HPE4,TGIF	Holoprosencephaly 4	OMIM:142946	1	OMIM
 TGM1,ARCI1,ICR2,KTG,LI,LI1,TGASE,TGK	Ichthyosis congenital autosomal recessive 1	OMIM:242300	1	OMIM
 TGM5,TGASE5,TGASEX,TGM6,TGMX,TGX	Peeling skin syndrome 2	OMIM:609796	1	OMIM
 TGM6,SCA35,TG6,TGM3L,TGY,DJ734P14.3	Spinocerebellar ataxia 35	OMIM:613908	0.75	OMIM
@@ -5885,6 +5998,7 @@ TIRAP,BACTS1,MAL,MYD88-2,WYATT	Tuberculosis protection against	OMIM:607948	0.75	
 TJP2,C9DUPQ21.11,DFNA51,DUP9Q21.11,X104,ZO2	Cholestasis progressive familial intrahepatic 4	OMIM:615878	0.75	OMIM
 TJP2,C9DUPQ21.11,DFNA51,DUP9Q21.11,X104,ZO2	Hypercholanemia familial	OMIM:607748	0.75	OMIM
 TK2,MTDPS2,MTTK	Mitochondrial DNA depletion syndrome 2	OMIM:609560	1	OMIM
+TK2,MTDPS2,MTTK	Progressive external ophthalmoplegia 	OMIM:617069	1	OMIM
 TKCR,TKC	Goeminne TKCR syndrome	OMIM:314300	0.5	OMIM
 TKT,HEL107,TK,TKT1	Short stature developmental delay and congenital heart defects	OMIM:617044	0.75	OMIM
 TLE6,GRG6	Preimplantation embryonic lethality	OMIM:616814	0.75	OMIM
@@ -5933,6 +6047,7 @@ TMIE,DFNB6	Deafness autosomal recessive 6	OMIM:600971	1	OMIM
 TMLHE,AUTSX6,BBOX2,TMLD,TMLH,TMLHED,XAP130	Autism	OMIM:300872	0.75	OMIM
 TMPRSS3,DFNB10,DFNB8,ECHOS1,TADG12	Deafness autosomal recessive 8 10	OMIM:601072	1	OMIM
 TMPRSS6,IRIDA	Iron refractory iron deficiency anemia	OMIM:206200	1	OMIM
+TMTC3,SMILE	Lissencephaly 8	OMIM:617255	0.75	OMIM
 TNC,150-225,DFNA56,GMEM,GP,HXB,JI,TN,TN-C	Deafness autosomal dominant 56	OMIM:615629	1	OMIM
 TNFAIP3,A20,OTUD7C,TNFA1P2	Autoinflammatory syndrome familial Behcet like	OMIM:616744	0.75	OMIM
 TNFRSF10B,CD262,DR5,KILLER,KILLER/DR5,TRAIL-R2,TRAILR2,TRICK2,TRICK2A,TRICK2B,TRICKB,ZTNFR9	Squamous cell carcinoma head and neck	OMIM:275355	1	OMIM
@@ -6030,7 +6145,9 @@ TRIM32,BBS11,HT2A,LGMD2H,TATIP	Bardet Biedl syndrome 11	OMIM:615988	1	OMIM
 TRIM32,BBS11,HT2A,LGMD2H,TATIP	Muscular dystrophy limb girdle type 2H	OMIM:254110	1	OMIM
 TRIM37,MUL,POB1,TEF3	Mulibrey nanism	OMIM:253250	1	OMIM
 TRIOBP,DFNB28,TARA,DJ37E16.4	Deafness autosomal recessive 28	OMIM:609823	0.75	OMIM
+TRIO,ARHGEF23,TGAT	Mental retardation autosomal dominant 44	OMIM:617061	0.75	OMIM
 TRIP11,ACG1A,CEV14,GMAP-210,TRIP-11,TRIP230	Achondrogenesis type IA	OMIM:200600	1	OMIM
+TRIP4,ASC-1,ASC1,HST17391,ZC2HC5	Muscular dystrophy congenital Davignon Chauveau type	OMIM:617066	0.75	OMIM
 TRIP4,ASC-1,ASC1,HST17391,ZC2HC5	Spinal muscular atrophy 	OMIM:616866	0.75	OMIM
 TRMT10A,HEL-S-88,RG9MTD2,TRM10	Microcephaly short stature and impaired glucose metabolism 1	OMIM:616033	0.75	OMIM
 TRMT10C,HNYA,MRPP1,RG9MTD1	Combined oxidative phosphorylation deficiency 30	OMIM:616974	0.75	OMIM
@@ -6088,6 +6205,7 @@ TTBK2,SCA11,TTBK	Spinocerebellar ataxia 11	OMIM:604432	1	OMIM
 TTC19,2010204O13RIK,MC3DN2	Mitochondrial complex III deficiency nuclear type 2	OMIM:615157	0.75	OMIM
 TTC21B,ATD4,IFT139,JBTS11,NPHP12,SRTD4,THM1	Nephronophthisis 12	OMIM:613820	0.75	OMIM
 TTC21B,ATD4,IFT139,JBTS11,NPHP12,SRTD4,THM1	Short rib thoracic dysplasia 4 	OMIM:613819	0.75	OMIM
+TTC25	Ciliary dyskinesia primary 35	OMIM:617092	0.75	OMIM
 TTC37,KIAA0372,SKI3	Trichohepatoenteric syndrome 1	OMIM:222470	0.75	OMIM
 TTC7A,MINAT,TTC7	Gastrointestinal defects and immunodeficiency syndrome	OMIM:243150	0.75	OMIM
 TTC8,BBS8,RP51	Bardet Biedl syndrome 8	OMIM:615985	0.75	OMIM
@@ -6127,7 +6245,7 @@ TUKLS	Tukel syndrome	OMIM:609428	0.375	OMIM
 TULP1,LCA15,RP14,TUBL1	Leber congenital amaurosis 15	OMIM:613843	1	OMIM
 TULP1,LCA15,RP14,TUBL1	Retinitis pigmentosa 14	OMIM:600132	1	OMIM
 TUSC3,D8S1992,M33,MRT22,MRT7,N33,OST3A	Mental retardation autosomal recessive 7	OMIM:611093	1	OMIM
-TWIST1,ACS3,BPES2,BPES3,CRS,CRS1,SCS,TWIST,BHLHA38	Craniosynostosis type 1	OMIM:123100	1	OMIM
+TWIST1,ACS3,BPES2,BPES3,CRS,CRS1,SCS,TWIST,BHLHA38	Craniosynostosis 1	OMIM:123100	1	OMIM
 TWIST1,ACS3,BPES2,BPES3,CRS,CRS1,SCS,TWIST,BHLHA38	Robinow Sorauf syndrome	OMIM:180750	1	OMIM
 TWIST1,ACS3,BPES2,BPES3,CRS,CRS1,SCS,TWIST,BHLHA38	Saethre Chotzen syndrome	OMIM:101400	1	OMIM
 TWIST2,DERMO1,FFDD3,SETLSS,BHLHA39	Ablepharon macrostomia syndrome	OMIM:200110	0.75	OMIM
@@ -6147,6 +6265,8 @@ TYS,HRZ	Huriez syndrome	OMIM:181600	0.375	OMIM
 UAQTL5	Uric acid concentration serum QTL5	OMIM:614746	0.375	OMIM
 UAQTL6	Uric acid concentration serum QTL6	OMIM:614747	0.375	OMIM
 UBA1,A1S9,A1S9T,A1ST,AMCX1,GXP1,POC20,SMAX2,UBA1A,UBE1,UBE1X	Spinal muscular atrophy X linked 2 infantile	OMIM:301830	1	OMIM
+UBA5,THIFP1,UBE1DC1	Epileptic encephalopathy early infantile 44	OMIM:617132	0.75	OMIM
+UBA5,THIFP1,UBE1DC1	Spinocerebellar ataxia autosomal recessive 24	OMIM:617133	0.75	OMIM
 UBB	Cleft palate isolated	OMIM:119540	0.5	OMIM
 UBE2A,HHR6A,MRXS30,MRXSN,RAD6A,UBC2	Mental retardation X linked syndromic Nascimento type	OMIM:300860	0.75	OMIM
 UBE2T,PIG50	Fanconi anemia complementation group T	OMIM:616435	0.75	OMIM
@@ -6155,7 +6275,7 @@ UBE3B,BPIDS	Kaufman oculocerebrofacial syndrome	OMIM:244450	0.75	OMIM
 UBIAD1,SCCD,TERE1	Corneal dystrophy Schnyder type	OMIM:121800	1	OMIM
 UBQLN2,ALS15,CHAP1,DSK2,N4BP4,PLIC2	Amyotrophic lateral sclerosis 15 	OMIM:300857	1	OMIM
 UBR1,JBS	Johanson Blizzard syndrome	OMIM:243800	1	OMIM
-UCHL1,HEL-117,NDGOA,PARK5,PGP 9.5,PGP9.5,PGP95,UCH-L1	Neurodegeneration 	OMIM:615491	1	OMIM
+UCHL1,HEL-117,NDGOA,PARK5,PGP 9.5,PGP9.5,PGP95,UCH-L1	Spastic paraplegia 79 autosomal recessive	OMIM:615491	1	OMIM
 UCP1,SLC25A7,UCP	Obesity	OMIM:601665	0.75	OMIM
 UCP2,BMIQ4,SLC25A8,UCPH	Obesity	OMIM:607447	0.75	OMIM
 UCP3,SLC25A9	Obesity severe and type II diabetes	OMIM:601665	1	OMIM
@@ -6190,6 +6310,7 @@ USH1H	Usher syndrome type 1H	OMIM:612632	0.375	OMIM
 USH1K	Usher syndrome type IK	OMIM:614990	0.375	OMIM
 USH2A,RP39,US2,USH2,DJ1111A8.1	Retinitis pigmentosa 39	OMIM:613809	1	OMIM
 USH2A,RP39,US2,USH2,DJ1111A8.1	Usher syndrome type 2A	OMIM:276901	1	OMIM
+USP27X,USP22L,USP27	Mental retardation 105	OMIM:300984	0.75	OMIM
 USP9X,DFFRX,FAF,FAM	Mental retardation X linked 99	OMIM:300919	0.75	OMIM
 USP9X,DFFRX,FAF,FAM	Mental retardation X linked 99 syndromic female restricted	OMIM:300968	0.75	OMIM
 USP9Y,DFFRY,SPGFY2	Spermatogenic failure Y linked 2	OMIM:415000	0.75	OMIM
@@ -6231,6 +6352,7 @@ VPS11,END1,PEP5,RNF108,HVPS11	Leukodystrophy hypomyelinating 12	OMIM:616683	0.75
 VPS13A,CHAC,CHOREIN	Choreoacanthocytosis	OMIM:200150	1	OMIM
 VPS13B,CHS1,COH1	Cohen syndrome	OMIM:216550	1	OMIM
 VPS13C	Parkinson disease 23 autosomal recessive early onset	OMIM:616840	0.75	OMIM
+VPS33A	Mucopolysaccharidosis plus syndrome	OMIM:617303	0.75	OMIM
 VPS33B	Arthrogryposis renal dysfunction and cholestasis 1	OMIM:208085	0.75	OMIM
 VPS35,MEM3,PARK17	Parkinson disease 17	OMIM:614203	0.75	OMIM
 VPS37A,HCRP1,PQBP2,SPG53	Spastic paraplegia 53 autosomal recessive	OMIM:614898	0.75	OMIM
@@ -6290,10 +6412,10 @@ WNT10A,OODD,SSPS,STHAG4	Odontoonychodermal dysplasia	OMIM:257980	1	OMIM
 WNT10A,OODD,SSPS,STHAG4	Schopf Schulz Passarge syndrome	OMIM:224750	1	OMIM
 WNT10A,OODD,SSPS,STHAG4	Tooth agenesis selective 4	OMIM:150400	1	OMIM
 WNT10B,SHFM6,WNT-12	Split hand foot malformation 6	OMIM:225300	0.75	OMIM
+WNT10B,SHFM6,WNT-12	Tooth agenesis selective 8	OMIM:617073	0.75	OMIM
 WNT1,BMND16,INT1,OI15	Osteogenesis imperfecta type XV	OMIM:615220	1	OMIM
 WNT1,BMND16,INT1,OI15	Osteoporosis early onset	OMIM:615221	1	OMIM
 WNT4,SERKAL,WNT-4	Mullerian aplasia and hyperandrogenism	OMIM:158330	0.75	OMIM
-WNT4,SERKAL,WNT-4	SERKAL syndrome	OMIM:611812	0.75	OMIM
 WNT5A,HWNT5A	Robinow syndrome autosomal dominant 1	OMIM:180700	0.75	OMIM
 WNT7A	Fuhrmann syndrome	OMIM:228930	1	OMIM
 WNT7A	Ulna and fibula absence of 	OMIM:276820	1	OMIM
@@ -6335,6 +6457,7 @@ XYLT2,PXYLT2,XT-II,XT2,XYLT-II	Spondyloocular syndrome	OMIM:605822	0.75	OMIM
 YAP1,YAP,YAP2,YAP65,YKI	Coloboma ocular	OMIM:120433	0.75	OMIM
 YARS2,MLASA2,MT-TYRRS,TYRRS	Myopathy lactic acidosis and sideroblastic anemia 2	OMIM:613561	0.75	OMIM
 YARS,CMTDIC,TYRRS,YRS,YTS	Charcot Marie Tooth disease dominant intermediate C	OMIM:608323	1	OMIM
+YY1AP1,HCCA1,HCCA2,YAP,YY1AP	Grange syndrome	OMIM:602531	0.75	OMIM
 ZAK,AZK,MLK7,MLT,MLTK,MRK,MLKLAK,PK	Split foot malformation 	OMIM:616890	0.75	OMIM
 ZAP70,SRK,STCD,STD,TZK,ZAP-70	Autoimmune disease multisystem infantile onset 2	OMIM:617006	1	OMIM
 ZAP70,SRK,STCD,STD,TZK,ZAP-70	Immunodeficiency 48	OMIM:269840	1	OMIM
@@ -6342,6 +6465,7 @@ ZBTB16,PLZF,ZNF145	Leukemia acute promyelocytic PL2F RARA type	OMIM:176797	1	OMI
 ZBTB16,PLZF,ZNF145	Skeletal defects genital hypoplasia and mental retardation	OMIM:612447	1	OMIM
 ZBTB20,DPZF,HOF,ODA-8S,ZNF288	Primrose syndrome	OMIM:259050	1	OMIM
 ZBTB24,BIF1,ICF2,PATZ2,ZNF450	Immunodeficiency centromeric instability facial anomalies syndrome 2	OMIM:614069	1	OMIM
+ZC3H14,MSUT-2,NY-REN-37,SUT2,UKP68	Mental retardation autosomal recessive 56	OMIM:617125	0.75	OMIM
 ZC4H2,HCA127,KIAA1166,WRWF,WWS	Wieacker Wolff syndrome	OMIM:314580	1	OMIM
 ZD1	Zygodactyly 1	OMIM:609815	0.375	OMIM
 ZDHHC9,CGI89,CXORF11,DHHC9,MMSA1,MRXSZ,ZDHHC10,ZNF379,ZNF380	Mental retardation X linked syndromic Raymond type	OMIM:300799	1	OMIM
@@ -6365,16 +6489,15 @@ ZMPSTE24,FACE-1,FACE1,HGPS,PRO1,STE24,STE24P	Mandibuloacral dysplasia 	OMIM:6086
 ZMPSTE24,FACE-1,FACE1,HGPS,PRO1,STE24,STE24P	Restrictive dermopathy lethal	OMIM:275210	1	OMIM
 ZMYND10,BLU,CILD22,FLU	Ciliary dyskinesia primary 22	OMIM:615444	0.75	OMIM
 ZMYND11,BRAM1,BS69	Mental retardation autosomal dominant 30	OMIM:616083	0.75	OMIM
+ZNF148,BERF-1,BFCOL1,HT-BETA,ZBP-89,ZFP148,PHZ-52	Global developmental delay absent or hypoplastic corpus callosum and dysmorphic facies	OMIM:617260	1	OMIM
 ZNF365,SU48,UAN,ZNF365D	Nephrolithiasis uric acid	OMIM:605990	1	OMIM
 ZNF408	Retinitis pigmentosa 72	OMIM:616469	0.75	OMIM
 ZNF423,EBFAZ,JBTS19,NPHP14,OAZ,ROAZ,ZFP423,ZFP104	Joubert syndrome 19	OMIM:614844	0.75	OMIM
 ZNF469,BCS	Brittle cornea syndrome 1	OMIM:229200	1	OMIM
-ZNF513,HMFT0656,RP58	Retinitis pigmentosa 58	OMIM:613617	0.75	OMIM
 ZNF644,BM-005,MYP21,NATF,ZEP-2	Myopia 21 autosomal dominant	OMIM:614167	0.75	OMIM
 ZNF687	Paget disease of bone 6	OMIM:616833	0.75	OMIM
 ZNF711,CMPX1,MRX97,ZNF4,ZNF5,ZNF6,ZFP711,DJ75N13.1	Mental retardation X linked 97	OMIM:300803	0.75	OMIM
 ZNF750,ZFP750	Seborrhea like dermatitis 	OMIM:610227	1	OMIM
-ZNF81,HFZ20,MRX45,DJ54B20.6	Mental retardation X linked 45	OMIM:300498	1	OMIM
 CNBP,CNBP1,DM2,PROMM,RNF163,ZCCHC22,ZNF9	Myotonic dystrophy 2	OMIM:602668	1	OMIM
 ZP1,HEL163	Oocyte maturation defect 1	OMIM:615774	0.75	OMIM
 ZSWIM6	Acromelic frontonasal dysostosis	OMIM:603671	1	OMIM

@@ -234,7 +234,7 @@ Associate Professor, Columbia University
       <select class="selectpicker show-menu-arrow" title = "" name="other_options" id="other_options">
 	          <option selected value="phenotype_interpretation" >Phenotype Interpretation</option>
                  <option value="none" >Disease Only</option>
-                 <option value="all_diseases" >Select all diseases</option>
+                 <!--option value="all_diseases" >Select all diseases</option-->
 	  </select>
     </div>
      <div class="col-md-3">
@@ -242,7 +242,7 @@ Associate Professor, Columbia University
        title="Advanced Options", data-html="true"
        data-content="<b>Phenotype interpretation:</b> Interpret phenotype terms into disease names<br>
                    <b>Disease Only:</b> Terms are treated only as disease terms<br>
-		           <b>All diseases:</b> Terms neglected, all diseases in database used">
+		           <!--b>All diseases:</b> Terms neglected, all diseases in database used"-->
        <span class="glyphicon glyphicon-th-list"></span></button> 
 	   </div>
        </div> 
@@ -396,9 +396,16 @@ Associate Professor, Columbia University
 	 </div>
 	  <div class="wannovar-news col-md-3 " id="news">
 	   <h3 class="page-header text-primary"> Recent Updates</h3>
+	   
+	    <div class="panel panel-default">
+        <div class="panel-body">
+        <p><strong>[03/30/2017]</strong></p>
+        <p>OMIM database is updated
+        </p>     
+        </div></div>
 
-            <div class="panel panel-default">
-            <div class="panel-body">
+        <div class="panel panel-default">
+        <div class="panel-body">
         <p><strong>[02/07/2017]</strong></p>
         <p>Phenolyzer webserver is being migrated! You may experience page loading problems and other issues.
         </p>     </div></div>
