@@ -86,6 +86,7 @@ for my $line(<CLINVAR>){    #process clinVar_genemap.txt
 	chomp($line);
 	 my @words=split("\t",$line);
      my($gene, $disease, $mim_num) = ($words[1], $words[3], $words[6]); 
+	 print "gene=$gene,disease=$disease, mim_num=$mim_num\n";
      $disease = GetRidOfAnnotations($disease); 
 	 $disease=~s/^\W*(.*?)\W*$/$1/;
 	 my $gene_disease_mim = join("\t", ($gene, $disease, $mim_num));
