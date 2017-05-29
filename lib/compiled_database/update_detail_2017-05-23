@@ -1,0 +1,47 @@
+1. Update OMIM database
+Download OMIM database from https://omim.org/downloads/ (register required). 
+Rename genemap.txt to omim_genemap_20170522.txt, and copy it to "lib/"
+Open "lib/compiled_database/integrate_gene_disease.pl", change the OMIM1 file handle to this new file and save.
+
+2. Update ClinVar database
+Download this file ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/gene_condition_source_id and rename it to clinVar_genemap_20170523.txt. Copy it to "lib/".
+Open "lib/compiled_database/integrate_gene_disease.pl", change the CLINVAR file handle to this new file and save.
+
+3. Update GWAS database
+Go to https://www.ebi.ac.uk/gwas/docs/file-downloads and download the "All associations" file. (https://www.ebi.ac.uk/gwas/api/search/downloads/full) The file name is gwas_catalog_v1.0-associations_e88_r2017-05-22.tsv
+
+We only need the PUBMEDID, Disease/trait, Reported Genes, p-Value, and Pvalue_mlog columns. 
+cut -f 2,8,14,28,29  > gwas_catalog_dev
+Copy the file to "lib/" and replace the old file.
+
+4. Update HPO database
+Download this file: https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/master/hp.obo
+Copy it to "lib/compiled_database/" and rename it to "hpo.obo"
+
+5. Update the DO database
+Download this file: http://sourceforge.net/p/diseaseontology/code/HEAD/tree/trunk/HumanDO.obo
+Copy it to "lib/compiled_database/" and rename it to "doid.obo"
+
+6. Biosystem database
+Download this file: 
+ftp://ftp.ncbi.nih.gov/pub/biosystems/biosystems.20170421/biosystems_gene.gz
+and this file:
+ftp://ftp.ncbi.nih.gov/pub/biosystems/biosystems.20170421/bsid2info.gz
+Unzip them and copy them to "lib/"
+
+7. run "lib/compiled_database/run.pl" to update all the databases. 
+
+
+Not updated database:
+HRPD gene-gene interaction database:
+There is no avaiable update.
+
+HTRI database:
+There is no avaiable update.
+
+Gene Family database:
+There is no avaiable update 
+
+orphanet
+Not updated. (They completed changed their download files. Need to write new script to parse the xml format)
+
