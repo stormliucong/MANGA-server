@@ -3,7 +3,7 @@ use Carp;
 open(GENE_ID,"../Homo_sapiens.gene_info") or die "can't open Homo_sapiens.gene_info!!";
 open(BIOSYSTEM,"../biosystems_gene") or die "can't open biosystems_gene!!";
 
-open(BIOSYSTEM_INFO, "../bsid2info.sed") or die "Can't open biosystem_info file!!";
+open(BIOSYSTEM_INFO, "../bsid2info") or die "Can't open biosystem_info file!!";
 open(OUTPUT,">DB_COMPILED_BIOSYSTEM_SCORE");
 my %gene_hash=();
 my %biosystem_id_type;
