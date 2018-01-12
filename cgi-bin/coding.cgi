@@ -6,8 +6,8 @@ use CGI::Carp qw(fatalsToBrowser);
 use POSIX ":sys_wait_h";
 
 #define global variables
-our $CARETAKER = "kaichop\@gmail.com";
-our $SERVER_DIRECTORY = "/var/www/html/loh";
+our $CARETAKER = "stormliucong\@gmail.com";
+our $SERVER_DIRECTORY = "/Users/congliu/Sites/phenolyzer-server";
 our $HTML_DIRECTORY = "${SERVER_DIRECTORY}/html";
 our $BIN_DIRECTORY = "${SERVER_DIRECTORY}/bin";
 our $LIB_DIRECTORY = "${SERVER_DIRECTORY}/lib";
@@ -58,7 +58,7 @@ executeProgram ();
 
 sub executeProgram {
 
-        if ($email eq 'kaichop@gmail.com') {
+        if ($email eq 'stormliucong@gmail.com') {
         	1;
         } else {
 		my $pid = fork ();

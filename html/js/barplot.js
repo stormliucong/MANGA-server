@@ -191,7 +191,7 @@ $.ajax({
     }
 });
 
-$('#barplot h3.result').after('<a class="outside" style="color:#010101;width:100%;padding-bottom:20px;display:block" href = "'+window.location.href+'out.final_gene_list">View source data</a>');
+$('#barplot h3.result').after('<a class="outside" style="color:#010101;width:100%;padding-bottom:20px;display:block" href = "'+window.location.href+'/out.final_gene_list">View source data</a>');
 
 }
 

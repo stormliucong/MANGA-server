@@ -8,6 +8,7 @@
 <meta property="og:description" content="Phenolyzer stands for Phenotype Based Gene Analyzer, a tool focusing on discovering genes based on user-specific
   disease/phenotype terms.">  
 	<head>
+  <base href="http://localhost">
 	<link rel="icon" type="image/x-icon" href="/img/phenolyzer_logo.png" />
 	
 		<title>Phenolyzer: Phenotype based gene analyzer</title>
@@ -43,13 +44,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-             <a class="navbar-brand" style="padding:3px" href="/">
-           <img src="/img/phenolyzer.png" style="height:100%"></a>
+             <a class="navbar-brand" style="padding:3px" href="/index.php">
+           <img src="../img/phenolyzer.png" style="height:100%"></a>
 		 
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li class="active" ><a href="/">Home</a></li>	
+              <li class="active" ><a href="/index.php">Home</a></li>	
 			   	<li><a href="/download.php">Download</a></li>
 			    <li><a href="/tutorial.php">Tutorial</a></li>
 			   	<li><a href="/FAQ.php">FAQ</a></li>
@@ -390,7 +391,7 @@ Associate Professor, Columbia University
 	  
                  
                  <input type="hidden" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" name="ip" />
-                 <input type='hidden' value='<?php echo GetHostByAddr($_SERVER['REMOTE_ADDR']); ?>' name='host'>
+                 <input type="hidden" value="<?php echo GetHostByAddr($_SERVER['REMOTE_ADDR']); ?>" name='host'>
                     </form> 
           
 	 </div>

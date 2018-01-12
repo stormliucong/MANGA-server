@@ -1,7 +1,7 @@
 use warnings;
 use strict;
 use GenomicsServer;
-GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
+GenomicsServer::setupVariable ('stormliucong@gmail.com', '/Users/congliu/Sites/phenolyzer-server','http://localhost');
 deleteOldFiles();
 
 sub deleteOldFiles {

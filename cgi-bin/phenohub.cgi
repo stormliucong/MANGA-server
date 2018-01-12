@@ -12,7 +12,10 @@ my $disease = $q->param("disease");
 my $gene = $q->param("gene");
 my $confidence = $q->param("confidence");
 my $public = $q->param("open"); 
-setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
+# setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
+# change for mac
+setupVariable('stormliucong@gmail.com', '/Users/congliu/Sites/phenolyzer-server','http://localhost');
+
 if ($email){
 	GenomicsServer::verifyEmail($email,$q);
 	my $fh;

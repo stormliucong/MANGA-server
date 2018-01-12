@@ -54,7 +54,7 @@ if($if_weight_adjust eq 'yes')
    $hgnc = $q->param('HGNC');
    $htri = $q->param('HTRI');
 }
-my $coba = $q->param('coba');
+my $coba = $q->param('coba'); #???
 my $disease= $q->param("disease");
 my $options= $q->param("other_options");
 my @addons = $q->param('addon');
@@ -65,9 +65,12 @@ my @gene_score = $q->param("gene_score");
 $options eq "all_diseases" or $disease!~/^\W*$/  or die "No disease input is detected!!! $options";
 my @disease_list = split (qr/[^ _,\w\.\-'\(\)\[\]\{\}:]+/,lc $disease);
            
-
 GenomicsServer::verifyEmail($email,$q);
-GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
+# setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
+# change for mac
+
+setupVariable('stormliucong@gmail.com', '/Users/congliu/Sites/phenolyzer-server','http://localhost');
+
 GenomicsServer::prepareWorkDirectory ();
 #---------------------------------------------generate priliminary result----------------------
 
@@ -187,7 +190,7 @@ sub generateFeedback {
 	
 	my ($q, $submission_id, $password, $warning_message) = @_;
 	my $preliminary_page=();
-	$weblink="http://phenolyzer.wglab.org/done/$submission_id/$password/index.html";
+	$weblink="http://localhost/done/$submission_id/$password/index.html";
 	my $template_file;
 	$template_file=$coba?"template_coba.php":"template.php";
 open(TEMPLATE,"$HTML_DIRECTORY/$template_file");

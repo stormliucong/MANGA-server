@@ -19,7 +19,7 @@ $help and pod2usage (-verbose=>1, -exitval=>1, -output=>\*STDOUT);
 $man and pod2usage (-verbose=>2, -exitval=>1, -output=>\*STDOUT);
 @ARGV and pod2usage (-verbose=>0, -exitval=>1, -output=>\*STDOUT);
 
-GenomicsServer::setupVariable ('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.wglab.org');
+GenomicsServer::setupVariable ('stormliucong@gmail.com', '/Users/congliu/Sites/phenolyzer-server','http://localhost');
 #deleteOldFiles();
 if (defined $id) {
 	processSubmission ($id);	#process a specific submission and then quit

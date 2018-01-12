@@ -450,7 +450,7 @@
 	            
 	             
 	             $("#details").prepend('<a class="outside" style="padding-top:20px;color:#010101;width:100%;text-align:center;display:block" href = "'
-	                        +window.location.href+'out.predicted_gene_scores">View source data</a>');
+	                        +window.location.href+'/out.predicted_gene_scores">View source data</a>');
 	             $("a.outside").attr("target","_blank");
                });
                    

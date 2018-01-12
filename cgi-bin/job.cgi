@@ -17,7 +17,7 @@ if ($cgi_error) {
 	exit (0);
 }
 
-setupVariable('yanghui@usc.edu', '/var/www/html/loh','http://phenolyzer.usc.edu');
+setupVariable('stormliucong@gmail.com', '/Users/congliu/Sites/phenolyzer-server','http://localhost');
 my $markerfile="query.table";
 my %jobstatus=GenomicsServer::jobMonitor($markerfile);
 print  $q->header("text/html"),
