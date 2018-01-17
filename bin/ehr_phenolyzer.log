@@ -1,0 +1,187 @@
+
+Starting skrmedpostctl: 
+started.
+
+/Users/congliu/public_mm/bin/SKRrun.16 /Users/congliu/public_mm/bin/metamap16.BINARY.Darwin --lexicon db -Z 2016AA -I -p -J -K -8 --conj cgab,genf,lbpr,lbtr,patf,dsyn,fndg -R HPO out/Kleyner_ANKRD11.txt.tmp out/kleyner.metamap.o
+
+
+Beginning to process out/Kleyner_ANKRD11.txt.tmp sending output to out/kleyner.metamap.o.
+Tagging will be done dynamically.
+
+Batch processing is finished.
+
+Stopping skrmedpostctl: 
+Stopping Tagger Server process..
+Process 94680 stopped
+
+warning:C0022658 occurred more than once
+warning:C0030044 occurred more than once
+warning:C0426422 occurred more than once
+warning:C0035309 occurred more than once
+warning:C0035334 occurred more than once
+warning:C0035334 occurred more than once
+warning:C0240896 occurred more than once
+warning:C0035334 occurred more than once
+warning:C0162674 occurred more than once
+warning:C0266589 occurred more than once
+warning:C4280611 occurred more than once
+warning:C0085633 occurred more than once
+warning:C0685891 occurred more than once
+warning:C0426824 occurred more than once
+warning:C0013595 occurred more than once
+warning:C0022596 occurred more than once
+warning:C0020302 occurred more than once
+warning:C0423221 occurred more than once
+warning:C0035304 occurred more than once
+warning:C0240897 occurred more than once
+warning:C0031117 occurred more than once
+warning:C0235942 occurred more than once
+warning:C0019555 occurred more than once
+warning:C0003706 occurred more than once
+warning:C0085633 occurred more than once
+warning:C0427515 occurred more than once
+warning:C0041349 occurred more than once
+warning:C0040015 occurred more than once
+warning:C0266617 occurred more than once
+warning:C0013404 occurred more than once
+warning:C0235946 occurred more than once
+warning:C0037928 occurred more than once
+warning:C0002170 occurred more than once
+warning:C0234376 occurred more than once
+warning:C0424295 occurred more than once
+warning:C0004153 occurred more than once
+warning:C0086565 occurred more than once
+warning:C0544755 occurred more than once
+warning:C0022408 occurred more than once
+warning:C1691215 occurred more than once
+warning:C1321884 occurred more than once
+warning:C0005779 occurred more than once
+warning:C0037221 occurred more than once
+warning:C0268579 occurred more than once
+warning:C0027962 occurred more than once
+warning:C0013132 occurred more than once
+warning:C0037036 occurred more than once
+warning:C1262477 occurred more than once
+warning:C0376545 occurred more than once
+warning:C1862474 occurred more than once
+warning:C0018816 occurred more than once
+warning:C0002896 occurred more than once
+warning:C0345049 occurred more than once
+warning:C3279191 occurred more than once
+warning:C0010278 occurred more than once
+warning:C1853118 occurred more than once
+warning:C0432040 occurred more than once
+warning:C0032209 occurred more than once
+warning:C1859698 occurred more than once
+warning:C0152237 occurred more than once
+warning:C0265290 occurred more than once
+warning:C0005411 occurred more than once
+warning:C0235063 occurred more than once
+warning:C1855694 occurred more than once
+warning:C0040427 occurred more than once
+warning:C0262444 occurred more than once
+warning:C0162557 occurred more than once
+warning:C0035232 occurred more than once
+warning:C0158683 occurred more than once
+warning:C0023467 occurred more than once
+warning:C0031511 occurred more than once
+warning:C1836527 occurred more than once
+warning:C0266483 occurred more than once
+warning:C0154671 occurred more than once
+warning:C0080024 occurred more than once
+warning:C0155120 occurred more than once
+warning:C1866180 occurred more than once
+warning:C0009081 occurred more than once
+warning:C0271623 occurred more than once
+warning:C4025075 occurred more than once
+warning:C1846460 occurred more than once
+warning:C0687120 occurred more than once
+warning:C0266435 occurred more than once
+warning:C0424323 occurred more than once
+warning:C0221032 occurred more than once
+warning:C0728895 occurred more than once
+warning:C1860162 occurred more than once
+warning:C0423848 occurred more than once
+warning:C0266631 occurred more than once
+warning:C1855299 occurred more than once
+warning:C0239399 occurred more than once
+warning:C0031117 occurred more than once
+warning:C4021371 occurred more than once
+warning:C0014866 occurred more than once
+warning:C0520680 occurred more than once
+warning:C0427055 occurred more than once
+warning:C0031925 occurred more than once
+warning:C0036400 occurred more than once
+warning:C3854181 occurred more than once
+warning:C0040457 occurred more than once
+warning:C0016873 occurred more than once
+warning:C0014553 occurred more than once
+warning:C1849227 occurred more than once
+warning:C0271355 occurred more than once
+warning:C0155016 occurred more than once
+warning:C0155016 occurred more than once
+warning:C0036400 occurred more than once
+warning:C0522055 occurred more than once
+warning:C0151468 occurred more than once
+warning:C0014065 occurred more than once
+warning:C0032131 occurred more than once
+warning:C0035321 occurred more than once
+warning:C0023309 occurred more than once
+warning:C0016952 occurred more than once
+warning:C0023798 occurred more than once
+warning:C0025202 occurred more than once
+warning:C4020862 occurred more than once
+warning:C0178416 occurred more than once
+warning:C0266292 occurred more than once
+warning:C0041974 occurred more than once
+warning:C0154671 occurred more than once
+warning:C0235946 occurred more than once
+warning:C0032002 occurred more than once
+warning:C0007570 occurred more than once
+warning:C0221365 occurred more than once
+warning:C0311277 occurred more than once
+warning:C1836996 occurred more than once
+warning:C0524801 occurred more than once
+warning:C1319017 occurred more than once
+warning:C1319016 occurred more than once
+warning:C4022927 occurred more than once
+warning:C0010043 occurred more than once
+warning:C0266361 occurred more than once
+warning:C0234376 occurred more than once
+warning:C0431659 occurred more than once
+warning:C0730304 occurred more than once
+warning:C4048798 occurred more than once
+warning:C0035320 occurred more than once
+warning:C0031941 occurred more than once
+warning:C0031941 occurred more than once
+warning:C0025312 occurred more than once
+warning:C0041915 occurred more than once
+warning:C0019559 occurred more than once
+warning:C0266642 occurred more than once
+warning:C0277873 occurred more than once
+warning:C0376628 occurred more than once
+warning:C0265610 occurred more than once
+warning:C0029456 occurred more than once
+warning:C4083076 occurred more than once
+warning:C0424688 occurred more than once
+warning:C0747085 occurred more than once
+warning:C0027794 occurred more than once
+warning:C0149521 occurred more than once
+warning:C1261473 occurred more than once
+warning:C0011989 occurred more than once
+warning:C0032914 occurred more than once
+warning:C0027121 occurred more than once
+warning:C0006288 occurred more than once
+warning:C0026640 occurred more than once
+warning:C1720771 occurred more than once
+warning:C0009081 occurred more than once
+warning:C0265985 occurred more than once
+warning:C0155015 occurred more than once
+warning:C0236000 occurred more than once
+warning:C0423318 occurred more than once
+warning:C0392775 occurred more than once
+warning:C2981150 occurred more than once
+run phenolyzer:
+disease_annotation.pl -f -p -ph -logistic -addon DB_DISGENET_GENE_DISEASE_SCORE,DB_GAD_GENE_DISEASE_SCORE -addon_weight 0.25 out/kleyner.hpo.txt -out out/kleyner.tmp
+
+completed!

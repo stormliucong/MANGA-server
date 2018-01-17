@@ -144,7 +144,7 @@ sub executeProgram {
 }
 
 sub countConcurrentProcess {
-	my $program = File::Basename::basename ($0);
+	my $program = File::Basename::basename ($0); # basename() returns the last level of a filepath even if the last level is clearly directory. 
 	my $ps = qx/ps aux/;
 	my $count = 0;
 	while ($ps =~ m/^(\S+\s+){10}perl\s+(\S+)/gm) {
@@ -170,7 +170,7 @@ sub checkUnprocessedSubmission {
 	my $dh;
 	opendir ($dh, $WORK_DIRECTORY) or die "Error: cannot open directory for reading\n";
 	while (my $dir = readdir ($dh)) {
-		if (-d "$WORK_DIRECTORY/$dir" and $dir =~ m/^\d+$/) {
+		if (-s "$WORK_DIRECTORY/$dir/" and $dir =~ m/^\d+$/) { 
 			$processed{$dir} or push @unprocessed, $dir;
 		}
 	}
@@ -187,6 +187,11 @@ sub parallelProcessSubmission {
 	
 	while (1) {
 		my @unprocessed = sort {$a<=>$b} checkUnprocessedSubmission ();
+		
+		# Skip the empty one.
+		if(!@unprocessed){
+			last;
+		}
 		print STDERR "Unprocessed submission: @unprocessed. Running process: ", join (" ", keys %running_process), "\n";
 
 		for my $nextpid (keys %running_process) {

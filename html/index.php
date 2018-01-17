@@ -119,63 +119,136 @@ Associate Professor, Columbia University
 
   </p></div></div></div>
   
-<div class="container">
+  <div class="container">
 		<div class="phenolyzer-content col-lg-8 col-lg-offset-1">
-				
-		
-   	    <form action="/cgi-bin/loh.cgi" method="post" ENCTYPE="multipart/form-data" role="form" class="form-horizontal" >
-     	
-     	<h3 id="getstart" class="page-header text-primary">Basic Information</h3>  
-		<div class="form-group">
-        <label for="email" class="col-md-3 control-label">Email</label>
-        <div class="col-md-9">
-        <input  type="email" required  class="form-control" id="email" name="email" placeholder="Email">
+      <form action="" method="post" ENCTYPE="multipart/form-data" role="form" class="form-horizontal" >
+        
+        <h3 id="getstart" class="page-header text-primary">Basic Information</h3>  
+        
+        <!-- email form -->
+        <div class="form-group">
+          <label for="email" class="col-md-3 control-label">Email</label>
+          <div class="col-md-9">
+            <input  type="email" class="form-control" id="email" name="email" placeholder="Email">
+          </div>
         </div>
-	     </div>
-	     
-      <div class="form-group">
-	  <label title="" class="col-md-3 control-label disease" >Diseases/Phenotypes</label>
-	   <div class="col-md-9">
-	   <textarea  required title="" class="form-control" name="disease" id="disease" rows="4" placeholder="please enter your focused disease/phenotype terms"></textarea> 
-	   <span class="help-block">Please use semicolon or enter as separators. Like "alzheimer;brain".
-	    <br> Try to use multiple terms instead of a super long term
-	    <br>OMIM IDs are also accepted, like 114480 for 'Breast cancer'
-	    <br>Please enter 'HP:0002459;HP:0010522;HP:0001662' as HPO IDs.</span>
-	   </div>
-	  </div> 
-	  
-	   <div class="form-group">
-	  <label class="col-md-3 control-label" > </label>
-	   <div class="col-md-8">
-	  <button type="submit" class="btn btn-info ">
-	  <span class="glyphicon glyphicon-send"></span> Submit</button>
-	  <button type="button" id="translate" class="btn btn-primary translate"
-	  data-toggle="tooltip" data-placement="top" title="Translate Chinese disease/phenotypes into English"
-	  >
-	  <span class="glyphicon glyphicon-globe"></span> Translate</button>
-      <button type="reset" class="btn btn-success ">
-	  <span class="glyphicon glyphicon-repeat"></span> Reset</button>
-	   </div></div>    
-                 
-               <h3 class="page-header text-primary">Options</h3> 
-               
-              <div class="form-group">
-               <label title="" for="gene_selection" class="col-md-3 control-label gene_selection_options">Gene Selection  </label>
-               <div class="col-md-5">
-                <select class="selectpicker show-menu-arrow " name="gene_selection" id="gene_selection_options">
-	           <option selected value="no" >No</option>
-                 <option value="yes"  >Yes</option>
-	           </select>
+
+        <!-- panel head -->
+        <div id="tab-panels">
+          <ul class="nav nav-tabs col-md-12">
+            <li class="active">
+              <a  href="#pheno-tab" data-toggle="tab">Phenotypes</a>
+            </li>
+            <li>
+              <a  href="#ehr-tab" data-toggle="tab">EHR</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- panel body for phenotype input or clinical notes input -->
+        <div class="tab-content ">
+          <!-- pheno tab -->
+          <div class="tab-pane active" id="pheno-tab">
+      
+            <div class="form-group">
+              <label title="" class="col-md-3 control-label disease" >Diseases/Phenotypes</label>
+              <div class="col-md-9">
+                <textarea title="" class="form-control" name="disease" id="disease" rows="4" placeholder="please enter your focused disease/phenotype terms"></textarea>
+                <span class="help-block">Please use semicolon or enter as separators. Like "alzheimer;brain".
+                  <br> Try to use multiple terms instead of a super long term<br>OMIM IDs are also accepted, like 114480 for 'Breast cancer'<br>Please enter 'HP:0002459;HP:0010522;HP:0001662' as HPO IDs.
+                </span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-3 control-label" > </label>
+              <div class="col-md-8">
+
+             <!-- change it to form action for this button -->
+                <button type="submit" class="btn btn-info" name="submit-disease" formaction="/cgi-bin/loh.cgi">
+                  <span class="glyphicon glyphicon-send"></span> Submit</button>
+                
+                <button type="button" id="translate" class="btn btn-primary translate"
+  	             data-toggle="tooltip" data-placement="top" title="Translate Chinese disease/phenotypes into English">
+                 <span class="glyphicon glyphicon-globe"></span> Translate</button>
+
+                <button type="reset" class="btn btn-success ">
+                  <span class="glyphicon glyphicon-repeat"></span> Reset</button>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ehr tab -->
+          <div class="tab-pane " id="ehr-tab">
+            <div class="form-group">
+              <label title="" class="col-md-3 control-label ehr" >EHR Clinical Notes</label>
+              <div class="col-md-9">
+                <textarea title="" class="form-control" name="ehr-text" id="ehr-text" rows="10" placeholder="(Example:) she experiences constant paresthesia and numbness in her extremities. Diminished light touch sensation in her hands and feet make it difficult for her to distinguish textures. She also experiences proximal muscle weakness. She has lost position sense in her distal interphalangeal joints in both her hands and feet. Deep tendon reflexes are absent in her ankles, knees, and wrists. She has hyperesthesia of her lower legs, particularly of the soles of her feet. She also has atrophy of the fat pads of her face and has experienced neuropathic pain in her hands and feet. She has an ataxic gait and has reduced hearing in her left ear (512 mHz). Her parents and two siblings showed no signs of sharing her phenotype."></textarea>
+                <span class="help-block">Please enter free text clinical notes. 
+                </span>
+              </div>
+            </div>
+
+            <!-- file upload -->
+            <div class="form-group" >
+              <label title="" class="col-md-3 control-label ehr">Upload EHR file</label>
+              <div class="col-sm-9">
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <span class="btn btn-primary btn-file">
+                      <span class="glyphicon glyphicon-plus"></span> EHR.txt
+                      <input type="file" name="ehr-file" id="ehr-file">
+                    </span>
+                  </span>
+                  <input type="text" class="form-control" readonly>
                 </div>
-               <div class="col-md-3">
-	   <button type="button" class="btn btn-info btn-sm" data-toggle="popover"
-       title="Gene Selection",
-       data-content="Turn on the Gene Selection to input your own genelist instead of conducting a genome-wide prioritization? You can use your gene list 
-        generated from wANNOVAR! Is that amazing?">
-       <span class="glyphicon glyphicon-th-list"></span></button>
-	   </div></div>
-	   
-	     <div class="form-group" id="gene_selection">
+                <span class="help-block">The EHR file will be deleted immediately in the serve. The transfering process is encryted.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-3 control-label" > </label>
+              <div class="col-md-8">
+
+             <!-- change it to form action for this button -->
+                <button type="submit" class="btn btn-info" name="submit-ehr" formaction="/cgi-bin/ehr.cgi">
+                  <span class="glyphicon glyphicon-send"></span> SubmitB</button>
+                
+                <button type="button" id="translate" class="btn btn-primary translate"
+                 data-toggle="tooltip" data-placement="top" title="Translate Chinese disease/phenotypes into English">
+                 <span class="glyphicon glyphicon-globe"></span> Translate</button>
+
+                <button type="reset" class="btn btn-success ">
+                  <span class="glyphicon glyphicon-repeat"></span> Reset</button>
+
+              </div>
+            </div>
+
+          </div>
+        </div>  
+                 
+        <h3 class="page-header text-primary">Options</h3> 
+        
+        <!-- gene selection form-->
+        <div class="form-group">
+          <label title="" for="gene_selection" class="col-md-3 control-label gene_selection_options">Gene Selection  </label>
+          <div class="col-md-5">
+            <select class="selectpicker show-menu-arrow " name="gene_selection" id="gene_selection_options">
+              <option selected value="no" >No</option>
+              <option value="yes"  >Yes</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <button type="button" class="btn btn-info btn-sm" data-toggle="popover" title="Gene Selection",
+                    data-content="Turn on the Gene Selection to input your own genelist instead of conducting a genome-wide prioritization? You can use your gene list 
+                    generated from wANNOVAR! Is that amazing?">
+            <span class="glyphicon glyphicon-th-list"></span></button>
+          </div>
+        </div>
+
+        <div class="form-group" id="gene_selection">
                   <label title="" class="col-md-3 control-label" >Enter your genes here</label>
 	   <div class="col-md-9">
 	   <textarea  title="" class="form-control" name="genelist" id="genelist" rows="4" placeholder="please paste your gene list here."></textarea> 
@@ -537,6 +610,7 @@ Associate Professor, Columbia University
 
   
 </script>
+
 	
 
 </html>
