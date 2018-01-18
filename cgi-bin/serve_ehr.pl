@@ -194,6 +194,7 @@ sub processSubmission {
 		}
     }
     my $effective_term_num=@effective_term;
+    # change this two number to accelerate the page rendering.
 	my $MAX_COUNT = 2000;
 	my $MAX_ITEM = 20000;
 	$result_page.=$_  for(<TEMPLATE>);
@@ -454,6 +455,8 @@ my $rank=1;
 	}
 	$result_page=~s/%%%%submission%%%%/$submission_message/;
 	$result_page=~s/%%%%summary%%%%/$summary_message/;
+	# add wordcloud feature.
+	$result_page=~s/%%%%wordcloud%%%%/$summary_message/;
 	
 	print HTML $result_page;
 	close (RES);
